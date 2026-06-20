@@ -97,7 +97,8 @@ function cb_config(): array
     $cfg = [
         'source_base_url' => rtrim((string) $env('SOURCE_BASE_URL', 'https://aktuelbrosurler.com'), '/'),
         'firebase_credentials' => $credPath,
-        'image_upload_endpoint' => (string) $env('IMAGE_UPLOAD_ENDPOINT', 'https://kampanyacebimde.com/aktuel/addimage.php'),
+        'image_upload_endpoint' => (string) $env('IMAGE_UPLOAD_ENDPOINT', 'https://kampanyacebimde.com/addimage.php'),
+        'image_upload_token' => (string) $env('IMAGE_UPLOAD_TOKEN', ''),
         'state_file' => (string) $env('STATE_FILE', __DIR__ . '/state.json'),
         'market_interval_min' => max(1, (int) $env('MARKET_INTERVAL_MIN', '55')),
         'drain_interval_min' => max(0, (int) $env('DRAIN_INTERVAL_MIN', '12')),

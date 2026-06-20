@@ -55,6 +55,7 @@ jobs:
         env:
           FIREBASE_CREDENTIALS: cloud-bot/firebase.json
           IMAGE_UPLOAD_ENDPOINT: ${{ vars.IMAGE_UPLOAD_ENDPOINT }}
+          IMAGE_UPLOAD_TOKEN: ${{ secrets.IMAGE_UPLOAD_TOKEN }}
           # Kaynak site datacenter IP'lerini blokluyor; residential/mobil proxy sart.
           PROXY_URL: ${{ secrets.PROXY_URL }}
           SOURCE_BASE_URL: ${{ vars.SOURCE_BASE_URL }}

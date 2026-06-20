@@ -290,13 +290,20 @@ function fb_addimage(array $cfg, string $bytes, string $filename): string
         throw new RuntimeException('Gecici gorsel dosyasi olusturulamadi.');
     }
     try {
+        $fields = ['source' => new CURLFile($tmp, 'application/octet-stream', $filename)];
+        $headers = [];
+        if (($cfg['image_upload_token'] ?? '') !== '') {
+            $fields['token'] = $cfg['image_upload_token'];
+            $headers[] = 'Authorization: Bearer ' . $cfg['image_upload_token'];
+        }
         $ch = curl_init($endpoint);
         curl_setopt_array($ch, [
             CURLOPT_POST => true,
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_CONNECTTIMEOUT => 20,
             CURLOPT_TIMEOUT => max(60, (int) $cfg['timeout']),
-            CURLOPT_POSTFIELDS => ['source' => new CURLFile($tmp, 'application/octet-stream', $filename)],
+            CURLOPT_HTTPHEADER => $headers,
+            CURLOPT_POSTFIELDS => $fields,
         ]);
         $body = curl_exec($ch);
         if ($body === false) {
