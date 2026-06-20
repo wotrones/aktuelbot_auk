@@ -36,14 +36,6 @@
     },
     "queue": [
         {
-            "source_key": "ab_fe2861d664ba4b3e92287c761efd33c5",
-            "brochure_key": "fe2861d664ba4b3e92287c761efd33c5",
-            "market": "Migros",
-            "title": "Migros'larda Geçerli İndirim Bülteni Kataloğu - Her Maça Eksiksiz Çıkıyoruz",
-            "href": "https://aktuelbrosurler.com/migros/brosurler/migros-larda-gecerli-indirim-bulteni-katalogu-her-maca-eksiksiz-cikiyoruz_fe2861d664ba4b3e92287c761efd33c5",
-            "tries": 0
-        },
-        {
             "source_key": "ab_ae00fd6a1c944481a7aa70ddf2bca39f",
             "brochure_key": "ae00fd6a1c944481a7aa70ddf2bca39f",
             "market": "Migros",
@@ -218,10 +210,18 @@
             "title": "5M Migros'larda Geçerli İndirim Bülteni Kataloğu - Yaz Migros'la Daha Güzel",
             "href": "https://aktuelbrosurler.com/migros/brosurler/5m-migros-larda-gecerli-indirim-bulteni-katalogu-yaz-migros-la-daha-guzel_e3b1874d40bf47afb589f278f184d18f",
             "tries": 1
+        },
+        {
+            "source_key": "ab_fe2861d664ba4b3e92287c761efd33c5",
+            "brochure_key": "fe2861d664ba4b3e92287c761efd33c5",
+            "market": "Migros",
+            "title": "Migros'larda Geçerli İndirim Bülteni Kataloğu - Her Maça Eksiksiz Çıkıyoruz",
+            "href": "https://aktuelbrosurler.com/migros/brosurler/migros-larda-gecerli-indirim-bulteni-katalogu-her-maca-eksiksiz-cikiyoruz_fe2861d664ba4b3e92287c761efd33c5",
+            "tries": 1
         }
     ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true
     },
-    "lastDrainAt": 1781989389
+    "lastDrainAt": 1781993897
 }
