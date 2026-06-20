@@ -45,6 +45,8 @@ jobs:
         env:
           IMPORT_API_URL: ${{ secrets.IMPORT_API_URL }}
           IMPORT_API_TOKEN: ${{ secrets.IMPORT_API_TOKEN }}
+          # Kaynak site datacenter IP'lerini blokluyor; residential/mobil proxy sart.
+          PROXY_URL: ${{ secrets.PROXY_URL }}
           SOURCE_BASE_URL: ${{ vars.SOURCE_BASE_URL }}
           MARKET_INTERVAL_MIN: ${{ vars.MARKET_INTERVAL_MIN }}
           DRAIN_INTERVAL_MIN: ${{ vars.DRAIN_INTERVAL_MIN }}

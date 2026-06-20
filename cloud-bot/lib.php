@@ -69,6 +69,17 @@ function cb_http_get(string $url, array $headers, int $timeout, ?string $cookieF
         $opts[CURLOPT_COOKIEFILE] = $cookieFile;
         $opts[CURLOPT_COOKIEJAR] = $cookieFile;
     }
+
+    // Kaynak site (aktuelbrosurler.com) datacenter IP'lerini blokladigi icin
+    // istegi residential/mobil proxy uzerinden gecirmeye izin ver. Proxy SADECE
+    // kaynak istekleri icin; import yuklemesi (kendi sunucun) dogrudan gider,
+    // boylece IMPORT_API_TOKEN proxy operatorune gitmez.
+    // Ornek: http://user:pass@host:port  |  socks5h://user:pass@host:port
+    $proxy = getenv('PROXY_URL');
+    if (is_string($proxy) && trim($proxy) !== '') {
+        $opts[CURLOPT_PROXY] = trim($proxy);
+    }
+
     curl_setopt_array($ch, $opts);
 
     $body = curl_exec($ch);

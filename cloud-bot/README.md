@@ -52,6 +52,27 @@ Kaybolsa bile veri bozulmaz, en fazla birkaç broşür tekrar indirilir.
 > Not: GitHub'ın zamanlı (schedule) cron'ları yoğunlukta birkaç dakika gecikebilir;
 > "saatte 1" hedefi için bu sorun değil.
 
+## ⚠️ IP engeli ve proxy (önemli)
+
+Kaynak site `aktuelbrosurler.com` **datacenter IP'lerini bloklar (HTTP 403)** — GitHub
+Actions, Vercel vb. bulut sunucularının IP'leri de buna dahildir. Yani bot ancak
+**residential/mobil IP** üzerinden çalışır:
+
+- **En ücretsiz yol:** Botu kendi bilgisayarında (ev internetinle) zamanla. Bu durumda
+  GitHub Actions'a gerek yok; `state.json` diskte tutulur.
+- **Bulutta çalıştırmak istersen:** `PROXY_URL` secret'ı ekle (residential/mobil proxy).
+  Ücretsiz/datacenter proxy'ler işe yaramaz (onlar da 403 alır). Proxy yalnız kaynak
+  istekleri için kullanılır; import yüklemesi doğrudan gider (token proxy'ye gitmez).
+
+  ```
+  PROXY_URL=socks5h://kullanici:parola@host:port
+  PROXY_URL=http://kullanici:parola@host:port
+  ```
+
+Workflow şu an **devre dışı** (datacenter IP'den 403 almasın diye). Proxy ekledikten
+veya yerelde çalıştırmaya karar verdikten sonra etkinleştir:
+`gh workflow enable cloud-bot.yml --repo Haktansoft/aktuelbot_auk`
+
 ## Yerelde test
 
 ```bash
