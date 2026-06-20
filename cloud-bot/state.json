@@ -1,6 +1,131 @@
 {
-    "markets": {},
-    "queue": [],
-    "uploaded": {},
-    "lastDrainAt": 0
+    "markets": {
+        "https://aktuelbrosurler.com/migros/brosurler": {
+            "lastCheckedAt": 1781985149
+        },
+        "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
+            "lastCheckedAt": 0
+        },
+        "https://aktuelbrosurler.com/a101/brosurler": {
+            "lastCheckedAt": 0
+        },
+        "https://aktuelbrosurler.com/bim/brosurler": {
+            "lastCheckedAt": 0
+        },
+        "https://aktuelbrosurler.com/sok-market/brosurler": {
+            "lastCheckedAt": 0
+        },
+        "https://aktuelbrosurler.com/carrefour/brosurler": {
+            "lastCheckedAt": 0
+        },
+        "https://aktuelbrosurler.com/watsons/brosurler": {
+            "lastCheckedAt": 0
+        },
+        "https://aktuelbrosurler.com/rossmann/brosurler": {
+            "lastCheckedAt": 0
+        },
+        "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
+            "lastCheckedAt": 0
+        },
+        "https://aktuelbrosurler.com/hakmar/brosurler": {
+            "lastCheckedAt": 0
+        },
+        "https://aktuelbrosurler.com/gratis/brosurler": {
+            "lastCheckedAt": 0
+        }
+    },
+    "queue": [
+        {
+            "source_key": "ab_e3b1874d40bf47afb589f278f184d18f",
+            "brochure_key": "e3b1874d40bf47afb589f278f184d18f",
+            "market": "Migros",
+            "title": "5M Migros'larda Geçerli İndirim Bülteni Kataloğu - Yaz Migros'la Daha Güzel",
+            "href": "https://aktuelbrosurler.com/migros/brosurler/5m-migros-larda-gecerli-indirim-bulteni-katalogu-yaz-migros-la-daha-guzel_e3b1874d40bf47afb589f278f184d18f",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_fe2861d664ba4b3e92287c761efd33c5",
+            "brochure_key": "fe2861d664ba4b3e92287c761efd33c5",
+            "market": "Migros",
+            "title": "Migros'larda Geçerli İndirim Bülteni Kataloğu - Her Maça Eksiksiz Çıkıyoruz",
+            "href": "https://aktuelbrosurler.com/migros/brosurler/migros-larda-gecerli-indirim-bulteni-katalogu-her-maca-eksiksiz-cikiyoruz_fe2861d664ba4b3e92287c761efd33c5",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_ae00fd6a1c944481a7aa70ddf2bca39f",
+            "brochure_key": "ae00fd6a1c944481a7aa70ddf2bca39f",
+            "market": "Migros",
+            "title": "Migros'larda Geçerli İndirim Bülteni Kataloğu - Yaz Migros'la Daha Güzel",
+            "href": "https://aktuelbrosurler.com/migros/brosurler/migros-larda-gecerli-indirim-bulteni-katalogu-yaz-migros-la-daha-guzel_ae00fd6a1c944481a7aa70ddf2bca39f",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_473c824cc0fa4ae9ab50ab72b8886c28",
+            "brochure_key": "473c824cc0fa4ae9ab50ab72b8886c28",
+            "market": "Migros",
+            "title": "5M Migros'larda Geçerli İndirim Bülteni Kataloğu - Senin İçin Işıltı Katan Güzellikler Migros'a",
+            "href": "https://aktuelbrosurler.com/migros/brosurler/5m-migros-larda-gecerli-indirim-bulteni-katalogu-senin-icin-isilti-katan-guzellikler-migros-a_473c824cc0fa4ae9ab50ab72b8886c28",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_09610c2a5bbd4be086a7ac67fa5a7098",
+            "brochure_key": "09610c2a5bbd4be086a7ac67fa5a7098",
+            "market": "Migros",
+            "title": "5M Migros'larda Geçerli İndirim Bülteni Kataloğu - Her 50 TL'lik Alışverişe Seç-Al",
+            "href": "https://aktuelbrosurler.com/migros/brosurler/5m-migros-larda-gecerli-indirim-bulteni-katalogu-her-50-tl-lik-alisverise-sec-al_09610c2a5bbd4be086a7ac67fa5a7098",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_54729054c1d14578bceed629298b2f38",
+            "brochure_key": "54729054c1d14578bceed629298b2f38",
+            "market": "Migros",
+            "title": "Migros'larda Geçerli İndirim Bülteni Kataloğu - Senin İçin Işıltı Katan Güzellikler Migros'a",
+            "href": "https://aktuelbrosurler.com/migros/brosurler/migros-larda-gecerli-indirim-bulteni-katalogu-senin-icin-isilti-katan-guzellikler-migros-a_54729054c1d14578bceed629298b2f38",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_dceefb1b15424301a5c077739ef5355d",
+            "brochure_key": "dceefb1b15424301a5c077739ef5355d",
+            "market": "Migros",
+            "title": "Migros'larda Geçerli İndirim Bülteni Kataloğu - Her 50 TL'lik Alışverişe Seç-Al",
+            "href": "https://aktuelbrosurler.com/migros/brosurler/migros-larda-gecerli-indirim-bulteni-katalogu-her-50-tl-lik-alisverise-sec-al_dceefb1b15424301a5c077739ef5355d",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_cc5aafbbfc8d406cad881aab1d1c8eed",
+            "brochure_key": "cc5aafbbfc8d406cad881aab1d1c8eed",
+            "market": "Migros",
+            "title": "5M Migros'larda Geçerli İndirim Bülteni Kataloğu - Bol Çeşitli Bayram Alışverişleri İçin Migros'a",
+            "href": "https://aktuelbrosurler.com/migros/brosurler/5m-migros-larda-gecerli-indirim-bulteni-katalogu-bol-cesitli-bayram-alisverisleri-icin-migros-a_cc5aafbbfc8d406cad881aab1d1c8eed",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_a43d1648c8af40b4accaeec1887cc935",
+            "brochure_key": "a43d1648c8af40b4accaeec1887cc935",
+            "market": "Migros",
+            "title": "5M Migros'larda Geçerli İndirim Bülteni Kataloğu - İslami Usullere Uygun Güvenilir Kurban Migros'ta",
+            "href": "https://aktuelbrosurler.com/migros/brosurler/5m-migros-larda-gecerli-indirim-bulteni-katalogu-islami-usullere-uygun-guvenilir-kurban-migros-ta_a43d1648c8af40b4accaeec1887cc935",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_49a4be48da0c4ae5a45ebd4705619f59",
+            "brochure_key": "49a4be48da0c4ae5a45ebd4705619f59",
+            "market": "Migros",
+            "title": "Migros'larda Geçerli İndirim Bülteni Kataloğu - Bol Çeşitli Bayram Alışverişleri İçin Migros'a",
+            "href": "https://aktuelbrosurler.com/migros/brosurler/migros-larda-gecerli-indirim-bulteni-katalogu-bol-cesitli-bayram-alisverisleri-icin-migros-a_49a4be48da0c4ae5a45ebd4705619f59",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_762d7d0720d446989d20b01caf61fcae",
+            "brochure_key": "762d7d0720d446989d20b01caf61fcae",
+            "market": "Migros",
+            "title": "Migros'larda Geçerli İndirim Bülteni Kataloğu - İslami Usullere Uygun Güvenilir Kurban Migros'ta",
+            "href": "https://aktuelbrosurler.com/migros/brosurler/migros-larda-gecerli-indirim-bulteni-katalogu-islami-usullere-uygun-guvenilir-kurban-migros-ta_762d7d0720d446989d20b01caf61fcae",
+            "tries": 0
+        }
+    ],
+    "uploaded": {
+        "ab_23cd4c80453844faada4ebd1c9aa8985": true
+    },
+    "lastDrainAt": 1781986039
 }
