@@ -1,0 +1,75 @@
+name: cloud-bot brochure sync
+
+on:
+  schedule:
+    # Her ~5 dakikada bir (GitHub cron en dusuk aralik 5 dk; yogunlukta gecikebilir).
+    # Her kosu: sirasi gelen 1 marketi kontrol eder + kuyruktan zamani gelmisse indirir.
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Calisma modu"
+        required: false
+        default: "normal"
+        type: choice
+        options:
+          - normal       # 1 market kontrol + kuyruk akitma
+          - once-all     # tum marketleri kontrol + tum kuyrugu akit (ilk dolum)
+          - check-only   # sadece sirasi gelen marketi kontrol et
+          - drain-only   # sadece kuyrugu akit
+
+# Ayni anda tek kosu olsun (state.json commit cakismasini onler).
+concurrency:
+  group: cloud-bot-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.3"
+          extensions: curl, dom, mbstring
+          coverage: none
+
+      - name: Run sync
+        env:
+          IMPORT_API_URL: ${{ secrets.IMPORT_API_URL }}
+          IMPORT_API_TOKEN: ${{ secrets.IMPORT_API_TOKEN }}
+          SOURCE_BASE_URL: ${{ vars.SOURCE_BASE_URL }}
+          MARKET_INTERVAL_MIN: ${{ vars.MARKET_INTERVAL_MIN }}
+          DRAIN_INTERVAL_MIN: ${{ vars.DRAIN_INTERVAL_MIN }}
+          DRAIN_BATCH: ${{ vars.DRAIN_BATCH }}
+          REQUEST_DELAY_MS: ${{ vars.REQUEST_DELAY_MS }}
+        run: |
+          MODE="${{ github.event.inputs.mode }}"
+          case "$MODE" in
+            once-all)   FLAG="--once-all" ;;
+            check-only) FLAG="--check-only" ;;
+            drain-only) FLAG="--drain-only" ;;
+            *)          FLAG="" ;;
+          esac
+          php cloud-bot/sync.php $FLAG
+
+      - name: Commit state
+        run: |
+          if [[ -n "$(git status --porcelain cloud-bot/state.json)" ]]; then
+            git config user.name "cloud-bot"
+            git config user.email "cloud-bot@users.noreply.github.com"
+            git add cloud-bot/state.json
+            git commit -m "chore(cloud-bot): update sync state [skip ci]"
+            # Eszamanli degisiklik olduysa rebase ederek pushla.
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          else
+            echo "state.json degismedi, commit yok."
+          fi

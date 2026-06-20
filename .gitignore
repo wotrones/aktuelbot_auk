@@ -1,0 +1,11 @@
+/vendor/
+/node_modules/
+/.env
+/public/uploads/*
+!/public/uploads/.gitkeep
+.DS_Store
+*.log
+
+# Secret iceren dosyalar - repoya asla girmesin
+/auk_app/auk.json
+/local/config.php
