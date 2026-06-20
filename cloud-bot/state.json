@@ -36,14 +36,6 @@
     },
     "queue": [
         {
-            "source_key": "ab_ae00fd6a1c944481a7aa70ddf2bca39f",
-            "brochure_key": "ae00fd6a1c944481a7aa70ddf2bca39f",
-            "market": "Migros",
-            "title": "Migros'larda Geçerli İndirim Bülteni Kataloğu - Yaz Migros'la Daha Güzel",
-            "href": "https://aktuelbrosurler.com/migros/brosurler/migros-larda-gecerli-indirim-bulteni-katalogu-yaz-migros-la-daha-guzel_ae00fd6a1c944481a7aa70ddf2bca39f",
-            "tries": 0
-        },
-        {
             "source_key": "ab_473c824cc0fa4ae9ab50ab72b8886c28",
             "brochure_key": "473c824cc0fa4ae9ab50ab72b8886c28",
             "market": "Migros",
@@ -221,7 +213,8 @@
         }
     ],
     "uploaded": {
-        "ab_23cd4c80453844faada4ebd1c9aa8985": true
+        "ab_23cd4c80453844faada4ebd1c9aa8985": true,
+        "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true
     },
-    "lastDrainAt": 1781993897
+    "lastDrainAt": 1781999126
 }
