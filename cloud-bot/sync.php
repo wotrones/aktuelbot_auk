@@ -27,7 +27,7 @@ if (PHP_SAPI !== 'cli') {
     exit(1);
 }
 
-foreach (['curl', 'dom', 'mbstring'] as $ext) {
+foreach (['curl', 'dom', 'mbstring', 'openssl'] as $ext) {
     if (!extension_loaded($ext)) {
         fwrite(STDERR, "PHP {$ext} extension gerekli.\n");
         exit(1);
@@ -37,6 +37,7 @@ foreach (['curl', 'dom', 'mbstring'] as $ext) {
 @ini_set('memory_limit', '768M');
 
 require __DIR__ . '/lib.php';
+require __DIR__ . '/firebase.php';
 
 $opts = getopt('', ['once-all', 'check-only', 'drain-only', 'help']);
 if (isset($opts['help'])) {
@@ -48,17 +49,22 @@ Kullanim:
   php cloud-bot/sync.php --once-all       # TUM marketleri kontrol + tum kuyrugu akit (manuel/ilk dolum)
 
   Ortam degiskenleri:
-    IMPORT_API_URL       (zorunlu)  ornek: https://aktuel-market.com/api/import_brochure.php
-    IMPORT_API_TOKEN     (zorunlu)
+    FIREBASE_CREDENTIALS  (zorunlu) service account JSON yolu
+                          (vars. cloud-bot/firebase.json yoksa ../auk_app/auk.json)
+    IMAGE_UPLOAD_ENDPOINT varsayilan https://kampanyacebimde.com/aktuel/addimage.php
     SOURCE_BASE_URL      varsayilan https://aktuelbrosurler.com
     STATE_FILE           varsayilan cloud-bot/state.json
     MARKET_INTERVAL_MIN  varsayilan 55  (her market en fazla bu sikligla kontrol edilir)
     DRAIN_INTERVAL_MIN   varsayilan 12  (kuyruktan indirme araligi)
     DRAIN_BATCH          varsayilan 1   (her akitmada kac brosur)
+    BROCHURE_VALID_DAYS  varsayilan 14  (end_date = start + bu kadar gun)
     REQUEST_DELAY_MS     varsayilan 800
     TIMEOUT              varsayilan 60
     MAX_QUEUE            varsayilan 1000
     MAX_RETRIES          varsayilan 3
+    PROXY_FILE/PROXY_URL kaynak site icin residential/mobil proxy
+    OneSignal: ONESIGNAL_ENABLED, ONESIGNAL_APP_ID, ONESIGNAL_REST_API_KEY,
+               ONESIGNAL_TAG_KEY (vars. bildirim), ONESIGNAL_TAG_VALUE (vars. 0)
     DEBUG                1 ise ayrintili log
 
 TXT);
@@ -76,24 +82,40 @@ function cb_config(): array
         return trim((string) $v);
     };
 
+    // Firebase service account yolu: ENV -> cloud-bot/firebase.json -> ../auk_app/auk.json
+    $credPath = (string) $env('FIREBASE_CREDENTIALS', '');
+    if ($credPath === '') {
+        foreach ([__DIR__ . '/firebase.json', dirname(__DIR__) . '/auk_app/auk.json'] as $cand) {
+            if (is_file($cand)) {
+                $credPath = $cand;
+                break;
+            }
+        }
+    }
+
+    $onesignalEnabled = (string) $env('ONESIGNAL_ENABLED', '1');
     $cfg = [
         'source_base_url' => rtrim((string) $env('SOURCE_BASE_URL', 'https://aktuelbrosurler.com'), '/'),
-        'import_api_url' => (string) $env('IMPORT_API_URL', ''),
-        'import_api_token' => (string) $env('IMPORT_API_TOKEN', ''),
+        'firebase_credentials' => $credPath,
+        'image_upload_endpoint' => (string) $env('IMAGE_UPLOAD_ENDPOINT', 'https://kampanyacebimde.com/aktuel/addimage.php'),
         'state_file' => (string) $env('STATE_FILE', __DIR__ . '/state.json'),
         'market_interval_min' => max(1, (int) $env('MARKET_INTERVAL_MIN', '55')),
         'drain_interval_min' => max(0, (int) $env('DRAIN_INTERVAL_MIN', '12')),
         'drain_batch' => max(1, (int) $env('DRAIN_BATCH', '1')),
+        'valid_days' => max(1, (int) $env('BROCHURE_VALID_DAYS', '14')),
         'request_delay_ms' => max(0, (int) $env('REQUEST_DELAY_MS', '800')),
         'timeout' => max(10, (int) $env('TIMEOUT', '60')),
         'max_queue' => max(10, (int) $env('MAX_QUEUE', '1000')),
         'max_retries' => max(1, (int) $env('MAX_RETRIES', '3')),
+        'onesignal_enabled' => !in_array(strtolower($onesignalEnabled), ['0', 'false', 'no', ''], true),
+        'onesignal_app_id' => (string) $env('ONESIGNAL_APP_ID', ''),
+        'onesignal_rest_api_key' => (string) $env('ONESIGNAL_REST_API_KEY', ''),
+        'onesignal_tag_key' => (string) $env('ONESIGNAL_TAG_KEY', 'bildirim'),
+        'onesignal_tag_value' => (string) $env('ONESIGNAL_TAG_VALUE', '0'),
     ];
 
-    foreach (['import_api_url', 'import_api_token'] as $req) {
-        if ($cfg[$req] === '') {
-            throw new RuntimeException("Ortam degiskeni bos: " . strtoupper($req));
-        }
+    if ($cfg['firebase_credentials'] === '' || !is_file($cfg['firebase_credentials'])) {
+        throw new RuntimeException('FIREBASE_CREDENTIALS bulunamadi (service account JSON yolu gerekli).');
     }
 
     return $cfg;
@@ -228,24 +250,26 @@ function cb_drain_queue(array $cfg, array &$state, int $batch, ?string $cookieFi
             continue;
         }
 
-        try {
-            $result = cb_process_brochure($cfg, [
-                'href' => (string) $item['href'],
-                'market' => (string) $item['market'],
-                'title' => (string) $item['title'],
-                'brochure_key' => (string) $item['brochure_key'],
-                'source_key' => $sourceKey,
-            ], $cookieFile);
+        $normItem = [
+            'href' => (string) $item['href'],
+            'market' => (string) $item['market'],
+            'title' => (string) $item['title'],
+            'brochure_key' => (string) $item['brochure_key'],
+            'source_key' => $sourceKey,
+        ];
 
-            if (in_array($result['status'], ['created', 'exists'], true)) {
+        try {
+            // Firestore'da zaten varsa indirme/yukleme yapma (mukerrer onleme - otorite).
+            if (fb_document_exists($cfg, "brosurler/{$sourceKey}")) {
+                cb_log("Zaten Firestore'da: brosurler/{$sourceKey}, atlaniyor.");
                 $state['uploaded'][$sourceKey] = true;
-            } else {
-                // Beklenmedik durum: tekrar dene.
-                $item['tries'] = (int) ($item['tries'] ?? 0) + 1;
-                if ($item['tries'] < $cfg['max_retries']) {
-                    $state['queue'][] = $item;
-                }
+                $processed++;
+                continue;
             }
+
+            $fetched = cb_fetch_brochure($cfg, $normItem, $cookieFile);
+            fb_import_brochure($cfg, $normItem, $fetched['pages']);
+            $state['uploaded'][$sourceKey] = true;
         } catch (Throwable $e) {
             $item['tries'] = (int) ($item['tries'] ?? 0) + 1;
             cb_log("Brosur hatasi: {$sourceKey} (deneme {$item['tries']}) - " . $e->getMessage());

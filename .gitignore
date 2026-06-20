@@ -11,3 +11,5 @@
 /local/config.php
 # Gercek proxy listesi (credentials icerir) - ornegi proxies.example.txt commit'li
 /cloud-bot/proxies.txt
+# Firebase service account (CI'da secret'tan yazilir) - asla commit etme
+/cloud-bot/firebase.json

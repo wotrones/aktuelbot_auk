@@ -513,15 +513,16 @@ function cb_parse_brochure_dates(string $title, DateTimeImmutable $today): array
 }
 
 /**
- * Tek bir brosuru kaynak siteden indirir ve import API'ye yukler.
+ * Tek bir brosurun tum sayfa gorsellerini kaynak siteden indirir.
+ * Hedef (Firestore vb.) bilmez; sadece ham sayfa baytlarini + tarihleri dondurur.
  *
  * @param array{href: string, market: string, title: string, brochure_key: string, source_key: string} $item
- * @return array{status: string}
+ * @return array{pages: list<array{name:string, bytes:string}>, dates: array{start:string,end:string,matched:bool}}
  */
-function cb_process_brochure(array $cfg, array $item, ?string $cookieFile): array
+function cb_fetch_brochure(array $cfg, array $item, ?string $cookieFile): array
 {
     $sourceKey = $item['source_key'];
-    cb_log("Brosur isleniyor: {$sourceKey} | {$item['market']}");
+    cb_log("Brosur indiriliyor: {$sourceKey} | {$item['market']}");
     cb_debug('Detay URL: ' . $item['href']);
 
     // Imzali gorsel URL'leri (brosur.ashx) oturum cerezine bagli; cerez ancak
@@ -608,90 +609,8 @@ function cb_process_brochure(array $cfg, array $item, ?string $cookieFile): arra
 
     $today = new DateTimeImmutable('now');
     $dates = cb_parse_brochure_dates($item['title'], $today);
-    if (!$dates['matched']) {
-        cb_log("Tarih basliktan okunamadi, eklenme +10 gun: {$dates['start']} -> {$dates['end']}");
-    }
 
-    $payload = [
-        'market' => $item['market'],
-        'title' => $item['title'] !== '' ? $item['title'] : ($item['market'] . ' Broşür'),
-        'source_key' => $sourceKey,
-        'source_detail_url' => $item['href'],
-        'start_date' => $dates['start'],
-        'end_date' => $dates['end'],
-    ];
+    cb_log('Indirilen sayfa: ' . count($pages) . " ({$sourceKey})");
 
-    $result = cb_upload_brochure($cfg, $payload, $pages);
-    $status = (string) ($result['result']['status'] ?? 'unknown');
-    cb_log("Upload sonucu: {$status} ({$sourceKey})");
-
-    return ['status' => $status];
-}
-
-/**
- * @param list<array{name: string, bytes: string}> $pages
- * @return array<string, mixed>
- */
-function cb_upload_brochure(array $cfg, array $payload, array $pages): array
-{
-    $tempFiles = [];
-    $jsonFlags = JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES;
-    if (defined('JSON_INVALID_UTF8_SUBSTITUTE')) {
-        $jsonFlags |= JSON_INVALID_UTF8_SUBSTITUTE;
-    }
-    $payloadJson = json_encode($payload, $jsonFlags);
-    if (!is_string($payloadJson) || $payloadJson === '') {
-        throw new RuntimeException('Payload JSON uretilemedi: ' . json_last_error_msg());
-    }
-
-    $postFields = [
-        'payload' => $payloadJson,
-        'token' => $cfg['import_api_token'],
-    ];
-    foreach ($pages as $index => $page) {
-        $tmp = tempnam(sys_get_temp_dir(), 'cb_');
-        if ($tmp === false || file_put_contents($tmp, $page['bytes']) === false) {
-            throw new RuntimeException('Gecici dosya olusturulamadi.');
-        }
-        $tempFiles[] = $tmp;
-        $postFields['pages[' . $index . ']'] = new CURLFile($tmp, 'application/octet-stream', $page['name']);
-    }
-
-    try {
-        $ch = curl_init($cfg['import_api_url']);
-        curl_setopt_array($ch, [
-            CURLOPT_POST => true,
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_CONNECTTIMEOUT => 20,
-            CURLOPT_TIMEOUT => max(180, (int) $cfg['timeout']),
-            CURLOPT_HTTPHEADER => [
-                'Authorization: Bearer ' . $cfg['import_api_token'],
-                'X-Import-Token: ' . $cfg['import_api_token'],
-                'Accept: application/json',
-            ],
-            CURLOPT_POSTFIELDS => $postFields,
-        ]);
-
-        $body = curl_exec($ch);
-        if ($body === false) {
-            $error = curl_error($ch);
-            throw new RuntimeException('Upload basarisiz: ' . $error);
-        }
-        $status = (int) curl_getinfo($ch, CURLINFO_RESPONSE_CODE);
-
-        $decoded = json_decode((string) $body, true);
-        if (!is_array($decoded)) {
-            throw new RuntimeException("API JSON donmedi (HTTP {$status}): {$body}");
-        }
-        if ($status < 200 || $status >= 300 || !($decoded['ok'] ?? false)) {
-            $error = (string) ($decoded['error'] ?? 'Bilinmeyen API hatasi');
-            throw new RuntimeException("API hatasi (HTTP {$status}): {$error}");
-        }
-
-        return $decoded;
-    } finally {
-        foreach ($tempFiles as $tmp) {
-            @unlink($tmp);
-        }
-    }
+    return ['pages' => $pages, 'dates' => $dates];
 }

@@ -38,20 +38,36 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: "8.3"
-          extensions: curl, dom, mbstring
+          extensions: curl, dom, mbstring, openssl, gd
           coverage: none
+
+      - name: Write Firebase service account
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: |
+          if [[ -z "$FIREBASE_SERVICE_ACCOUNT" ]]; then
+            echo "::error::FIREBASE_SERVICE_ACCOUNT secret tanimli degil."
+            exit 1
+          fi
+          printf '%s' "$FIREBASE_SERVICE_ACCOUNT" > cloud-bot/firebase.json
 
       - name: Run sync
         env:
-          IMPORT_API_URL: ${{ secrets.IMPORT_API_URL }}
-          IMPORT_API_TOKEN: ${{ secrets.IMPORT_API_TOKEN }}
+          FIREBASE_CREDENTIALS: cloud-bot/firebase.json
+          IMAGE_UPLOAD_ENDPOINT: ${{ vars.IMAGE_UPLOAD_ENDPOINT }}
           # Kaynak site datacenter IP'lerini blokluyor; residential/mobil proxy sart.
           PROXY_URL: ${{ secrets.PROXY_URL }}
           SOURCE_BASE_URL: ${{ vars.SOURCE_BASE_URL }}
           MARKET_INTERVAL_MIN: ${{ vars.MARKET_INTERVAL_MIN }}
           DRAIN_INTERVAL_MIN: ${{ vars.DRAIN_INTERVAL_MIN }}
           DRAIN_BATCH: ${{ vars.DRAIN_BATCH }}
+          BROCHURE_VALID_DAYS: ${{ vars.BROCHURE_VALID_DAYS }}
           REQUEST_DELAY_MS: ${{ vars.REQUEST_DELAY_MS }}
+          ONESIGNAL_ENABLED: ${{ vars.ONESIGNAL_ENABLED }}
+          ONESIGNAL_APP_ID: ${{ vars.ONESIGNAL_APP_ID }}
+          ONESIGNAL_REST_API_KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
+          ONESIGNAL_TAG_KEY: ${{ vars.ONESIGNAL_TAG_KEY }}
+          ONESIGNAL_TAG_VALUE: ${{ vars.ONESIGNAL_TAG_VALUE }}
         run: |
           MODE="${{ github.event.inputs.mode }}"
           case "$MODE" in
