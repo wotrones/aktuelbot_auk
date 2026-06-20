@@ -4,7 +4,7 @@
             "lastCheckedAt": 1781985149
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 0
+            "lastCheckedAt": 1781989277
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
             "lastCheckedAt": 0
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_e3b1874d40bf47afb589f278f184d18f",
-            "brochure_key": "e3b1874d40bf47afb589f278f184d18f",
-            "market": "Migros",
-            "title": "5M Migros'larda Geçerli İndirim Bülteni Kataloğu - Yaz Migros'la Daha Güzel",
-            "href": "https://aktuelbrosurler.com/migros/brosurler/5m-migros-larda-gecerli-indirim-bulteni-katalogu-yaz-migros-la-daha-guzel_e3b1874d40bf47afb589f278f184d18f",
-            "tries": 0
-        },
         {
             "source_key": "ab_fe2861d664ba4b3e92287c761efd33c5",
             "brochure_key": "fe2861d664ba4b3e92287c761efd33c5",
@@ -122,10 +114,114 @@
             "title": "Migros'larda Geçerli İndirim Bülteni Kataloğu - İslami Usullere Uygun Güvenilir Kurban Migros'ta",
             "href": "https://aktuelbrosurler.com/migros/brosurler/migros-larda-gecerli-indirim-bulteni-katalogu-islami-usullere-uygun-guvenilir-kurban-migros-ta_762d7d0720d446989d20b01caf61fcae",
             "tries": 0
+        },
+        {
+            "source_key": "ab_b30a831ce50247709a5b45dd16371d38",
+            "brochure_key": "b30a831ce50247709a5b45dd16371d38",
+            "market": "Bizim Toptan Market",
+            "title": "Meyve ve Sebze Reyonu Fırsatları",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/meyve-ve-sebze-reyonu-firsatlari_b30a831ce50247709a5b45dd16371d38",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_642a754d28f542428c94582e13feb93d",
+            "brochure_key": "642a754d28f542428c94582e13feb93d",
+            "market": "Bizim Toptan Market",
+            "title": "HORECA'ya Özel İndirim Broşürü",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/horeca-ya-ozel-indirim-brosuru_642a754d28f542428c94582e13feb93d",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_b5b89dd60fda489aa03991c4d00017cf",
+            "brochure_key": "b5b89dd60fda489aa03991c4d00017cf",
+            "market": "Bizim Toptan Market",
+            "title": "Bizim Gross İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-gross-indirim-bulteni-brosuru_b5b89dd60fda489aa03991c4d00017cf",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_5563677f840f42d89297ad2bcf8ce2e9",
+            "brochure_key": "5563677f840f42d89297ad2bcf8ce2e9",
+            "market": "Bizim Toptan Market",
+            "title": "Bizim Toptan Market İndirim Bülteni Broşürü - Haftanın Fırsatları",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-toptan-market-indirim-bulteni-brosuru-haftanin-firsatlari_5563677f840f42d89297ad2bcf8ce2e9",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_f986f45423cf4f3c8c38c84389f042b6",
+            "brochure_key": "f986f45423cf4f3c8c38c84389f042b6",
+            "market": "Bizim Toptan Market",
+            "title": "Bizim Gross İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-gross-indirim-bulteni-brosuru_f986f45423cf4f3c8c38c84389f042b6",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_4c0888a044cd4c0e93a649ce6bc45a86",
+            "brochure_key": "4c0888a044cd4c0e93a649ce6bc45a86",
+            "market": "Bizim Toptan Market",
+            "title": "Bizim Toptan Market İndirim Bülteni Broşürü - Haftanın Fırsatları",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-toptan-market-indirim-bulteni-brosuru-haftanin-firsatlari_4c0888a044cd4c0e93a649ce6bc45a86",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_73095ea210af4486b288eb23334a4c33",
+            "brochure_key": "73095ea210af4486b288eb23334a4c33",
+            "market": "Bizim Toptan Market",
+            "title": "HORECA'ya Özel İndirim Broşürü",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/horeca-ya-ozel-indirim-brosuru_73095ea210af4486b288eb23334a4c33",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_43e82bc44e1d4f91b6ec13153bb90f2a",
+            "brochure_key": "43e82bc44e1d4f91b6ec13153bb90f2a",
+            "market": "Bizim Toptan Market",
+            "title": "Bizim Gross İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-gross-indirim-bulteni-brosuru_43e82bc44e1d4f91b6ec13153bb90f2a",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_50e9346f99724ec18c271faffcbbad5b",
+            "brochure_key": "50e9346f99724ec18c271faffcbbad5b",
+            "market": "Bizim Toptan Market",
+            "title": "Bizim Toptan Market İndirim Bülteni Broşürü - Haftanın Fırsatları",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-toptan-market-indirim-bulteni-brosuru-haftanin-firsatlari_50e9346f99724ec18c271faffcbbad5b",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_8b3804d4fcbb402fbf6fc877a0e0fc62",
+            "brochure_key": "8b3804d4fcbb402fbf6fc877a0e0fc62",
+            "market": "Bizim Toptan Market",
+            "title": "Bizim Gross İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-gross-indirim-bulteni-brosuru_8b3804d4fcbb402fbf6fc877a0e0fc62",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_3e5df89400c247ac98c6bdfef0d927e6",
+            "brochure_key": "3e5df89400c247ac98c6bdfef0d927e6",
+            "market": "Bizim Toptan Market",
+            "title": "Bizim Toptan Market İndirim Bülteni Broşürü - Haftanın Fırsatları",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-toptan-market-indirim-bulteni-brosuru-haftanin-firsatlari_3e5df89400c247ac98c6bdfef0d927e6",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_b3857eca9e4c4924a6302e8b8da8d445",
+            "brochure_key": "b3857eca9e4c4924a6302e8b8da8d445",
+            "market": "Bizim Toptan Market",
+            "title": "HORECA'ya Özel İndirim Broşürü",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/horeca-ya-ozel-indirim-brosuru_b3857eca9e4c4924a6302e8b8da8d445",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_e3b1874d40bf47afb589f278f184d18f",
+            "brochure_key": "e3b1874d40bf47afb589f278f184d18f",
+            "market": "Migros",
+            "title": "5M Migros'larda Geçerli İndirim Bülteni Kataloğu - Yaz Migros'la Daha Güzel",
+            "href": "https://aktuelbrosurler.com/migros/brosurler/5m-migros-larda-gecerli-indirim-bulteni-katalogu-yaz-migros-la-daha-guzel_e3b1874d40bf47afb589f278f184d18f",
+            "tries": 1
         }
     ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true
     },
-    "lastDrainAt": 1781986039
+    "lastDrainAt": 1781989389
 }
