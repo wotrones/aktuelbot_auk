@@ -60,14 +60,24 @@ Actions, Vercel vb. bulut sunucularının IP'leri de buna dahildir. Yani bot anc
 
 - **En ücretsiz yol:** Botu kendi bilgisayarında (ev internetinle) zamanla. Bu durumda
   GitHub Actions'a gerek yok; `state.json` diskte tutulur.
-- **Bulutta çalıştırmak istersen:** `PROXY_URL` secret'ı ekle (residential/mobil proxy).
-  Ücretsiz/datacenter proxy'ler işe yaramaz (onlar da 403 alır). Proxy yalnız kaynak
-  istekleri için kullanılır; import yüklemesi doğrudan gider (token proxy'ye gitmez).
+- **Proxy ile:** Proxy'leri `cloud-bot/proxies.txt` dosyasına **alt alta** yaz (her satır
+  bir proxy, `#` yorum). Bot listeyi sırayla dener, **çalışana yapışır, patlarsa otomatik
+  diğerine geçer** (failover). Proxy yalnız kaynak istekleri için kullanılır; import
+  yüklemesi doğrudan gider (token proxy'ye gitmez).
 
   ```
-  PROXY_URL=socks5h://kullanici:parola@host:port
-  PROXY_URL=http://kullanici:parola@host:port
+  # cloud-bot/proxies.txt
+  socks5h://kullanici:parola@host:port
+  http://kullanici:parola@host:port
   ```
+
+  Ücretsiz/datacenter proxy'ler işe yaramaz (onlar da 403 alır) — residential/mobil şart.
+
+  - **Yerelde:** `proxies.txt`'i doldurman yeter (dosya `.gitignore`'da, credentials
+    repoya gitmez). Örnek biçim: `proxies.example.txt`.
+  - **GitHub Actions'ta:** `proxies.txt` gitignore'lu olduğu için ya tek proxy'yi
+    `PROXY_URL` secret'ı olarak gir, ya da `.gitignore`'dan çıkarıp listeyi commit'le
+    (private repo). Alternatif: `PROXY_FILE` ile farklı yol göster.
 
 Workflow şu an **devre dışı** (datacenter IP'den 403 almasın diye). Proxy ekledikten
 veya yerelde çalıştırmaya karar verdikten sonra etkinleştir:

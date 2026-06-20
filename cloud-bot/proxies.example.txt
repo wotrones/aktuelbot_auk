@@ -1,0 +1,14 @@
+# Proxy listesi - her satira BIR proxy. Bos satirlar ve '#' ile baslayanlar yok sayilir.
+# Bot listeyi sirayla dener; calisani tutar, patlarsa otomatik digerine gecer (failover).
+#
+# DESTEKLENEN BICIMLER:
+#   http://kullanici:parola@host:port
+#   http://host:port
+#   socks5h://kullanici:parola@host:port        (DNS'i proxy cozer - residential icin onerilir)
+#   socks5://host:port
+#
+# NOT: Kaynak site datacenter IP'lerini bloklar. Yalniz RESIDENTIAL/MOBIL proxy ise yarar;
+#      ucretsiz/datacenter proxy'ler de 403 alir.
+#
+# Proxylerini asagiya ekle:
+

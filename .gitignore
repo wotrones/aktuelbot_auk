@@ -9,3 +9,5 @@
 # Secret iceren dosyalar - repoya asla girmesin
 /auk_app/auk.json
 /local/config.php
+# Gercek proxy listesi (credentials icerir) - ornegi proxies.example.txt commit'li
+/cloud-bot/proxies.txt

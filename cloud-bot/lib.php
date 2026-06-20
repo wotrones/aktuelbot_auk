@@ -52,9 +52,99 @@ function cb_browser_headers(array $extra = []): array
 }
 
 /**
+ * Proxy listesini yukler (bir kez). Kaynaklar:
+ *   1) PROXY_FILE dosyasi (vars. cloud-bot/proxies.txt) - her satira bir proxy
+ *   2) PROXY_URL ortam degiskeni (tekil; varsa listeye eklenir)
+ * Bos satirlar ve '#' ile baslayan satirlar yok sayilir.
+ *
+ * @return list<string>
+ */
+function cb_load_proxies(): array
+{
+    static $cache = null;
+    if ($cache !== null) {
+        return $cache;
+    }
+
+    $list = [];
+    $file = getenv('PROXY_FILE');
+    $file = is_string($file) && trim($file) !== '' ? trim($file) : __DIR__ . '/proxies.txt';
+    if (is_file($file) && is_readable($file)) {
+        foreach (file($file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES) ?: [] as $line) {
+            $line = trim($line);
+            if ($line === '' || str_starts_with($line, '#')) {
+                continue;
+            }
+            $list[] = $line;
+        }
+    }
+
+    $env = getenv('PROXY_URL');
+    if (is_string($env) && trim($env) !== '') {
+        $list[] = trim($env);
+    }
+
+    // Tekrarlari ele.
+    $cache = array_values(array_unique($list));
+
+    return $cache;
+}
+
+/** Calisan proxy'ye yapismak icin secili indeks (process boyunca). */
+function cb_proxy_idx(?int $set = null): int
+{
+    static $idx = 0;
+    if ($set !== null) {
+        $idx = $set;
+    }
+    return $idx;
+}
+
+/**
+ * Kaynak site datacenter IP'lerini blokladigi icin istekleri proxy listesi
+ * uzerinden dener: secili (calisan) proxy'ye yapisir, basarisiz olursa siradaki
+ * proxy'ye gecer. Proxy yoksa dogrudan baglanir.
+ *
  * @return array{body: string, url: string}
  */
 function cb_http_get(string $url, array $headers, int $timeout, ?string $cookieFile = null): array
+{
+    $proxies = cb_load_proxies();
+    if ($proxies === []) {
+        return cb_http_get_once($url, $headers, $timeout, $cookieFile, null);
+    }
+
+    $n = count($proxies);
+    $start = cb_proxy_idx() % $n;
+    $errors = [];
+    for ($i = 0; $i < $n; $i++) {
+        $idx = ($start + $i) % $n;
+        $proxy = $proxies[$idx];
+        try {
+            $res = cb_http_get_once($url, $headers, $timeout, $cookieFile, $proxy);
+            cb_proxy_idx($idx); // calisan proxy'ye yapis
+            if ($i > 0) {
+                cb_debug('Proxy degisti -> #' . $idx . ' (' . cb_proxy_mask($proxy) . ')');
+            }
+            return $res;
+        } catch (Throwable $e) {
+            $errors[] = '#' . $idx . ' ' . cb_proxy_mask($proxy) . ': ' . $e->getMessage();
+        }
+    }
+
+    throw new RuntimeException("Tum proxyler basarisiz ({$url}) -> " . implode(' | ', $errors));
+}
+
+/** Loglarda proxy kimlik bilgisini gizler. */
+function cb_proxy_mask(string $proxy): string
+{
+    return (string) preg_replace('#://[^@/]+@#', '://***@', $proxy);
+}
+
+/**
+ * @return array{body: string, url: string}
+ */
+function cb_http_get_once(string $url, array $headers, int $timeout, ?string $cookieFile, ?string $proxy): array
 {
     $ch = curl_init($url);
     $opts = [
@@ -69,15 +159,8 @@ function cb_http_get(string $url, array $headers, int $timeout, ?string $cookieF
         $opts[CURLOPT_COOKIEFILE] = $cookieFile;
         $opts[CURLOPT_COOKIEJAR] = $cookieFile;
     }
-
-    // Kaynak site (aktuelbrosurler.com) datacenter IP'lerini blokladigi icin
-    // istegi residential/mobil proxy uzerinden gecirmeye izin ver. Proxy SADECE
-    // kaynak istekleri icin; import yuklemesi (kendi sunucun) dogrudan gider,
-    // boylece IMPORT_API_TOKEN proxy operatorune gitmez.
-    // Ornek: http://user:pass@host:port  |  socks5h://user:pass@host:port
-    $proxy = getenv('PROXY_URL');
-    if (is_string($proxy) && trim($proxy) !== '') {
-        $opts[CURLOPT_PROXY] = trim($proxy);
+    if ($proxy !== null && $proxy !== '') {
+        $opts[CURLOPT_PROXY] = $proxy;
     }
 
     curl_setopt_array($ch, $opts);
@@ -85,12 +168,12 @@ function cb_http_get(string $url, array $headers, int $timeout, ?string $cookieF
     $body = curl_exec($ch);
     if ($body === false) {
         $error = curl_error($ch);
-        throw new RuntimeException("GET basarisiz: {$url} ({$error})");
+        throw new RuntimeException("baglanti hatasi ({$error})");
     }
     $status = (int) curl_getinfo($ch, CURLINFO_RESPONSE_CODE);
 
     if ($status < 200 || $status >= 300) {
-        throw new RuntimeException("GET {$url} HTTP {$status}");
+        throw new RuntimeException("HTTP {$status}");
     }
 
     return ['body' => (string) $body, 'url' => $url];
