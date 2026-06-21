@@ -16,7 +16,7 @@
             "lastCheckedAt": 1782034843
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1782027642
+            "lastCheckedAt": 1782035446
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
             "lastCheckedAt": 1782028243
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_8b3804d4fcbb402fbf6fc877a0e0fc62",
-            "brochure_key": "8b3804d4fcbb402fbf6fc877a0e0fc62",
-            "market": "Bizim Toptan Market",
-            "title": "Bizim Gross İndirim Bülteni Broşürü",
-            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-gross-indirim-bulteni-brosuru_8b3804d4fcbb402fbf6fc877a0e0fc62",
-            "tries": 0
-        },
         {
             "source_key": "ab_3e5df89400c247ac98c6bdfef0d927e6",
             "brochure_key": "3e5df89400c247ac98c6bdfef0d927e6",
@@ -989,7 +981,8 @@
         "ab_5563677f840f42d89297ad2bcf8ce2e9": true,
         "ab_4c0888a044cd4c0e93a649ce6bc45a86": true,
         "ab_43e82bc44e1d4f91b6ec13153bb90f2a": true,
-        "ab_50e9346f99724ec18c271faffcbbad5b": true
+        "ab_50e9346f99724ec18c271faffcbbad5b": true,
+        "ab_8b3804d4fcbb402fbf6fc877a0e0fc62": true
     },
-    "lastDrainAt": 1782034868
+    "lastDrainAt": 1782035447
 }
