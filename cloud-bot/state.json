@@ -31,18 +31,10 @@
             "lastCheckedAt": 1782058840
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1782051641
+            "lastCheckedAt": 1782058879
         }
     },
     "queue": [
-        {
-            "source_key": "ab_e1a88d7e86644e72b2681df5702127b7",
-            "brochure_key": "e1a88d7e86644e72b2681df5702127b7",
-            "market": "Carrefour",
-            "title": "Tatil Kataloğu",
-            "href": "https://aktuelbrosurler.com/carrefour/brosurler/tatil-katalogu_e1a88d7e86644e72b2681df5702127b7",
-            "tries": 0
-        },
         {
             "source_key": "ab_14330b6bbe164da2a5771b1fc93ad082",
             "brochure_key": "14330b6bbe164da2a5771b1fc93ad082",
@@ -690,6 +682,14 @@
             "title": "Bugüne Özel Seçili Kişisel Bakım Ürünlerinde 1 Alana 1 Bedava!",
             "href": "https://aktuelbrosurler.com/sok-market/brosurler/bugune-ozel-secili-kisisel-bakim-urunlerinde-1-alana-1-bedava_06c803cdf9984773a80e278416f64d4a",
             "tries": 1
+        },
+        {
+            "source_key": "ab_e1a88d7e86644e72b2681df5702127b7",
+            "brochure_key": "e1a88d7e86644e72b2681df5702127b7",
+            "market": "Carrefour",
+            "title": "Tatil Kataloğu",
+            "href": "https://aktuelbrosurler.com/carrefour/brosurler/tatil-katalogu_e1a88d7e86644e72b2681df5702127b7",
+            "tries": 1
         }
     ],
     "uploaded": {
@@ -746,5 +746,5 @@
         "ab_33acaa656173491fb33d8a7bea8120e3": true,
         "ab_04e4c4e422274590bc142ccdb0b4c630": true
     },
-    "lastDrainAt": 1782058861
+    "lastDrainAt": 1782058935
 }
