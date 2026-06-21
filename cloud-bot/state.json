@@ -31,18 +31,10 @@
             "lastCheckedAt": 1782044917
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1782039041
+            "lastCheckedAt": 1782045062
         }
     },
     "queue": [
-        {
-            "source_key": "ab_69332642140242d5b7b36c5e4b6f62f3",
-            "brochure_key": "69332642140242d5b7b36c5e4b6f62f3",
-            "market": "A101",
-            "title": "A101 Tazenin Yıldızları İndirimli Ürünler Broşürü 18-21 Haziran",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-tazenin-yildizlari-indirimli-urunler-brosuru-18-21-haziran_69332642140242d5b7b36c5e4b6f62f3",
-            "tries": 0
-        },
         {
             "source_key": "ab_145387262d2849f791e015d28b364c97",
             "brochure_key": "145387262d2849f791e015d28b364c97",
@@ -877,7 +869,8 @@
         "ab_232b14d3ec044b779218f62d54427b51": true,
         "ab_63fe9583fad343cfb7d0eba3bab2e005": true,
         "ab_4e63c82f4fdd49198ed69008a61fbdc6": true,
-        "ab_e0c4e714e56a43f3a1aae8b40dcc84ee": true
+        "ab_e0c4e714e56a43f3a1aae8b40dcc84ee": true,
+        "ab_69332642140242d5b7b36c5e4b6f62f3": true
     },
-    "lastDrainAt": 1782044939
+    "lastDrainAt": 1782045085
 }
