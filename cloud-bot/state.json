@@ -25,7 +25,7 @@
             "lastCheckedAt": 1782057669
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1782050461
+            "lastCheckedAt": 1782058245
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
             "lastCheckedAt": 1782051042
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_06c803cdf9984773a80e278416f64d4a",
-            "brochure_key": "06c803cdf9984773a80e278416f64d4a",
-            "market": "Şok Market",
-            "title": "Bugüne Özel Seçili Kişisel Bakım Ürünlerinde 1 Alana 1 Bedava!",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/bugune-ozel-secili-kisisel-bakim-urunlerinde-1-alana-1-bedava_06c803cdf9984773a80e278416f64d4a",
-            "tries": 0
-        },
         {
             "source_key": "ab_04e4c4e422274590bc142ccdb0b4c630",
             "brochure_key": "04e4c4e422274590bc142ccdb0b4c630",
@@ -698,6 +690,14 @@
             "title": "Detaylı | Şok Market Haftanın Fırsatları Aktüel Ürünler Broşür 17-23 Haziran 2026",
             "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-haftanin-firsatlari-aktuel-urunler-brosur-17-23-haziran-2026_9611924eefcd4cf78d1923b6f0b4e69b",
             "tries": 1
+        },
+        {
+            "source_key": "ab_06c803cdf9984773a80e278416f64d4a",
+            "brochure_key": "06c803cdf9984773a80e278416f64d4a",
+            "market": "Şok Market",
+            "title": "Bugüne Özel Seçili Kişisel Bakım Ürünlerinde 1 Alana 1 Bedava!",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/bugune-ozel-secili-kisisel-bakim-urunlerinde-1-alana-1-bedava_06c803cdf9984773a80e278416f64d4a",
+            "tries": 1
         }
     ],
     "uploaded": {
@@ -753,5 +753,5 @@
         "ab_e3a3914215b748e49f0c47f4023d496c": true,
         "ab_33acaa656173491fb33d8a7bea8120e3": true
     },
-    "lastDrainAt": 1782057824
+    "lastDrainAt": 1782058262
 }
