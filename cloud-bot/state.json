@@ -10,7 +10,7 @@
             "lastCheckedAt": 1782007454
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 0
+            "lastCheckedAt": 1782026086
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 0
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_54729054c1d14578bceed629298b2f38",
-            "brochure_key": "54729054c1d14578bceed629298b2f38",
-            "market": "Migros",
-            "title": "Migros'larda Geçerli İndirim Bülteni Kataloğu - Senin İçin Işıltı Katan Güzellikler Migros'a",
-            "href": "https://aktuelbrosurler.com/migros/brosurler/migros-larda-gecerli-indirim-bulteni-katalogu-senin-icin-isilti-katan-guzellikler-migros-a_54729054c1d14578bceed629298b2f38",
-            "tries": 0
-        },
         {
             "source_key": "ab_dceefb1b15424301a5c077739ef5355d",
             "brochure_key": "dceefb1b15424301a5c077739ef5355d",
@@ -290,13 +282,110 @@
             "title": "A101 Tazenin Yıldızları İndirimli Ürünler Broşürü 18-21 Haziran",
             "href": "https://aktuelbrosurler.com/a101/brosurler/a101-tazenin-yildizlari-indirimli-urunler-brosuru-18-21-haziran_69332642140242d5b7b36c5e4b6f62f3",
             "tries": 0
+        },
+        {
+            "source_key": "ab_145387262d2849f791e015d28b364c97",
+            "brochure_key": "145387262d2849f791e015d28b364c97",
+            "market": "Bim",
+            "title": "5 Al 4 Öde Ürünleri",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/5-al-4-ode-urunleri_145387262d2849f791e015d28b364c97",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_8d25ad96ff1646cab7d2b4439d0ee9fc",
+            "brochure_key": "8d25ad96ff1646cab7d2b4439d0ee9fc",
+            "market": "Bim",
+            "title": "Meyve ve Sebze İndirimleri Broşürü",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/meyve-ve-sebze-indirimleri-brosuru_8d25ad96ff1646cab7d2b4439d0ee9fc",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_314b89d7be344234b3797bcf4fd06157",
+            "brochure_key": "314b89d7be344234b3797bcf4fd06157",
+            "market": "Bim",
+            "title": "Bim Aynı Ürünün İkincisi %50 İndirimli Ürünler Broşürü 19-22 Haziran",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-ayni-urunun-ikincisi-50-indirimli-urunler-brosuru-19-22-haziran_314b89d7be344234b3797bcf4fd06157",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_87e45a21cb6b49578f3bff15def59843",
+            "brochure_key": "87e45a21cb6b49578f3bff15def59843",
+            "market": "Bim",
+            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 26 Haziran 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-26-haziran-2026-dan-itibaren-stoklarla-sinirli_87e45a21cb6b49578f3bff15def59843",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_ea87414c2bda494ebdb37502575d1143",
+            "brochure_key": "ea87414c2bda494ebdb37502575d1143",
+            "market": "Bim",
+            "title": "Bim Fırsat Ürünleri Broşürü 19-22 Haziran",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-firsat-urunleri-brosuru-19-22-haziran_ea87414c2bda494ebdb37502575d1143",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_f0f03e43daf743199c3a4aa46ad9c856",
+            "brochure_key": "f0f03e43daf743199c3a4aa46ad9c856",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 19-22 Haziran",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-19-22-haziran_f0f03e43daf743199c3a4aa46ad9c856",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_384e79f209c84e4193f57c27aeb5f966",
+            "brochure_key": "384e79f209c84e4193f57c27aeb5f966",
+            "market": "Bim",
+            "title": "Soğuk Hazır Asfalt 25 Kg",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/soguk-hazir-asfalt-25-kg_384e79f209c84e4193f57c27aeb5f966",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_c7360d0de0a847bfa7ed4a746f695d6d",
+            "brochure_key": "c7360d0de0a847bfa7ed4a746f695d6d",
+            "market": "Bim",
+            "title": "Çok Al Az Öde Ürünleri",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/cok-al-az-ode-urunleri_c7360d0de0a847bfa7ed4a746f695d6d",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_791168ea9ed44374830467b4f65d0348",
+            "brochure_key": "791168ea9ed44374830467b4f65d0348",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 19-26 Haziran",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-19-26-haziran_791168ea9ed44374830467b4f65d0348",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_ccee8dd1dc64435b8a6dce6f00c9f80f",
+            "brochure_key": "ccee8dd1dc64435b8a6dce6f00c9f80f",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 19-22 Haziran",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-19-22-haziran_ccee8dd1dc64435b8a6dce6f00c9f80f",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_b7290848d4e448728a4c062f071a6fd0",
+            "brochure_key": "b7290848d4e448728a4c062f071a6fd0",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 19-26 Haziran",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-19-26-haziran_b7290848d4e448728a4c062f071a6fd0",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_1cefb60097064e348efcdbd7931ad44d",
+            "brochure_key": "1cefb60097064e348efcdbd7931ad44d",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 19-22 Haziran",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-19-22-haziran_1cefb60097064e348efcdbd7931ad44d",
+            "tries": 0
         }
     ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
         "ab_473c824cc0fa4ae9ab50ab72b8886c28": true,
-        "ab_09610c2a5bbd4be086a7ac67fa5a7098": true
+        "ab_09610c2a5bbd4be086a7ac67fa5a7098": true,
+        "ab_54729054c1d14578bceed629298b2f38": true
     },
-    "lastDrainAt": 1782025338
+    "lastDrainAt": 1782026838
 }
