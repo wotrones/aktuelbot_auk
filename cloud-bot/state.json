@@ -19,7 +19,7 @@
             "lastCheckedAt": 1782048656
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1782043268
+            "lastCheckedAt": 1782049244
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
             "lastCheckedAt": 1782043844
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_384e79f209c84e4193f57c27aeb5f966",
-            "brochure_key": "384e79f209c84e4193f57c27aeb5f966",
-            "market": "Bim",
-            "title": "Soğuk Hazır Asfalt 25 Kg",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/soguk-hazir-asfalt-25-kg_384e79f209c84e4193f57c27aeb5f966",
-            "tries": 0
-        },
         {
             "source_key": "ab_c7360d0de0a847bfa7ed4a746f695d6d",
             "brochure_key": "c7360d0de0a847bfa7ed4a746f695d6d",
@@ -828,7 +820,8 @@
         "ab_314b89d7be344234b3797bcf4fd06157": true,
         "ab_87e45a21cb6b49578f3bff15def59843": true,
         "ab_ea87414c2bda494ebdb37502575d1143": true,
-        "ab_f0f03e43daf743199c3a4aa46ad9c856": true
+        "ab_f0f03e43daf743199c3a4aa46ad9c856": true,
+        "ab_384e79f209c84e4193f57c27aeb5f966": true
     },
-    "lastDrainAt": 1782048712
+    "lastDrainAt": 1782049258
 }
