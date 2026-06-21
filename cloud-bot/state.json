@@ -22,7 +22,7 @@
             "lastCheckedAt": 1782049244
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1782043844
+            "lastCheckedAt": 1782049840
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
             "lastCheckedAt": 1782044442
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_c7360d0de0a847bfa7ed4a746f695d6d",
-            "brochure_key": "c7360d0de0a847bfa7ed4a746f695d6d",
-            "market": "Bim",
-            "title": "Çok Al Az Öde Ürünleri",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/cok-al-az-ode-urunleri_c7360d0de0a847bfa7ed4a746f695d6d",
-            "tries": 0
-        },
         {
             "source_key": "ab_791168ea9ed44374830467b4f65d0348",
             "brochure_key": "791168ea9ed44374830467b4f65d0348",
@@ -821,7 +813,8 @@
         "ab_87e45a21cb6b49578f3bff15def59843": true,
         "ab_ea87414c2bda494ebdb37502575d1143": true,
         "ab_f0f03e43daf743199c3a4aa46ad9c856": true,
-        "ab_384e79f209c84e4193f57c27aeb5f966": true
+        "ab_384e79f209c84e4193f57c27aeb5f966": true,
+        "ab_c7360d0de0a847bfa7ed4a746f695d6d": true
     },
-    "lastDrainAt": 1782049258
+    "lastDrainAt": 1782049895
 }
