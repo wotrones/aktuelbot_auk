@@ -25,7 +25,7 @@
             "lastCheckedAt": 1782043844
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1782037250
+            "lastCheckedAt": 1782044442
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
             "lastCheckedAt": 1782037852
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_4e63c82f4fdd49198ed69008a61fbdc6",
-            "brochure_key": "4e63c82f4fdd49198ed69008a61fbdc6",
-            "market": "A101",
-            "title": "Sadece Online Alışverişe Özel Aldın Aldın A101 Ekstra Aktüel Ürünler Broşürü 18 Haziran 2026",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/sadece-online-alisverise-ozel-aldin-aldin-a101-ekstra-aktuel-urunler-brosuru-18-haziran-2026_4e63c82f4fdd49198ed69008a61fbdc6",
-            "tries": 0
-        },
         {
             "source_key": "ab_e0c4e714e56a43f3a1aae8b40dcc84ee",
             "brochure_key": "e0c4e714e56a43f3a1aae8b40dcc84ee",
@@ -891,7 +883,8 @@
         "ab_01889c64e3a043da9df78940b1651b57": true,
         "ab_25aa4f05ed4f4c9dae637c49c84c0e50": true,
         "ab_232b14d3ec044b779218f62d54427b51": true,
-        "ab_63fe9583fad343cfb7d0eba3bab2e005": true
+        "ab_63fe9583fad343cfb7d0eba3bab2e005": true,
+        "ab_4e63c82f4fdd49198ed69008a61fbdc6": true
     },
-    "lastDrainAt": 1782043859
+    "lastDrainAt": 1782044500
 }
