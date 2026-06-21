@@ -13,7 +13,7 @@
             "lastCheckedAt": 1782074441
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1782069046
+            "lastCheckedAt": 1782075048
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1782069644
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_c0d85b53264d40f2845fb51488e15e39",
-            "brochure_key": "c0d85b53264d40f2845fb51488e15e39",
-            "market": "Rossmann",
-            "title": "Anneler Günü’ne Özel İndirimler",
-            "href": "https://aktuelbrosurler.com/rossmann/brosurler/anneler-gunu-ne-ozel-indirimler_c0d85b53264d40f2845fb51488e15e39",
-            "tries": 0
-        },
         {
             "source_key": "ab_7f58b8eab7084a48b2c49f8ac0555a7a",
             "brochure_key": "7f58b8eab7084a48b2c49f8ac0555a7a",
@@ -590,7 +582,8 @@
         "ab_e34df5cee30544088887a2dd65e097de": true,
         "ab_8eb6a244c70041ac8b08dc41af147739": true,
         "ab_1e46734cfee74b4e9f05903fcbe345b8": true,
-        "ab_ec5596bc781b4305b4957bee2c5ca981": true
+        "ab_ec5596bc781b4305b4957bee2c5ca981": true,
+        "ab_c0d85b53264d40f2845fb51488e15e39": true
     },
-    "lastDrainAt": 1782074441
+    "lastDrainAt": 1782075049
 }
