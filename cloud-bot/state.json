@@ -25,7 +25,7 @@
             "lastCheckedAt": 1782076244
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1782071384
+            "lastCheckedAt": 1782076841
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
             "lastCheckedAt": 1782071446
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_fa7aa8adb9c449dba203f09d8f1bd2e1",
-            "brochure_key": "fa7aa8adb9c449dba203f09d8f1bd2e1",
-            "market": "Rossmann",
-            "title": "Rossmann Mayıs 2026 Ev & Yaşam Kataloğu",
-            "href": "https://aktuelbrosurler.com/rossmann/brosurler/rossmann-mayis-2026-ev-yasam-katalogu_fa7aa8adb9c449dba203f09d8f1bd2e1",
-            "tries": 0
-        },
         {
             "source_key": "ab_9be9bbd55c664ce6affecc24508f020c",
             "brochure_key": "9be9bbd55c664ce6affecc24508f020c",
@@ -562,7 +554,8 @@
         "ab_c0d85b53264d40f2845fb51488e15e39": true,
         "ab_7f58b8eab7084a48b2c49f8ac0555a7a": true,
         "ab_720e751a596f4b938fa7ff8b1b0ca7ec": true,
-        "ab_2c12e60a2b1b420594796d8033355520": true
+        "ab_2c12e60a2b1b420594796d8033355520": true,
+        "ab_fa7aa8adb9c449dba203f09d8f1bd2e1": true
     },
-    "lastDrainAt": 1782076245
+    "lastDrainAt": 1782076842
 }
