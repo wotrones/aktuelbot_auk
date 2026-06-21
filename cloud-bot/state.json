@@ -7,7 +7,7 @@
             "lastCheckedAt": 1782061257
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1782052968
+            "lastCheckedAt": 1782061845
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1782053445
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_6aa833e654d942228efe595e7a42580a",
-            "brochure_key": "6aa833e654d942228efe595e7a42580a",
-            "market": "Carrefour",
-            "title": "Meyve ve Sebze İndirimleri",
-            "href": "https://aktuelbrosurler.com/carrefour/brosurler/meyve-ve-sebze-indirimleri_6aa833e654d942228efe595e7a42580a",
-            "tries": 0
-        },
         {
             "source_key": "ab_f7658dba7fbd45d5a9d9995457a68f63",
             "brochure_key": "f7658dba7fbd45d5a9d9995457a68f63",
@@ -737,7 +729,8 @@
         "ab_e3a3914215b748e49f0c47f4023d496c": true,
         "ab_33acaa656173491fb33d8a7bea8120e3": true,
         "ab_04e4c4e422274590bc142ccdb0b4c630": true,
-        "ab_42945590529a4fdab7a34c4f3be8fc2d": true
+        "ab_42945590529a4fdab7a34c4f3be8fc2d": true,
+        "ab_6aa833e654d942228efe595e7a42580a": true
     },
-    "lastDrainAt": 1782061278
+    "lastDrainAt": 1782061859
 }
