@@ -36,14 +36,6 @@
     },
     "queue": [
         {
-            "source_key": "ab_f986f45423cf4f3c8c38c84389f042b6",
-            "brochure_key": "f986f45423cf4f3c8c38c84389f042b6",
-            "market": "Bizim Toptan Market",
-            "title": "Bizim Gross İndirim Bülteni Broşürü",
-            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-gross-indirim-bulteni-brosuru_f986f45423cf4f3c8c38c84389f042b6",
-            "tries": 0
-        },
-        {
             "source_key": "ab_4c0888a044cd4c0e93a649ce6bc45a86",
             "brochure_key": "4c0888a044cd4c0e93a649ce6bc45a86",
             "market": "Bizim Toptan Market",
@@ -978,6 +970,14 @@
             "title": "250 TL ve Üzeri Alışverişlerde Tüm Güneş Bakım, Oje ve Ruj Ürünlerinde %70 İNDİRİM",
             "href": "https://aktuelbrosurler.com/gratis/brosurler/250-tl-ve-uzeri-alisverislerde-tum-gunes-bakim-oje-ve-ruj-urunlerinde-70-indirim_d8290c6eccef4f70950c19ea248c6c8c",
             "tries": 0
+        },
+        {
+            "source_key": "ab_f986f45423cf4f3c8c38c84389f042b6",
+            "brochure_key": "f986f45423cf4f3c8c38c84389f042b6",
+            "market": "Bizim Toptan Market",
+            "title": "Bizim Gross İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-gross-indirim-bulteni-brosuru_f986f45423cf4f3c8c38c84389f042b6",
+            "tries": 1
         }
     ],
     "uploaded": {
@@ -996,5 +996,5 @@
         "ab_b5b89dd60fda489aa03991c4d00017cf": true,
         "ab_5563677f840f42d89297ad2bcf8ce2e9": true
     },
-    "lastDrainAt": 1782031861
+    "lastDrainAt": 1782032499
 }
