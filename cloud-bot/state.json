@@ -4,7 +4,7 @@
             "lastCheckedAt": 1782072647
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1782067246
+            "lastCheckedAt": 1782073243
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
             "lastCheckedAt": 1782067846
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_8eb6a244c70041ac8b08dc41af147739",
-            "brochure_key": "8eb6a244c70041ac8b08dc41af147739",
-            "market": "Rossmann",
-            "title": "Rossmann Haziran 2026 Kişisel Bakım Kataloğu",
-            "href": "https://aktuelbrosurler.com/rossmann/brosurler/rossmann-haziran-2026-kisisel-bakim-katalogu_8eb6a244c70041ac8b08dc41af147739",
-            "tries": 0
-        },
         {
             "source_key": "ab_1e46734cfee74b4e9f05903fcbe345b8",
             "brochure_key": "1e46734cfee74b4e9f05903fcbe345b8",
@@ -611,7 +603,8 @@
         "ab_c27455a33b744d089d246d5cc825521a": true,
         "ab_849168392607470aa8b37d7ce14e25dc": true,
         "ab_7f2052b44cb44de2a8d0de8e0fb6cb3e": true,
-        "ab_e34df5cee30544088887a2dd65e097de": true
+        "ab_e34df5cee30544088887a2dd65e097de": true,
+        "ab_8eb6a244c70041ac8b08dc41af147739": true
     },
-    "lastDrainAt": 1782072647
+    "lastDrainAt": 1782073245
 }
