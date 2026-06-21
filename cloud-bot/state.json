@@ -1,7 +1,7 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1782060642
+            "lastCheckedAt": 1782066661
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
             "lastCheckedAt": 1782061257
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_b901467ae7014535bfd4a23f62fd20c2",
-            "brochure_key": "b901467ae7014535bfd4a23f62fd20c2",
-            "market": "Watsons",
-            "title": "Bugüne özel, en sevilen deodorant çeşitlerinde geçerli %75 indirim",
-            "href": "https://aktuelbrosurler.com/watsons/brosurler/bugune-ozel-en-sevilen-deodorant-cesitlerinde-gecerli-75-indirim_b901467ae7014535bfd4a23f62fd20c2",
-            "tries": 0
-        },
         {
             "source_key": "ab_c00f03ee7f5b444397c2fae84b752ff9",
             "brochure_key": "c00f03ee7f5b444397c2fae84b752ff9",
@@ -610,6 +602,14 @@
             "title": "Carrefour Marketlerde Geçerli İndirim Bülteni Kataloğu",
             "href": "https://aktuelbrosurler.com/carrefour/brosurler/carrefour-marketlerde-gecerli-indirim-bulteni-katalogu_f06114b1e7204ca3a00c44117a295e9e",
             "tries": 1
+        },
+        {
+            "source_key": "ab_b901467ae7014535bfd4a23f62fd20c2",
+            "brochure_key": "b901467ae7014535bfd4a23f62fd20c2",
+            "market": "Watsons",
+            "title": "Bugüne özel, en sevilen deodorant çeşitlerinde geçerli %75 indirim",
+            "href": "https://aktuelbrosurler.com/watsons/brosurler/bugune-ozel-en-sevilen-deodorant-cesitlerinde-gecerli-75-indirim_b901467ae7014535bfd4a23f62fd20c2",
+            "tries": 1
         }
     ],
     "uploaded": {
@@ -676,5 +676,5 @@
         "ab_e2627ad0163a47cda77bb1982cd7d9ac": true,
         "ab_d97417d1fd944b00bf93402a2716ad19": true
     },
-    "lastDrainAt": 1782066059
+    "lastDrainAt": 1782066667
 }
