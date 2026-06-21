@@ -1,7 +1,7 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1782072647
+            "lastCheckedAt": 1782078643
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
             "lastCheckedAt": 1782073243
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_00747bf0fe4643b89000ac38e121b940",
-            "brochure_key": "00747bf0fe4643b89000ac38e121b940",
-            "market": "Tarım Kooperatif",
-            "title": "KOOP’ta Cumartesi Fırsatı! TMO Ayçiçek Yağı 5 L 395 TL",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-ta-cumartesi-firsati-tmo-aycicek-yagi-5-l-395-tl_00747bf0fe4643b89000ac38e121b940",
-            "tries": 0
-        },
         {
             "source_key": "ab_57be6fe551f8464aae8450b656e72464",
             "brochure_key": "57be6fe551f8464aae8450b656e72464",
@@ -541,7 +533,8 @@
         "ab_2c12e60a2b1b420594796d8033355520": true,
         "ab_fa7aa8adb9c449dba203f09d8f1bd2e1": true,
         "ab_9be9bbd55c664ce6affecc24508f020c": true,
-        "ab_80901f732f184860866a2e4a1e8a3b4e": true
+        "ab_80901f732f184860866a2e4a1e8a3b4e": true,
+        "ab_00747bf0fe4643b89000ac38e121b940": true
     },
-    "lastDrainAt": 1782078048
+    "lastDrainAt": 1782078657
 }
