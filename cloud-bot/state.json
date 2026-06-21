@@ -22,7 +22,7 @@
             "lastCheckedAt": 1782081643
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1782076244
+            "lastCheckedAt": 1782082248
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
             "lastCheckedAt": 1782076841
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_527ee0e978464bc68a858f6606ed3f99",
-            "brochure_key": "527ee0e978464bc68a858f6606ed3f99",
-            "market": "Tarım Kooperatif",
-            "title": "Patates Kg 29,90 TL",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/patates-kg-29-90-tl_527ee0e978464bc68a858f6606ed3f99",
-            "tries": 0
-        },
         {
             "source_key": "ab_d57b9397d02443d48fb42cb691e5bfcb",
             "brochure_key": "d57b9397d02443d48fb42cb691e5bfcb",
@@ -500,7 +492,8 @@
         "ab_d02758fdf7d14e3db569ab70514a5496": true,
         "ab_037c42b3809048149dd86a1d736d12d9": true,
         "ab_ab373f80b139410f9def2c4c591b7a5c": true,
-        "ab_4c73e7b8f6f049d6bd9841aad53e916b": true
+        "ab_4c73e7b8f6f049d6bd9841aad53e916b": true,
+        "ab_527ee0e978464bc68a858f6606ed3f99": true
     },
-    "lastDrainAt": 1782081657
+    "lastDrainAt": 1782082264
 }
