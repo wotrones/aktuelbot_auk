@@ -22,7 +22,7 @@
             "lastCheckedAt": 1782075667
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1782070842
+            "lastCheckedAt": 1782076244
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
             "lastCheckedAt": 1782071384
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_2c12e60a2b1b420594796d8033355520",
-            "brochure_key": "2c12e60a2b1b420594796d8033355520",
-            "market": "Rossmann",
-            "title": "Rossmann Mayıs 2026 Kişisel Bakım Kataloğu",
-            "href": "https://aktuelbrosurler.com/rossmann/brosurler/rossmann-mayis-2026-kisisel-bakim-katalogu_2c12e60a2b1b420594796d8033355520",
-            "tries": 0
-        },
         {
             "source_key": "ab_fa7aa8adb9c449dba203f09d8f1bd2e1",
             "brochure_key": "fa7aa8adb9c449dba203f09d8f1bd2e1",
@@ -569,7 +561,8 @@
         "ab_ec5596bc781b4305b4957bee2c5ca981": true,
         "ab_c0d85b53264d40f2845fb51488e15e39": true,
         "ab_7f58b8eab7084a48b2c49f8ac0555a7a": true,
-        "ab_720e751a596f4b938fa7ff8b1b0ca7ec": true
+        "ab_720e751a596f4b938fa7ff8b1b0ca7ec": true,
+        "ab_2c12e60a2b1b420594796d8033355520": true
     },
-    "lastDrainAt": 1782075667
+    "lastDrainAt": 1782076245
 }
