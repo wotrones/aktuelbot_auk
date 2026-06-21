@@ -36,14 +36,6 @@
     },
     "queue": [
         {
-            "source_key": "ab_b5b89dd60fda489aa03991c4d00017cf",
-            "brochure_key": "b5b89dd60fda489aa03991c4d00017cf",
-            "market": "Bizim Toptan Market",
-            "title": "Bizim Gross İndirim Bülteni Broşürü",
-            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-gross-indirim-bulteni-brosuru_b5b89dd60fda489aa03991c4d00017cf",
-            "tries": 0
-        },
-        {
             "source_key": "ab_5563677f840f42d89297ad2bcf8ce2e9",
             "brochure_key": "5563677f840f42d89297ad2bcf8ce2e9",
             "market": "Bizim Toptan Market",
@@ -1008,7 +1000,8 @@
         "ab_49a4be48da0c4ae5a45ebd4705619f59": true,
         "ab_762d7d0720d446989d20b01caf61fcae": true,
         "ab_b30a831ce50247709a5b45dd16371d38": true,
-        "ab_642a754d28f542428c94582e13feb93d": true
+        "ab_642a754d28f542428c94582e13feb93d": true,
+        "ab_b5b89dd60fda489aa03991c4d00017cf": true
     },
-    "lastDrainAt": 1782030716
+    "lastDrainAt": 1782031318
 }
