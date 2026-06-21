@@ -28,21 +28,13 @@
             "lastCheckedAt": 1782064867
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1782058840
+            "lastCheckedAt": 1782065446
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
             "lastCheckedAt": 1782058879
         }
     },
     "queue": [
-        {
-            "source_key": "ab_e2627ad0163a47cda77bb1982cd7d9ac",
-            "brochure_key": "e2627ad0163a47cda77bb1982cd7d9ac",
-            "market": "Watsons",
-            "title": "Deodorant Çeşitlerinde Geçerli %65 İndirim",
-            "href": "https://aktuelbrosurler.com/watsons/brosurler/deodorant-cesitlerinde-gecerli-65-indirim_e2627ad0163a47cda77bb1982cd7d9ac",
-            "tries": 0
-        },
         {
             "source_key": "ab_d97417d1fd944b00bf93402a2716ad19",
             "brochure_key": "d97417d1fd944b00bf93402a2716ad19",
@@ -688,7 +680,8 @@
         "ab_bc60d4a499114e9db2d936dbb9e62232": true,
         "ab_bf614bc30f2b46838526da8a70725a0f": true,
         "ab_7321a62b3c9d46fe8e0263b2162e59da": true,
-        "ab_6d7874d5c5fb4f13b2a6bb7253c36733": true
+        "ab_6d7874d5c5fb4f13b2a6bb7253c36733": true,
+        "ab_e2627ad0163a47cda77bb1982cd7d9ac": true
     },
-    "lastDrainAt": 1782064868
+    "lastDrainAt": 1782065460
 }
