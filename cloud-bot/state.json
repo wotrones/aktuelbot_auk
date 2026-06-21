@@ -1,7 +1,7 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1782078643
+            "lastCheckedAt": 1782084654
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
             "lastCheckedAt": 1782079266
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_0e2b955116464552be9cabb3b7e4b12c",
-            "brochure_key": "0e2b955116464552be9cabb3b7e4b12c",
-            "market": "Tarım Kooperatif",
-            "title": "Tarım Kredi Kooperatif Market İndirim Bülteni Broşürü - Kat Kat Fırsat",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-kooperatif-market-indirim-bulteni-brosuru-kat-kat-firsat_0e2b955116464552be9cabb3b7e4b12c",
-            "tries": 0
-        },
         {
             "source_key": "ab_b5687965ee2a4a799f45eaadbec14ab0",
             "brochure_key": "b5687965ee2a4a799f45eaadbec14ab0",
@@ -472,7 +464,8 @@
         "ab_527ee0e978464bc68a858f6606ed3f99": true,
         "ab_d57b9397d02443d48fb42cb691e5bfcb": true,
         "ab_216e35aab9164f6a90fd1408046a4a3c": true,
-        "ab_59403603b2d34600b1cf6cdff67cbed6": true
+        "ab_59403603b2d34600b1cf6cdff67cbed6": true,
+        "ab_0e2b955116464552be9cabb3b7e4b12c": true
     },
-    "lastDrainAt": 1782084128
+    "lastDrainAt": 1782084677
 }
