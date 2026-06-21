@@ -7,7 +7,7 @@
             "lastCheckedAt": 1781989277
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 0
+            "lastCheckedAt": 1782007454
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 0
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_473c824cc0fa4ae9ab50ab72b8886c28",
-            "brochure_key": "473c824cc0fa4ae9ab50ab72b8886c28",
-            "market": "Migros",
-            "title": "5M Migros'larda Geçerli İndirim Bülteni Kataloğu - Senin İçin Işıltı Katan Güzellikler Migros'a",
-            "href": "https://aktuelbrosurler.com/migros/brosurler/5m-migros-larda-gecerli-indirim-bulteni-katalogu-senin-icin-isilti-katan-guzellikler-migros-a_473c824cc0fa4ae9ab50ab72b8886c28",
-            "tries": 0
-        },
         {
             "source_key": "ab_09610c2a5bbd4be086a7ac67fa5a7098",
             "brochure_key": "09610c2a5bbd4be086a7ac67fa5a7098",
@@ -210,11 +202,108 @@
             "title": "Migros'larda Geçerli İndirim Bülteni Kataloğu - Her Maça Eksiksiz Çıkıyoruz",
             "href": "https://aktuelbrosurler.com/migros/brosurler/migros-larda-gecerli-indirim-bulteni-katalogu-her-maca-eksiksiz-cikiyoruz_fe2861d664ba4b3e92287c761efd33c5",
             "tries": 1
+        },
+        {
+            "source_key": "ab_2093c9eb5c274d7a94ceb9f496699f1b",
+            "brochure_key": "2093c9eb5c274d7a94ceb9f496699f1b",
+            "market": "A101",
+            "title": "A101 İndirimli Fırsat Ürünleri Broşürü 20-26 Haziran 2026",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-indirimli-firsat-urunleri-brosuru-20-26-haziran-2026_2093c9eb5c274d7a94ceb9f496699f1b",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_e2d04f844bd84bea9d84b0dbf291bea3",
+            "brochure_key": "e2d04f844bd84bea9d84b0dbf291bea3",
+            "market": "A101",
+            "title": "Meyve ve Sebze İndirimleri",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/meyve-ve-sebze-indirimleri_e2d04f844bd84bea9d84b0dbf291bea3",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_2da8f74ef0bd47f5baf5b5f5c46baaaa",
+            "brochure_key": "2da8f74ef0bd47f5baf5b5f5c46baaaa",
+            "market": "A101",
+            "title": "A101 Haftanın & Kahvaltının Yıldızları Broşürü 20-26 Haziran 2026",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-haftanin-kahvaltinin-yildizlari-brosuru-20-26-haziran-2026_2da8f74ef0bd47f5baf5b5f5c46baaaa",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_1f8328fadf884d66b05d968fbce331b1",
+            "brochure_key": "1f8328fadf884d66b05d968fbce331b1",
+            "market": "A101",
+            "title": "A101 Aldın Aldın Aktüel Ürünler Broşürü 25 Haziran 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-urunler-brosuru-25-haziran-2026-dan-itibaren-stoklarla-sinirli_1f8328fadf884d66b05d968fbce331b1",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_232a4bd469054659b77936dd446aa731",
+            "brochure_key": "232a4bd469054659b77936dd446aa731",
+            "market": "A101",
+            "title": "10 TL ve Üzeri Alışverişlerde İndirimli Fırsat Ürünleri Broşürü 20-26 Haziran 2026",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/10-tl-ve-uzeri-alisverislerde-indirimli-firsat-urunleri-brosuru-20-26-haziran-2026_232a4bd469054659b77936dd446aa731",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_01889c64e3a043da9df78940b1651b57",
+            "brochure_key": "01889c64e3a043da9df78940b1651b57",
+            "market": "A101",
+            "title": "A101 Haftanın Yıldızları Broşürü 20-26 Haziran 2026",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-haftanin-yildizlari-brosuru-20-26-haziran-2026_01889c64e3a043da9df78940b1651b57",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_25aa4f05ed4f4c9dae637c49c84c0e50",
+            "brochure_key": "25aa4f05ed4f4c9dae637c49c84c0e50",
+            "market": "A101",
+            "title": "A101 Saksı Bitkileri Fırsatları 20-27 Haziran",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-saksi-bitkileri-firsatlari-20-27-haziran_25aa4f05ed4f4c9dae637c49c84c0e50",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_232b14d3ec044b779218f62d54427b51",
+            "brochure_key": "232b14d3ec044b779218f62d54427b51",
+            "market": "A101",
+            "title": "Seçili Ürünlerde İndirimli Fiyatlar",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/secili-urunlerde-indirimli-fiyatlar_232b14d3ec044b779218f62d54427b51",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_63fe9583fad343cfb7d0eba3bab2e005",
+            "brochure_key": "63fe9583fad343cfb7d0eba3bab2e005",
+            "market": "A101",
+            "title": "Seçili Ürünlerde İndirimli Fiyatlar",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/secili-urunlerde-indirimli-fiyatlar_63fe9583fad343cfb7d0eba3bab2e005",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_4e63c82f4fdd49198ed69008a61fbdc6",
+            "brochure_key": "4e63c82f4fdd49198ed69008a61fbdc6",
+            "market": "A101",
+            "title": "Sadece Online Alışverişe Özel Aldın Aldın A101 Ekstra Aktüel Ürünler Broşürü 18 Haziran 2026",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/sadece-online-alisverise-ozel-aldin-aldin-a101-ekstra-aktuel-urunler-brosuru-18-haziran-2026_4e63c82f4fdd49198ed69008a61fbdc6",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_e0c4e714e56a43f3a1aae8b40dcc84ee",
+            "brochure_key": "e0c4e714e56a43f3a1aae8b40dcc84ee",
+            "market": "A101",
+            "title": "Meyve ve Sebze İndirimleri",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/meyve-ve-sebze-indirimleri_e0c4e714e56a43f3a1aae8b40dcc84ee",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_69332642140242d5b7b36c5e4b6f62f3",
+            "brochure_key": "69332642140242d5b7b36c5e4b6f62f3",
+            "market": "A101",
+            "title": "A101 Tazenin Yıldızları İndirimli Ürünler Broşürü 18-21 Haziran",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-tazenin-yildizlari-indirimli-urunler-brosuru-18-21-haziran_69332642140242d5b7b36c5e4b6f62f3",
+            "tries": 0
         }
     ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
-        "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true
+        "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
+        "ab_473c824cc0fa4ae9ab50ab72b8886c28": true
     },
-    "lastDrainAt": 1781999126
+    "lastDrainAt": 1782007891
 }
