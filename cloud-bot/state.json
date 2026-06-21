@@ -4,7 +4,7 @@
             "lastCheckedAt": 1782039660
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1782033043
+            "lastCheckedAt": 1782040245
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
             "lastCheckedAt": 1782033641
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_2da8f74ef0bd47f5baf5b5f5c46baaaa",
-            "brochure_key": "2da8f74ef0bd47f5baf5b5f5c46baaaa",
-            "market": "A101",
-            "title": "A101 Haftanın & Kahvaltının Yıldızları Broşürü 20-26 Haziran 2026",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-haftanin-kahvaltinin-yildizlari-brosuru-20-26-haziran-2026_2da8f74ef0bd47f5baf5b5f5c46baaaa",
-            "tries": 0
-        },
         {
             "source_key": "ab_1f8328fadf884d66b05d968fbce331b1",
             "brochure_key": "1f8328fadf884d66b05d968fbce331b1",
@@ -940,7 +932,8 @@
         "ab_e3b1874d40bf47afb589f278f184d18f": true,
         "ab_fe2861d664ba4b3e92287c761efd33c5": true,
         "ab_2093c9eb5c274d7a94ceb9f496699f1b": true,
-        "ab_e2d04f844bd84bea9d84b0dbf291bea3": true
+        "ab_e2d04f844bd84bea9d84b0dbf291bea3": true,
+        "ab_2da8f74ef0bd47f5baf5b5f5c46baaaa": true
     },
-    "lastDrainAt": 1782039682
+    "lastDrainAt": 1782040328
 }
