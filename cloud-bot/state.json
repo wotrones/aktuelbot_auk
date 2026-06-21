@@ -22,7 +22,7 @@
             "lastCheckedAt": 1782070257
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1782064749
+            "lastCheckedAt": 1782070842
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
             "lastCheckedAt": 1782064867
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_98b51821ae0b43ac92b1a2fb3497cdb7",
-            "brochure_key": "98b51821ae0b43ac92b1a2fb3497cdb7",
-            "market": "Watsons",
-            "title": "185. yılımıza özel %85 indirimi başladı!",
-            "href": "https://aktuelbrosurler.com/watsons/brosurler/185-yilimiza-ozel-85-indirimi-basladi_98b51821ae0b43ac92b1a2fb3497cdb7",
-            "tries": 0
-        },
         {
             "source_key": "ab_c27455a33b744d089d246d5cc825521a",
             "brochure_key": "c27455a33b744d089d246d5cc825521a",
@@ -646,7 +638,8 @@
         "ab_c00f03ee7f5b444397c2fae84b752ff9": true,
         "ab_d33102d72e13437f8903d87f6ae44fc9": true,
         "ab_085ce85450ab43b783829e7a864fc488": true,
-        "ab_bc1919bcc07c4152af2511e604f1664a": true
+        "ab_bc1919bcc07c4152af2511e604f1664a": true,
+        "ab_98b51821ae0b43ac92b1a2fb3497cdb7": true
     },
-    "lastDrainAt": 1782070258
+    "lastDrainAt": 1782070843
 }
