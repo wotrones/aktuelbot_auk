@@ -28,21 +28,13 @@
             "lastCheckedAt": 1782076841
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1782071446
+            "lastCheckedAt": 1782077461
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
             "lastCheckedAt": 1782072061
         }
     },
     "queue": [
-        {
-            "source_key": "ab_9be9bbd55c664ce6affecc24508f020c",
-            "brochure_key": "9be9bbd55c664ce6affecc24508f020c",
-            "market": "Rossmann",
-            "title": "TÜM temizlik ürünlerinde %50’ye varan indirim",
-            "href": "https://aktuelbrosurler.com/rossmann/brosurler/tum-temizlik-urunlerinde-50-ye-varan-indirim_9be9bbd55c664ce6affecc24508f020c",
-            "tries": 0
-        },
         {
             "source_key": "ab_80901f732f184860866a2e4a1e8a3b4e",
             "brochure_key": "80901f732f184860866a2e4a1e8a3b4e",
@@ -555,7 +547,8 @@
         "ab_7f58b8eab7084a48b2c49f8ac0555a7a": true,
         "ab_720e751a596f4b938fa7ff8b1b0ca7ec": true,
         "ab_2c12e60a2b1b420594796d8033355520": true,
-        "ab_fa7aa8adb9c449dba203f09d8f1bd2e1": true
+        "ab_fa7aa8adb9c449dba203f09d8f1bd2e1": true,
+        "ab_9be9bbd55c664ce6affecc24508f020c": true
     },
-    "lastDrainAt": 1782076842
+    "lastDrainAt": 1782077462
 }
