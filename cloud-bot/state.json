@@ -7,7 +7,7 @@
             "lastCheckedAt": 1782067246
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1782061845
+            "lastCheckedAt": 1782067846
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1782062450
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_5d28ce50e61448668654133b3fd66e9d",
-            "brochure_key": "5d28ce50e61448668654133b3fd66e9d",
-            "market": "Watsons",
-            "title": "Makyaj, hijyenik ped, yüz bakım, şampuan ve saç bakım ürünlerinde geçerli %60 indirim",
-            "href": "https://aktuelbrosurler.com/watsons/brosurler/makyaj-hijyenik-ped-yuz-bakim-sampuan-ve-sac-bakim-urunlerinde-gecerli-60-indirim_5d28ce50e61448668654133b3fd66e9d",
-            "tries": 0
-        },
         {
             "source_key": "ab_7a28b96fbd484622924c516c106005b1",
             "brochure_key": "7a28b96fbd484622924c516c106005b1",
@@ -602,6 +594,14 @@
             "title": "Bugüne özel, en sevilen deodorant çeşitlerinde geçerli %75 indirim",
             "href": "https://aktuelbrosurler.com/watsons/brosurler/bugune-ozel-en-sevilen-deodorant-cesitlerinde-gecerli-75-indirim_b901467ae7014535bfd4a23f62fd20c2",
             "tries": 1
+        },
+        {
+            "source_key": "ab_5d28ce50e61448668654133b3fd66e9d",
+            "brochure_key": "5d28ce50e61448668654133b3fd66e9d",
+            "market": "Watsons",
+            "title": "Makyaj, hijyenik ped, yüz bakım, şampuan ve saç bakım ürünlerinde geçerli %60 indirim",
+            "href": "https://aktuelbrosurler.com/watsons/brosurler/makyaj-hijyenik-ped-yuz-bakim-sampuan-ve-sac-bakim-urunlerinde-gecerli-60-indirim_5d28ce50e61448668654133b3fd66e9d",
+            "tries": 1
         }
     ],
     "uploaded": {
@@ -669,5 +669,5 @@
         "ab_d97417d1fd944b00bf93402a2716ad19": true,
         "ab_c00f03ee7f5b444397c2fae84b752ff9": true
     },
-    "lastDrainAt": 1782067263
+    "lastDrainAt": 1782067851
 }
