@@ -4,7 +4,7 @@
             "lastCheckedAt": 1782052252
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1782046248
+            "lastCheckedAt": 1782052843
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
             "lastCheckedAt": 1782046864
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_f14d61fc3c7e48aab0986332b42bcc27",
-            "brochure_key": "f14d61fc3c7e48aab0986332b42bcc27",
-            "market": "Şok Market",
-            "title": "Pazar Gününe Özel İndirimli Ürün - Mis Tam Yağlı Kaşar Peyniri 700 g 239 TL!",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/pazar-gunune-ozel-indirimli-urun-mis-tam-yagli-kasar-peyniri-700-g-239-tl_f14d61fc3c7e48aab0986332b42bcc27",
-            "tries": 0
-        },
         {
             "source_key": "ab_91cb76561ee8427a8abc9d3bf3755cec",
             "brochure_key": "91cb76561ee8427a8abc9d3bf3755cec",
@@ -793,7 +785,8 @@
         "ab_c7360d0de0a847bfa7ed4a746f695d6d": true,
         "ab_791168ea9ed44374830467b4f65d0348": true,
         "ab_ccee8dd1dc64435b8a6dce6f00c9f80f": true,
-        "ab_b7290848d4e448728a4c062f071a6fd0": true
+        "ab_b7290848d4e448728a4c062f071a6fd0": true,
+        "ab_f14d61fc3c7e48aab0986332b42bcc27": true
     },
-    "lastDrainAt": 1782052253
+    "lastDrainAt": 1782052857
 }
