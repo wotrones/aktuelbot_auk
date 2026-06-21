@@ -19,7 +19,7 @@
             "lastCheckedAt": 1782063644
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1782057043
+            "lastCheckedAt": 1782064248
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
             "lastCheckedAt": 1782057669
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_bf614bc30f2b46838526da8a70725a0f",
-            "brochure_key": "bf614bc30f2b46838526da8a70725a0f",
-            "market": "Carrefour",
-            "title": "Meyve, Sebze ve Kuruyemiş İndirimleri Broşürü",
-            "href": "https://aktuelbrosurler.com/carrefour/brosurler/meyve-sebze-ve-kuruyemis-indirimleri-brosuru_bf614bc30f2b46838526da8a70725a0f",
-            "tries": 0
-        },
         {
             "source_key": "ab_7321a62b3c9d46fe8e0263b2162e59da",
             "brochure_key": "7321a62b3c9d46fe8e0263b2162e59da",
@@ -709,7 +701,8 @@
         "ab_6aa833e654d942228efe595e7a42580a": true,
         "ab_f7658dba7fbd45d5a9d9995457a68f63": true,
         "ab_826dbf842c934fc19f0b9ac3572001de": true,
-        "ab_bc60d4a499114e9db2d936dbb9e62232": true
+        "ab_bc60d4a499114e9db2d936dbb9e62232": true,
+        "ab_bf614bc30f2b46838526da8a70725a0f": true
     },
-    "lastDrainAt": 1782063644
+    "lastDrainAt": 1782064248
 }
