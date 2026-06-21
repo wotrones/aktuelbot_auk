@@ -13,7 +13,7 @@
             "lastCheckedAt": 1782047443
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1782042045
+            "lastCheckedAt": 1782048049
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1782042642
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_ea87414c2bda494ebdb37502575d1143",
-            "brochure_key": "ea87414c2bda494ebdb37502575d1143",
-            "market": "Bim",
-            "title": "Bim Fırsat Ürünleri Broşürü 19-22 Haziran",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-firsat-urunleri-brosuru-19-22-haziran_ea87414c2bda494ebdb37502575d1143",
-            "tries": 0
-        },
         {
             "source_key": "ab_f0f03e43daf743199c3a4aa46ad9c856",
             "brochure_key": "f0f03e43daf743199c3a4aa46ad9c856",
@@ -842,7 +834,8 @@
         "ab_145387262d2849f791e015d28b364c97": true,
         "ab_8d25ad96ff1646cab7d2b4439d0ee9fc": true,
         "ab_314b89d7be344234b3797bcf4fd06157": true,
-        "ab_87e45a21cb6b49578f3bff15def59843": true
+        "ab_87e45a21cb6b49578f3bff15def59843": true,
+        "ab_ea87414c2bda494ebdb37502575d1143": true
     },
-    "lastDrainAt": 1782047480
+    "lastDrainAt": 1782048073
 }
