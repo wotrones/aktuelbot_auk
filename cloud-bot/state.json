@@ -31,18 +31,10 @@
             "lastCheckedAt": 1782065446
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1782058879
+            "lastCheckedAt": 1782066046
         }
     },
     "queue": [
-        {
-            "source_key": "ab_d97417d1fd944b00bf93402a2716ad19",
-            "brochure_key": "d97417d1fd944b00bf93402a2716ad19",
-            "market": "Watsons",
-            "title": "Pastel & Show by Pastel Makyaj Ürünlerinde Geçerli %70 İndirim",
-            "href": "https://aktuelbrosurler.com/watsons/brosurler/pastel-show-by-pastel-makyaj-urunlerinde-gecerli-70-indirim_d97417d1fd944b00bf93402a2716ad19",
-            "tries": 0
-        },
         {
             "source_key": "ab_b901467ae7014535bfd4a23f62fd20c2",
             "brochure_key": "b901467ae7014535bfd4a23f62fd20c2",
@@ -681,7 +673,8 @@
         "ab_bf614bc30f2b46838526da8a70725a0f": true,
         "ab_7321a62b3c9d46fe8e0263b2162e59da": true,
         "ab_6d7874d5c5fb4f13b2a6bb7253c36733": true,
-        "ab_e2627ad0163a47cda77bb1982cd7d9ac": true
+        "ab_e2627ad0163a47cda77bb1982cd7d9ac": true,
+        "ab_d97417d1fd944b00bf93402a2716ad19": true
     },
-    "lastDrainAt": 1782065460
+    "lastDrainAt": 1782066059
 }
