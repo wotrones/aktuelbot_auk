@@ -13,7 +13,7 @@
             "lastCheckedAt": 1782053445
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1782048049
+            "lastCheckedAt": 1782054658
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1782048656
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_29abb7f3a67a43e39436659bbf135b02",
-            "brochure_key": "29abb7f3a67a43e39436659bbf135b02",
-            "market": "Şok Market",
-            "title": "Şok Market Fırsat Ürünleri Broşürü 20-23 Haziran 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-firsat-urunleri-brosuru-20-23-haziran-2026_29abb7f3a67a43e39436659bbf135b02",
-            "tries": 0
-        },
         {
             "source_key": "ab_d204b0747bc64d69923d801ed5f4c1c5",
             "brochure_key": "d204b0747bc64d69923d801ed5f4c1c5",
@@ -722,6 +714,14 @@
             "title": "Şok Market Fırsat Ürünleri Broşürü 20-23 Haziran 2026",
             "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-firsat-urunleri-brosuru-20-23-haziran-2026_ae31b64d8aa04b948b02109de2e4d811",
             "tries": 1
+        },
+        {
+            "source_key": "ab_29abb7f3a67a43e39436659bbf135b02",
+            "brochure_key": "29abb7f3a67a43e39436659bbf135b02",
+            "market": "Şok Market",
+            "title": "Şok Market Fırsat Ürünleri Broşürü 20-23 Haziran 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-firsat-urunleri-brosuru-20-23-haziran-2026_29abb7f3a67a43e39436659bbf135b02",
+            "tries": 1
         }
     ],
     "uploaded": {
@@ -774,5 +774,5 @@
         "ab_91cb76561ee8427a8abc9d3bf3755cec": true,
         "ab_edd6ed95cecc4d0a854d4d8457c68161": true
     },
-    "lastDrainAt": 1782054103
+    "lastDrainAt": 1782054675
 }
