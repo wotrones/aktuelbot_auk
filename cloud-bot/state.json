@@ -19,7 +19,7 @@
             "lastCheckedAt": 1782027642
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 0
+            "lastCheckedAt": 1782028243
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
             "lastCheckedAt": 0
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_a43d1648c8af40b4accaeec1887cc935",
-            "brochure_key": "a43d1648c8af40b4accaeec1887cc935",
-            "market": "Migros",
-            "title": "5M Migros'larda Geçerli İndirim Bülteni Kataloğu - İslami Usullere Uygun Güvenilir Kurban Migros'ta",
-            "href": "https://aktuelbrosurler.com/migros/brosurler/5m-migros-larda-gecerli-indirim-bulteni-katalogu-islami-usullere-uygun-guvenilir-kurban-migros-ta_a43d1648c8af40b4accaeec1887cc935",
-            "tries": 0
-        },
         {
             "source_key": "ab_49a4be48da0c4ae5a45ebd4705619f59",
             "brochure_key": "49a4be48da0c4ae5a45ebd4705619f59",
@@ -554,6 +546,102 @@
             "title": "Meyve, Sebze ve Kuruyemiş İndirimleri Broşürü",
             "href": "https://aktuelbrosurler.com/carrefour/brosurler/meyve-sebze-ve-kuruyemis-indirimleri-brosuru_6d7874d5c5fb4f13b2a6bb7253c36733",
             "tries": 0
+        },
+        {
+            "source_key": "ab_e2627ad0163a47cda77bb1982cd7d9ac",
+            "brochure_key": "e2627ad0163a47cda77bb1982cd7d9ac",
+            "market": "Watsons",
+            "title": "Deodorant Çeşitlerinde Geçerli %65 İndirim",
+            "href": "https://aktuelbrosurler.com/watsons/brosurler/deodorant-cesitlerinde-gecerli-65-indirim_e2627ad0163a47cda77bb1982cd7d9ac",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_d97417d1fd944b00bf93402a2716ad19",
+            "brochure_key": "d97417d1fd944b00bf93402a2716ad19",
+            "market": "Watsons",
+            "title": "Pastel & Show by Pastel Makyaj Ürünlerinde Geçerli %70 İndirim",
+            "href": "https://aktuelbrosurler.com/watsons/brosurler/pastel-show-by-pastel-makyaj-urunlerinde-gecerli-70-indirim_d97417d1fd944b00bf93402a2716ad19",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_b901467ae7014535bfd4a23f62fd20c2",
+            "brochure_key": "b901467ae7014535bfd4a23f62fd20c2",
+            "market": "Watsons",
+            "title": "Bugüne özel, en sevilen deodorant çeşitlerinde geçerli %75 indirim",
+            "href": "https://aktuelbrosurler.com/watsons/brosurler/bugune-ozel-en-sevilen-deodorant-cesitlerinde-gecerli-75-indirim_b901467ae7014535bfd4a23f62fd20c2",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_c00f03ee7f5b444397c2fae84b752ff9",
+            "brochure_key": "c00f03ee7f5b444397c2fae84b752ff9",
+            "market": "Watsons",
+            "title": "Pastel & Show by Pastel Makyaj Ürünlerinde Geçerli %70 İndirim",
+            "href": "https://aktuelbrosurler.com/watsons/brosurler/pastel-show-by-pastel-makyaj-urunlerinde-gecerli-70-indirim_c00f03ee7f5b444397c2fae84b752ff9",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_5d28ce50e61448668654133b3fd66e9d",
+            "brochure_key": "5d28ce50e61448668654133b3fd66e9d",
+            "market": "Watsons",
+            "title": "Makyaj, hijyenik ped, yüz bakım, şampuan ve saç bakım ürünlerinde geçerli %60 indirim",
+            "href": "https://aktuelbrosurler.com/watsons/brosurler/makyaj-hijyenik-ped-yuz-bakim-sampuan-ve-sac-bakim-urunlerinde-gecerli-60-indirim_5d28ce50e61448668654133b3fd66e9d",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_7a28b96fbd484622924c516c106005b1",
+            "brochure_key": "7a28b96fbd484622924c516c106005b1",
+            "market": "Watsons",
+            "title": "Bugüne Özel İndirimli Ürünler",
+            "href": "https://aktuelbrosurler.com/watsons/brosurler/bugune-ozel-indirimli-urunler_7a28b96fbd484622924c516c106005b1",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_d33102d72e13437f8903d87f6ae44fc9",
+            "brochure_key": "d33102d72e13437f8903d87f6ae44fc9",
+            "market": "Watsons",
+            "title": "Makyaj, yüz bakım, saç kremleri ve bakım ürünlerinde geçerli %60 indirim",
+            "href": "https://aktuelbrosurler.com/watsons/brosurler/makyaj-yuz-bakim-sac-kremleri-ve-bakim-urunlerinde-gecerli-60-indirim_d33102d72e13437f8903d87f6ae44fc9",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_085ce85450ab43b783829e7a864fc488",
+            "brochure_key": "085ce85450ab43b783829e7a864fc488",
+            "market": "Watsons",
+            "title": "Watsons Haziran 2026 Ürünler, İndirim ve Kampanya Kataloğu",
+            "href": "https://aktuelbrosurler.com/watsons/brosurler/watsons-haziran-2026-urunler-indirim-ve-kampanya-katalogu_085ce85450ab43b783829e7a864fc488",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_bc1919bcc07c4152af2511e604f1664a",
+            "brochure_key": "bc1919bcc07c4152af2511e604f1664a",
+            "market": "Watsons",
+            "title": "%70'e Varan İndirimler",
+            "href": "https://aktuelbrosurler.com/watsons/brosurler/70-e-varan-indirimler_bc1919bcc07c4152af2511e604f1664a",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_98b51821ae0b43ac92b1a2fb3497cdb7",
+            "brochure_key": "98b51821ae0b43ac92b1a2fb3497cdb7",
+            "market": "Watsons",
+            "title": "185. yılımıza özel %85 indirimi başladı!",
+            "href": "https://aktuelbrosurler.com/watsons/brosurler/185-yilimiza-ozel-85-indirimi-basladi_98b51821ae0b43ac92b1a2fb3497cdb7",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_c27455a33b744d089d246d5cc825521a",
+            "brochure_key": "c27455a33b744d089d246d5cc825521a",
+            "market": "Watsons",
+            "title": "Makyaj, deodorant, yüz ve saç bakım ürünlerinde %60 indirim fırsatı",
+            "href": "https://aktuelbrosurler.com/watsons/brosurler/makyaj-deodorant-yuz-ve-sac-bakim-urunlerinde-60-indirim-firsati_c27455a33b744d089d246d5cc825521a",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_849168392607470aa8b37d7ce14e25dc",
+            "brochure_key": "849168392607470aa8b37d7ce14e25dc",
+            "market": "Watsons",
+            "title": "Anneler Günü’nde Watsons’a Özel 300 Üründe %70 İndirim",
+            "href": "https://aktuelbrosurler.com/watsons/brosurler/anneler-gunu-nde-watsons-a-ozel-300-urunde-70-indirim_849168392607470aa8b37d7ce14e25dc",
+            "tries": 0
         }
     ],
     "uploaded": {
@@ -563,7 +651,8 @@
         "ab_09610c2a5bbd4be086a7ac67fa5a7098": true,
         "ab_54729054c1d14578bceed629298b2f38": true,
         "ab_dceefb1b15424301a5c077739ef5355d": true,
-        "ab_cc5aafbbfc8d406cad881aab1d1c8eed": true
+        "ab_cc5aafbbfc8d406cad881aab1d1c8eed": true,
+        "ab_a43d1648c8af40b4accaeec1887cc935": true
     },
-    "lastDrainAt": 1782027643
+    "lastDrainAt": 1782028243
 }
