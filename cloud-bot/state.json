@@ -28,21 +28,13 @@
             "lastCheckedAt": 1782029444
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 0
+            "lastCheckedAt": 1782030041
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
             "lastCheckedAt": 0
         }
     },
     "queue": [
-        {
-            "source_key": "ab_b30a831ce50247709a5b45dd16371d38",
-            "brochure_key": "b30a831ce50247709a5b45dd16371d38",
-            "market": "Bizim Toptan Market",
-            "title": "Meyve ve Sebze Reyonu Fırsatları",
-            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/meyve-ve-sebze-reyonu-firsatlari_b30a831ce50247709a5b45dd16371d38",
-            "tries": 0
-        },
         {
             "source_key": "ab_642a754d28f542428c94582e13feb93d",
             "brochure_key": "642a754d28f542428c94582e13feb93d",
@@ -818,6 +810,102 @@
             "title": "Tarım Kredi Kooperatif Market İndirim Bülteni Broşürü - Kat Kat Fırsat",
             "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-kooperatif-market-indirim-bulteni-brosuru-kat-kat-firsat_0e2b955116464552be9cabb3b7e4b12c",
             "tries": 0
+        },
+        {
+            "source_key": "ab_b5687965ee2a4a799f45eaadbec14ab0",
+            "brochure_key": "b5687965ee2a4a799f45eaadbec14ab0",
+            "market": "Hakmar",
+            "title": "Babalar Gününe Özel Fırsatlar",
+            "href": "https://aktuelbrosurler.com/hakmar/brosurler/babalar-gunune-ozel-firsatlar_b5687965ee2a4a799f45eaadbec14ab0",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_a2a2060589e94f79916686ba271c1c44",
+            "brochure_key": "a2a2060589e94f79916686ba271c1c44",
+            "market": "Hakmar",
+            "title": "Hafta Sonuna Özel Fırsat Ürünleri",
+            "href": "https://aktuelbrosurler.com/hakmar/brosurler/hafta-sonuna-ozel-firsat-urunleri_a2a2060589e94f79916686ba271c1c44",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_b716ee6cdb6f4a6bae5766fb5be0cc78",
+            "brochure_key": "b716ee6cdb6f4a6bae5766fb5be0cc78",
+            "market": "Hakmar",
+            "title": "Hafta Sonuna Özel Fırsat Ürünleri",
+            "href": "https://aktuelbrosurler.com/hakmar/brosurler/hafta-sonuna-ozel-firsat-urunleri_b716ee6cdb6f4a6bae5766fb5be0cc78",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_18f2fc3abea248af9f9cff3a900cd566",
+            "brochure_key": "18f2fc3abea248af9f9cff3a900cd566",
+            "market": "Hakmar",
+            "title": "Hakmar Aktüel Ürünler İndirim Bülteni Broşürü - Muharrem Ayınız Mübarek Olsun",
+            "href": "https://aktuelbrosurler.com/hakmar/brosurler/hakmar-aktuel-urunler-indirim-bulteni-brosuru-muharrem-ayiniz-mubarek-olsun_18f2fc3abea248af9f9cff3a900cd566",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_2d24f9ac342d4390b399df90afe04a1c",
+            "brochure_key": "2d24f9ac342d4390b399df90afe04a1c",
+            "market": "Hakmar",
+            "title": "Hakmar Aktüel Ürünler İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/hakmar/brosurler/hakmar-aktuel-urunler-indirim-bulteni-brosuru_2d24f9ac342d4390b399df90afe04a1c",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_12ade254d45442209ecbb00aebbb86e5",
+            "brochure_key": "12ade254d45442209ecbb00aebbb86e5",
+            "market": "Hakmar",
+            "title": "Hafta Sonuna Özel İndirimli Ürünler Broşürü",
+            "href": "https://aktuelbrosurler.com/hakmar/brosurler/hafta-sonuna-ozel-indirimli-urunler-brosuru_12ade254d45442209ecbb00aebbb86e5",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_80be1552249643f9a3e8615c13246746",
+            "brochure_key": "80be1552249643f9a3e8615c13246746",
+            "market": "Hakmar",
+            "title": "Hafta Sonuna Özel İndirimli Ürünler Broşürü",
+            "href": "https://aktuelbrosurler.com/hakmar/brosurler/hafta-sonuna-ozel-indirimli-urunler-brosuru_80be1552249643f9a3e8615c13246746",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_8e18dc5124174bde8a4e0fa63793aa35",
+            "brochure_key": "8e18dc5124174bde8a4e0fa63793aa35",
+            "market": "Hakmar",
+            "title": "Hakmar Aktüel Ürünler İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/hakmar/brosurler/hakmar-aktuel-urunler-indirim-bulteni-brosuru_8e18dc5124174bde8a4e0fa63793aa35",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_952ab95838254553a90213874620f9e3",
+            "brochure_key": "952ab95838254553a90213874620f9e3",
+            "market": "Hakmar",
+            "title": "Bayram Süresince Çalışma Saatlerimiz",
+            "href": "https://aktuelbrosurler.com/hakmar/brosurler/bayram-suresince-calisma-saatlerimiz_952ab95838254553a90213874620f9e3",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_eed9a1ee25764209800175940c50b942",
+            "brochure_key": "eed9a1ee25764209800175940c50b942",
+            "market": "Hakmar",
+            "title": "Fırsat Ürünleri Broşürü",
+            "href": "https://aktuelbrosurler.com/hakmar/brosurler/firsat-urunleri-brosuru_eed9a1ee25764209800175940c50b942",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_793f045148c2444fa61712998b8d385c",
+            "brochure_key": "793f045148c2444fa61712998b8d385c",
+            "market": "Hakmar",
+            "title": "30'lu M boy yumurta indirimi",
+            "href": "https://aktuelbrosurler.com/hakmar/brosurler/30-lu-m-boy-yumurta-indirimi_793f045148c2444fa61712998b8d385c",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_9beba812a6664d6eb6f85245d6bfdd52",
+            "brochure_key": "9beba812a6664d6eb6f85245d6bfdd52",
+            "market": "Hakmar",
+            "title": "1 Alana 1 Bedava Ürünleri",
+            "href": "https://aktuelbrosurler.com/hakmar/brosurler/1-alana-1-bedava-urunleri_9beba812a6664d6eb6f85245d6bfdd52",
+            "tries": 0
         }
     ],
     "uploaded": {
@@ -830,7 +918,8 @@
         "ab_cc5aafbbfc8d406cad881aab1d1c8eed": true,
         "ab_a43d1648c8af40b4accaeec1887cc935": true,
         "ab_49a4be48da0c4ae5a45ebd4705619f59": true,
-        "ab_762d7d0720d446989d20b01caf61fcae": true
+        "ab_762d7d0720d446989d20b01caf61fcae": true,
+        "ab_b30a831ce50247709a5b45dd16371d38": true
     },
-    "lastDrainAt": 1782029445
+    "lastDrainAt": 1782030058
 }
