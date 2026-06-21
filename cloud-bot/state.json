@@ -36,14 +36,6 @@
     },
     "queue": [
         {
-            "source_key": "ab_09610c2a5bbd4be086a7ac67fa5a7098",
-            "brochure_key": "09610c2a5bbd4be086a7ac67fa5a7098",
-            "market": "Migros",
-            "title": "5M Migros'larda Geçerli İndirim Bülteni Kataloğu - Her 50 TL'lik Alışverişe Seç-Al",
-            "href": "https://aktuelbrosurler.com/migros/brosurler/5m-migros-larda-gecerli-indirim-bulteni-katalogu-her-50-tl-lik-alisverise-sec-al_09610c2a5bbd4be086a7ac67fa5a7098",
-            "tries": 0
-        },
-        {
             "source_key": "ab_54729054c1d14578bceed629298b2f38",
             "brochure_key": "54729054c1d14578bceed629298b2f38",
             "market": "Migros",
@@ -303,7 +295,8 @@
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
-        "ab_473c824cc0fa4ae9ab50ab72b8886c28": true
+        "ab_473c824cc0fa4ae9ab50ab72b8886c28": true,
+        "ab_09610c2a5bbd4be086a7ac67fa5a7098": true
     },
-    "lastDrainAt": 1782007891
+    "lastDrainAt": 1782025338
 }
