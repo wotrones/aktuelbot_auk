@@ -25,7 +25,7 @@
             "lastCheckedAt": 1782049840
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1782044442
+            "lastCheckedAt": 1782050461
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
             "lastCheckedAt": 1782044917
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_791168ea9ed44374830467b4f65d0348",
-            "brochure_key": "791168ea9ed44374830467b4f65d0348",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 19-26 Haziran",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-19-26-haziran_791168ea9ed44374830467b4f65d0348",
-            "tries": 0
-        },
         {
             "source_key": "ab_ccee8dd1dc64435b8a6dce6f00c9f80f",
             "brochure_key": "ccee8dd1dc64435b8a6dce6f00c9f80f",
@@ -814,7 +806,8 @@
         "ab_ea87414c2bda494ebdb37502575d1143": true,
         "ab_f0f03e43daf743199c3a4aa46ad9c856": true,
         "ab_384e79f209c84e4193f57c27aeb5f966": true,
-        "ab_c7360d0de0a847bfa7ed4a746f695d6d": true
+        "ab_c7360d0de0a847bfa7ed4a746f695d6d": true,
+        "ab_791168ea9ed44374830467b4f65d0348": true
     },
-    "lastDrainAt": 1782049895
+    "lastDrainAt": 1782050497
 }
