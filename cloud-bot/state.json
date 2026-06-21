@@ -31,18 +31,10 @@
             "lastCheckedAt": 1782037852
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1782030673
+            "lastCheckedAt": 1782039041
         }
     },
     "queue": [
-        {
-            "source_key": "ab_2093c9eb5c274d7a94ceb9f496699f1b",
-            "brochure_key": "2093c9eb5c274d7a94ceb9f496699f1b",
-            "market": "A101",
-            "title": "A101 İndirimli Fırsat Ürünleri Broşürü 20-26 Haziran 2026",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-indirimli-firsat-urunleri-brosuru-20-26-haziran-2026_2093c9eb5c274d7a94ceb9f496699f1b",
-            "tries": 0
-        },
         {
             "source_key": "ab_e2d04f844bd84bea9d84b0dbf291bea3",
             "brochure_key": "e2d04f844bd84bea9d84b0dbf291bea3",
@@ -954,7 +946,8 @@
         "ab_3e5df89400c247ac98c6bdfef0d927e6": true,
         "ab_b3857eca9e4c4924a6302e8b8da8d445": true,
         "ab_e3b1874d40bf47afb589f278f184d18f": true,
-        "ab_fe2861d664ba4b3e92287c761efd33c5": true
+        "ab_fe2861d664ba4b3e92287c761efd33c5": true,
+        "ab_2093c9eb5c274d7a94ceb9f496699f1b": true
     },
-    "lastDrainAt": 1782038744
+    "lastDrainAt": 1782039069
 }
