@@ -13,7 +13,7 @@
             "lastCheckedAt": 1782026086
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 0
+            "lastCheckedAt": 1782027062
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 0
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_dceefb1b15424301a5c077739ef5355d",
-            "brochure_key": "dceefb1b15424301a5c077739ef5355d",
-            "market": "Migros",
-            "title": "Migros'larda Geçerli İndirim Bülteni Kataloğu - Her 50 TL'lik Alışverişe Seç-Al",
-            "href": "https://aktuelbrosurler.com/migros/brosurler/migros-larda-gecerli-indirim-bulteni-katalogu-her-50-tl-lik-alisverise-sec-al_dceefb1b15424301a5c077739ef5355d",
-            "tries": 0
-        },
         {
             "source_key": "ab_cc5aafbbfc8d406cad881aab1d1c8eed",
             "brochure_key": "cc5aafbbfc8d406cad881aab1d1c8eed",
@@ -378,6 +370,102 @@
             "title": "Bim İndirimli Ürünler Broşürü 19-22 Haziran",
             "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-19-22-haziran_1cefb60097064e348efcdbd7931ad44d",
             "tries": 0
+        },
+        {
+            "source_key": "ab_f14d61fc3c7e48aab0986332b42bcc27",
+            "brochure_key": "f14d61fc3c7e48aab0986332b42bcc27",
+            "market": "Şok Market",
+            "title": "Pazar Gününe Özel İndirimli Ürün - Mis Tam Yağlı Kaşar Peyniri 700 g 239 TL!",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/pazar-gunune-ozel-indirimli-urun-mis-tam-yagli-kasar-peyniri-700-g-239-tl_f14d61fc3c7e48aab0986332b42bcc27",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_91cb76561ee8427a8abc9d3bf3755cec",
+            "brochure_key": "91cb76561ee8427a8abc9d3bf3755cec",
+            "market": "Şok Market",
+            "title": "Atıştırmalık Ürünleri Fırsat Broşürü",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/atistirmalik-urunleri-firsat-brosuru_91cb76561ee8427a8abc9d3bf3755cec",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_edd6ed95cecc4d0a854d4d8457c68161",
+            "brochure_key": "edd6ed95cecc4d0a854d4d8457c68161",
+            "market": "Şok Market",
+            "title": "Bütün Piliç İndirimi 79,90 TL",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/butun-pilic-indirimi-79-90-tl_edd6ed95cecc4d0a854d4d8457c68161",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_ae31b64d8aa04b948b02109de2e4d811",
+            "brochure_key": "ae31b64d8aa04b948b02109de2e4d811",
+            "market": "Şok Market",
+            "title": "Şok Market Fırsat Ürünleri Broşürü 20-23 Haziran 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-firsat-urunleri-brosuru-20-23-haziran-2026_ae31b64d8aa04b948b02109de2e4d811",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_29abb7f3a67a43e39436659bbf135b02",
+            "brochure_key": "29abb7f3a67a43e39436659bbf135b02",
+            "market": "Şok Market",
+            "title": "Şok Market Fırsat Ürünleri Broşürü 20-23 Haziran 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-firsat-urunleri-brosuru-20-23-haziran-2026_29abb7f3a67a43e39436659bbf135b02",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_d204b0747bc64d69923d801ed5f4c1c5",
+            "brochure_key": "d204b0747bc64d69923d801ed5f4c1c5",
+            "market": "Şok Market",
+            "title": "Atıştırmalık Ürünleri Fırsat Broşürü",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/atistirmalik-urunleri-firsat-brosuru_d204b0747bc64d69923d801ed5f4c1c5",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_a70fcd4e58434377a9fffcbe33ce5a05",
+            "brochure_key": "a70fcd4e58434377a9fffcbe33ce5a05",
+            "market": "Şok Market",
+            "title": "Şok Market İste Gelsin Ürünleri Broşürü 20-23 Haziran 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-20-23-haziran-2026_a70fcd4e58434377a9fffcbe33ce5a05",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_e3a3914215b748e49f0c47f4023d496c",
+            "brochure_key": "e3a3914215b748e49f0c47f4023d496c",
+            "market": "Şok Market",
+            "title": "(Net sayfalar firma orijinal broşürü yayınladığında yüklenecektir) 20-23 Haziran 2026 Şok Broşür",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/net-sayfalar-firma-orijinal-brosuru-yayinladiginda-yuklenecektir-20-23-haziran-2026-sok-brosur_e3a3914215b748e49f0c47f4023d496c",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_33acaa656173491fb33d8a7bea8120e3",
+            "brochure_key": "33acaa656173491fb33d8a7bea8120e3",
+            "market": "Şok Market",
+            "title": "Gezer Terlik Çeşitleri",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/gezer-terlik-cesitleri_33acaa656173491fb33d8a7bea8120e3",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_9611924eefcd4cf78d1923b6f0b4e69b",
+            "brochure_key": "9611924eefcd4cf78d1923b6f0b4e69b",
+            "market": "Şok Market",
+            "title": "Detaylı | Şok Market Haftanın Fırsatları Aktüel Ürünler Broşür 17-23 Haziran 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-haftanin-firsatlari-aktuel-urunler-brosur-17-23-haziran-2026_9611924eefcd4cf78d1923b6f0b4e69b",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_06c803cdf9984773a80e278416f64d4a",
+            "brochure_key": "06c803cdf9984773a80e278416f64d4a",
+            "market": "Şok Market",
+            "title": "Bugüne Özel Seçili Kişisel Bakım Ürünlerinde 1 Alana 1 Bedava!",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/bugune-ozel-secili-kisisel-bakim-urunlerinde-1-alana-1-bedava_06c803cdf9984773a80e278416f64d4a",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_04e4c4e422274590bc142ccdb0b4c630",
+            "brochure_key": "04e4c4e422274590bc142ccdb0b4c630",
+            "market": "Şok Market",
+            "title": "Atıştırmalık Ürünleri Fırsat Broşürü",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/atistirmalik-urunleri-firsat-brosuru_04e4c4e422274590bc142ccdb0b4c630",
+            "tries": 0
         }
     ],
     "uploaded": {
@@ -385,7 +473,8 @@
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
         "ab_473c824cc0fa4ae9ab50ab72b8886c28": true,
         "ab_09610c2a5bbd4be086a7ac67fa5a7098": true,
-        "ab_54729054c1d14578bceed629298b2f38": true
+        "ab_54729054c1d14578bceed629298b2f38": true,
+        "ab_dceefb1b15424301a5c077739ef5355d": true
     },
-    "lastDrainAt": 1782026838
+    "lastDrainAt": 1782027524
 }
