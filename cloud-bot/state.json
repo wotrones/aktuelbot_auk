@@ -1,7 +1,7 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1781985149
+            "lastCheckedAt": 1782031842
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
             "lastCheckedAt": 1781989277
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_5563677f840f42d89297ad2bcf8ce2e9",
-            "brochure_key": "5563677f840f42d89297ad2bcf8ce2e9",
-            "market": "Bizim Toptan Market",
-            "title": "Bizim Toptan Market İndirim Bülteni Broşürü - Haftanın Fırsatları",
-            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-toptan-market-indirim-bulteni-brosuru-haftanin-firsatlari_5563677f840f42d89297ad2bcf8ce2e9",
-            "tries": 0
-        },
         {
             "source_key": "ab_f986f45423cf4f3c8c38c84389f042b6",
             "brochure_key": "f986f45423cf4f3c8c38c84389f042b6",
@@ -1001,7 +993,8 @@
         "ab_762d7d0720d446989d20b01caf61fcae": true,
         "ab_b30a831ce50247709a5b45dd16371d38": true,
         "ab_642a754d28f542428c94582e13feb93d": true,
-        "ab_b5b89dd60fda489aa03991c4d00017cf": true
+        "ab_b5b89dd60fda489aa03991c4d00017cf": true,
+        "ab_5563677f840f42d89297ad2bcf8ce2e9": true
     },
-    "lastDrainAt": 1782031318
+    "lastDrainAt": 1782031861
 }
