@@ -10,7 +10,7 @@
             "lastCheckedAt": 1782040843
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1782034254
+            "lastCheckedAt": 1782041456
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 1782034843
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_232a4bd469054659b77936dd446aa731",
-            "brochure_key": "232a4bd469054659b77936dd446aa731",
-            "market": "A101",
-            "title": "10 TL ve Üzeri Alışverişlerde İndirimli Fırsat Ürünleri Broşürü 20-26 Haziran 2026",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/10-tl-ve-uzeri-alisverislerde-indirimli-firsat-urunleri-brosuru-20-26-haziran-2026_232a4bd469054659b77936dd446aa731",
-            "tries": 0
-        },
         {
             "source_key": "ab_01889c64e3a043da9df78940b1651b57",
             "brochure_key": "01889c64e3a043da9df78940b1651b57",
@@ -926,7 +918,8 @@
         "ab_2093c9eb5c274d7a94ceb9f496699f1b": true,
         "ab_e2d04f844bd84bea9d84b0dbf291bea3": true,
         "ab_2da8f74ef0bd47f5baf5b5f5c46baaaa": true,
-        "ab_1f8328fadf884d66b05d968fbce331b1": true
+        "ab_1f8328fadf884d66b05d968fbce331b1": true,
+        "ab_232a4bd469054659b77936dd446aa731": true
     },
-    "lastDrainAt": 1782040961
+    "lastDrainAt": 1782041477
 }
