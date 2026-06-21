@@ -19,7 +19,7 @@
             "lastCheckedAt": 1782075607
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1782070257
+            "lastCheckedAt": 1782075667
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
             "lastCheckedAt": 1782070842
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_720e751a596f4b938fa7ff8b1b0ca7ec",
-            "brochure_key": "720e751a596f4b938fa7ff8b1b0ca7ec",
-            "market": "Rossmann",
-            "title": "Rossmann Mayıs 2026 Güzellik Kataloğu",
-            "href": "https://aktuelbrosurler.com/rossmann/brosurler/rossmann-mayis-2026-guzellik-katalogu_720e751a596f4b938fa7ff8b1b0ca7ec",
-            "tries": 0
-        },
         {
             "source_key": "ab_2c12e60a2b1b420594796d8033355520",
             "brochure_key": "2c12e60a2b1b420594796d8033355520",
@@ -576,7 +568,8 @@
         "ab_1e46734cfee74b4e9f05903fcbe345b8": true,
         "ab_ec5596bc781b4305b4957bee2c5ca981": true,
         "ab_c0d85b53264d40f2845fb51488e15e39": true,
-        "ab_7f58b8eab7084a48b2c49f8ac0555a7a": true
+        "ab_7f58b8eab7084a48b2c49f8ac0555a7a": true,
+        "ab_720e751a596f4b938fa7ff8b1b0ca7ec": true
     },
-    "lastDrainAt": 1782075608
+    "lastDrainAt": 1782075667
 }
