@@ -31,18 +31,10 @@
             "lastCheckedAt": 1782030041
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 0
+            "lastCheckedAt": 1782030673
         }
     },
     "queue": [
-        {
-            "source_key": "ab_642a754d28f542428c94582e13feb93d",
-            "brochure_key": "642a754d28f542428c94582e13feb93d",
-            "market": "Bizim Toptan Market",
-            "title": "HORECA'ya Özel İndirim Broşürü",
-            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/horeca-ya-ozel-indirim-brosuru_642a754d28f542428c94582e13feb93d",
-            "tries": 0
-        },
         {
             "source_key": "ab_b5b89dd60fda489aa03991c4d00017cf",
             "brochure_key": "b5b89dd60fda489aa03991c4d00017cf",
@@ -906,6 +898,102 @@
             "title": "1 Alana 1 Bedava Ürünleri",
             "href": "https://aktuelbrosurler.com/hakmar/brosurler/1-alana-1-bedava-urunleri_9beba812a6664d6eb6f85245d6bfdd52",
             "tries": 0
+        },
+        {
+            "source_key": "ab_4d0ac55528c643369a87df58dd641b58",
+            "brochure_key": "4d0ac55528c643369a87df58dd641b58",
+            "market": "Gratis",
+            "title": "250 TL ve Üzeri Alışverişlerde Tüm Makyaj, Yüz Bakım, Şampuan, Saç Kremleri ve Pedlerde %70 İNDİRİM",
+            "href": "https://aktuelbrosurler.com/gratis/brosurler/250-tl-ve-uzeri-alisverislerde-tum-makyaj-yuz-bakim-sampuan-sac-kremleri-ve-pedlerde-70-indirim_4d0ac55528c643369a87df58dd641b58",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_95e7426646e04800a6c31a0e02ed2d6c",
+            "brochure_key": "95e7426646e04800a6c31a0e02ed2d6c",
+            "market": "Gratis",
+            "title": "250 TL ve Üzeri Alışverişlerde Tüm Güneş Bakım Ürünlerinde %75 İNDİRİM",
+            "href": "https://aktuelbrosurler.com/gratis/brosurler/250-tl-ve-uzeri-alisverislerde-tum-gunes-bakim-urunlerinde-75-indirim_95e7426646e04800a6c31a0e02ed2d6c",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_a06037c8364744a581badf960472b3f6",
+            "brochure_key": "a06037c8364744a581badf960472b3f6",
+            "market": "Gratis",
+            "title": "250 TL ve Üzeri Alışverişlerde Tüm Güneş Bakım ve Duş Jellerinde %70 İNDİRİM",
+            "href": "https://aktuelbrosurler.com/gratis/brosurler/250-tl-ve-uzeri-alisverislerde-tum-gunes-bakim-ve-dus-jellerinde-70-indirim_a06037c8364744a581badf960472b3f6",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_1cd4b75e4fd942b9b1ec7d8cc4f4f02e",
+            "brochure_key": "1cd4b75e4fd942b9b1ec7d8cc4f4f02e",
+            "market": "Gratis",
+            "title": "250 TL ve Üzeri Alışverişlerde Tüm Makyaj, Saç ve Yüz Bakım Ürünlerinde %80 İNDİRİM",
+            "href": "https://aktuelbrosurler.com/gratis/brosurler/250-tl-ve-uzeri-alisverislerde-tum-makyaj-sac-ve-yuz-bakim-urunlerinde-80-indirim_1cd4b75e4fd942b9b1ec7d8cc4f4f02e",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_3c4c1d488e084f2981ffffc35440bf0f",
+            "brochure_key": "3c4c1d488e084f2981ffffc35440bf0f",
+            "market": "Gratis",
+            "title": "250 TL ve Üzeri Alışverişlerde Tüm Ürünlerde %60 İNDİRİM",
+            "href": "https://aktuelbrosurler.com/gratis/brosurler/250-tl-ve-uzeri-alisverislerde-tum-urunlerde-60-indirim_3c4c1d488e084f2981ffffc35440bf0f",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_d7d1ac4ab7254ee09973311bddb6e86e",
+            "brochure_key": "d7d1ac4ab7254ee09973311bddb6e86e",
+            "market": "Gratis",
+            "title": "250 TL ve Üzeri Alışverişlerde Gratis’e Özel Markalı Tüm Ürünlerde %60 İNDİRİM",
+            "href": "https://aktuelbrosurler.com/gratis/brosurler/250-tl-ve-uzeri-alisverislerde-gratis-e-ozel-markali-tum-urunlerde-60-indirim_d7d1ac4ab7254ee09973311bddb6e86e",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_383fd2be9aca4ef6bac6696e6b9071c5",
+            "brochure_key": "383fd2be9aca4ef6bac6696e6b9071c5",
+            "market": "Gratis",
+            "title": "Gratis Haziran 2026 Ürünler ve Kampanya Kataloğu",
+            "href": "https://aktuelbrosurler.com/gratis/brosurler/gratis-haziran-2026-urunler-ve-kampanya-katalogu_383fd2be9aca4ef6bac6696e6b9071c5",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_6fd8a14a2e6448d28b2a46a6ba76f797",
+            "brochure_key": "6fd8a14a2e6448d28b2a46a6ba76f797",
+            "market": "Gratis",
+            "title": "Tüm Makyaj, Yüz Bakım, Şampuan, Saç Kremleri, Deodorant ve Yüz Maskelerinde %60 İNDİRİM",
+            "href": "https://aktuelbrosurler.com/gratis/brosurler/tum-makyaj-yuz-bakim-sampuan-sac-kremleri-deodorant-ve-yuz-maskelerinde-60-indirim_6fd8a14a2e6448d28b2a46a6ba76f797",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_50352391f88046c8a5f8eca37084bdc0",
+            "brochure_key": "50352391f88046c8a5f8eca37084bdc0",
+            "market": "Gratis",
+            "title": "250 TL ve Üzeri Alışverişlerde Tüm Ürünlerde %60 İNDİRİM",
+            "href": "https://aktuelbrosurler.com/gratis/brosurler/250-tl-ve-uzeri-alisverislerde-tum-urunlerde-60-indirim_50352391f88046c8a5f8eca37084bdc0",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_84d77a96506748e18a67d3228a1f5f1e",
+            "brochure_key": "84d77a96506748e18a67d3228a1f5f1e",
+            "market": "Gratis",
+            "title": "Tüm Makyaj, Yüz Bakım, El & Vücut Kremleri, Şampuan, Saç Kremleri ve Pedlerde %70 İNDİRİM",
+            "href": "https://aktuelbrosurler.com/gratis/brosurler/tum-makyaj-yuz-bakim-el-vucut-kremleri-sampuan-sac-kremleri-ve-pedlerde-70-indirim_84d77a96506748e18a67d3228a1f5f1e",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_016a032b3dd944cabeb9a7b049e1a824",
+            "brochure_key": "016a032b3dd944cabeb9a7b049e1a824",
+            "market": "Gratis",
+            "title": "250 TL ve Üzeri Alışverişlerde Gratis’e Özel Markalı Tüm Ürünlerde %70 İNDİRİM",
+            "href": "https://aktuelbrosurler.com/gratis/brosurler/250-tl-ve-uzeri-alisverislerde-gratis-e-ozel-markali-tum-urunlerde-70-indirim_016a032b3dd944cabeb9a7b049e1a824",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_d8290c6eccef4f70950c19ea248c6c8c",
+            "brochure_key": "d8290c6eccef4f70950c19ea248c6c8c",
+            "market": "Gratis",
+            "title": "250 TL ve Üzeri Alışverişlerde Tüm Güneş Bakım, Oje ve Ruj Ürünlerinde %70 İNDİRİM",
+            "href": "https://aktuelbrosurler.com/gratis/brosurler/250-tl-ve-uzeri-alisverislerde-tum-gunes-bakim-oje-ve-ruj-urunlerinde-70-indirim_d8290c6eccef4f70950c19ea248c6c8c",
+            "tries": 0
         }
     ],
     "uploaded": {
@@ -919,7 +1007,8 @@
         "ab_a43d1648c8af40b4accaeec1887cc935": true,
         "ab_49a4be48da0c4ae5a45ebd4705619f59": true,
         "ab_762d7d0720d446989d20b01caf61fcae": true,
-        "ab_b30a831ce50247709a5b45dd16371d38": true
+        "ab_b30a831ce50247709a5b45dd16371d38": true,
+        "ab_642a754d28f542428c94582e13feb93d": true
     },
-    "lastDrainAt": 1782030058
+    "lastDrainAt": 1782030716
 }
