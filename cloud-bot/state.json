@@ -22,7 +22,7 @@
             "lastCheckedAt": 1782028243
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 0
+            "lastCheckedAt": 1782028862
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
             "lastCheckedAt": 0
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_49a4be48da0c4ae5a45ebd4705619f59",
-            "brochure_key": "49a4be48da0c4ae5a45ebd4705619f59",
-            "market": "Migros",
-            "title": "Migros'larda Geçerli İndirim Bülteni Kataloğu - Bol Çeşitli Bayram Alışverişleri İçin Migros'a",
-            "href": "https://aktuelbrosurler.com/migros/brosurler/migros-larda-gecerli-indirim-bulteni-katalogu-bol-cesitli-bayram-alisverisleri-icin-migros-a_49a4be48da0c4ae5a45ebd4705619f59",
-            "tries": 0
-        },
         {
             "source_key": "ab_762d7d0720d446989d20b01caf61fcae",
             "brochure_key": "762d7d0720d446989d20b01caf61fcae",
@@ -642,6 +634,102 @@
             "title": "Anneler Günü’nde Watsons’a Özel 300 Üründe %70 İndirim",
             "href": "https://aktuelbrosurler.com/watsons/brosurler/anneler-gunu-nde-watsons-a-ozel-300-urunde-70-indirim_849168392607470aa8b37d7ce14e25dc",
             "tries": 0
+        },
+        {
+            "source_key": "ab_7f2052b44cb44de2a8d0de8e0fb6cb3e",
+            "brochure_key": "7f2052b44cb44de2a8d0de8e0fb6cb3e",
+            "market": "Rossmann",
+            "title": "Babalar Gününe Özel Fırsatlar",
+            "href": "https://aktuelbrosurler.com/rossmann/brosurler/babalar-gunune-ozel-firsatlar_7f2052b44cb44de2a8d0de8e0fb6cb3e",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_e34df5cee30544088887a2dd65e097de",
+            "brochure_key": "e34df5cee30544088887a2dd65e097de",
+            "market": "Rossmann",
+            "title": "Rossmann Haziran 2026 Güzellik Kataloğu",
+            "href": "https://aktuelbrosurler.com/rossmann/brosurler/rossmann-haziran-2026-guzellik-katalogu_e34df5cee30544088887a2dd65e097de",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_8eb6a244c70041ac8b08dc41af147739",
+            "brochure_key": "8eb6a244c70041ac8b08dc41af147739",
+            "market": "Rossmann",
+            "title": "Rossmann Haziran 2026 Kişisel Bakım Kataloğu",
+            "href": "https://aktuelbrosurler.com/rossmann/brosurler/rossmann-haziran-2026-kisisel-bakim-katalogu_8eb6a244c70041ac8b08dc41af147739",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_1e46734cfee74b4e9f05903fcbe345b8",
+            "brochure_key": "1e46734cfee74b4e9f05903fcbe345b8",
+            "market": "Rossmann",
+            "title": "Rossmann Haziran 2026 Ev & Yaşam Kataloğu",
+            "href": "https://aktuelbrosurler.com/rossmann/brosurler/rossmann-haziran-2026-ev-yasam-katalogu_1e46734cfee74b4e9f05903fcbe345b8",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_ec5596bc781b4305b4957bee2c5ca981",
+            "brochure_key": "ec5596bc781b4305b4957bee2c5ca981",
+            "market": "Rossmann",
+            "title": "Güneş Festivali Kataloğu",
+            "href": "https://aktuelbrosurler.com/rossmann/brosurler/gunes-festivali-katalogu_ec5596bc781b4305b4957bee2c5ca981",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_c0d85b53264d40f2845fb51488e15e39",
+            "brochure_key": "c0d85b53264d40f2845fb51488e15e39",
+            "market": "Rossmann",
+            "title": "Anneler Günü’ne Özel İndirimler",
+            "href": "https://aktuelbrosurler.com/rossmann/brosurler/anneler-gunu-ne-ozel-indirimler_c0d85b53264d40f2845fb51488e15e39",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_7f58b8eab7084a48b2c49f8ac0555a7a",
+            "brochure_key": "7f58b8eab7084a48b2c49f8ac0555a7a",
+            "market": "Rossmann",
+            "title": "Temizlik Festivali Kataloğu",
+            "href": "https://aktuelbrosurler.com/rossmann/brosurler/temizlik-festivali-katalogu_7f58b8eab7084a48b2c49f8ac0555a7a",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_720e751a596f4b938fa7ff8b1b0ca7ec",
+            "brochure_key": "720e751a596f4b938fa7ff8b1b0ca7ec",
+            "market": "Rossmann",
+            "title": "Rossmann Mayıs 2026 Güzellik Kataloğu",
+            "href": "https://aktuelbrosurler.com/rossmann/brosurler/rossmann-mayis-2026-guzellik-katalogu_720e751a596f4b938fa7ff8b1b0ca7ec",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_2c12e60a2b1b420594796d8033355520",
+            "brochure_key": "2c12e60a2b1b420594796d8033355520",
+            "market": "Rossmann",
+            "title": "Rossmann Mayıs 2026 Kişisel Bakım Kataloğu",
+            "href": "https://aktuelbrosurler.com/rossmann/brosurler/rossmann-mayis-2026-kisisel-bakim-katalogu_2c12e60a2b1b420594796d8033355520",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_fa7aa8adb9c449dba203f09d8f1bd2e1",
+            "brochure_key": "fa7aa8adb9c449dba203f09d8f1bd2e1",
+            "market": "Rossmann",
+            "title": "Rossmann Mayıs 2026 Ev & Yaşam Kataloğu",
+            "href": "https://aktuelbrosurler.com/rossmann/brosurler/rossmann-mayis-2026-ev-yasam-katalogu_fa7aa8adb9c449dba203f09d8f1bd2e1",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_9be9bbd55c664ce6affecc24508f020c",
+            "brochure_key": "9be9bbd55c664ce6affecc24508f020c",
+            "market": "Rossmann",
+            "title": "TÜM temizlik ürünlerinde %50’ye varan indirim",
+            "href": "https://aktuelbrosurler.com/rossmann/brosurler/tum-temizlik-urunlerinde-50-ye-varan-indirim_9be9bbd55c664ce6affecc24508f020c",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_80901f732f184860866a2e4a1e8a3b4e",
+            "brochure_key": "80901f732f184860866a2e4a1e8a3b4e",
+            "market": "Rossmann",
+            "title": "Anne ve bebek ihtiyaçlarına özel indirimler",
+            "href": "https://aktuelbrosurler.com/rossmann/brosurler/anne-ve-bebek-ihtiyaclarina-ozel-indirimler_80901f732f184860866a2e4a1e8a3b4e",
+            "tries": 0
         }
     ],
     "uploaded": {
@@ -652,7 +740,8 @@
         "ab_54729054c1d14578bceed629298b2f38": true,
         "ab_dceefb1b15424301a5c077739ef5355d": true,
         "ab_cc5aafbbfc8d406cad881aab1d1c8eed": true,
-        "ab_a43d1648c8af40b4accaeec1887cc935": true
+        "ab_a43d1648c8af40b4accaeec1887cc935": true,
+        "ab_49a4be48da0c4ae5a45ebd4705619f59": true
     },
-    "lastDrainAt": 1782028243
+    "lastDrainAt": 1782028863
 }
