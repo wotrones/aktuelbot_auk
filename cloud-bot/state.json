@@ -1,7 +1,7 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1782031842
+            "lastCheckedAt": 1782039660
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
             "lastCheckedAt": 1782033043
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_e2d04f844bd84bea9d84b0dbf291bea3",
-            "brochure_key": "e2d04f844bd84bea9d84b0dbf291bea3",
-            "market": "A101",
-            "title": "Meyve ve Sebze İndirimleri",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/meyve-ve-sebze-indirimleri_e2d04f844bd84bea9d84b0dbf291bea3",
-            "tries": 0
-        },
         {
             "source_key": "ab_2da8f74ef0bd47f5baf5b5f5c46baaaa",
             "brochure_key": "2da8f74ef0bd47f5baf5b5f5c46baaaa",
@@ -947,7 +939,8 @@
         "ab_b3857eca9e4c4924a6302e8b8da8d445": true,
         "ab_e3b1874d40bf47afb589f278f184d18f": true,
         "ab_fe2861d664ba4b3e92287c761efd33c5": true,
-        "ab_2093c9eb5c274d7a94ceb9f496699f1b": true
+        "ab_2093c9eb5c274d7a94ceb9f496699f1b": true,
+        "ab_e2d04f844bd84bea9d84b0dbf291bea3": true
     },
-    "lastDrainAt": 1782039069
+    "lastDrainAt": 1782039682
 }
