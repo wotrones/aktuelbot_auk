@@ -7,7 +7,7 @@
             "lastCheckedAt": 1782033043
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1782007454
+            "lastCheckedAt": 1782033641
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1782026086
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_73095ea210af4486b288eb23334a4c33",
-            "brochure_key": "73095ea210af4486b288eb23334a4c33",
-            "market": "Bizim Toptan Market",
-            "title": "HORECA'ya Özel İndirim Broşürü",
-            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/horeca-ya-ozel-indirim-brosuru_73095ea210af4486b288eb23334a4c33",
-            "tries": 0
-        },
         {
             "source_key": "ab_43e82bc44e1d4f91b6ec13153bb90f2a",
             "brochure_key": "43e82bc44e1d4f91b6ec13153bb90f2a",
@@ -970,6 +962,14 @@
             "title": "Bizim Gross İndirim Bülteni Broşürü",
             "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-gross-indirim-bulteni-brosuru_f986f45423cf4f3c8c38c84389f042b6",
             "tries": 1
+        },
+        {
+            "source_key": "ab_73095ea210af4486b288eb23334a4c33",
+            "brochure_key": "73095ea210af4486b288eb23334a4c33",
+            "market": "Bizim Toptan Market",
+            "title": "HORECA'ya Özel İndirim Broşürü",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/horeca-ya-ozel-indirim-brosuru_73095ea210af4486b288eb23334a4c33",
+            "tries": 1
         }
     ],
     "uploaded": {
@@ -989,5 +989,5 @@
         "ab_5563677f840f42d89297ad2bcf8ce2e9": true,
         "ab_4c0888a044cd4c0e93a649ce6bc45a86": true
     },
-    "lastDrainAt": 1782033066
+    "lastDrainAt": 1782033667
 }
