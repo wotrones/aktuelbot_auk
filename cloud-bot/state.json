@@ -1,7 +1,7 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1782045642
+            "lastCheckedAt": 1782052252
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
             "lastCheckedAt": 1782046248
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_1cefb60097064e348efcdbd7931ad44d",
-            "brochure_key": "1cefb60097064e348efcdbd7931ad44d",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 19-22 Haziran",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-19-22-haziran_1cefb60097064e348efcdbd7931ad44d",
-            "tries": 0
-        },
         {
             "source_key": "ab_f14d61fc3c7e48aab0986332b42bcc27",
             "brochure_key": "f14d61fc3c7e48aab0986332b42bcc27",
@@ -746,6 +738,14 @@
             "title": "Detaylı | Şok Market Hafta Sonu Fırsatları Aktüel Ürünler Broşür 20-23 Haziran 2026",
             "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-hafta-sonu-firsatlari-aktuel-urunler-brosur-20-23-haziran-2026_04d4f34b3fe44e84ba8f4d56652161b0",
             "tries": 0
+        },
+        {
+            "source_key": "ab_1cefb60097064e348efcdbd7931ad44d",
+            "brochure_key": "1cefb60097064e348efcdbd7931ad44d",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 19-22 Haziran",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-19-22-haziran_1cefb60097064e348efcdbd7931ad44d",
+            "tries": 1
         }
     ],
     "uploaded": {
@@ -795,5 +795,5 @@
         "ab_ccee8dd1dc64435b8a6dce6f00c9f80f": true,
         "ab_b7290848d4e448728a4c062f071a6fd0": true
     },
-    "lastDrainAt": 1782051673
+    "lastDrainAt": 1782052253
 }
