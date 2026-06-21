@@ -19,7 +19,7 @@
             "lastCheckedAt": 1782081053
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1782075667
+            "lastCheckedAt": 1782081643
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
             "lastCheckedAt": 1782076244
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_4c73e7b8f6f049d6bd9841aad53e916b",
-            "brochure_key": "4c73e7b8f6f049d6bd9841aad53e916b",
-            "market": "Tarım Kooperatif",
-            "title": "Koop Market’te Perşembe Fırsatı! Tarsüt Tereyağı 1 kg 449,90 TL",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-market-te-persembe-firsati-tarsut-tereyagi-1-kg-449-90-tl_4c73e7b8f6f049d6bd9841aad53e916b",
-            "tries": 0
-        },
         {
             "source_key": "ab_527ee0e978464bc68a858f6606ed3f99",
             "brochure_key": "527ee0e978464bc68a858f6606ed3f99",
@@ -507,7 +499,8 @@
         "ab_1166b6b3b6bf4a90b4276620744e1094": true,
         "ab_d02758fdf7d14e3db569ab70514a5496": true,
         "ab_037c42b3809048149dd86a1d736d12d9": true,
-        "ab_ab373f80b139410f9def2c4c591b7a5c": true
+        "ab_ab373f80b139410f9def2c4c591b7a5c": true,
+        "ab_4c73e7b8f6f049d6bd9841aad53e916b": true
     },
-    "lastDrainAt": 1782081071
+    "lastDrainAt": 1782081657
 }
