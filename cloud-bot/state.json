@@ -1,7 +1,7 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1782039660
+            "lastCheckedAt": 1782045642
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
             "lastCheckedAt": 1782040245
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_145387262d2849f791e015d28b364c97",
-            "brochure_key": "145387262d2849f791e015d28b364c97",
-            "market": "Bim",
-            "title": "5 Al 4 Öde Ürünleri",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/5-al-4-ode-urunleri_145387262d2849f791e015d28b364c97",
-            "tries": 0
-        },
         {
             "source_key": "ab_8d25ad96ff1646cab7d2b4439d0ee9fc",
             "brochure_key": "8d25ad96ff1646cab7d2b4439d0ee9fc",
@@ -870,7 +862,8 @@
         "ab_63fe9583fad343cfb7d0eba3bab2e005": true,
         "ab_4e63c82f4fdd49198ed69008a61fbdc6": true,
         "ab_e0c4e714e56a43f3a1aae8b40dcc84ee": true,
-        "ab_69332642140242d5b7b36c5e4b6f62f3": true
+        "ab_69332642140242d5b7b36c5e4b6f62f3": true,
+        "ab_145387262d2849f791e015d28b364c97": true
     },
-    "lastDrainAt": 1782045085
+    "lastDrainAt": 1782045655
 }
