@@ -7,7 +7,7 @@
             "lastCheckedAt": 1782073243
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1782067846
+            "lastCheckedAt": 1782073854
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1782068463
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_1e46734cfee74b4e9f05903fcbe345b8",
-            "brochure_key": "1e46734cfee74b4e9f05903fcbe345b8",
-            "market": "Rossmann",
-            "title": "Rossmann Haziran 2026 Ev & Yaşam Kataloğu",
-            "href": "https://aktuelbrosurler.com/rossmann/brosurler/rossmann-haziran-2026-ev-yasam-katalogu_1e46734cfee74b4e9f05903fcbe345b8",
-            "tries": 0
-        },
         {
             "source_key": "ab_ec5596bc781b4305b4957bee2c5ca981",
             "brochure_key": "ec5596bc781b4305b4957bee2c5ca981",
@@ -604,7 +596,8 @@
         "ab_849168392607470aa8b37d7ce14e25dc": true,
         "ab_7f2052b44cb44de2a8d0de8e0fb6cb3e": true,
         "ab_e34df5cee30544088887a2dd65e097de": true,
-        "ab_8eb6a244c70041ac8b08dc41af147739": true
+        "ab_8eb6a244c70041ac8b08dc41af147739": true,
+        "ab_1e46734cfee74b4e9f05903fcbe345b8": true
     },
-    "lastDrainAt": 1782073245
+    "lastDrainAt": 1782073855
 }
