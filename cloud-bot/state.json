@@ -10,7 +10,7 @@
             "lastCheckedAt": 1782033641
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1782026086
+            "lastCheckedAt": 1782034254
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 1782027062
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_43e82bc44e1d4f91b6ec13153bb90f2a",
-            "brochure_key": "43e82bc44e1d4f91b6ec13153bb90f2a",
-            "market": "Bizim Toptan Market",
-            "title": "Bizim Gross İndirim Bülteni Broşürü",
-            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-gross-indirim-bulteni-brosuru_43e82bc44e1d4f91b6ec13153bb90f2a",
-            "tries": 0
-        },
         {
             "source_key": "ab_50e9346f99724ec18c271faffcbbad5b",
             "brochure_key": "50e9346f99724ec18c271faffcbbad5b",
@@ -970,6 +962,14 @@
             "title": "HORECA'ya Özel İndirim Broşürü",
             "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/horeca-ya-ozel-indirim-brosuru_73095ea210af4486b288eb23334a4c33",
             "tries": 1
+        },
+        {
+            "source_key": "ab_54f0506e9ea345a7afddd64ffa8aac4b",
+            "brochure_key": "54f0506e9ea345a7afddd64ffa8aac4b",
+            "market": "Bim",
+            "title": "Detaylı | Bim Haftanın Önerileri Aktüel Ürünler Broşürü 23 Haziran 2026'dan İtibaren",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/detayli-bim-haftanin-onerileri-aktuel-urunler-brosuru-23-haziran-2026-dan-itibaren_54f0506e9ea345a7afddd64ffa8aac4b",
+            "tries": 0
         }
     ],
     "uploaded": {
@@ -987,7 +987,8 @@
         "ab_642a754d28f542428c94582e13feb93d": true,
         "ab_b5b89dd60fda489aa03991c4d00017cf": true,
         "ab_5563677f840f42d89297ad2bcf8ce2e9": true,
-        "ab_4c0888a044cd4c0e93a649ce6bc45a86": true
+        "ab_4c0888a044cd4c0e93a649ce6bc45a86": true,
+        "ab_43e82bc44e1d4f91b6ec13153bb90f2a": true
     },
-    "lastDrainAt": 1782033667
+    "lastDrainAt": 1782034308
 }
