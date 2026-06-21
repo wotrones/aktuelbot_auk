@@ -16,7 +16,7 @@
             "lastCheckedAt": 1782027062
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 0
+            "lastCheckedAt": 1782027642
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
             "lastCheckedAt": 0
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_cc5aafbbfc8d406cad881aab1d1c8eed",
-            "brochure_key": "cc5aafbbfc8d406cad881aab1d1c8eed",
-            "market": "Migros",
-            "title": "5M Migros'larda Geçerli İndirim Bülteni Kataloğu - Bol Çeşitli Bayram Alışverişleri İçin Migros'a",
-            "href": "https://aktuelbrosurler.com/migros/brosurler/5m-migros-larda-gecerli-indirim-bulteni-katalogu-bol-cesitli-bayram-alisverisleri-icin-migros-a_cc5aafbbfc8d406cad881aab1d1c8eed",
-            "tries": 0
-        },
         {
             "source_key": "ab_a43d1648c8af40b4accaeec1887cc935",
             "brochure_key": "a43d1648c8af40b4accaeec1887cc935",
@@ -466,6 +458,102 @@
             "title": "Atıştırmalık Ürünleri Fırsat Broşürü",
             "href": "https://aktuelbrosurler.com/sok-market/brosurler/atistirmalik-urunleri-firsat-brosuru_04e4c4e422274590bc142ccdb0b4c630",
             "tries": 0
+        },
+        {
+            "source_key": "ab_e1a88d7e86644e72b2681df5702127b7",
+            "brochure_key": "e1a88d7e86644e72b2681df5702127b7",
+            "market": "Carrefour",
+            "title": "Tatil Kataloğu",
+            "href": "https://aktuelbrosurler.com/carrefour/brosurler/tatil-katalogu_e1a88d7e86644e72b2681df5702127b7",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_14330b6bbe164da2a5771b1fc93ad082",
+            "brochure_key": "14330b6bbe164da2a5771b1fc93ad082",
+            "market": "Carrefour",
+            "title": "50TL ve Üzeri Alışverişlerde İndirimli Ürünler",
+            "href": "https://aktuelbrosurler.com/carrefour/brosurler/50tl-ve-uzeri-alisverislerde-indirimli-urunler_14330b6bbe164da2a5771b1fc93ad082",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_bd8fbb2295b94c00b55bd46d8e0b1783",
+            "brochure_key": "bd8fbb2295b94c00b55bd46d8e0b1783",
+            "market": "Carrefour",
+            "title": "Meyve, Sebze ve Kuruyemiş İndirimleri Broşürü",
+            "href": "https://aktuelbrosurler.com/carrefour/brosurler/meyve-sebze-ve-kuruyemis-indirimleri-brosuru_bd8fbb2295b94c00b55bd46d8e0b1783",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_f06114b1e7204ca3a00c44117a295e9e",
+            "brochure_key": "f06114b1e7204ca3a00c44117a295e9e",
+            "market": "Carrefour",
+            "title": "Carrefour Marketlerde Geçerli İndirim Bülteni Kataloğu",
+            "href": "https://aktuelbrosurler.com/carrefour/brosurler/carrefour-marketlerde-gecerli-indirim-bulteni-katalogu_f06114b1e7204ca3a00c44117a295e9e",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_42945590529a4fdab7a34c4f3be8fc2d",
+            "brochure_key": "42945590529a4fdab7a34c4f3be8fc2d",
+            "market": "Carrefour",
+            "title": "Kırmızı Et Ürünlerinde İndirimli Fiyatlar",
+            "href": "https://aktuelbrosurler.com/carrefour/brosurler/kirmizi-et-urunlerinde-indirimli-fiyatlar_42945590529a4fdab7a34c4f3be8fc2d",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_6aa833e654d942228efe595e7a42580a",
+            "brochure_key": "6aa833e654d942228efe595e7a42580a",
+            "market": "Carrefour",
+            "title": "Meyve ve Sebze İndirimleri",
+            "href": "https://aktuelbrosurler.com/carrefour/brosurler/meyve-ve-sebze-indirimleri_6aa833e654d942228efe595e7a42580a",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_f7658dba7fbd45d5a9d9995457a68f63",
+            "brochure_key": "f7658dba7fbd45d5a9d9995457a68f63",
+            "market": "Carrefour",
+            "title": "Carrefour Gurme Marketlerinde Geçerli Broşür - Haziran 2026",
+            "href": "https://aktuelbrosurler.com/carrefour/brosurler/carrefour-gurme-marketlerinde-gecerli-brosur-haziran-2026_f7658dba7fbd45d5a9d9995457a68f63",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_826dbf842c934fc19f0b9ac3572001de",
+            "brochure_key": "826dbf842c934fc19f0b9ac3572001de",
+            "market": "Carrefour",
+            "title": "Meyve, Sebze ve Kuruyemiş İndirimleri Broşürü",
+            "href": "https://aktuelbrosurler.com/carrefour/brosurler/meyve-sebze-ve-kuruyemis-indirimleri-brosuru_826dbf842c934fc19f0b9ac3572001de",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_bc60d4a499114e9db2d936dbb9e62232",
+            "brochure_key": "bc60d4a499114e9db2d936dbb9e62232",
+            "market": "Carrefour",
+            "title": "Carrefour Marketlerde Geçerli İndirim Bülteni Kataloğu",
+            "href": "https://aktuelbrosurler.com/carrefour/brosurler/carrefour-marketlerde-gecerli-indirim-bulteni-katalogu_bc60d4a499114e9db2d936dbb9e62232",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_bf614bc30f2b46838526da8a70725a0f",
+            "brochure_key": "bf614bc30f2b46838526da8a70725a0f",
+            "market": "Carrefour",
+            "title": "Meyve, Sebze ve Kuruyemiş İndirimleri Broşürü",
+            "href": "https://aktuelbrosurler.com/carrefour/brosurler/meyve-sebze-ve-kuruyemis-indirimleri-brosuru_bf614bc30f2b46838526da8a70725a0f",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_7321a62b3c9d46fe8e0263b2162e59da",
+            "brochure_key": "7321a62b3c9d46fe8e0263b2162e59da",
+            "market": "Carrefour",
+            "title": "Carrefour Marketlerde Geçerli İndirim Bülteni Kataloğu",
+            "href": "https://aktuelbrosurler.com/carrefour/brosurler/carrefour-marketlerde-gecerli-indirim-bulteni-katalogu_7321a62b3c9d46fe8e0263b2162e59da",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_6d7874d5c5fb4f13b2a6bb7253c36733",
+            "brochure_key": "6d7874d5c5fb4f13b2a6bb7253c36733",
+            "market": "Carrefour",
+            "title": "Meyve, Sebze ve Kuruyemiş İndirimleri Broşürü",
+            "href": "https://aktuelbrosurler.com/carrefour/brosurler/meyve-sebze-ve-kuruyemis-indirimleri-brosuru_6d7874d5c5fb4f13b2a6bb7253c36733",
+            "tries": 0
         }
     ],
     "uploaded": {
@@ -474,7 +562,8 @@
         "ab_473c824cc0fa4ae9ab50ab72b8886c28": true,
         "ab_09610c2a5bbd4be086a7ac67fa5a7098": true,
         "ab_54729054c1d14578bceed629298b2f38": true,
-        "ab_dceefb1b15424301a5c077739ef5355d": true
+        "ab_dceefb1b15424301a5c077739ef5355d": true,
+        "ab_cc5aafbbfc8d406cad881aab1d1c8eed": true
     },
-    "lastDrainAt": 1782027524
+    "lastDrainAt": 1782027643
 }
