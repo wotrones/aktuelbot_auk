@@ -25,7 +25,7 @@
             "lastCheckedAt": 1782028862
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 0
+            "lastCheckedAt": 1782029444
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
             "lastCheckedAt": 0
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_762d7d0720d446989d20b01caf61fcae",
-            "brochure_key": "762d7d0720d446989d20b01caf61fcae",
-            "market": "Migros",
-            "title": "Migros'larda Geçerli İndirim Bülteni Kataloğu - İslami Usullere Uygun Güvenilir Kurban Migros'ta",
-            "href": "https://aktuelbrosurler.com/migros/brosurler/migros-larda-gecerli-indirim-bulteni-katalogu-islami-usullere-uygun-guvenilir-kurban-migros-ta_762d7d0720d446989d20b01caf61fcae",
-            "tries": 0
-        },
         {
             "source_key": "ab_b30a831ce50247709a5b45dd16371d38",
             "brochure_key": "b30a831ce50247709a5b45dd16371d38",
@@ -730,6 +722,102 @@
             "title": "Anne ve bebek ihtiyaçlarına özel indirimler",
             "href": "https://aktuelbrosurler.com/rossmann/brosurler/anne-ve-bebek-ihtiyaclarina-ozel-indirimler_80901f732f184860866a2e4a1e8a3b4e",
             "tries": 0
+        },
+        {
+            "source_key": "ab_00747bf0fe4643b89000ac38e121b940",
+            "brochure_key": "00747bf0fe4643b89000ac38e121b940",
+            "market": "Tarım Kooperatif",
+            "title": "KOOP’ta Cumartesi Fırsatı! TMO Ayçiçek Yağı 5 L 395 TL",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-ta-cumartesi-firsati-tmo-aycicek-yagi-5-l-395-tl_00747bf0fe4643b89000ac38e121b940",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_57be6fe551f8464aae8450b656e72464",
+            "brochure_key": "57be6fe551f8464aae8450b656e72464",
+            "market": "Tarım Kooperatif",
+            "title": "ESK Donuk Kıyma, kilogramı 600 TL fiyatıyla KOOP Market’te!",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/esk-donuk-kiyma-kilogrami-600-tl-fiyatiyla-koop-market-te_57be6fe551f8464aae8450b656e72464",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_1166b6b3b6bf4a90b4276620744e1094",
+            "brochure_key": "1166b6b3b6bf4a90b4276620744e1094",
+            "market": "Tarım Kooperatif",
+            "title": "KOOP Market'te Cumartesi Fırsatları!",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-market-te-cumartesi-firsatlari_1166b6b3b6bf4a90b4276620744e1094",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_d02758fdf7d14e3db569ab70514a5496",
+            "brochure_key": "d02758fdf7d14e3db569ab70514a5496",
+            "market": "Tarım Kooperatif",
+            "title": "KOOP Market'te Cuma Fırsatı! Bakpiliç Donuk Bütün Piliç kg 79 TL",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-market-te-cuma-firsati-bakpilic-donuk-butun-pilic-kg-79-tl_d02758fdf7d14e3db569ab70514a5496",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_037c42b3809048149dd86a1d736d12d9",
+            "brochure_key": "037c42b3809048149dd86a1d736d12d9",
+            "market": "Tarım Kooperatif",
+            "title": "Tarım Kredi Kooperatif Market İndirim Bülteni Broşürü - Fırsat Günleri",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-kooperatif-market-indirim-bulteni-brosuru-firsat-gunleri_037c42b3809048149dd86a1d736d12d9",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_ab373f80b139410f9def2c4c591b7a5c",
+            "brochure_key": "ab373f80b139410f9def2c4c591b7a5c",
+            "market": "Tarım Kooperatif",
+            "title": "Tarım Kredi Kooperatif Market İndirim Bülteni Broşürü - Hafta Sonuna Özel Fırsatlar",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-kooperatif-market-indirim-bulteni-brosuru-hafta-sonuna-ozel-firsatlar_ab373f80b139410f9def2c4c591b7a5c",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_4c73e7b8f6f049d6bd9841aad53e916b",
+            "brochure_key": "4c73e7b8f6f049d6bd9841aad53e916b",
+            "market": "Tarım Kooperatif",
+            "title": "Koop Market’te Perşembe Fırsatı! Tarsüt Tereyağı 1 kg 449,90 TL",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-market-te-persembe-firsati-tarsut-tereyagi-1-kg-449-90-tl_4c73e7b8f6f049d6bd9841aad53e916b",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_527ee0e978464bc68a858f6606ed3f99",
+            "brochure_key": "527ee0e978464bc68a858f6606ed3f99",
+            "market": "Tarım Kooperatif",
+            "title": "Patates Kg 29,90 TL",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/patates-kg-29-90-tl_527ee0e978464bc68a858f6606ed3f99",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_d57b9397d02443d48fb42cb691e5bfcb",
+            "brochure_key": "d57b9397d02443d48fb42cb691e5bfcb",
+            "market": "Tarım Kooperatif",
+            "title": "KOOP Market’te Çarşamba Fırsatı!",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-market-te-carsamba-firsati_d57b9397d02443d48fb42cb691e5bfcb",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_216e35aab9164f6a90fd1408046a4a3c",
+            "brochure_key": "216e35aab9164f6a90fd1408046a4a3c",
+            "market": "Tarım Kooperatif",
+            "title": "KOOP Market’te Salı Fırsatı!",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-market-te-sali-firsati_216e35aab9164f6a90fd1408046a4a3c",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_59403603b2d34600b1cf6cdff67cbed6",
+            "brochure_key": "59403603b2d34600b1cf6cdff67cbed6",
+            "market": "Tarım Kooperatif",
+            "title": "Tarım Kredi Kooperatif Market İndirim Bülteni Broşürü - Aşurelik Ürünler",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-kooperatif-market-indirim-bulteni-brosuru-asurelik-urunler_59403603b2d34600b1cf6cdff67cbed6",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_0e2b955116464552be9cabb3b7e4b12c",
+            "brochure_key": "0e2b955116464552be9cabb3b7e4b12c",
+            "market": "Tarım Kooperatif",
+            "title": "Tarım Kredi Kooperatif Market İndirim Bülteni Broşürü - Kat Kat Fırsat",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-kooperatif-market-indirim-bulteni-brosuru-kat-kat-firsat_0e2b955116464552be9cabb3b7e4b12c",
+            "tries": 0
         }
     ],
     "uploaded": {
@@ -741,7 +829,8 @@
         "ab_dceefb1b15424301a5c077739ef5355d": true,
         "ab_cc5aafbbfc8d406cad881aab1d1c8eed": true,
         "ab_a43d1648c8af40b4accaeec1887cc935": true,
-        "ab_49a4be48da0c4ae5a45ebd4705619f59": true
+        "ab_49a4be48da0c4ae5a45ebd4705619f59": true,
+        "ab_762d7d0720d446989d20b01caf61fcae": true
     },
-    "lastDrainAt": 1782028863
+    "lastDrainAt": 1782029445
 }
