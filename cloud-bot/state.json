@@ -7,7 +7,7 @@
             "lastCheckedAt": 1782085241
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1782079845
+            "lastCheckedAt": 1782085705
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1782080380
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_a2a2060589e94f79916686ba271c1c44",
-            "brochure_key": "a2a2060589e94f79916686ba271c1c44",
-            "market": "Hakmar",
-            "title": "Hafta Sonuna Özel Fırsat Ürünleri",
-            "href": "https://aktuelbrosurler.com/hakmar/brosurler/hafta-sonuna-ozel-firsat-urunleri_a2a2060589e94f79916686ba271c1c44",
-            "tries": 0
-        },
         {
             "source_key": "ab_b716ee6cdb6f4a6bae5766fb5be0cc78",
             "brochure_key": "b716ee6cdb6f4a6bae5766fb5be0cc78",
@@ -458,7 +450,8 @@
         "ab_216e35aab9164f6a90fd1408046a4a3c": true,
         "ab_59403603b2d34600b1cf6cdff67cbed6": true,
         "ab_0e2b955116464552be9cabb3b7e4b12c": true,
-        "ab_b5687965ee2a4a799f45eaadbec14ab0": true
+        "ab_b5687965ee2a4a799f45eaadbec14ab0": true,
+        "ab_a2a2060589e94f79916686ba271c1c44": true
     },
-    "lastDrainAt": 1782085255
+    "lastDrainAt": 1782085716
 }
