@@ -25,7 +25,7 @@
             "lastCheckedAt": 1782064749
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1782058245
+            "lastCheckedAt": 1782064867
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
             "lastCheckedAt": 1782058840
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_6d7874d5c5fb4f13b2a6bb7253c36733",
-            "brochure_key": "6d7874d5c5fb4f13b2a6bb7253c36733",
-            "market": "Carrefour",
-            "title": "Meyve, Sebze ve Kuruyemiş İndirimleri Broşürü",
-            "href": "https://aktuelbrosurler.com/carrefour/brosurler/meyve-sebze-ve-kuruyemis-indirimleri-brosuru_6d7874d5c5fb4f13b2a6bb7253c36733",
-            "tries": 0
-        },
         {
             "source_key": "ab_e2627ad0163a47cda77bb1982cd7d9ac",
             "brochure_key": "e2627ad0163a47cda77bb1982cd7d9ac",
@@ -695,7 +687,8 @@
         "ab_826dbf842c934fc19f0b9ac3572001de": true,
         "ab_bc60d4a499114e9db2d936dbb9e62232": true,
         "ab_bf614bc30f2b46838526da8a70725a0f": true,
-        "ab_7321a62b3c9d46fe8e0263b2162e59da": true
+        "ab_7321a62b3c9d46fe8e0263b2162e59da": true,
+        "ab_6d7874d5c5fb4f13b2a6bb7253c36733": true
     },
-    "lastDrainAt": 1782064750
+    "lastDrainAt": 1782064868
 }
