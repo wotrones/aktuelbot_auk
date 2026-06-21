@@ -1,7 +1,7 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1782066661
+            "lastCheckedAt": 1782072647
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
             "lastCheckedAt": 1782067246
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_e34df5cee30544088887a2dd65e097de",
-            "brochure_key": "e34df5cee30544088887a2dd65e097de",
-            "market": "Rossmann",
-            "title": "Rossmann Haziran 2026 Güzellik Kataloğu",
-            "href": "https://aktuelbrosurler.com/rossmann/brosurler/rossmann-haziran-2026-guzellik-katalogu_e34df5cee30544088887a2dd65e097de",
-            "tries": 0
-        },
         {
             "source_key": "ab_8eb6a244c70041ac8b08dc41af147739",
             "brochure_key": "8eb6a244c70041ac8b08dc41af147739",
@@ -618,7 +610,8 @@
         "ab_98b51821ae0b43ac92b1a2fb3497cdb7": true,
         "ab_c27455a33b744d089d246d5cc825521a": true,
         "ab_849168392607470aa8b37d7ce14e25dc": true,
-        "ab_7f2052b44cb44de2a8d0de8e0fb6cb3e": true
+        "ab_7f2052b44cb44de2a8d0de8e0fb6cb3e": true,
+        "ab_e34df5cee30544088887a2dd65e097de": true
     },
-    "lastDrainAt": 1782072096
+    "lastDrainAt": 1782072647
 }
