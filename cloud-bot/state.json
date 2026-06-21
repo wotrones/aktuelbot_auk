@@ -28,21 +28,13 @@
             "lastCheckedAt": 1782082860
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1782077461
+            "lastCheckedAt": 1782083442
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
             "lastCheckedAt": 1782078047
         }
     },
     "queue": [
-        {
-            "source_key": "ab_216e35aab9164f6a90fd1408046a4a3c",
-            "brochure_key": "216e35aab9164f6a90fd1408046a4a3c",
-            "market": "Tarım Kooperatif",
-            "title": "KOOP Market’te Salı Fırsatı!",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-market-te-sali-firsati_216e35aab9164f6a90fd1408046a4a3c",
-            "tries": 0
-        },
         {
             "source_key": "ab_59403603b2d34600b1cf6cdff67cbed6",
             "brochure_key": "59403603b2d34600b1cf6cdff67cbed6",
@@ -486,7 +478,8 @@
         "ab_ab373f80b139410f9def2c4c591b7a5c": true,
         "ab_4c73e7b8f6f049d6bd9841aad53e916b": true,
         "ab_527ee0e978464bc68a858f6606ed3f99": true,
-        "ab_d57b9397d02443d48fb42cb691e5bfcb": true
+        "ab_d57b9397d02443d48fb42cb691e5bfcb": true,
+        "ab_216e35aab9164f6a90fd1408046a4a3c": true
     },
-    "lastDrainAt": 1782082874
+    "lastDrainAt": 1782083519
 }
