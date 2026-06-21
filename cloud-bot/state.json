@@ -22,7 +22,7 @@
             "lastCheckedAt": 1782057043
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1782049840
+            "lastCheckedAt": 1782057669
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
             "lastCheckedAt": 1782050461
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_9611924eefcd4cf78d1923b6f0b4e69b",
-            "brochure_key": "9611924eefcd4cf78d1923b6f0b4e69b",
-            "market": "Şok Market",
-            "title": "Detaylı | Şok Market Haftanın Fırsatları Aktüel Ürünler Broşür 17-23 Haziran 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-haftanin-firsatlari-aktuel-urunler-brosur-17-23-haziran-2026_9611924eefcd4cf78d1923b6f0b4e69b",
-            "tries": 0
-        },
         {
             "source_key": "ab_06c803cdf9984773a80e278416f64d4a",
             "brochure_key": "06c803cdf9984773a80e278416f64d4a",
@@ -698,6 +690,14 @@
             "title": "Atıştırmalık Ürünleri Fırsat Broşürü",
             "href": "https://aktuelbrosurler.com/sok-market/brosurler/atistirmalik-urunleri-firsat-brosuru_d204b0747bc64d69923d801ed5f4c1c5",
             "tries": 1
+        },
+        {
+            "source_key": "ab_9611924eefcd4cf78d1923b6f0b4e69b",
+            "brochure_key": "9611924eefcd4cf78d1923b6f0b4e69b",
+            "market": "Şok Market",
+            "title": "Detaylı | Şok Market Haftanın Fırsatları Aktüel Ürünler Broşür 17-23 Haziran 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-haftanin-firsatlari-aktuel-urunler-brosur-17-23-haziran-2026_9611924eefcd4cf78d1923b6f0b4e69b",
+            "tries": 1
         }
     ],
     "uploaded": {
@@ -753,5 +753,5 @@
         "ab_e3a3914215b748e49f0c47f4023d496c": true,
         "ab_33acaa656173491fb33d8a7bea8120e3": true
     },
-    "lastDrainAt": 1782057058
+    "lastDrainAt": 1782057824
 }
