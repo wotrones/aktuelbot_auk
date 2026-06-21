@@ -16,7 +16,7 @@
             "lastCheckedAt": 1782054658
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1782048656
+            "lastCheckedAt": 1782055856
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
             "lastCheckedAt": 1782049244
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_a70fcd4e58434377a9fffcbe33ce5a05",
-            "brochure_key": "a70fcd4e58434377a9fffcbe33ce5a05",
-            "market": "Şok Market",
-            "title": "Şok Market İste Gelsin Ürünleri Broşürü 20-23 Haziran 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-20-23-haziran-2026_a70fcd4e58434377a9fffcbe33ce5a05",
-            "tries": 0
-        },
         {
             "source_key": "ab_e3a3914215b748e49f0c47f4023d496c",
             "brochure_key": "e3a3914215b748e49f0c47f4023d496c",
@@ -772,7 +764,8 @@
         "ab_b7290848d4e448728a4c062f071a6fd0": true,
         "ab_f14d61fc3c7e48aab0986332b42bcc27": true,
         "ab_91cb76561ee8427a8abc9d3bf3755cec": true,
-        "ab_edd6ed95cecc4d0a854d4d8457c68161": true
+        "ab_edd6ed95cecc4d0a854d4d8457c68161": true,
+        "ab_a70fcd4e58434377a9fffcbe33ce5a05": true
     },
-    "lastDrainAt": 1782055260
+    "lastDrainAt": 1782055891
 }
