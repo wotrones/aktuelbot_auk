@@ -4,7 +4,7 @@
             "lastCheckedAt": 1782045642
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1782040245
+            "lastCheckedAt": 1782046248
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
             "lastCheckedAt": 1782040843
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_8d25ad96ff1646cab7d2b4439d0ee9fc",
-            "brochure_key": "8d25ad96ff1646cab7d2b4439d0ee9fc",
-            "market": "Bim",
-            "title": "Meyve ve Sebze İndirimleri Broşürü",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/meyve-ve-sebze-indirimleri-brosuru_8d25ad96ff1646cab7d2b4439d0ee9fc",
-            "tries": 0
-        },
         {
             "source_key": "ab_314b89d7be344234b3797bcf4fd06157",
             "brochure_key": "314b89d7be344234b3797bcf4fd06157",
@@ -863,7 +855,8 @@
         "ab_4e63c82f4fdd49198ed69008a61fbdc6": true,
         "ab_e0c4e714e56a43f3a1aae8b40dcc84ee": true,
         "ab_69332642140242d5b7b36c5e4b6f62f3": true,
-        "ab_145387262d2849f791e015d28b364c97": true
+        "ab_145387262d2849f791e015d28b364c97": true,
+        "ab_8d25ad96ff1646cab7d2b4439d0ee9fc": true
     },
-    "lastDrainAt": 1782045655
+    "lastDrainAt": 1782046261
 }
