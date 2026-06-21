@@ -19,7 +19,7 @@
             "lastCheckedAt": 1782055856
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1782049244
+            "lastCheckedAt": 1782057043
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
             "lastCheckedAt": 1782049840
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_33acaa656173491fb33d8a7bea8120e3",
-            "brochure_key": "33acaa656173491fb33d8a7bea8120e3",
-            "market": "Şok Market",
-            "title": "Gezer Terlik Çeşitleri",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/gezer-terlik-cesitleri_33acaa656173491fb33d8a7bea8120e3",
-            "tries": 0
-        },
         {
             "source_key": "ab_9611924eefcd4cf78d1923b6f0b4e69b",
             "brochure_key": "9611924eefcd4cf78d1923b6f0b4e69b",
@@ -758,7 +750,8 @@
         "ab_91cb76561ee8427a8abc9d3bf3755cec": true,
         "ab_edd6ed95cecc4d0a854d4d8457c68161": true,
         "ab_a70fcd4e58434377a9fffcbe33ce5a05": true,
-        "ab_e3a3914215b748e49f0c47f4023d496c": true
+        "ab_e3a3914215b748e49f0c47f4023d496c": true,
+        "ab_33acaa656173491fb33d8a7bea8120e3": true
     },
-    "lastDrainAt": 1782056465
+    "lastDrainAt": 1782057058
 }
