@@ -28,21 +28,13 @@
             "lastCheckedAt": 1782037250
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1782030041
+            "lastCheckedAt": 1782037852
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
             "lastCheckedAt": 1782030673
         }
     },
     "queue": [
-        {
-            "source_key": "ab_fe2861d664ba4b3e92287c761efd33c5",
-            "brochure_key": "fe2861d664ba4b3e92287c761efd33c5",
-            "market": "Migros",
-            "title": "Migros'larda Geçerli İndirim Bülteni Kataloğu - Her Maça Eksiksiz Çıkıyoruz",
-            "href": "https://aktuelbrosurler.com/migros/brosurler/migros-larda-gecerli-indirim-bulteni-katalogu-her-maca-eksiksiz-cikiyoruz_fe2861d664ba4b3e92287c761efd33c5",
-            "tries": 1
-        },
         {
             "source_key": "ab_2093c9eb5c274d7a94ceb9f496699f1b",
             "brochure_key": "2093c9eb5c274d7a94ceb9f496699f1b",
@@ -961,7 +953,8 @@
         "ab_8b3804d4fcbb402fbf6fc877a0e0fc62": true,
         "ab_3e5df89400c247ac98c6bdfef0d927e6": true,
         "ab_b3857eca9e4c4924a6302e8b8da8d445": true,
-        "ab_e3b1874d40bf47afb589f278f184d18f": true
+        "ab_e3b1874d40bf47afb589f278f184d18f": true,
+        "ab_fe2861d664ba4b3e92287c761efd33c5": true
     },
-    "lastDrainAt": 1782037675
+    "lastDrainAt": 1782038744
 }
