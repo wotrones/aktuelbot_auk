@@ -16,7 +16,7 @@
             "lastCheckedAt": 1782080442
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1782075607
+            "lastCheckedAt": 1782081053
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
             "lastCheckedAt": 1782075667
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_ab373f80b139410f9def2c4c591b7a5c",
-            "brochure_key": "ab373f80b139410f9def2c4c591b7a5c",
-            "market": "Tarım Kooperatif",
-            "title": "Tarım Kredi Kooperatif Market İndirim Bülteni Broşürü - Hafta Sonuna Özel Fırsatlar",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-kooperatif-market-indirim-bulteni-brosuru-hafta-sonuna-ozel-firsatlar_ab373f80b139410f9def2c4c591b7a5c",
-            "tries": 0
-        },
         {
             "source_key": "ab_4c73e7b8f6f049d6bd9841aad53e916b",
             "brochure_key": "4c73e7b8f6f049d6bd9841aad53e916b",
@@ -514,7 +506,8 @@
         "ab_57be6fe551f8464aae8450b656e72464": true,
         "ab_1166b6b3b6bf4a90b4276620744e1094": true,
         "ab_d02758fdf7d14e3db569ab70514a5496": true,
-        "ab_037c42b3809048149dd86a1d736d12d9": true
+        "ab_037c42b3809048149dd86a1d736d12d9": true,
+        "ab_ab373f80b139410f9def2c4c591b7a5c": true
     },
-    "lastDrainAt": 1782080460
+    "lastDrainAt": 1782081071
 }
