@@ -16,7 +16,7 @@
             "lastCheckedAt": 1782069046
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1782063644
+            "lastCheckedAt": 1782069644
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
             "lastCheckedAt": 1782064248
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_085ce85450ab43b783829e7a864fc488",
-            "brochure_key": "085ce85450ab43b783829e7a864fc488",
-            "market": "Watsons",
-            "title": "Watsons Haziran 2026 Ürünler, İndirim ve Kampanya Kataloğu",
-            "href": "https://aktuelbrosurler.com/watsons/brosurler/watsons-haziran-2026-urunler-indirim-ve-kampanya-katalogu_085ce85450ab43b783829e7a864fc488",
-            "tries": 0
-        },
         {
             "source_key": "ab_bc1919bcc07c4152af2511e604f1664a",
             "brochure_key": "bc1919bcc07c4152af2511e604f1664a",
@@ -660,7 +652,8 @@
         "ab_e2627ad0163a47cda77bb1982cd7d9ac": true,
         "ab_d97417d1fd944b00bf93402a2716ad19": true,
         "ab_c00f03ee7f5b444397c2fae84b752ff9": true,
-        "ab_d33102d72e13437f8903d87f6ae44fc9": true
+        "ab_d33102d72e13437f8903d87f6ae44fc9": true,
+        "ab_085ce85450ab43b783829e7a864fc488": true
     },
-    "lastDrainAt": 1782069065
+    "lastDrainAt": 1782069645
 }
