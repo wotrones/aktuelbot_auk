@@ -13,7 +13,7 @@
             "lastCheckedAt": 1782068463
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1782063062
+            "lastCheckedAt": 1782069046
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1782063644
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_d33102d72e13437f8903d87f6ae44fc9",
-            "brochure_key": "d33102d72e13437f8903d87f6ae44fc9",
-            "market": "Watsons",
-            "title": "Makyaj, yüz bakım, saç kremleri ve bakım ürünlerinde geçerli %60 indirim",
-            "href": "https://aktuelbrosurler.com/watsons/brosurler/makyaj-yuz-bakim-sac-kremleri-ve-bakim-urunlerinde-gecerli-60-indirim_d33102d72e13437f8903d87f6ae44fc9",
-            "tries": 0
-        },
         {
             "source_key": "ab_085ce85450ab43b783829e7a864fc488",
             "brochure_key": "085ce85450ab43b783829e7a864fc488",
@@ -667,7 +659,8 @@
         "ab_6d7874d5c5fb4f13b2a6bb7253c36733": true,
         "ab_e2627ad0163a47cda77bb1982cd7d9ac": true,
         "ab_d97417d1fd944b00bf93402a2716ad19": true,
-        "ab_c00f03ee7f5b444397c2fae84b752ff9": true
+        "ab_c00f03ee7f5b444397c2fae84b752ff9": true,
+        "ab_d33102d72e13437f8903d87f6ae44fc9": true
     },
-    "lastDrainAt": 1782068470
+    "lastDrainAt": 1782069065
 }
