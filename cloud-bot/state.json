@@ -31,18 +31,10 @@
             "lastCheckedAt": 1782071446
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1782066046
+            "lastCheckedAt": 1782072061
         }
     },
     "queue": [
-        {
-            "source_key": "ab_7f2052b44cb44de2a8d0de8e0fb6cb3e",
-            "brochure_key": "7f2052b44cb44de2a8d0de8e0fb6cb3e",
-            "market": "Rossmann",
-            "title": "Babalar Gününe Özel Fırsatlar",
-            "href": "https://aktuelbrosurler.com/rossmann/brosurler/babalar-gunune-ozel-firsatlar_7f2052b44cb44de2a8d0de8e0fb6cb3e",
-            "tries": 0
-        },
         {
             "source_key": "ab_e34df5cee30544088887a2dd65e097de",
             "brochure_key": "e34df5cee30544088887a2dd65e097de",
@@ -625,7 +617,8 @@
         "ab_bc1919bcc07c4152af2511e604f1664a": true,
         "ab_98b51821ae0b43ac92b1a2fb3497cdb7": true,
         "ab_c27455a33b744d089d246d5cc825521a": true,
-        "ab_849168392607470aa8b37d7ce14e25dc": true
+        "ab_849168392607470aa8b37d7ce14e25dc": true,
+        "ab_7f2052b44cb44de2a8d0de8e0fb6cb3e": true
     },
-    "lastDrainAt": 1782071447
+    "lastDrainAt": 1782072096
 }
