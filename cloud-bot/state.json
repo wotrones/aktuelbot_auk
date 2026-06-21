@@ -10,7 +10,7 @@
             "lastCheckedAt": 1782052968
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1782047443
+            "lastCheckedAt": 1782053445
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 1782048049
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_edd6ed95cecc4d0a854d4d8457c68161",
-            "brochure_key": "edd6ed95cecc4d0a854d4d8457c68161",
-            "market": "Şok Market",
-            "title": "Bütün Piliç İndirimi 79,90 TL",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/butun-pilic-indirimi-79-90-tl_edd6ed95cecc4d0a854d4d8457c68161",
-            "tries": 0
-        },
         {
             "source_key": "ab_ae31b64d8aa04b948b02109de2e4d811",
             "brochure_key": "ae31b64d8aa04b948b02109de2e4d811",
@@ -779,7 +771,8 @@
         "ab_ccee8dd1dc64435b8a6dce6f00c9f80f": true,
         "ab_b7290848d4e448728a4c062f071a6fd0": true,
         "ab_f14d61fc3c7e48aab0986332b42bcc27": true,
-        "ab_91cb76561ee8427a8abc9d3bf3755cec": true
+        "ab_91cb76561ee8427a8abc9d3bf3755cec": true,
+        "ab_edd6ed95cecc4d0a854d4d8457c68161": true
     },
-    "lastDrainAt": 1782052980
+    "lastDrainAt": 1782053460
 }
