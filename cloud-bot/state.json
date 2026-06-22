@@ -25,7 +25,7 @@
             "lastCheckedAt": 1782155451
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1782149458
+            "lastCheckedAt": 1782156065
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
             "lastCheckedAt": 1782150046
@@ -34,7 +34,24 @@
             "lastCheckedAt": 1782150654
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_713a847dbb334b60bf38bc6a8bd7bcfc",
+            "brochure_key": "713a847dbb334b60bf38bc6a8bd7bcfc",
+            "market": "Tarım Kooperatif",
+            "title": "Tarım Kredi Kooperatif Market İndirim Bülteni Broşürü - Kat Kat Fırsat",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-kooperatif-market-indirim-bulteni-brosuru-kat-kat-firsat_713a847dbb334b60bf38bc6a8bd7bcfc",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_ee603a6b8068463b9d18941dfbd8e123",
+            "brochure_key": "ee603a6b8068463b9d18941dfbd8e123",
+            "market": "Tarım Kooperatif",
+            "title": "Bu Salı Tarsüt Tam Yağlı Tost Peyniri KOOP’ta 255 TL",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/bu-sali-tarsut-tam-yagli-tost-peyniri-koop-ta-255-tl_ee603a6b8068463b9d18941dfbd8e123",
+            "tries": 1
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -184,5 +201,5 @@
         "ab_19e44989cb994d29b4a0a3ed1492c229": true,
         "ab_00dd9c12545f493089e0d47f7e872863": true
     },
-    "lastDrainAt": 1782153091
+    "lastDrainAt": 1782156143
 }
