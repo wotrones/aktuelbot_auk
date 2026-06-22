@@ -13,7 +13,7 @@
             "lastCheckedAt": 1782092440
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1782086460
+            "lastCheckedAt": 1782093042
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1782087045
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_a06037c8364744a581badf960472b3f6",
-            "brochure_key": "a06037c8364744a581badf960472b3f6",
-            "market": "Gratis",
-            "title": "250 TL ve Üzeri Alışverişlerde Tüm Güneş Bakım ve Duş Jellerinde %70 İNDİRİM",
-            "href": "https://aktuelbrosurler.com/gratis/brosurler/250-tl-ve-uzeri-alisverislerde-tum-gunes-bakim-ve-dus-jellerinde-70-indirim_a06037c8364744a581badf960472b3f6",
-            "tries": 0
-        },
         {
             "source_key": "ab_1cd4b75e4fd942b9b1ec7d8cc4f4f02e",
             "brochure_key": "1cd4b75e4fd942b9b1ec7d8cc4f4f02e",
@@ -367,7 +359,8 @@
         "ab_793f045148c2444fa61712998b8d385c": true,
         "ab_9beba812a6664d6eb6f85245d6bfdd52": true,
         "ab_4d0ac55528c643369a87df58dd641b58": true,
-        "ab_95e7426646e04800a6c31a0e02ed2d6c": true
+        "ab_95e7426646e04800a6c31a0e02ed2d6c": true,
+        "ab_a06037c8364744a581badf960472b3f6": true
     },
-    "lastDrainAt": 1782092452
+    "lastDrainAt": 1782093063
 }
