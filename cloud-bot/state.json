@@ -10,7 +10,7 @@
             "lastCheckedAt": 1782091851
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1782085842
+            "lastCheckedAt": 1782092440
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 1782086460
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_95e7426646e04800a6c31a0e02ed2d6c",
-            "brochure_key": "95e7426646e04800a6c31a0e02ed2d6c",
-            "market": "Gratis",
-            "title": "250 TL ve Üzeri Alışverişlerde Tüm Güneş Bakım Ürünlerinde %75 İNDİRİM",
-            "href": "https://aktuelbrosurler.com/gratis/brosurler/250-tl-ve-uzeri-alisverislerde-tum-gunes-bakim-urunlerinde-75-indirim_95e7426646e04800a6c31a0e02ed2d6c",
-            "tries": 0
-        },
         {
             "source_key": "ab_a06037c8364744a581badf960472b3f6",
             "brochure_key": "a06037c8364744a581badf960472b3f6",
@@ -374,7 +366,8 @@
         "ab_eed9a1ee25764209800175940c50b942": true,
         "ab_793f045148c2444fa61712998b8d385c": true,
         "ab_9beba812a6664d6eb6f85245d6bfdd52": true,
-        "ab_4d0ac55528c643369a87df58dd641b58": true
+        "ab_4d0ac55528c643369a87df58dd641b58": true,
+        "ab_95e7426646e04800a6c31a0e02ed2d6c": true
     },
-    "lastDrainAt": 1782091868
+    "lastDrainAt": 1782092452
 }
