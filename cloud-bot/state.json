@@ -4,7 +4,7 @@
             "lastCheckedAt": 1782097261
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1782091242
+            "lastCheckedAt": 1782097842
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
             "lastCheckedAt": 1782091851
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_016a032b3dd944cabeb9a7b049e1a824",
-            "brochure_key": "016a032b3dd944cabeb9a7b049e1a824",
-            "market": "Gratis",
-            "title": "250 TL ve Üzeri Alışverişlerde Gratis’e Özel Markalı Tüm Ürünlerde %70 İNDİRİM",
-            "href": "https://aktuelbrosurler.com/gratis/brosurler/250-tl-ve-uzeri-alisverislerde-gratis-e-ozel-markali-tum-urunlerde-70-indirim_016a032b3dd944cabeb9a7b049e1a824",
-            "tries": 0
-        },
         {
             "source_key": "ab_d8290c6eccef4f70950c19ea248c6c8c",
             "brochure_key": "d8290c6eccef4f70950c19ea248c6c8c",
@@ -311,7 +303,8 @@
         "ab_383fd2be9aca4ef6bac6696e6b9071c5": true,
         "ab_6fd8a14a2e6448d28b2a46a6ba76f797": true,
         "ab_50352391f88046c8a5f8eca37084bdc0": true,
-        "ab_84d77a96506748e18a67d3228a1f5f1e": true
+        "ab_84d77a96506748e18a67d3228a1f5f1e": true,
+        "ab_016a032b3dd944cabeb9a7b049e1a824": true
     },
-    "lastDrainAt": 1782097262
+    "lastDrainAt": 1782097843
 }
