@@ -19,7 +19,7 @@
             "lastCheckedAt": 1782093659
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1782087639
+            "lastCheckedAt": 1782094241
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
             "lastCheckedAt": 1782088250
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_3c4c1d488e084f2981ffffc35440bf0f",
-            "brochure_key": "3c4c1d488e084f2981ffffc35440bf0f",
-            "market": "Gratis",
-            "title": "250 TL ve Üzeri Alışverişlerde Tüm Ürünlerde %60 İNDİRİM",
-            "href": "https://aktuelbrosurler.com/gratis/brosurler/250-tl-ve-uzeri-alisverislerde-tum-urunlerde-60-indirim_3c4c1d488e084f2981ffffc35440bf0f",
-            "tries": 0
-        },
         {
             "source_key": "ab_d7d1ac4ab7254ee09973311bddb6e86e",
             "brochure_key": "d7d1ac4ab7254ee09973311bddb6e86e",
@@ -353,7 +345,8 @@
         "ab_4d0ac55528c643369a87df58dd641b58": true,
         "ab_95e7426646e04800a6c31a0e02ed2d6c": true,
         "ab_a06037c8364744a581badf960472b3f6": true,
-        "ab_1cd4b75e4fd942b9b1ec7d8cc4f4f02e": true
+        "ab_1cd4b75e4fd942b9b1ec7d8cc4f4f02e": true,
+        "ab_3c4c1d488e084f2981ffffc35440bf0f": true
     },
-    "lastDrainAt": 1782093678
+    "lastDrainAt": 1782094282
 }
