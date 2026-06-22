@@ -25,7 +25,7 @@
             "lastCheckedAt": 1782108062
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1782102045
+            "lastCheckedAt": 1782108645
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
             "lastCheckedAt": 1782102658
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_7a28b96fbd484622924c516c106005b1",
-            "brochure_key": "7a28b96fbd484622924c516c106005b1",
-            "market": "Watsons",
-            "title": "Bugüne Özel İndirimli Ürünler",
-            "href": "https://aktuelbrosurler.com/watsons/brosurler/bugune-ozel-indirimli-urunler_7a28b96fbd484622924c516c106005b1",
-            "tries": 1
-        },
         {
             "source_key": "ab_7f4d6c8793294f11a56382a5e5339547",
             "brochure_key": "7f4d6c8793294f11a56382a5e5339547",
@@ -185,7 +177,8 @@
         "ab_bd8fbb2295b94c00b55bd46d8e0b1783": true,
         "ab_f06114b1e7204ca3a00c44117a295e9e": true,
         "ab_b901467ae7014535bfd4a23f62fd20c2": true,
-        "ab_5d28ce50e61448668654133b3fd66e9d": true
+        "ab_5d28ce50e61448668654133b3fd66e9d": true,
+        "ab_7a28b96fbd484622924c516c106005b1": true
     },
-    "lastDrainAt": 1782108075
+    "lastDrainAt": 1782108660
 }
