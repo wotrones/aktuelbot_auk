@@ -25,7 +25,7 @@
             "lastCheckedAt": 1782101443
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1782095454
+            "lastCheckedAt": 1782102045
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
             "lastCheckedAt": 1782096041
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_ae31b64d8aa04b948b02109de2e4d811",
-            "brochure_key": "ae31b64d8aa04b948b02109de2e4d811",
-            "market": "Şok Market",
-            "title": "Şok Market Fırsat Ürünleri Broşürü 20-23 Haziran 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-firsat-urunleri-brosuru-20-23-haziran-2026_ae31b64d8aa04b948b02109de2e4d811",
-            "tries": 1
-        },
         {
             "source_key": "ab_29abb7f3a67a43e39436659bbf135b02",
             "brochure_key": "29abb7f3a67a43e39436659bbf135b02",
@@ -262,7 +254,8 @@
         "ab_73095ea210af4486b288eb23334a4c33": true,
         "ab_54f0506e9ea345a7afddd64ffa8aac4b": true,
         "ab_04d4f34b3fe44e84ba8f4d56652161b0": true,
-        "ab_1cefb60097064e348efcdbd7931ad44d": true
+        "ab_1cefb60097064e348efcdbd7931ad44d": true,
+        "ab_ae31b64d8aa04b948b02109de2e4d811": true
     },
-    "lastDrainAt": 1782101487
+    "lastDrainAt": 1782102069
 }
