@@ -7,7 +7,7 @@
             "lastCheckedAt": 1782104464
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1782098445
+            "lastCheckedAt": 1782105042
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1782099053
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_e1a88d7e86644e72b2681df5702127b7",
-            "brochure_key": "e1a88d7e86644e72b2681df5702127b7",
-            "market": "Carrefour",
-            "title": "Tatil Kataloğu",
-            "href": "https://aktuelbrosurler.com/carrefour/brosurler/tatil-katalogu_e1a88d7e86644e72b2681df5702127b7",
-            "tries": 1
-        },
         {
             "source_key": "ab_14330b6bbe164da2a5771b1fc93ad082",
             "brochure_key": "14330b6bbe164da2a5771b1fc93ad082",
@@ -227,7 +219,8 @@
         "ab_29abb7f3a67a43e39436659bbf135b02": true,
         "ab_d204b0747bc64d69923d801ed5f4c1c5": true,
         "ab_9611924eefcd4cf78d1923b6f0b4e69b": true,
-        "ab_06c803cdf9984773a80e278416f64d4a": true
+        "ab_06c803cdf9984773a80e278416f64d4a": true,
+        "ab_e1a88d7e86644e72b2681df5702127b7": true
     },
-    "lastDrainAt": 1782104477
+    "lastDrainAt": 1782105357
 }
