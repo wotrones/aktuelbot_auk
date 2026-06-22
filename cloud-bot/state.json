@@ -13,7 +13,7 @@
             "lastCheckedAt": 1782099053
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1782093042
+            "lastCheckedAt": 1782099643
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1782093659
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_73095ea210af4486b288eb23334a4c33",
-            "brochure_key": "73095ea210af4486b288eb23334a4c33",
-            "market": "Bizim Toptan Market",
-            "title": "HORECA'ya Özel İndirim Broşürü",
-            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/horeca-ya-ozel-indirim-brosuru_73095ea210af4486b288eb23334a4c33",
-            "tries": 1
-        },
         {
             "source_key": "ab_54f0506e9ea345a7afddd64ffa8aac4b",
             "brochure_key": "54f0506e9ea345a7afddd64ffa8aac4b",
@@ -290,7 +282,8 @@
         "ab_84d77a96506748e18a67d3228a1f5f1e": true,
         "ab_016a032b3dd944cabeb9a7b049e1a824": true,
         "ab_d8290c6eccef4f70950c19ea248c6c8c": true,
-        "ab_f986f45423cf4f3c8c38c84389f042b6": true
+        "ab_f986f45423cf4f3c8c38c84389f042b6": true,
+        "ab_73095ea210af4486b288eb23334a4c33": true
     },
-    "lastDrainAt": 1782099087
+    "lastDrainAt": 1782099717
 }
