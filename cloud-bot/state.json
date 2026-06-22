@@ -4,7 +4,7 @@
             "lastCheckedAt": 1782103850
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1782097842
+            "lastCheckedAt": 1782104464
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
             "lastCheckedAt": 1782098445
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_06c803cdf9984773a80e278416f64d4a",
-            "brochure_key": "06c803cdf9984773a80e278416f64d4a",
-            "market": "Şok Market",
-            "title": "Bugüne Özel Seçili Kişisel Bakım Ürünlerinde 1 Alana 1 Bedava!",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/bugune-ozel-secili-kisisel-bakim-urunlerinde-1-alana-1-bedava_06c803cdf9984773a80e278416f64d4a",
-            "tries": 1
-        },
         {
             "source_key": "ab_e1a88d7e86644e72b2681df5702127b7",
             "brochure_key": "e1a88d7e86644e72b2681df5702127b7",
@@ -234,7 +226,8 @@
         "ab_ae31b64d8aa04b948b02109de2e4d811": true,
         "ab_29abb7f3a67a43e39436659bbf135b02": true,
         "ab_d204b0747bc64d69923d801ed5f4c1c5": true,
-        "ab_9611924eefcd4cf78d1923b6f0b4e69b": true
+        "ab_9611924eefcd4cf78d1923b6f0b4e69b": true,
+        "ab_06c803cdf9984773a80e278416f64d4a": true
     },
-    "lastDrainAt": 1782104077
+    "lastDrainAt": 1782104477
 }
