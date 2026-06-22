@@ -10,7 +10,7 @@
             "lastCheckedAt": 1782105042
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1782099053
+            "lastCheckedAt": 1782105642
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 1782099643
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_14330b6bbe164da2a5771b1fc93ad082",
-            "brochure_key": "14330b6bbe164da2a5771b1fc93ad082",
-            "market": "Carrefour",
-            "title": "50TL ve Üzeri Alışverişlerde İndirimli Ürünler",
-            "href": "https://aktuelbrosurler.com/carrefour/brosurler/50tl-ve-uzeri-alisverislerde-indirimli-urunler_14330b6bbe164da2a5771b1fc93ad082",
-            "tries": 1
-        },
         {
             "source_key": "ab_bd8fbb2295b94c00b55bd46d8e0b1783",
             "brochure_key": "bd8fbb2295b94c00b55bd46d8e0b1783",
@@ -220,7 +212,8 @@
         "ab_d204b0747bc64d69923d801ed5f4c1c5": true,
         "ab_9611924eefcd4cf78d1923b6f0b4e69b": true,
         "ab_06c803cdf9984773a80e278416f64d4a": true,
-        "ab_e1a88d7e86644e72b2681df5702127b7": true
+        "ab_e1a88d7e86644e72b2681df5702127b7": true,
+        "ab_14330b6bbe164da2a5771b1fc93ad082": true
     },
-    "lastDrainAt": 1782105357
+    "lastDrainAt": 1782105664
 }
