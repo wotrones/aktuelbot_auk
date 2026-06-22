@@ -22,7 +22,7 @@
             "lastCheckedAt": 1782094241
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1782088250
+            "lastCheckedAt": 1782094841
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
             "lastCheckedAt": 1782088843
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_d7d1ac4ab7254ee09973311bddb6e86e",
-            "brochure_key": "d7d1ac4ab7254ee09973311bddb6e86e",
-            "market": "Gratis",
-            "title": "250 TL ve Üzeri Alışverişlerde Gratis’e Özel Markalı Tüm Ürünlerde %60 İNDİRİM",
-            "href": "https://aktuelbrosurler.com/gratis/brosurler/250-tl-ve-uzeri-alisverislerde-gratis-e-ozel-markali-tum-urunlerde-60-indirim_d7d1ac4ab7254ee09973311bddb6e86e",
-            "tries": 0
-        },
         {
             "source_key": "ab_383fd2be9aca4ef6bac6696e6b9071c5",
             "brochure_key": "383fd2be9aca4ef6bac6696e6b9071c5",
@@ -346,7 +338,8 @@
         "ab_95e7426646e04800a6c31a0e02ed2d6c": true,
         "ab_a06037c8364744a581badf960472b3f6": true,
         "ab_1cd4b75e4fd942b9b1ec7d8cc4f4f02e": true,
-        "ab_3c4c1d488e084f2981ffffc35440bf0f": true
+        "ab_3c4c1d488e084f2981ffffc35440bf0f": true,
+        "ab_d7d1ac4ab7254ee09973311bddb6e86e": true
     },
-    "lastDrainAt": 1782094282
+    "lastDrainAt": 1782094842
 }
