@@ -1,7 +1,7 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1782090643
+            "lastCheckedAt": 1782097261
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
             "lastCheckedAt": 1782091242
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_84d77a96506748e18a67d3228a1f5f1e",
-            "brochure_key": "84d77a96506748e18a67d3228a1f5f1e",
-            "market": "Gratis",
-            "title": "Tüm Makyaj, Yüz Bakım, El & Vücut Kremleri, Şampuan, Saç Kremleri ve Pedlerde %70 İNDİRİM",
-            "href": "https://aktuelbrosurler.com/gratis/brosurler/tum-makyaj-yuz-bakim-el-vucut-kremleri-sampuan-sac-kremleri-ve-pedlerde-70-indirim_84d77a96506748e18a67d3228a1f5f1e",
-            "tries": 0
-        },
         {
             "source_key": "ab_016a032b3dd944cabeb9a7b049e1a824",
             "brochure_key": "016a032b3dd944cabeb9a7b049e1a824",
@@ -318,7 +310,8 @@
         "ab_d7d1ac4ab7254ee09973311bddb6e86e": true,
         "ab_383fd2be9aca4ef6bac6696e6b9071c5": true,
         "ab_6fd8a14a2e6448d28b2a46a6ba76f797": true,
-        "ab_50352391f88046c8a5f8eca37084bdc0": true
+        "ab_50352391f88046c8a5f8eca37084bdc0": true,
+        "ab_84d77a96506748e18a67d3228a1f5f1e": true
     },
-    "lastDrainAt": 1782096646
+    "lastDrainAt": 1782097262
 }
