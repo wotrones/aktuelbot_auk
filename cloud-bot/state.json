@@ -19,7 +19,7 @@
             "lastCheckedAt": 1782100241
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1782094241
+            "lastCheckedAt": 1782100859
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
             "lastCheckedAt": 1782094841
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_04d4f34b3fe44e84ba8f4d56652161b0",
-            "brochure_key": "04d4f34b3fe44e84ba8f4d56652161b0",
-            "market": "Şok Market",
-            "title": "Detaylı | Şok Market Hafta Sonu Fırsatları Aktüel Ürünler Broşür 20-23 Haziran 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-hafta-sonu-firsatlari-aktuel-urunler-brosur-20-23-haziran-2026_04d4f34b3fe44e84ba8f4d56652161b0",
-            "tries": 0
-        },
         {
             "source_key": "ab_1cefb60097064e348efcdbd7931ad44d",
             "brochure_key": "1cefb60097064e348efcdbd7931ad44d",
@@ -276,7 +268,8 @@
         "ab_d8290c6eccef4f70950c19ea248c6c8c": true,
         "ab_f986f45423cf4f3c8c38c84389f042b6": true,
         "ab_73095ea210af4486b288eb23334a4c33": true,
-        "ab_54f0506e9ea345a7afddd64ffa8aac4b": true
+        "ab_54f0506e9ea345a7afddd64ffa8aac4b": true,
+        "ab_04d4f34b3fe44e84ba8f4d56652161b0": true
     },
-    "lastDrainAt": 1782100345
+    "lastDrainAt": 1782100913
 }
