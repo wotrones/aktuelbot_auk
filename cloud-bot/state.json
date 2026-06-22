@@ -25,7 +25,7 @@
             "lastCheckedAt": 1782094841
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1782088843
+            "lastCheckedAt": 1782095454
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
             "lastCheckedAt": 1782089441
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_383fd2be9aca4ef6bac6696e6b9071c5",
-            "brochure_key": "383fd2be9aca4ef6bac6696e6b9071c5",
-            "market": "Gratis",
-            "title": "Gratis Haziran 2026 Ürünler ve Kampanya Kataloğu",
-            "href": "https://aktuelbrosurler.com/gratis/brosurler/gratis-haziran-2026-urunler-ve-kampanya-katalogu_383fd2be9aca4ef6bac6696e6b9071c5",
-            "tries": 0
-        },
         {
             "source_key": "ab_6fd8a14a2e6448d28b2a46a6ba76f797",
             "brochure_key": "6fd8a14a2e6448d28b2a46a6ba76f797",
@@ -339,7 +331,8 @@
         "ab_a06037c8364744a581badf960472b3f6": true,
         "ab_1cd4b75e4fd942b9b1ec7d8cc4f4f02e": true,
         "ab_3c4c1d488e084f2981ffffc35440bf0f": true,
-        "ab_d7d1ac4ab7254ee09973311bddb6e86e": true
+        "ab_d7d1ac4ab7254ee09973311bddb6e86e": true,
+        "ab_383fd2be9aca4ef6bac6696e6b9071c5": true
     },
-    "lastDrainAt": 1782094842
+    "lastDrainAt": 1782095454
 }
