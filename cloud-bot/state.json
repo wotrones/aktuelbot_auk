@@ -31,18 +31,10 @@
             "lastCheckedAt": 1782089441
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1782084042
+            "lastCheckedAt": 1782090056
         }
     },
     "queue": [
-        {
-            "source_key": "ab_eed9a1ee25764209800175940c50b942",
-            "brochure_key": "eed9a1ee25764209800175940c50b942",
-            "market": "Hakmar",
-            "title": "Fırsat Ürünleri Broşürü",
-            "href": "https://aktuelbrosurler.com/hakmar/brosurler/firsat-urunleri-brosuru_eed9a1ee25764209800175940c50b942",
-            "tries": 0
-        },
         {
             "source_key": "ab_793f045148c2444fa61712998b8d385c",
             "brochure_key": "793f045148c2444fa61712998b8d385c",
@@ -402,7 +394,8 @@
         "ab_12ade254d45442209ecbb00aebbb86e5": true,
         "ab_80be1552249643f9a3e8615c13246746": true,
         "ab_8e18dc5124174bde8a4e0fa63793aa35": true,
-        "ab_952ab95838254553a90213874620f9e3": true
+        "ab_952ab95838254553a90213874620f9e3": true,
+        "ab_eed9a1ee25764209800175940c50b942": true
     },
-    "lastDrainAt": 1782089441
+    "lastDrainAt": 1782090057
 }
