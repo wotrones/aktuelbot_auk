@@ -31,18 +31,10 @@
             "lastCheckedAt": 1782102658
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1782096646
+            "lastCheckedAt": 1782103243
         }
     },
     "queue": [
-        {
-            "source_key": "ab_d204b0747bc64d69923d801ed5f4c1c5",
-            "brochure_key": "d204b0747bc64d69923d801ed5f4c1c5",
-            "market": "Şok Market",
-            "title": "Atıştırmalık Ürünleri Fırsat Broşürü",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/atistirmalik-urunleri-firsat-brosuru_d204b0747bc64d69923d801ed5f4c1c5",
-            "tries": 1
-        },
         {
             "source_key": "ab_9611924eefcd4cf78d1923b6f0b4e69b",
             "brochure_key": "9611924eefcd4cf78d1923b6f0b4e69b",
@@ -248,7 +240,8 @@
         "ab_04d4f34b3fe44e84ba8f4d56652161b0": true,
         "ab_1cefb60097064e348efcdbd7931ad44d": true,
         "ab_ae31b64d8aa04b948b02109de2e4d811": true,
-        "ab_29abb7f3a67a43e39436659bbf135b02": true
+        "ab_29abb7f3a67a43e39436659bbf135b02": true,
+        "ab_d204b0747bc64d69923d801ed5f4c1c5": true
     },
-    "lastDrainAt": 1782102679
+    "lastDrainAt": 1782103260
 }
