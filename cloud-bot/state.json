@@ -41,7 +41,7 @@
             "market": "Tarım Kooperatif",
             "title": "KOOP Market'te Pazartesi Fırsatı!",
             "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-market-te-pazartesi-firsati_e545b225aa2e4873b82d6c7360818cb0",
-            "tries": 0
+            "tries": 1
         }
     ],
     "uploaded": {
@@ -182,5 +182,5 @@
         "ab_7f4d6c8793294f11a56382a5e5339547": true,
         "ab_7a80aeaadb234fd7830a3c53182b95e4": true
     },
-    "lastDrainAt": 1782121348
+    "lastDrainAt": 1782121845
 }
