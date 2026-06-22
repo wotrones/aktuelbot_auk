@@ -28,21 +28,13 @@
             "lastCheckedAt": 1782088843
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1782083442
+            "lastCheckedAt": 1782089441
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
             "lastCheckedAt": 1782084042
         }
     },
     "queue": [
-        {
-            "source_key": "ab_952ab95838254553a90213874620f9e3",
-            "brochure_key": "952ab95838254553a90213874620f9e3",
-            "market": "Hakmar",
-            "title": "Bayram Süresince Çalışma Saatlerimiz",
-            "href": "https://aktuelbrosurler.com/hakmar/brosurler/bayram-suresince-calisma-saatlerimiz_952ab95838254553a90213874620f9e3",
-            "tries": 0
-        },
         {
             "source_key": "ab_eed9a1ee25764209800175940c50b942",
             "brochure_key": "eed9a1ee25764209800175940c50b942",
@@ -409,7 +401,8 @@
         "ab_2d24f9ac342d4390b399df90afe04a1c": true,
         "ab_12ade254d45442209ecbb00aebbb86e5": true,
         "ab_80be1552249643f9a3e8615c13246746": true,
-        "ab_8e18dc5124174bde8a4e0fa63793aa35": true
+        "ab_8e18dc5124174bde8a4e0fa63793aa35": true,
+        "ab_952ab95838254553a90213874620f9e3": true
     },
-    "lastDrainAt": 1782088895
+    "lastDrainAt": 1782089441
 }
