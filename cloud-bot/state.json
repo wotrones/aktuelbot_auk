@@ -1,7 +1,7 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1782084654
+            "lastCheckedAt": 1782090643
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
             "lastCheckedAt": 1782085241
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_793f045148c2444fa61712998b8d385c",
-            "brochure_key": "793f045148c2444fa61712998b8d385c",
-            "market": "Hakmar",
-            "title": "30'lu M boy yumurta indirimi",
-            "href": "https://aktuelbrosurler.com/hakmar/brosurler/30-lu-m-boy-yumurta-indirimi_793f045148c2444fa61712998b8d385c",
-            "tries": 0
-        },
         {
             "source_key": "ab_9beba812a6664d6eb6f85245d6bfdd52",
             "brochure_key": "9beba812a6664d6eb6f85245d6bfdd52",
@@ -395,7 +387,8 @@
         "ab_80be1552249643f9a3e8615c13246746": true,
         "ab_8e18dc5124174bde8a4e0fa63793aa35": true,
         "ab_952ab95838254553a90213874620f9e3": true,
-        "ab_eed9a1ee25764209800175940c50b942": true
+        "ab_eed9a1ee25764209800175940c50b942": true,
+        "ab_793f045148c2444fa61712998b8d385c": true
     },
-    "lastDrainAt": 1782090057
+    "lastDrainAt": 1782090643
 }
