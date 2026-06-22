@@ -16,7 +16,7 @@
             "lastCheckedAt": 1782093042
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1782087045
+            "lastCheckedAt": 1782093659
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
             "lastCheckedAt": 1782087639
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_1cd4b75e4fd942b9b1ec7d8cc4f4f02e",
-            "brochure_key": "1cd4b75e4fd942b9b1ec7d8cc4f4f02e",
-            "market": "Gratis",
-            "title": "250 TL ve Üzeri Alışverişlerde Tüm Makyaj, Saç ve Yüz Bakım Ürünlerinde %80 İNDİRİM",
-            "href": "https://aktuelbrosurler.com/gratis/brosurler/250-tl-ve-uzeri-alisverislerde-tum-makyaj-sac-ve-yuz-bakim-urunlerinde-80-indirim_1cd4b75e4fd942b9b1ec7d8cc4f4f02e",
-            "tries": 0
-        },
         {
             "source_key": "ab_3c4c1d488e084f2981ffffc35440bf0f",
             "brochure_key": "3c4c1d488e084f2981ffffc35440bf0f",
@@ -360,7 +352,8 @@
         "ab_9beba812a6664d6eb6f85245d6bfdd52": true,
         "ab_4d0ac55528c643369a87df58dd641b58": true,
         "ab_95e7426646e04800a6c31a0e02ed2d6c": true,
-        "ab_a06037c8364744a581badf960472b3f6": true
+        "ab_a06037c8364744a581badf960472b3f6": true,
+        "ab_1cd4b75e4fd942b9b1ec7d8cc4f4f02e": true
     },
-    "lastDrainAt": 1782093063
+    "lastDrainAt": 1782093678
 }
