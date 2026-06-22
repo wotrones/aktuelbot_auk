@@ -13,7 +13,7 @@
             "lastCheckedAt": 1782085842
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1782080442
+            "lastCheckedAt": 1782086460
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1782081053
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_18f2fc3abea248af9f9cff3a900cd566",
-            "brochure_key": "18f2fc3abea248af9f9cff3a900cd566",
-            "market": "Hakmar",
-            "title": "Hakmar Aktüel Ürünler İndirim Bülteni Broşürü - Muharrem Ayınız Mübarek Olsun",
-            "href": "https://aktuelbrosurler.com/hakmar/brosurler/hakmar-aktuel-urunler-indirim-bulteni-brosuru-muharrem-ayiniz-mubarek-olsun_18f2fc3abea248af9f9cff3a900cd566",
-            "tries": 0
-        },
         {
             "source_key": "ab_2d24f9ac342d4390b399df90afe04a1c",
             "brochure_key": "2d24f9ac342d4390b399df90afe04a1c",
@@ -444,7 +436,8 @@
         "ab_0e2b955116464552be9cabb3b7e4b12c": true,
         "ab_b5687965ee2a4a799f45eaadbec14ab0": true,
         "ab_a2a2060589e94f79916686ba271c1c44": true,
-        "ab_b716ee6cdb6f4a6bae5766fb5be0cc78": true
+        "ab_b716ee6cdb6f4a6bae5766fb5be0cc78": true,
+        "ab_18f2fc3abea248af9f9cff3a900cd566": true
     },
-    "lastDrainAt": 1782085854
+    "lastDrainAt": 1782086483
 }
