@@ -28,22 +28,13 @@
             "lastCheckedAt": 1782234652
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1782228535
+            "lastCheckedAt": 1782235256
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
             "lastCheckedAt": 1782228666
         }
     },
-    "queue": [
-        {
-            "source_key": "ab_20f5b2703a994e03bb33aac43076d25e",
-            "brochure_key": "20f5b2703a994e03bb33aac43076d25e",
-            "market": "Tarım Kooperatif",
-            "title": "KOOP Market’te Çarşamba Fırsatı!",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-market-te-carsamba-firsati_20f5b2703a994e03bb33aac43076d25e",
-            "tries": 1
-        }
-    ],
+    "queue": [],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -197,7 +188,8 @@
         "ab_ea008cb659e74a06b8b59bd228965b72": true,
         "ab_89b14cfaf6cf49b1b486c4273402cf1d": true,
         "ab_c8208655cc8944609f529100034b24e1": true,
-        "ab_854f6d97170143d4aa49fb27d734da3b": true
+        "ab_854f6d97170143d4aa49fb27d734da3b": true,
+        "ab_20f5b2703a994e03bb33aac43076d25e": true
     },
-    "lastDrainAt": 1782234684
+    "lastDrainAt": 1782235277
 }
