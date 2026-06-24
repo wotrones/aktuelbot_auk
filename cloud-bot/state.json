@@ -16,7 +16,7 @@
             "lastCheckedAt": 1782294658
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1782289244
+            "lastCheckedAt": 1782295265
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
             "lastCheckedAt": 1782289884
@@ -34,7 +34,16 @@
             "lastCheckedAt": 1782291663
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_35b639c4c7644af39fab85bd9ba89ba0",
+            "brochure_key": "35b639c4c7644af39fab85bd9ba89ba0",
+            "market": "Carrefour",
+            "title": "Kırmızı Et Ürünlerinde İndirimli Fiyatlar",
+            "href": "https://aktuelbrosurler.com/carrefour/brosurler/kirmizi-et-urunlerinde-indirimli-fiyatlar_35b639c4c7644af39fab85bd9ba89ba0",
+            "tries": 1
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -193,5 +202,5 @@
         "ab_ebbe261e295a4e98bf7c465102f9a8fc": true,
         "ab_4a629ab6268a4e8487abd2bbace0bb2c": true
     },
-    "lastDrainAt": 1782256269
+    "lastDrainAt": 1782295311
 }
