@@ -13,7 +13,7 @@
             "lastCheckedAt": 1782325245
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1782319844
+            "lastCheckedAt": 1782325859
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1782320474
@@ -34,16 +34,7 @@
             "lastCheckedAt": 1782323446
         }
     },
-    "queue": [
-        {
-            "source_key": "ab_da427ec4a12a4329bd2c120cb6ca8b1b",
-            "brochure_key": "da427ec4a12a4329bd2c120cb6ca8b1b",
-            "market": "A101",
-            "title": "Meyve ve Sebze Reyonu Fırsatları",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/meyve-ve-sebze-reyonu-firsatlari_da427ec4a12a4329bd2c120cb6ca8b1b",
-            "tries": 0
-        }
-    ],
+    "queue": [],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -205,7 +196,8 @@
         "ab_2ec26ef36d9f445bbd4a934f548e9233": true,
         "ab_b5f4df7e8b214a8b949879a5f7108a21": true,
         "ab_3977206b676d4e149814f10b489293d3": true,
-        "ab_2e3920305c944d31b60d9f37da9a6660": true
+        "ab_2e3920305c944d31b60d9f37da9a6660": true,
+        "ab_da427ec4a12a4329bd2c120cb6ca8b1b": true
     },
-    "lastDrainAt": 1782325309
+    "lastDrainAt": 1782325908
 }
