@@ -4,7 +4,7 @@
             "lastCheckedAt": 1782382840
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1782377439
+            "lastCheckedAt": 1782383472
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
             "lastCheckedAt": 1782378059
@@ -34,7 +34,16 @@
             "lastCheckedAt": 1782382242
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_0157d36f177846f698b53f27e2bfc5d7",
+            "brochure_key": "0157d36f177846f698b53f27e2bfc5d7",
+            "market": "Bizim Toptan Market",
+            "title": "Bizim Toptan Market İndirim Bülteni Broşürü - Haftanın Fırsatları",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-toptan-market-indirim-bulteni-brosuru-haftanin-firsatlari_0157d36f177846f698b53f27e2bfc5d7",
+            "tries": 0
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -198,7 +207,8 @@
         "ab_3977206b676d4e149814f10b489293d3": true,
         "ab_2e3920305c944d31b60d9f37da9a6660": true,
         "ab_da427ec4a12a4329bd2c120cb6ca8b1b": true,
-        "ab_97b6c05cc98945b68472d41b8b8d47ca": true
+        "ab_97b6c05cc98945b68472d41b8b8d47ca": true,
+        "ab_853851f451e54ae598fe724510d66d00": true
     },
-    "lastDrainAt": 1782340863
+    "lastDrainAt": 1782383596
 }
