@@ -13,7 +13,7 @@
             "lastCheckedAt": 1782397245
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1782391252
+            "lastCheckedAt": 1782397857
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1782391847
@@ -34,7 +34,16 @@
             "lastCheckedAt": 1782394851
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_aa9bdc7e222c4a3f969f6f3ff412cccc",
+            "brochure_key": "aa9bdc7e222c4a3f969f6f3ff412cccc",
+            "market": "Şok Market",
+            "title": "(Net sayfalar firma orijinal broşürü yayınladığında yüklenecektir) 27-30 Haziran 2026 Şok Broşür",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/net-sayfalar-firma-orijinal-brosuru-yayinladiginda-yuklenecektir-27-30-haziran-2026-sok-brosur_aa9bdc7e222c4a3f969f6f3ff412cccc",
+            "tries": 0
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -203,7 +212,8 @@
         "ab_0157d36f177846f698b53f27e2bfc5d7": true,
         "ab_865a69d6615c434d8ca470063e8f31fa": true,
         "ab_28c6f69955d847b298be6bcd7f6a3107": true,
-        "ab_456ddef03fe54563b52d2fa49d1b40a2": true
+        "ab_456ddef03fe54563b52d2fa49d1b40a2": true,
+        "ab_ff5b5637d1d647668aba0af8a446100d": true
     },
-    "lastDrainAt": 1782397267
+    "lastDrainAt": 1782397885
 }
