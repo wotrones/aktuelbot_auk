@@ -10,7 +10,7 @@
             "lastCheckedAt": 1782409243
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1782403260
+            "lastCheckedAt": 1782409852
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 1782403843
@@ -34,7 +34,32 @@
             "lastCheckedAt": 1782407443
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_59969feb278c48cca759c6a76196ef06",
+            "brochure_key": "59969feb278c48cca759c6a76196ef06",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 26-29 Haziran",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-26-29-haziran_59969feb278c48cca759c6a76196ef06",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_16af5946b17447bd893416f17b0d3e1b",
+            "brochure_key": "16af5946b17447bd893416f17b0d3e1b",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 26-29 Haziran",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-26-29-haziran_16af5946b17447bd893416f17b0d3e1b",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_e50f0ed68b2b45d18f10030676a3e0ac",
+            "brochure_key": "e50f0ed68b2b45d18f10030676a3e0ac",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 26-29 Haziran",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-26-29-haziran_e50f0ed68b2b45d18f10030676a3e0ac",
+            "tries": 0
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -207,7 +232,8 @@
         "ab_ff5b5637d1d647668aba0af8a446100d": true,
         "ab_aa9bdc7e222c4a3f969f6f3ff412cccc": true,
         "ab_14ab8336f8364615901688cfe995556f": true,
-        "ab_c2d542da6ea043ef9f9b33d879dae613": true
+        "ab_c2d542da6ea043ef9f9b33d879dae613": true,
+        "ab_87bf2d8be4ab4b218f241842a7bb1c55": true
     },
-    "lastDrainAt": 1782403279
+    "lastDrainAt": 1782409866
 }
