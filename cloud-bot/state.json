@@ -10,7 +10,7 @@
             "lastCheckedAt": 1782460243
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1782454241
+            "lastCheckedAt": 1782460783
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 1782454841
@@ -34,7 +34,16 @@
             "lastCheckedAt": 1782458443
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_4f6c162871674b8cac7f9a909ed3910e",
+            "brochure_key": "4f6c162871674b8cac7f9a909ed3910e",
+            "market": "Bim",
+            "title": "Meyve ve Sebze İndirimleri Broşürü 26-29 Haziran",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/meyve-ve-sebze-indirimleri-brosuru-26-29-haziran_4f6c162871674b8cac7f9a909ed3910e",
+            "tries": 0
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -218,7 +227,8 @@
         "ab_b3d41538918d4b5388b556d6a0b47f6f": true,
         "ab_2772bb59614047d6a4abf846f26ae72f": true,
         "ab_462bb8307b134147b9a266f7e6fee95f": true,
-        "ab_f6eba0fea1124e39a85b0e3dc5fa006b": true
+        "ab_f6eba0fea1124e39a85b0e3dc5fa006b": true,
+        "ab_8a3e66bf6e6941df824ec0601b58dac0": true
     },
-    "lastDrainAt": 1782432091
+    "lastDrainAt": 1782460797
 }
