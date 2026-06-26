@@ -28,22 +28,13 @@
             "lastCheckedAt": 1782489044
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1782483044
+            "lastCheckedAt": 1782489661
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
             "lastCheckedAt": 1782483645
         }
     },
-    "queue": [
-        {
-            "source_key": "ab_ae0cf5452aae480f82002875d2a08f5d",
-            "brochure_key": "ae0cf5452aae480f82002875d2a08f5d",
-            "market": "Tarım Kooperatif",
-            "title": "Meyve Reyonu Fırsatları",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/meyve-reyonu-firsatlari_ae0cf5452aae480f82002875d2a08f5d",
-            "tries": 0
-        }
-    ],
+    "queue": [],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -237,7 +228,8 @@
         "ab_7773482af19345ecbc860dd26d8e7faf": true,
         "ab_1af2649b45a949f88ce847180fdb0b19": true,
         "ab_6616745a1e724d5483b3a5806f1199dd": true,
-        "ab_93704a8177ef4e1e90c56c6bc4eaeaba": true
+        "ab_93704a8177ef4e1e90c56c6bc4eaeaba": true,
+        "ab_ae0cf5452aae480f82002875d2a08f5d": true
     },
-    "lastDrainAt": 1782489059
+    "lastDrainAt": 1782489676
 }
