@@ -31,7 +31,7 @@
             "lastCheckedAt": 1782431927
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1782426042
+            "lastCheckedAt": 1782432068
         }
     },
     "queue": [],
@@ -217,7 +217,8 @@
         "ab_a1d4fd18ba6c41bcb62871192f75a11a": true,
         "ab_b3d41538918d4b5388b556d6a0b47f6f": true,
         "ab_2772bb59614047d6a4abf846f26ae72f": true,
-        "ab_462bb8307b134147b9a266f7e6fee95f": true
+        "ab_462bb8307b134147b9a266f7e6fee95f": true,
+        "ab_f6eba0fea1124e39a85b0e3dc5fa006b": true
     },
-    "lastDrainAt": 1782427885
+    "lastDrainAt": 1782432091
 }
