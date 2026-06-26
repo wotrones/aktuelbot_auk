@@ -19,7 +19,7 @@
             "lastCheckedAt": 1782487242
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1782481244
+            "lastCheckedAt": 1782487849
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
             "lastCheckedAt": 1782481844
@@ -34,16 +34,7 @@
             "lastCheckedAt": 1782483645
         }
     },
-    "queue": [
-        {
-            "source_key": "ab_6616745a1e724d5483b3a5806f1199dd",
-            "brochure_key": "6616745a1e724d5483b3a5806f1199dd",
-            "market": "Şok Market",
-            "title": "50TL ve Üzeri Alışverişlerde İndirimli Ürünler 27 Haziran-28 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/50tl-ve-uzeri-alisverislerde-indirimli-urunler-27-haziran-28-agustos-2026_6616745a1e724d5483b3a5806f1199dd",
-            "tries": 0
-        }
-    ],
+    "queue": [],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -235,7 +226,8 @@
         "ab_aca8f050b61f4565893e0ed565480882": true,
         "ab_4911beff8bba4fcc97cc5c23c26cc2c4": true,
         "ab_7773482af19345ecbc860dd26d8e7faf": true,
-        "ab_1af2649b45a949f88ce847180fdb0b19": true
+        "ab_1af2649b45a949f88ce847180fdb0b19": true,
+        "ab_6616745a1e724d5483b3a5806f1199dd": true
     },
-    "lastDrainAt": 1782487262
+    "lastDrainAt": 1782487873
 }
