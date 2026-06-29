@@ -25,7 +25,7 @@
             "lastCheckedAt": 1782744039
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1782738057
+            "lastCheckedAt": 1782744655
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
             "lastCheckedAt": 1782738643
@@ -34,7 +34,24 @@
             "lastCheckedAt": 1782739244
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_a3246e779d704ee78772ea2ad2005ca4",
+            "brochure_key": "a3246e779d704ee78772ea2ad2005ca4",
+            "market": "Tarım Kooperatif",
+            "title": "25TL ve Üzeri Alışverişlerde İndirimli Ürünler",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/25tl-ve-uzeri-alisverislerde-indirimli-urunler_a3246e779d704ee78772ea2ad2005ca4",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_0d9ad15c57064bf7aefc58f55db57f6a",
+            "brochure_key": "0d9ad15c57064bf7aefc58f55db57f6a",
+            "market": "Tarım Kooperatif",
+            "title": "Tarım Kredi Kooperatif Market İndirim Bülteni Broşürü - Kat Kat Fırsat",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-kooperatif-market-indirim-bulteni-brosuru-kat-kat-firsat_0d9ad15c57064bf7aefc58f55db57f6a",
+            "tries": 1
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -250,5 +267,5 @@
         "ab_95af641a674345f9a125d7bdf935950d": true,
         "ab_0b0bd4ba9bce44fdb050cc39085919a6": true
     },
-    "lastDrainAt": 1782734475
+    "lastDrainAt": 1782744759
 }
