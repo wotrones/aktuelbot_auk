@@ -31,19 +31,10 @@
             "lastCheckedAt": 1782745262
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1782739244
+            "lastCheckedAt": 1782745846
         }
     },
-    "queue": [
-        {
-            "source_key": "ab_0d9ad15c57064bf7aefc58f55db57f6a",
-            "brochure_key": "0d9ad15c57064bf7aefc58f55db57f6a",
-            "market": "Tarım Kooperatif",
-            "title": "Tarım Kredi Kooperatif Market İndirim Bülteni Broşürü - Kat Kat Fırsat",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-kooperatif-market-indirim-bulteni-brosuru-kat-kat-firsat_0d9ad15c57064bf7aefc58f55db57f6a",
-            "tries": 1
-        }
-    ],
+    "queue": [],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -258,7 +249,8 @@
         "ab_6dc79d52bbc748f2b336a949c4fe8e04": true,
         "ab_95af641a674345f9a125d7bdf935950d": true,
         "ab_0b0bd4ba9bce44fdb050cc39085919a6": true,
-        "ab_a3246e779d704ee78772ea2ad2005ca4": true
+        "ab_a3246e779d704ee78772ea2ad2005ca4": true,
+        "ab_0d9ad15c57064bf7aefc58f55db57f6a": true
     },
-    "lastDrainAt": 1782745288
+    "lastDrainAt": 1782745892
 }
