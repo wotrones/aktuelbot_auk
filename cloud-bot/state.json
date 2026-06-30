@@ -25,7 +25,7 @@
             "lastCheckedAt": 1782834040
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1782827443
+            "lastCheckedAt": 1782834639
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
             "lastCheckedAt": 1782828056
@@ -34,7 +34,16 @@
             "lastCheckedAt": 1782829242
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_e7e20bf1686d45ebbe7fe680446c3439",
+            "brochure_key": "e7e20bf1686d45ebbe7fe680446c3439",
+            "market": "Tarım Kooperatif",
+            "title": "Mr. OXY FAST Sıvı Çamaşır Deterjanı Renkliler & Beyazlar, Renkliler & Siyahlar 1480 ml 149 TL",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/mr-oxy-fast-sivi-camasir-deterjani-renkliler-beyazlar-renkliler-siyahlar-1480-ml-149-tl_e7e20bf1686d45ebbe7fe680446c3439",
+            "tries": 0
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -259,7 +268,8 @@
         "ab_04d41fe43cd044598663c957f847ea8c": true,
         "ab_35fca1ac389041c7bed947b4c1bcf097": true,
         "ab_830b36738cd14ea89e74649223a7ed6d": true,
-        "ab_76fb7c16329e4683b05f0ab883e09224": true
+        "ab_76fb7c16329e4683b05f0ab883e09224": true,
+        "ab_f288e69aa9bc41ff89dfacc96ec40301": true
     },
-    "lastDrainAt": 1782832864
+    "lastDrainAt": 1782834653
 }
