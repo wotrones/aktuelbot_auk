@@ -7,7 +7,7 @@
             "lastCheckedAt": 1782933642
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1782928244
+            "lastCheckedAt": 1782934251
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1782928852
@@ -34,7 +34,32 @@
             "lastCheckedAt": 1782932457
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_b24adf8530e34165a47999bf15488a51",
+            "brochure_key": "b24adf8530e34165a47999bf15488a51",
+            "market": "A101",
+            "title": "Sadece Online Alışverişe Özel Aldın Aldın A101 Ekstra Aktüel Ürünler Broşürü 2 Temmuz 2026",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/sadece-online-alisverise-ozel-aldin-aldin-a101-ekstra-aktuel-urunler-brosuru-2-temmuz-2026_b24adf8530e34165a47999bf15488a51",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_1a0c68ab21ed4cdcb0e0664ee6cdeae4",
+            "brochure_key": "1a0c68ab21ed4cdcb0e0664ee6cdeae4",
+            "market": "A101",
+            "title": "A101 Aldın Aldın Aktüel Ürünler Broşürü 2-15 Temmuz 2026 Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-urunler-brosuru-2-15-temmuz-2026-stoklarla-sinirli_1a0c68ab21ed4cdcb0e0664ee6cdeae4",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_3dade874bff347c281d4f10c2bf87b3c",
+            "brochure_key": "3dade874bff347c281d4f10c2bf87b3c",
+            "market": "A101",
+            "title": "A101 Aldın Aldın Aktüel Ürünler Broşürü 2 Temmuz 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-urunler-brosuru-2-temmuz-2026-dan-itibaren-stoklarla-sinirli_3dade874bff347c281d4f10c2bf87b3c",
+            "tries": 1
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -274,5 +299,5 @@
         "ab_c68641856cee49de935f9eed344611d8": true,
         "ab_d3147387135e4823be493eca5d22dde5": true
     },
-    "lastDrainAt": 1782928259
+    "lastDrainAt": 1782934275
 }
