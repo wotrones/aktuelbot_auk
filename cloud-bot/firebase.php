@@ -427,12 +427,8 @@ function fb_onesignal_notify(array $cfg, string $marketName, string $brochureDoc
         'target_channel' => 'push',
         'headings' => ['en' => $title, 'tr' => $title],
         'contents' => ['en' => $bodyText, 'tr' => $bodyText],
-        'filters' => [[
-            'field' => 'tag',
-            'key' => $cfg['onesignal_tag_key'],
-            'relation' => '=',
-            'value' => (string) $cfg['onesignal_tag_value'],
-        ]],
+        // Tüm abonelenmiş push kullanıcılarına gönder (etiket filtresi kaldırıldı).
+        'included_segments' => ['Subscribed Users'],
         'data' => [
             'type' => 'new_brosur',
             'brochure_id' => $brochureDocId,
