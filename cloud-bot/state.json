@@ -31,10 +31,19 @@
             "lastCheckedAt": 1782906638
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1782901238
+            "lastCheckedAt": 1782907254
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_e4f51f155023406f9101565c2cc3319b",
+            "brochure_key": "e4f51f155023406f9101565c2cc3319b",
+            "market": "Gratis",
+            "title": "Gratis Temmuz 2026 Ürünler ve Kampanya Kataloğu",
+            "href": "https://aktuelbrosurler.com/gratis/brosurler/gratis-temmuz-2026-urunler-ve-kampanya-katalogu_e4f51f155023406f9101565c2cc3319b",
+            "tries": 1
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -270,5 +279,5 @@
         "ab_42df5028706948d689158b436914116e": true,
         "ab_9679b2c9f87841919cf06e12eff3fed7": true
     },
-    "lastDrainAt": 1782904422
+    "lastDrainAt": 1782907470
 }
