@@ -428,7 +428,7 @@ function fb_onesignal_notify(array $cfg, string $marketName, string $brochureDoc
         'headings' => ['en' => $title, 'tr' => $title],
         'contents' => ['en' => $bodyText, 'tr' => $bodyText],
         // Tüm abonelenmiş push kullanıcılarına gönder (etiket filtresi kaldırıldı).
-        'included_segments' => ['Subscribed Users'],
+        'included_segments' => ['Total Subscriptions'],
         'data' => [
             'type' => 'new_brosur',
             'brochure_id' => $brochureDocId,
