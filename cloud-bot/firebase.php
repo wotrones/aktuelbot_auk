@@ -444,6 +444,7 @@ function fb_onesignal_notify(array $cfg, string $marketName, string $brochureDoc
         ['https://onesignal.com/api/v1/notifications', 'Basic ' . base64_encode($restKey . ':'), $legacy],
     ];
 
+    $lastError = '';
     foreach ($endpoints as [$url, $auth, $bodyArr]) {
         try {
             [$status, $body] = fb_request('POST', $url, [
@@ -456,9 +457,14 @@ function fb_onesignal_notify(array $cfg, string $marketName, string $brochureDoc
                 cb_log("OneSignal kabul etti (HTTP {$status}). id={$json['id']} alici={$rec}");
                 return;
             }
+            // Basarisiz yanit: OneSignal'in gercek hata govdesini sakla (teshis icin).
+            $snippet = trim(mb_substr((string) $body, 0, 300));
+            $lastError = "HTTP {$status} — {$snippet}";
+            cb_log("OneSignal reddetti [{$url}]: {$lastError}");
         } catch (Throwable $e) {
-            cb_debug('OneSignal endpoint hatasi: ' . $e->getMessage());
+            $lastError = $e->getMessage();
+            cb_debug('OneSignal endpoint hatasi: ' . $lastError);
         }
     }
-    cb_log('OneSignal: bildirim gonderilemedi (her iki endpoint de basarisiz).');
+    cb_log('OneSignal: bildirim gonderilemedi (her iki endpoint de basarisiz). Son hata: ' . $lastError);
 }
