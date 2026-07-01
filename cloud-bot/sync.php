@@ -39,7 +39,7 @@ foreach (['curl', 'dom', 'mbstring', 'openssl'] as $ext) {
 require __DIR__ . '/lib.php';
 require __DIR__ . '/firebase.php';
 
-$opts = getopt('', ['once-all', 'check-only', 'drain-only', 'help']);
+$opts = getopt('', ['once-all', 'check-only', 'drain-only', 'test-push', 'help']);
 if (isset($opts['help'])) {
     fwrite(STDOUT, <<<TXT
 Kullanim:
@@ -315,6 +315,14 @@ try {
     $checkOnly = isset($opts['check-only']);
     $drainOnly = isset($opts['drain-only']);
     $onceAll = isset($opts['once-all']);
+
+    if (isset($opts['test-push'])) {
+        // Teshis: gercek brosur beklemeden tek bir test bildirimi gonder.
+        cb_log('test-push: OneSignal test bildirimi gonderiliyor...');
+        fb_onesignal_notify($cfg, 'A101', 'test_push_' . time());
+        cb_log('test-push bitti.');
+        exit(0);
+    }
 
     $dirty = false;
 

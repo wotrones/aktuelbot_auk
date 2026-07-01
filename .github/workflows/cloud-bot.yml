@@ -17,6 +17,7 @@ on:
           - once-all     # tum marketleri kontrol + tum kuyrugu akit (ilk dolum)
           - check-only   # sadece sirasi gelen marketi kontrol et
           - drain-only   # sadece kuyrugu akit
+          - test-push    # teshis: tek bir test bildirimi gonder
 
 # Ayni anda tek kosu olsun (state.json commit cakismasini onler).
 concurrency:
@@ -75,6 +76,7 @@ jobs:
             once-all)   FLAG="--once-all" ;;
             check-only) FLAG="--check-only" ;;
             drain-only) FLAG="--drain-only" ;;
+            test-push)  FLAG="--test-push" ;;
             *)          FLAG="" ;;
           esac
           php cloud-bot/sync.php $FLAG
