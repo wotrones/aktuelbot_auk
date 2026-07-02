@@ -13,7 +13,7 @@
             "lastCheckedAt": 1783016443
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1783010443
+            "lastCheckedAt": 1783017056
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1783011040
@@ -36,19 +36,27 @@
     },
     "queue": [
         {
-            "source_key": "ab_8a2967358b9f46a2a0707c0de71cf68f",
-            "brochure_key": "8a2967358b9f46a2a0707c0de71cf68f",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 3-6 Temmuz",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-3-6-temmuz_8a2967358b9f46a2a0707c0de71cf68f",
-            "tries": 0
-        },
-        {
             "source_key": "ab_b8e9ea4523194a259963fb6ac9ff00d4",
             "brochure_key": "b8e9ea4523194a259963fb6ac9ff00d4",
             "market": "Bim",
             "title": "Bim İndirimli Ürünler Broşürü 3-6 Temmuz",
             "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-3-6-temmuz_b8e9ea4523194a259963fb6ac9ff00d4",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_5a534c7d480f4ab29c7007ef5c266eed",
+            "brochure_key": "5a534c7d480f4ab29c7007ef5c266eed",
+            "market": "Şok Market",
+            "title": "Şok Market İste Gelsin Ürünleri Broşürü 4-7 Temmuz 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-4-7-temmuz-2026_5a534c7d480f4ab29c7007ef5c266eed",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_f26a31fa75734cfe9e21c8942c58d5ba",
+            "brochure_key": "f26a31fa75734cfe9e21c8942c58d5ba",
+            "market": "Şok Market",
+            "title": "(Net sayfalar firma orijinal broşürü yayınladığında yüklenecektir) 4-7 Temmuz 2026 Şok Aktüel Broşür",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/net-sayfalar-firma-orijinal-brosuru-yayinladiginda-yuklenecektir-4-7-temmuz-2026-sok-aktuel-brosur_f26a31fa75734cfe9e21c8942c58d5ba",
             "tries": 0
         }
     ],
@@ -306,7 +314,8 @@
         "ab_bb1bdc32bd55485e8f29f4171eaa782e": true,
         "ab_725644cd91774730b636aee96e1f7ee5": true,
         "ab_43e0bc18843641fa9e128cea6c4aae1e": true,
-        "ab_cb94bee7dd7a4d36b93d47477f495d4e": true
+        "ab_cb94bee7dd7a4d36b93d47477f495d4e": true,
+        "ab_8a2967358b9f46a2a0707c0de71cf68f": true
     },
-    "lastDrainAt": 1783016473
+    "lastDrainAt": 1783017134
 }
