@@ -4,7 +4,7 @@
             "lastCheckedAt": 1782989439
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1782984044
+            "lastCheckedAt": 1782990061
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
             "lastCheckedAt": 1782984652
@@ -36,19 +36,27 @@
     },
     "queue": [
         {
-            "source_key": "ab_d3ddb749ed004b75b354bb271b366c5b",
-            "brochure_key": "d3ddb749ed004b75b354bb271b366c5b",
-            "market": "Hakmar",
-            "title": "Hafta Sonuna Özel İndirimli Ürünler Broşürü",
-            "href": "https://aktuelbrosurler.com/hakmar/brosurler/hafta-sonuna-ozel-indirimli-urunler-brosuru_d3ddb749ed004b75b354bb271b366c5b",
-            "tries": 0
-        },
-        {
             "source_key": "ab_cbe592081339438697da288012fa34e3",
             "brochure_key": "cbe592081339438697da288012fa34e3",
             "market": "Hakmar",
             "title": "Hafta Sonuna Özel İndirimli Ürünler Broşürü",
             "href": "https://aktuelbrosurler.com/hakmar/brosurler/hafta-sonuna-ozel-indirimli-urunler-brosuru_cbe592081339438697da288012fa34e3",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_bb1bdc32bd55485e8f29f4171eaa782e",
+            "brochure_key": "bb1bdc32bd55485e8f29f4171eaa782e",
+            "market": "Bizim Toptan Market",
+            "title": "Bizim Gross İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-gross-indirim-bulteni-brosuru_bb1bdc32bd55485e8f29f4171eaa782e",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_725644cd91774730b636aee96e1f7ee5",
+            "brochure_key": "725644cd91774730b636aee96e1f7ee5",
+            "market": "Bizim Toptan Market",
+            "title": "Bizim Toptan Market İndirim Bülteni Broşürü - Haftanın Fırsatları",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-toptan-market-indirim-bulteni-brosuru-haftanin-firsatlari_725644cd91774730b636aee96e1f7ee5",
             "tries": 0
         }
     ],
@@ -300,7 +308,8 @@
         "ab_8d6585d288f2495e8a7a1aa1cfd3ab53": true,
         "ab_f71859d3126c43ea94d935a7e871121c": true,
         "ab_742d1e2ec3db41beac3f7b362ac67f23": true,
-        "ab_62ccc9ad7b3745d3b656560ea94bcb5d": true
+        "ab_62ccc9ad7b3745d3b656560ea94bcb5d": true,
+        "ab_d3ddb749ed004b75b354bb271b366c5b": true
     },
-    "lastDrainAt": 1782989487
+    "lastDrainAt": 1782990080
 }
