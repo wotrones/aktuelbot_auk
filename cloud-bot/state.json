@@ -25,7 +25,7 @@
             "lastCheckedAt": 1782987639
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1782981639
+            "lastCheckedAt": 1782987869
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
             "lastCheckedAt": 1782982242
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_8d6585d288f2495e8a7a1aa1cfd3ab53",
-            "brochure_key": "8d6585d288f2495e8a7a1aa1cfd3ab53",
-            "market": "Rossmann",
-            "title": "Rossmann Temmuz 2026 Güzellik Kataloğu",
-            "href": "https://aktuelbrosurler.com/rossmann/brosurler/rossmann-temmuz-2026-guzellik-katalogu_8d6585d288f2495e8a7a1aa1cfd3ab53",
-            "tries": 0
-        },
         {
             "source_key": "ab_f71859d3126c43ea94d935a7e871121c",
             "brochure_key": "f71859d3126c43ea94d935a7e871121c",
@@ -304,7 +296,8 @@
         "ab_94b285a86660407289fde73ed304dcfe": true,
         "ab_f4a568eb9b7e498889c5ce70c88de23d": true,
         "ab_1b850a3e042c4b8fb13f7e5d0b244606": true,
-        "ab_57b1f2d03114403780c4cbbe4c24214d": true
+        "ab_57b1f2d03114403780c4cbbe4c24214d": true,
+        "ab_8d6585d288f2495e8a7a1aa1cfd3ab53": true
     },
-    "lastDrainAt": 1782987734
+    "lastDrainAt": 1782987996
 }
