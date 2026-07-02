@@ -31,18 +31,10 @@
             "lastCheckedAt": 1782988247
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1782982854
+            "lastCheckedAt": 1782988840
         }
     },
     "queue": [
-        {
-            "source_key": "ab_742d1e2ec3db41beac3f7b362ac67f23",
-            "brochure_key": "742d1e2ec3db41beac3f7b362ac67f23",
-            "market": "Rossmann",
-            "title": "Rossmann Temmuz 2026 Ev & Yaşam Kataloğu",
-            "href": "https://aktuelbrosurler.com/rossmann/brosurler/rossmann-temmuz-2026-ev-yasam-katalogu_742d1e2ec3db41beac3f7b362ac67f23",
-            "tries": 0
-        },
         {
             "source_key": "ab_62ccc9ad7b3745d3b656560ea94bcb5d",
             "brochure_key": "62ccc9ad7b3745d3b656560ea94bcb5d",
@@ -314,7 +306,8 @@
         "ab_1b850a3e042c4b8fb13f7e5d0b244606": true,
         "ab_57b1f2d03114403780c4cbbe4c24214d": true,
         "ab_8d6585d288f2495e8a7a1aa1cfd3ab53": true,
-        "ab_f71859d3126c43ea94d935a7e871121c": true
+        "ab_f71859d3126c43ea94d935a7e871121c": true,
+        "ab_742d1e2ec3db41beac3f7b362ac67f23": true
     },
-    "lastDrainAt": 1782988414
+    "lastDrainAt": 1782988911
 }
