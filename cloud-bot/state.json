@@ -7,7 +7,7 @@
             "lastCheckedAt": 1783029044
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1783023041
+            "lastCheckedAt": 1783029180
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1783023647
@@ -34,7 +34,16 @@
             "lastCheckedAt": 1783027242
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_7bf7f01dad094acf87b332a6acea2bc5",
+            "brochure_key": "7bf7f01dad094acf87b332a6acea2bc5",
+            "market": "A101",
+            "title": "(Net sayfalar firma orjinal broşürü yayınladığında yüklenecektir) 9 Temmuz 2026 A101 Aktüel Broşür",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/net-sayfalar-firma-orjinal-brosuru-yayinladiginda-yuklenecektir-9-temmuz-2026-a101-aktuel-brosur_7bf7f01dad094acf87b332a6acea2bc5",
+            "tries": 0
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -293,7 +302,8 @@
         "ab_8a2967358b9f46a2a0707c0de71cf68f": true,
         "ab_b8e9ea4523194a259963fb6ac9ff00d4": true,
         "ab_5a534c7d480f4ab29c7007ef5c266eed": true,
-        "ab_f26a31fa75734cfe9e21c8942c58d5ba": true
+        "ab_f26a31fa75734cfe9e21c8942c58d5ba": true,
+        "ab_7b29a87f92ab4214868ea66cc181a97e": true
     },
-    "lastDrainAt": 1783018903
+    "lastDrainAt": 1783029193
 }
