@@ -19,7 +19,7 @@
             "lastCheckedAt": 1783030847
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1783025217
+            "lastCheckedAt": 1783031455
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
             "lastCheckedAt": 1783025443
@@ -34,16 +34,7 @@
             "lastCheckedAt": 1783027242
         }
     },
-    "queue": [
-        {
-            "source_key": "ab_0990fb4472434061ab38a351fce72264",
-            "brochure_key": "0990fb4472434061ab38a351fce72264",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 3-6 Temmuz",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-3-6-temmuz_0990fb4472434061ab38a351fce72264",
-            "tries": 0
-        }
-    ],
+    "queue": [],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -306,7 +297,8 @@
         "ab_7b29a87f92ab4214868ea66cc181a97e": true,
         "ab_7bf7f01dad094acf87b332a6acea2bc5": true,
         "ab_b0e280dd008c4318bfef75e27ec71970": true,
-        "ab_1b6643acf201431d881845bba9ed45af": true
+        "ab_1b6643acf201431d881845bba9ed45af": true,
+        "ab_0990fb4472434061ab38a351fce72264": true
     },
-    "lastDrainAt": 1783030876
+    "lastDrainAt": 1783031525
 }
