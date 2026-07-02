@@ -13,7 +13,7 @@
             "lastCheckedAt": 1782991239
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1782985838
+            "lastCheckedAt": 1782991848
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1782986465
@@ -34,16 +34,7 @@
             "lastCheckedAt": 1782988840
         }
     },
-    "queue": [
-        {
-            "source_key": "ab_725644cd91774730b636aee96e1f7ee5",
-            "brochure_key": "725644cd91774730b636aee96e1f7ee5",
-            "market": "Bizim Toptan Market",
-            "title": "Bizim Toptan Market İndirim Bülteni Broşürü - Haftanın Fırsatları",
-            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-toptan-market-indirim-bulteni-brosuru-haftanin-firsatlari_725644cd91774730b636aee96e1f7ee5",
-            "tries": 0
-        }
-    ],
+    "queue": [],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -295,7 +286,8 @@
         "ab_62ccc9ad7b3745d3b656560ea94bcb5d": true,
         "ab_d3ddb749ed004b75b354bb271b366c5b": true,
         "ab_cbe592081339438697da288012fa34e3": true,
-        "ab_bb1bdc32bd55485e8f29f4171eaa782e": true
+        "ab_bb1bdc32bd55485e8f29f4171eaa782e": true,
+        "ab_725644cd91774730b636aee96e1f7ee5": true
     },
-    "lastDrainAt": 1782991271
+    "lastDrainAt": 1782991866
 }
