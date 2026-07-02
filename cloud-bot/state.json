@@ -1,7 +1,7 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1782983443
+            "lastCheckedAt": 1782989439
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
             "lastCheckedAt": 1782984044
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_62ccc9ad7b3745d3b656560ea94bcb5d",
-            "brochure_key": "62ccc9ad7b3745d3b656560ea94bcb5d",
-            "market": "Hakmar",
-            "title": "Hakmar Aktüel Ürünler İndirim Bülteni Broşürü",
-            "href": "https://aktuelbrosurler.com/hakmar/brosurler/hakmar-aktuel-urunler-indirim-bulteni-brosuru_62ccc9ad7b3745d3b656560ea94bcb5d",
-            "tries": 0
-        },
         {
             "source_key": "ab_d3ddb749ed004b75b354bb271b366c5b",
             "brochure_key": "d3ddb749ed004b75b354bb271b366c5b",
@@ -307,7 +299,8 @@
         "ab_57b1f2d03114403780c4cbbe4c24214d": true,
         "ab_8d6585d288f2495e8a7a1aa1cfd3ab53": true,
         "ab_f71859d3126c43ea94d935a7e871121c": true,
-        "ab_742d1e2ec3db41beac3f7b362ac67f23": true
+        "ab_742d1e2ec3db41beac3f7b362ac67f23": true,
+        "ab_62ccc9ad7b3745d3b656560ea94bcb5d": true
     },
-    "lastDrainAt": 1782988911
+    "lastDrainAt": 1782989487
 }
