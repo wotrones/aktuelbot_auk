@@ -7,7 +7,7 @@
             "lastCheckedAt": 1782990061
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1782984652
+            "lastCheckedAt": 1782990636
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1782985238
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_cbe592081339438697da288012fa34e3",
-            "brochure_key": "cbe592081339438697da288012fa34e3",
-            "market": "Hakmar",
-            "title": "Hafta Sonuna Özel İndirimli Ürünler Broşürü",
-            "href": "https://aktuelbrosurler.com/hakmar/brosurler/hafta-sonuna-ozel-indirimli-urunler-brosuru_cbe592081339438697da288012fa34e3",
-            "tries": 0
-        },
         {
             "source_key": "ab_bb1bdc32bd55485e8f29f4171eaa782e",
             "brochure_key": "bb1bdc32bd55485e8f29f4171eaa782e",
@@ -309,7 +301,8 @@
         "ab_f71859d3126c43ea94d935a7e871121c": true,
         "ab_742d1e2ec3db41beac3f7b362ac67f23": true,
         "ab_62ccc9ad7b3745d3b656560ea94bcb5d": true,
-        "ab_d3ddb749ed004b75b354bb271b366c5b": true
+        "ab_d3ddb749ed004b75b354bb271b366c5b": true,
+        "ab_cbe592081339438697da288012fa34e3": true
     },
-    "lastDrainAt": 1782990080
+    "lastDrainAt": 1782990649
 }
