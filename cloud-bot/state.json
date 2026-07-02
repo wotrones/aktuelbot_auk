@@ -36,14 +36,6 @@
     },
     "queue": [
         {
-            "source_key": "ab_b8e9ea4523194a259963fb6ac9ff00d4",
-            "brochure_key": "b8e9ea4523194a259963fb6ac9ff00d4",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 3-6 Temmuz",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-3-6-temmuz_b8e9ea4523194a259963fb6ac9ff00d4",
-            "tries": 0
-        },
-        {
             "source_key": "ab_5a534c7d480f4ab29c7007ef5c266eed",
             "brochure_key": "5a534c7d480f4ab29c7007ef5c266eed",
             "market": "Şok Market",
@@ -315,7 +307,8 @@
         "ab_725644cd91774730b636aee96e1f7ee5": true,
         "ab_43e0bc18843641fa9e128cea6c4aae1e": true,
         "ab_cb94bee7dd7a4d36b93d47477f495d4e": true,
-        "ab_8a2967358b9f46a2a0707c0de71cf68f": true
+        "ab_8a2967358b9f46a2a0707c0de71cf68f": true,
+        "ab_b8e9ea4523194a259963fb6ac9ff00d4": true
     },
-    "lastDrainAt": 1783017134
+    "lastDrainAt": 1783017697
 }
