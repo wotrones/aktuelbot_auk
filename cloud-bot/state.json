@@ -28,7 +28,7 @@
             "lastCheckedAt": 1782987869
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1782982242
+            "lastCheckedAt": 1782988247
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
             "lastCheckedAt": 1782982854
@@ -36,19 +36,35 @@
     },
     "queue": [
         {
-            "source_key": "ab_f71859d3126c43ea94d935a7e871121c",
-            "brochure_key": "f71859d3126c43ea94d935a7e871121c",
-            "market": "Rossmann",
-            "title": "Rossmann Temmuz 2026 Kişisel Bakım Kataloğu",
-            "href": "https://aktuelbrosurler.com/rossmann/brosurler/rossmann-temmuz-2026-kisisel-bakim-katalogu_f71859d3126c43ea94d935a7e871121c",
-            "tries": 0
-        },
-        {
             "source_key": "ab_742d1e2ec3db41beac3f7b362ac67f23",
             "brochure_key": "742d1e2ec3db41beac3f7b362ac67f23",
             "market": "Rossmann",
             "title": "Rossmann Temmuz 2026 Ev & Yaşam Kataloğu",
             "href": "https://aktuelbrosurler.com/rossmann/brosurler/rossmann-temmuz-2026-ev-yasam-katalogu_742d1e2ec3db41beac3f7b362ac67f23",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_62ccc9ad7b3745d3b656560ea94bcb5d",
+            "brochure_key": "62ccc9ad7b3745d3b656560ea94bcb5d",
+            "market": "Hakmar",
+            "title": "Hakmar Aktüel Ürünler İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/hakmar/brosurler/hakmar-aktuel-urunler-indirim-bulteni-brosuru_62ccc9ad7b3745d3b656560ea94bcb5d",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_d3ddb749ed004b75b354bb271b366c5b",
+            "brochure_key": "d3ddb749ed004b75b354bb271b366c5b",
+            "market": "Hakmar",
+            "title": "Hafta Sonuna Özel İndirimli Ürünler Broşürü",
+            "href": "https://aktuelbrosurler.com/hakmar/brosurler/hafta-sonuna-ozel-indirimli-urunler-brosuru_d3ddb749ed004b75b354bb271b366c5b",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_cbe592081339438697da288012fa34e3",
+            "brochure_key": "cbe592081339438697da288012fa34e3",
+            "market": "Hakmar",
+            "title": "Hafta Sonuna Özel İndirimli Ürünler Broşürü",
+            "href": "https://aktuelbrosurler.com/hakmar/brosurler/hafta-sonuna-ozel-indirimli-urunler-brosuru_cbe592081339438697da288012fa34e3",
             "tries": 0
         }
     ],
@@ -297,7 +313,8 @@
         "ab_f4a568eb9b7e498889c5ce70c88de23d": true,
         "ab_1b850a3e042c4b8fb13f7e5d0b244606": true,
         "ab_57b1f2d03114403780c4cbbe4c24214d": true,
-        "ab_8d6585d288f2495e8a7a1aa1cfd3ab53": true
+        "ab_8d6585d288f2495e8a7a1aa1cfd3ab53": true,
+        "ab_f71859d3126c43ea94d935a7e871121c": true
     },
-    "lastDrainAt": 1782987996
+    "lastDrainAt": 1782988414
 }
