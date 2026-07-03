@@ -13,7 +13,7 @@
             "lastCheckedAt": 1783101052
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1783095045
+            "lastCheckedAt": 1783101660
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1783095645
@@ -36,11 +36,19 @@
     },
     "queue": [
         {
-            "source_key": "ab_abeb9e8f6ad84f149264e219525ed552",
-            "brochure_key": "abeb9e8f6ad84f149264e219525ed552",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 4-10 Temmuz",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-4-10-temmuz_abeb9e8f6ad84f149264e219525ed552",
+            "source_key": "ab_9693072f0e6c43e98254466cb1b366ca",
+            "brochure_key": "9693072f0e6c43e98254466cb1b366ca",
+            "market": "Şok Market",
+            "title": "Atıştırmalık Ürünleri Fırsat Broşürü 4-10 Temmuz",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/atistirmalik-urunleri-firsat-brosuru-4-10-temmuz_9693072f0e6c43e98254466cb1b366ca",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_89ed778812c84e4c9a9050a2aa141498",
+            "brochure_key": "89ed778812c84e4c9a9050a2aa141498",
+            "market": "Şok Market",
+            "title": "Şok Market Fırsat Ürünleri Broşürü 4-7 Temmuz",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-firsat-urunleri-brosuru-4-7-temmuz_89ed778812c84e4c9a9050a2aa141498",
             "tries": 0
         }
     ],
@@ -314,7 +322,8 @@
         "ab_6604eece96144ee8bb5c51e92eb3df50": true,
         "ab_663c99d71a27467982135aeac8a1d157": true,
         "ab_a4bf29500a9c45ca92211641f5f825c1": true,
-        "ab_90ef873c873f4b14b7303149b9a07282": true
+        "ab_90ef873c873f4b14b7303149b9a07282": true,
+        "ab_abeb9e8f6ad84f149264e219525ed552": true
     },
-    "lastDrainAt": 1783101111
+    "lastDrainAt": 1783101742
 }
