@@ -36,14 +36,6 @@
     },
     "queue": [
         {
-            "source_key": "ab_97568a9ab696474cbd1ca5abb640a83d",
-            "brochure_key": "97568a9ab696474cbd1ca5abb640a83d",
-            "market": "A101",
-            "title": "A101 Aldın Aldın Aktüel Ürünler Broşürü 9 Temmuz 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-urunler-brosuru-9-temmuz-2026-dan-itibaren-stoklarla-sinirli_97568a9ab696474cbd1ca5abb640a83d",
-            "tries": 0
-        },
-        {
             "source_key": "ab_65a240b2d2774f42ba56087eb3dcee87",
             "brochure_key": "65a240b2d2774f42ba56087eb3dcee87",
             "market": "A101",
@@ -335,7 +327,8 @@
         "ab_9693072f0e6c43e98254466cb1b366ca": true,
         "ab_89ed778812c84e4c9a9050a2aa141498": true,
         "ab_a025ea5722fb4c43a710b8e2a69acb1f": true,
-        "ab_a729acc0cce74cdfa5948730b3814e42": true
+        "ab_a729acc0cce74cdfa5948730b3814e42": true,
+        "ab_97568a9ab696474cbd1ca5abb640a83d": true
     },
-    "lastDrainAt": 1783107095
+    "lastDrainAt": 1783107680
 }
