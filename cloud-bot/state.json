@@ -7,7 +7,7 @@
             "lastCheckedAt": 1783074654
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1783069269
+            "lastCheckedAt": 1783075248
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1783069851
@@ -34,7 +34,16 @@
             "lastCheckedAt": 1783073449
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_38ceb26188024877881e9f28415cef7c",
+            "brochure_key": "38ceb26188024877881e9f28415cef7c",
+            "market": "A101",
+            "title": "A101 Haftanın Yıldızları Broşürü 4-10 Temmuz",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-haftanin-yildizlari-brosuru-4-10-temmuz_38ceb26188024877881e9f28415cef7c",
+            "tries": 0
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -299,7 +308,8 @@
         "ab_b0e280dd008c4318bfef75e27ec71970": true,
         "ab_1b6643acf201431d881845bba9ed45af": true,
         "ab_0990fb4472434061ab38a351fce72264": true,
-        "ab_b0e5d63625fb4440aa154d8c3b5b17e0": true
+        "ab_b0e5d63625fb4440aa154d8c3b5b17e0": true,
+        "ab_81b94cbcab324dcdbf166eb0c3313e1c": true
     },
-    "lastDrainAt": 1783033866
+    "lastDrainAt": 1783075263
 }
