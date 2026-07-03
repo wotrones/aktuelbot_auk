@@ -16,7 +16,7 @@
             "lastCheckedAt": 1783101660
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1783095645
+            "lastCheckedAt": 1783102250
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
             "lastCheckedAt": 1783096258
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_9693072f0e6c43e98254466cb1b366ca",
-            "brochure_key": "9693072f0e6c43e98254466cb1b366ca",
-            "market": "Şok Market",
-            "title": "Atıştırmalık Ürünleri Fırsat Broşürü 4-10 Temmuz",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/atistirmalik-urunleri-firsat-brosuru-4-10-temmuz_9693072f0e6c43e98254466cb1b366ca",
-            "tries": 0
-        },
         {
             "source_key": "ab_89ed778812c84e4c9a9050a2aa141498",
             "brochure_key": "89ed778812c84e4c9a9050a2aa141498",
@@ -323,7 +315,8 @@
         "ab_663c99d71a27467982135aeac8a1d157": true,
         "ab_a4bf29500a9c45ca92211641f5f825c1": true,
         "ab_90ef873c873f4b14b7303149b9a07282": true,
-        "ab_abeb9e8f6ad84f149264e219525ed552": true
+        "ab_abeb9e8f6ad84f149264e219525ed552": true,
+        "ab_9693072f0e6c43e98254466cb1b366ca": true
     },
-    "lastDrainAt": 1783101742
+    "lastDrainAt": 1783102265
 }
