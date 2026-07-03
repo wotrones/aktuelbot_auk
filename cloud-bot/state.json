@@ -7,7 +7,7 @@
             "lastCheckedAt": 1783105845
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1783100445
+            "lastCheckedAt": 1783106447
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1783101052
@@ -34,7 +34,40 @@
             "lastCheckedAt": 1783104647
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_a729acc0cce74cdfa5948730b3814e42",
+            "brochure_key": "a729acc0cce74cdfa5948730b3814e42",
+            "market": "A101",
+            "title": "A101 Aldın Aldın Aktüel Ürünler Broşürü 2-15 Temmuz 2026 Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-urunler-brosuru-2-15-temmuz-2026-stoklarla-sinirli_a729acc0cce74cdfa5948730b3814e42",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_97568a9ab696474cbd1ca5abb640a83d",
+            "brochure_key": "97568a9ab696474cbd1ca5abb640a83d",
+            "market": "A101",
+            "title": "A101 Aldın Aldın Aktüel Ürünler Broşürü 9 Temmuz 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-urunler-brosuru-9-temmuz-2026-dan-itibaren-stoklarla-sinirli_97568a9ab696474cbd1ca5abb640a83d",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_65a240b2d2774f42ba56087eb3dcee87",
+            "brochure_key": "65a240b2d2774f42ba56087eb3dcee87",
+            "market": "A101",
+            "title": "Seçili Ürünlerde İndirimli Fiyatlar 4-7 Temmuz",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/secili-urunlerde-indirimli-fiyatlar-4-7-temmuz_65a240b2d2774f42ba56087eb3dcee87",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_47794a741d7c425fa131836aca95a7f5",
+            "brochure_key": "47794a741d7c425fa131836aca95a7f5",
+            "market": "A101",
+            "title": "A101 Kahvaltının Yıldızları Broşürü 4-10 Temmuz",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-kahvaltinin-yildizlari-brosuru-4-10-temmuz_47794a741d7c425fa131836aca95a7f5",
+            "tries": 0
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -308,7 +341,8 @@
         "ab_90ef873c873f4b14b7303149b9a07282": true,
         "ab_abeb9e8f6ad84f149264e219525ed552": true,
         "ab_9693072f0e6c43e98254466cb1b366ca": true,
-        "ab_89ed778812c84e4c9a9050a2aa141498": true
+        "ab_89ed778812c84e4c9a9050a2aa141498": true,
+        "ab_a025ea5722fb4c43a710b8e2a69acb1f": true
     },
-    "lastDrainAt": 1783102817
+    "lastDrainAt": 1783106459
 }
