@@ -13,7 +13,7 @@
             "lastCheckedAt": 1783107069
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1783101660
+            "lastCheckedAt": 1783108246
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1783102250
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_65a240b2d2774f42ba56087eb3dcee87",
-            "brochure_key": "65a240b2d2774f42ba56087eb3dcee87",
-            "market": "A101",
-            "title": "Seçili Ürünlerde İndirimli Fiyatlar 4-7 Temmuz",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/secili-urunlerde-indirimli-fiyatlar-4-7-temmuz_65a240b2d2774f42ba56087eb3dcee87",
-            "tries": 0
-        },
         {
             "source_key": "ab_47794a741d7c425fa131836aca95a7f5",
             "brochure_key": "47794a741d7c425fa131836aca95a7f5",
@@ -328,7 +320,8 @@
         "ab_89ed778812c84e4c9a9050a2aa141498": true,
         "ab_a025ea5722fb4c43a710b8e2a69acb1f": true,
         "ab_a729acc0cce74cdfa5948730b3814e42": true,
-        "ab_97568a9ab696474cbd1ca5abb640a83d": true
+        "ab_97568a9ab696474cbd1ca5abb640a83d": true,
+        "ab_65a240b2d2774f42ba56087eb3dcee87": true
     },
-    "lastDrainAt": 1783107680
+    "lastDrainAt": 1783108267
 }
