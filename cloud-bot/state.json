@@ -25,7 +25,7 @@
             "lastCheckedAt": 1783184465
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1783179055
+            "lastCheckedAt": 1783185046
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
             "lastCheckedAt": 1783179649
@@ -34,7 +34,16 @@
             "lastCheckedAt": 1783180247
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_d55d3fc66c1e43059be5732449bb3f13",
+            "brochure_key": "d55d3fc66c1e43059be5732449bb3f13",
+            "market": "Tarım Kooperatif",
+            "title": "KOOP Market’te Pazar Fırsatı!",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-market-te-pazar-firsati_d55d3fc66c1e43059be5732449bb3f13",
+            "tries": 1
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -319,5 +328,5 @@
         "ab_4e51f3f4699140968ffe1878946a4088": true,
         "ab_68f56fa6f08f458aa92a6be9990d8f1a": true
     },
-    "lastDrainAt": 1783165328
+    "lastDrainAt": 1783185084
 }
