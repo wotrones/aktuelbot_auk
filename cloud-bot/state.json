@@ -10,7 +10,7 @@
             "lastCheckedAt": 1783248648
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1783243251
+            "lastCheckedAt": 1783249276
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 1783243856
@@ -34,7 +34,32 @@
             "lastCheckedAt": 1783247424
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_d4341f1d980a49a193c9615ff28a895d",
+            "brochure_key": "d4341f1d980a49a193c9615ff28a895d",
+            "market": "Bim",
+            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 12 Temmuz 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-12-temmuz-2026-dan-itibaren-stoklarla-sinirli_d4341f1d980a49a193c9615ff28a895d",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_dd12a734e3db465db0d4518093580a38",
+            "brochure_key": "dd12a734e3db465db0d4518093580a38",
+            "market": "Bim",
+            "title": "Detaylı | Bim Haftanın Önerileri Aktüel Ürünler Broşürü 7 Temmuz 2026'dan İtibaren",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/detayli-bim-haftanin-onerileri-aktuel-urunler-brosuru-7-temmuz-2026-dan-itibaren_dd12a734e3db465db0d4518093580a38",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_14d204a410ca419bb5b423eb9d3a31dd",
+            "brochure_key": "14d204a410ca419bb5b423eb9d3a31dd",
+            "market": "Bim",
+            "title": "(Net sayfalar firma orjinal broşürü yayınladığında yüklenecektir) 14 Temmuz 2026 Bim Aktüel Broşür",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/net-sayfalar-firma-orjinal-brosuru-yayinladiginda-yuklenecektir-14-temmuz-2026-bim-aktuel-brosur_14d204a410ca419bb5b423eb9d3a31dd",
+            "tries": 1
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -320,5 +345,5 @@
         "ab_68f56fa6f08f458aa92a6be9990d8f1a": true,
         "ab_d55d3fc66c1e43059be5732449bb3f13": true
     },
-    "lastDrainAt": 1783185530
+    "lastDrainAt": 1783249331
 }
