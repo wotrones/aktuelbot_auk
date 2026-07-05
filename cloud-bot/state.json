@@ -16,7 +16,7 @@
             "lastCheckedAt": 1783249851
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1783244451
+            "lastCheckedAt": 1783250450
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
             "lastCheckedAt": 1783245050
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_dd12a734e3db465db0d4518093580a38",
-            "brochure_key": "dd12a734e3db465db0d4518093580a38",
-            "market": "Bim",
-            "title": "Detaylı | Bim Haftanın Önerileri Aktüel Ürünler Broşürü 7 Temmuz 2026'dan İtibaren",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/detayli-bim-haftanin-onerileri-aktuel-urunler-brosuru-7-temmuz-2026-dan-itibaren_dd12a734e3db465db0d4518093580a38",
-            "tries": 0
-        },
         {
             "source_key": "ab_14d204a410ca419bb5b423eb9d3a31dd",
             "brochure_key": "14d204a410ca419bb5b423eb9d3a31dd",
@@ -336,7 +328,8 @@
         "ab_4e51f3f4699140968ffe1878946a4088": true,
         "ab_68f56fa6f08f458aa92a6be9990d8f1a": true,
         "ab_d55d3fc66c1e43059be5732449bb3f13": true,
-        "ab_d4341f1d980a49a193c9615ff28a895d": true
+        "ab_d4341f1d980a49a193c9615ff28a895d": true,
+        "ab_dd12a734e3db465db0d4518093580a38": true
     },
-    "lastDrainAt": 1783249879
+    "lastDrainAt": 1783250570
 }
