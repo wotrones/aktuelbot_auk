@@ -13,7 +13,7 @@
             "lastCheckedAt": 1783249276
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1783243856
+            "lastCheckedAt": 1783249851
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1783244451
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_d4341f1d980a49a193c9615ff28a895d",
-            "brochure_key": "d4341f1d980a49a193c9615ff28a895d",
-            "market": "Bim",
-            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 12 Temmuz 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-12-temmuz-2026-dan-itibaren-stoklarla-sinirli_d4341f1d980a49a193c9615ff28a895d",
-            "tries": 0
-        },
         {
             "source_key": "ab_dd12a734e3db465db0d4518093580a38",
             "brochure_key": "dd12a734e3db465db0d4518093580a38",
@@ -343,7 +335,8 @@
         "ab_298e24d737784303b3e28e02288a988b": true,
         "ab_4e51f3f4699140968ffe1878946a4088": true,
         "ab_68f56fa6f08f458aa92a6be9990d8f1a": true,
-        "ab_d55d3fc66c1e43059be5732449bb3f13": true
+        "ab_d55d3fc66c1e43059be5732449bb3f13": true,
+        "ab_d4341f1d980a49a193c9615ff28a895d": true
     },
-    "lastDrainAt": 1783249331
+    "lastDrainAt": 1783249879
 }
