@@ -13,7 +13,7 @@
             "lastCheckedAt": 1783361874
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1783356078
+            "lastCheckedAt": 1783362063
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1783356667
@@ -34,16 +34,7 @@
             "lastCheckedAt": 1783359663
         }
     },
-    "queue": [
-        {
-            "source_key": "ab_ff845e05ef804982964c5dff9bf5fd68",
-            "brochure_key": "ff845e05ef804982964c5dff9bf5fd68",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü - Makarna Çeşitleri",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-makarna-cesitleri_ff845e05ef804982964c5dff9bf5fd68",
-            "tries": 1
-        }
-    ],
+    "queue": [],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -337,7 +328,8 @@
         "ab_424218b0e3a047eebe1800796de9ffcd": true,
         "ab_386a5543ccb54d1f993f8e643c566958": true,
         "ab_519fd715759543adb8b5ead9d615895f": true,
-        "ab_964626f51f93453b9f3f8879e59a53aa": true
+        "ab_964626f51f93453b9f3f8879e59a53aa": true,
+        "ab_ff845e05ef804982964c5dff9bf5fd68": true
     },
-    "lastDrainAt": 1783361924
+    "lastDrainAt": 1783362089
 }
