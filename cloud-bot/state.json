@@ -4,7 +4,7 @@
             "lastCheckedAt": 1783554069
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1783548668
+            "lastCheckedAt": 1783554573
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
             "lastCheckedAt": 1783549265
@@ -34,16 +34,7 @@
             "lastCheckedAt": 1783553470
         }
     },
-    "queue": [
-        {
-            "source_key": "ab_9c05325b3add4ba6977aa58e172ca215",
-            "brochure_key": "9c05325b3add4ba6977aa58e172ca215",
-            "market": "Migros",
-            "title": "Migros'larda Geçerli İndirim Bülteni Kataloğu - Her 50 TL'lik Alışverişe Seç-Al",
-            "href": "https://aktuelbrosurler.com/migros/brosurler/migros-larda-gecerli-indirim-bulteni-katalogu-her-50-tl-lik-alisverise-sec-al_9c05325b3add4ba6977aa58e172ca215",
-            "tries": 0
-        }
-    ],
+    "queue": [],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -351,7 +342,8 @@
         "ab_ac06338781d24bf88333c7ecff4fa719": true,
         "ab_ecb839a2b4084252b6d6b6b2616c4a87": true,
         "ab_fa3c6ef9aee841869a18f1fb1d4a5bc8": true,
-        "ab_3825685a9ebe47aca13797082bb9fdf0": true
+        "ab_3825685a9ebe47aca13797082bb9fdf0": true,
+        "ab_9c05325b3add4ba6977aa58e172ca215": true
     },
-    "lastDrainAt": 1783554233
+    "lastDrainAt": 1783555035
 }
