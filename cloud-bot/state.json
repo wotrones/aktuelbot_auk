@@ -16,7 +16,7 @@
             "lastCheckedAt": 1783606852
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1783598469
+            "lastCheckedAt": 1783607467
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
             "lastCheckedAt": 1783602086
@@ -36,11 +36,11 @@
     },
     "queue": [
         {
-            "source_key": "ab_e5f0d2a165e546029603a54673f8f3bb",
-            "brochure_key": "e5f0d2a165e546029603a54673f8f3bb",
-            "market": "Şok Market",
-            "title": "(Net sayfalar firma orijinal broşürü yayınladığında yüklenecektir) 11-14 Temmuz 2026 Şok Broşür",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/net-sayfalar-firma-orijinal-brosuru-yayinladiginda-yuklenecektir-11-14-temmuz-2026-sok-brosur_e5f0d2a165e546029603a54673f8f3bb",
+            "source_key": "ab_a76f4d960edf49c7b0afc5e515d76c26",
+            "brochure_key": "a76f4d960edf49c7b0afc5e515d76c26",
+            "market": "Carrefour",
+            "title": "Carrefour Marketlerde Geçerli İndirim Bülteni Kataloğu",
+            "href": "https://aktuelbrosurler.com/carrefour/brosurler/carrefour-marketlerde-gecerli-indirim-bulteni-katalogu_a76f4d960edf49c7b0afc5e515d76c26",
             "tries": 0
         }
     ],
@@ -358,7 +358,8 @@
         "ab_a38c4914d69c4b01998f7f8d4544b581": true,
         "ab_6d7d4a3a69a048eabc9abde960e288f8": true,
         "ab_43a96d760c544573b79243a70c79e648": true,
-        "ab_7d375c774035496092ba880420255ed4": true
+        "ab_7d375c774035496092ba880420255ed4": true,
+        "ab_e5f0d2a165e546029603a54673f8f3bb": true
     },
-    "lastDrainAt": 1783606872
+    "lastDrainAt": 1783607489
 }
