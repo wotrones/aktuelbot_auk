@@ -4,7 +4,7 @@
             "lastCheckedAt": 1783605060
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1783595772
+            "lastCheckedAt": 1783605687
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
             "lastCheckedAt": 1783596062
@@ -36,11 +36,19 @@
     },
     "queue": [
         {
-            "source_key": "ab_a38c4914d69c4b01998f7f8d4544b581",
-            "brochure_key": "a38c4914d69c4b01998f7f8d4544b581",
-            "market": "Migros",
-            "title": "5M Migros'larda Geçerli İndirim Bülteni Kataloğu - Her 50 TL'lik Alışverişe Seç-Al",
-            "href": "https://aktuelbrosurler.com/migros/brosurler/5m-migros-larda-gecerli-indirim-bulteni-katalogu-her-50-tl-lik-alisverise-sec-al_a38c4914d69c4b01998f7f8d4544b581",
+            "source_key": "ab_6d7d4a3a69a048eabc9abde960e288f8",
+            "brochure_key": "6d7d4a3a69a048eabc9abde960e288f8",
+            "market": "Bizim Toptan Market",
+            "title": "Bizim Gross İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-gross-indirim-bulteni-brosuru_6d7d4a3a69a048eabc9abde960e288f8",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_43a96d760c544573b79243a70c79e648",
+            "brochure_key": "43a96d760c544573b79243a70c79e648",
+            "market": "Bizim Toptan Market",
+            "title": "Bizim Toptan Market İndirim Bülteni Broşürü - Haftanın Fırsatları",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-toptan-market-indirim-bulteni-brosuru-haftanin-firsatlari_43a96d760c544573b79243a70c79e648",
             "tries": 0
         }
     ],
@@ -354,7 +362,8 @@
         "ab_3825685a9ebe47aca13797082bb9fdf0": true,
         "ab_9c05325b3add4ba6977aa58e172ca215": true,
         "ab_ca0ace4b7856474492914a0213c0c1b8": true,
-        "ab_e0f9111f06b94f11a9f286d187f13797": true
+        "ab_e0f9111f06b94f11a9f286d187f13797": true,
+        "ab_a38c4914d69c4b01998f7f8d4544b581": true
     },
-    "lastDrainAt": 1783605477
+    "lastDrainAt": 1783606222
 }
