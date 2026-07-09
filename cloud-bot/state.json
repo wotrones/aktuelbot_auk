@@ -19,7 +19,7 @@
             "lastCheckedAt": 1783607467
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1783602086
+            "lastCheckedAt": 1783608055
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
             "lastCheckedAt": 1783603064
@@ -34,16 +34,7 @@
             "lastCheckedAt": 1783604458
         }
     },
-    "queue": [
-        {
-            "source_key": "ab_a76f4d960edf49c7b0afc5e515d76c26",
-            "brochure_key": "a76f4d960edf49c7b0afc5e515d76c26",
-            "market": "Carrefour",
-            "title": "Carrefour Marketlerde Geçerli İndirim Bülteni Kataloğu",
-            "href": "https://aktuelbrosurler.com/carrefour/brosurler/carrefour-marketlerde-gecerli-indirim-bulteni-katalogu_a76f4d960edf49c7b0afc5e515d76c26",
-            "tries": 0
-        }
-    ],
+    "queue": [],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -359,7 +350,8 @@
         "ab_6d7d4a3a69a048eabc9abde960e288f8": true,
         "ab_43a96d760c544573b79243a70c79e648": true,
         "ab_7d375c774035496092ba880420255ed4": true,
-        "ab_e5f0d2a165e546029603a54673f8f3bb": true
+        "ab_e5f0d2a165e546029603a54673f8f3bb": true,
+        "ab_a76f4d960edf49c7b0afc5e515d76c26": true
     },
-    "lastDrainAt": 1783607489
+    "lastDrainAt": 1783608317
 }
