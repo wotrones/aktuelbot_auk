@@ -25,7 +25,7 @@
             "lastCheckedAt": 1783615235
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1783609277
+            "lastCheckedAt": 1783615255
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
             "lastCheckedAt": 1783609859
@@ -34,7 +34,16 @@
             "lastCheckedAt": 1783610457
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_319f6be5875f45c0be2fbe826b975300",
+            "brochure_key": "319f6be5875f45c0be2fbe826b975300",
+            "market": "Tarım Kooperatif",
+            "title": "Tarım Kredi Kooperatif Market İndirim Bülteni Broşürü - Hafta Sonuna Özel Fırsatlar",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-kooperatif-market-indirim-bulteni-brosuru-hafta-sonuna-ozel-firsatlar_319f6be5875f45c0be2fbe826b975300",
+            "tries": 0
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -352,7 +361,8 @@
         "ab_7d375c774035496092ba880420255ed4": true,
         "ab_e5f0d2a165e546029603a54673f8f3bb": true,
         "ab_a76f4d960edf49c7b0afc5e515d76c26": true,
-        "ab_1cd613fbd24c46ca8e8eed279d08bae5": true
+        "ab_1cd613fbd24c46ca8e8eed279d08bae5": true,
+        "ab_33f1a9b0dbbd472ba89bf22aa56fbb74": true
     },
-    "lastDrainAt": 1783612883
+    "lastDrainAt": 1783615270
 }
