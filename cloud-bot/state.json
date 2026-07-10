@@ -36,20 +36,20 @@
     },
     "queue": [
         {
-            "source_key": "ab_f88bb14144e849a5a02b572dfd01abc2",
-            "brochure_key": "f88bb14144e849a5a02b572dfd01abc2",
-            "market": "A101",
-            "title": "(Net sayfalar firma orjinal broşürü yayınladığında yüklenecektir) 16 Temmuz 2026 A101 Aktüel Broşür",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/net-sayfalar-firma-orjinal-brosuru-yayinladiginda-yuklenecektir-16-temmuz-2026-a101-aktuel-brosur_f88bb14144e849a5a02b572dfd01abc2",
-            "tries": 1
-        },
-        {
             "source_key": "ab_254ad97d02fb4cd19f3d915a0a4df0ff",
             "brochure_key": "254ad97d02fb4cd19f3d915a0a4df0ff",
             "market": "Bim",
             "title": "Bim satış günleri güncellendi. Cuma; Tekstil ve Züccaciye Pazar; Oyuncak ve Elektronik ürünleri",
             "href": "https://aktuelbrosurler.com/bim/brosurler/bim-satis-gunleri-guncellendi-cuma-tekstil-ve-zuccaciye-pazar-oyuncak-ve-elektronik-urunleri_254ad97d02fb4cd19f3d915a0a4df0ff",
             "tries": 1
+        },
+        {
+            "source_key": "ab_f88bb14144e849a5a02b572dfd01abc2",
+            "brochure_key": "f88bb14144e849a5a02b572dfd01abc2",
+            "market": "A101",
+            "title": "(Net sayfalar firma orjinal broşürü yayınladığında yüklenecektir) 16 Temmuz 2026 A101 Aktüel Broşür",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/net-sayfalar-firma-orjinal-brosuru-yayinladiginda-yuklenecektir-16-temmuz-2026-a101-aktuel-brosur_f88bb14144e849a5a02b572dfd01abc2",
+            "tries": 2
         }
     ],
     "uploaded": {
@@ -384,5 +384,5 @@
         "ab_c67018c3902d4187a638fad426aa5568": true,
         "ab_3cedbf41b68143c5a896050fd63c8335": true
     },
-    "lastDrainAt": 1783703462
+    "lastDrainAt": 1783704060
 }
