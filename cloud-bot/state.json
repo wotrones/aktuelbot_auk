@@ -36,14 +36,6 @@
     },
     "queue": [
         {
-            "source_key": "ab_c67018c3902d4187a638fad426aa5568",
-            "brochure_key": "c67018c3902d4187a638fad426aa5568",
-            "market": "A101",
-            "title": "10 TL ve Üzeri Alışverişlerde İndirimli Fırsat Ürünleri Broşürü 11-17 Temmuz",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/10-tl-ve-uzeri-alisverislerde-indirimli-firsat-urunleri-brosuru-11-17-temmuz_c67018c3902d4187a638fad426aa5568",
-            "tries": 0
-        },
-        {
             "source_key": "ab_3cedbf41b68143c5a896050fd63c8335",
             "brochure_key": "3cedbf41b68143c5a896050fd63c8335",
             "market": "A101",
@@ -396,7 +388,8 @@
         "ab_66f31b25849540e1bb23a8a8aacc5933": true,
         "ab_f6e3b00f2adf4fcda42594f15bc6a085": true,
         "ab_895a1d7be6a54b1988c356621f754b62": true,
-        "ab_b1f6a61955f54108a262d70e87b2c1e4": true
+        "ab_b1f6a61955f54108a262d70e87b2c1e4": true,
+        "ab_c67018c3902d4187a638fad426aa5568": true
     },
-    "lastDrainAt": 1783701665
+    "lastDrainAt": 1783702275
 }
