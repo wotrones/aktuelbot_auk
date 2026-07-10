@@ -13,7 +13,7 @@
             "lastCheckedAt": 1783701066
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1783686061
+            "lastCheckedAt": 1783702877
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1783686667
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_3cedbf41b68143c5a896050fd63c8335",
-            "brochure_key": "3cedbf41b68143c5a896050fd63c8335",
-            "market": "A101",
-            "title": "A101 Haftanın Yıldızları Broşürü 11-17 Temmuz",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-haftanin-yildizlari-brosuru-11-17-temmuz_3cedbf41b68143c5a896050fd63c8335",
-            "tries": 0
-        },
         {
             "source_key": "ab_254ad97d02fb4cd19f3d915a0a4df0ff",
             "brochure_key": "254ad97d02fb4cd19f3d915a0a4df0ff",
@@ -389,7 +381,8 @@
         "ab_f6e3b00f2adf4fcda42594f15bc6a085": true,
         "ab_895a1d7be6a54b1988c356621f754b62": true,
         "ab_b1f6a61955f54108a262d70e87b2c1e4": true,
-        "ab_c67018c3902d4187a638fad426aa5568": true
+        "ab_c67018c3902d4187a638fad426aa5568": true,
+        "ab_3cedbf41b68143c5a896050fd63c8335": true
     },
-    "lastDrainAt": 1783702275
+    "lastDrainAt": 1783702897
 }
