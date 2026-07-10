@@ -269,7 +269,7 @@ function cb_drain_queue(array $cfg, array &$state, int $batch, ?string $cookieFi
             }
 
             $fetched = cb_fetch_brochure($cfg, $normItem, $cookieFile);
-            fb_import_brochure($cfg, $normItem, $fetched['pages']);
+            fb_import_brochure($cfg, $normItem, $fetched['pages'], $fetched['dates']);
             $state['uploaded'][$sourceKey] = true;
         } catch (Throwable $e) {
             $item['tries'] = (int) ($item['tries'] ?? 0) + 1;

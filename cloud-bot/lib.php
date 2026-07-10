@@ -457,25 +457,28 @@ function cb_turkish_months(): array
 }
 
 /**
- * @return array{start: string, end: string, matched: bool}
+ * Metinde tarih araligini/tekil tarihi arar. Bulursa
+ * ['start' => DateTimeImmutable, 'end' => ?DateTimeImmutable] (tekil tarihte
+ * end=null) doner; hicbir sey bulamazsa null.
+ *
+ * $allowSingle=false iken yalniz ACIK araliklari (guclu sinyal) kabul eder;
+ * OCR gibi gurultulu metinlerde (fiyat, gramaj vb.) tek-sayi + ay yanlis
+ * eslesmelerini onlemek icin kullanilir.
+ *
+ * @return array{start: DateTimeImmutable, end: ?DateTimeImmutable}|null
  */
-function cb_parse_brochure_dates(string $title, DateTimeImmutable $today): array
+function cb_match_dates_in_text(string $text, DateTimeImmutable $today, bool $allowSingle = true): ?array
 {
-    $fallback = [
-        'start' => $today->format('Y-m-d'),
-        'end' => $today->modify('+10 days')->format('Y-m-d'),
-        'matched' => false,
-    ];
-
-    $text = cb_tr_lower($title);
+    $text = cb_tr_lower($text);
     if (trim($text) === '') {
-        return $fallback;
+        return null;
     }
 
     $months = cb_turkish_months();
     $monthAlt = implode('|', array_keys($months));
     $defaultYear = (int) $today->format('Y');
 
+    $normYear = static fn (int $y): int => $y < 100 ? 2000 + $y : $y;
     $makeDate = static function (int $day, int $month, int $year): ?DateTimeImmutable {
         if ($month < 1 || $month > 12 || !checkdate($month, $day, $year)) {
             return null;
@@ -483,6 +486,27 @@ function cb_parse_brochure_dates(string $title, DateTimeImmutable $today): array
         return DateTimeImmutable::createFromFormat('!Y-m-d', sprintf('%04d-%02d-%02d', $year, $month, $day)) ?: null;
     };
 
+    // 1) Sayisal aralik: "16.07.2026 - 29.07.2026", "16/07 - 29/07/2026"
+    //    (ilk tarihte yil opsiyonel, bitis tarihinde yil zorunlu).
+    $numRange = '/(\d{1,2})[.\/](\d{1,2})(?:[.\/](\d{2,4}))?\s*[-–—]\s*(\d{1,2})[.\/](\d{1,2})[.\/](\d{2,4})/u';
+    if (preg_match($numRange, $text, $m)) {
+        $endYear = $normYear((int) $m[6]);
+        if (isset($m[3]) && $m[3] !== '') {
+            $startYear = $normYear((int) $m[3]);
+        } else {
+            $startYear = $endYear;
+            if ((int) $m[2] > (int) $m[5]) {
+                $startYear = $endYear - 1; // yil sonu -> yil basi (Aralik -> Ocak)
+            }
+        }
+        $start = $makeDate((int) $m[1], (int) $m[2], $startYear);
+        $end = $makeDate((int) $m[4], (int) $m[5], $endYear);
+        if ($start !== null && $end !== null && $end >= $start) {
+            return ['start' => $start, 'end' => $end];
+        }
+    }
+
+    // 2) Turkce ay araligi: "11-14 temmuz", "16 temmuz - 29 temmuz 2026".
     $rangeRe = '/(\d{1,2})\s*(' . $monthAlt . ')?\s*[-–—]\s*(\d{1,2})\s*(' . $monthAlt . ')\s*(\d{4})?/u';
     if (preg_match($rangeRe, $text, $m)) {
         $endMonth = $months[$m[4]] ?? 0;
@@ -495,21 +519,126 @@ function cb_parse_brochure_dates(string $title, DateTimeImmutable $today): array
         $start = $makeDate((int) $m[1], $startMonth, $startYear);
         $end = $makeDate((int) $m[3], $endMonth, $year);
         if ($start !== null && $end !== null && $end >= $start) {
-            return ['start' => $start->format('Y-m-d'), 'end' => $end->format('Y-m-d'), 'matched' => true];
+            return ['start' => $start, 'end' => $end];
         }
     }
 
+    if (!$allowSingle) {
+        return null;
+    }
+
+    // 3) Tekil Turkce tarih: "16 temmuz 2026" (bitis bilinmiyor).
     $singleRe = '/(\d{1,2})\s*(' . $monthAlt . ')\s*(\d{4})?/u';
     if (preg_match($singleRe, $text, $m)) {
         $month = $months[$m[2]] ?? 0;
         $year = isset($m[3]) && $m[3] !== '' ? (int) $m[3] : $defaultYear;
         $start = $makeDate((int) $m[1], $month, $year);
         if ($start !== null) {
-            return ['start' => $start->format('Y-m-d'), 'end' => $start->modify('+10 days')->format('Y-m-d'), 'matched' => true];
+            return ['start' => $start, 'end' => null];
         }
     }
 
-    return $fallback;
+    return null;
+}
+
+/**
+ * Brosur basligindan tarihleri cikarir. Bulamazsa bugun -> bugun+10
+ * (matched=false; cagiran OCR yedegine dusebilir).
+ *
+ * @return array{start: string, end: string, matched: bool}
+ */
+function cb_parse_brochure_dates(string $title, DateTimeImmutable $today): array
+{
+    $hit = cb_match_dates_in_text($title, $today, true);
+    if ($hit === null) {
+        return [
+            'start' => $today->format('Y-m-d'),
+            'end' => $today->modify('+10 days')->format('Y-m-d'),
+            'matched' => false,
+        ];
+    }
+    $start = $hit['start'];
+    $end = $hit['end'] ?? $start->modify('+10 days');
+
+    return ['start' => $start->format('Y-m-d'), 'end' => $end->format('Y-m-d'), 'matched' => true];
+}
+
+/**
+ * Gorsel baytlarini tesseract ile metne cevirir (best-effort). tesseract yoksa
+ * veya OCR_ENABLED=0 ise bos string doner. tesseract varligi ilk cagride
+ * kontrol edilip onbelleklenir.
+ */
+function cb_ocr_image_to_text(string $imageBytes): string
+{
+    /** @var string|false|null $bin false=mevcut degil */
+    static $bin = null;
+    if ($bin === null) {
+        if (getenv('OCR_ENABLED') === '0') {
+            $bin = false;
+        } else {
+            $candidate = getenv('TESSERACT_BIN');
+            $candidate = is_string($candidate) && trim($candidate) !== '' ? trim($candidate) : 'tesseract';
+            $v = @shell_exec(escapeshellcmd($candidate) . ' --version 2>/dev/null');
+            $bin = (is_string($v) && $v !== '') ? $candidate : false;
+            if ($bin === false) {
+                cb_debug('OCR: tesseract bulunamadi, tarih OCR yedegi devre disi.');
+            }
+        }
+    }
+    if ($bin === false || $imageBytes === '') {
+        return '';
+    }
+
+    $tmp = tempnam(sys_get_temp_dir(), 'cb_ocr_');
+    if ($tmp === false) {
+        return '';
+    }
+    if (@file_put_contents($tmp, $imageBytes) === false) {
+        @unlink($tmp);
+        return '';
+    }
+
+    $lang = getenv('TESSERACT_LANG');
+    $lang = is_string($lang) && trim($lang) !== '' ? trim($lang) : 'tur+eng';
+    $cmd = escapeshellcmd($bin) . ' ' . escapeshellarg($tmp) . ' stdout -l ' . escapeshellarg($lang)
+        . ' --oem 1 --psm 6 2>/dev/null';
+    $out = @shell_exec($cmd);
+    @unlink($tmp);
+
+    return is_string($out) ? $out : '';
+}
+
+/**
+ * Brosur sayfa gorsellerinde (once kapak) tarih araligini OCR ile arar. Kapakta
+ * genelde "11-14 TEMMUZ TARIHLERI ARASINDA" gibi acik aralik yazar. Gurultuye
+ * karsi yalniz acik araliklari kabul eder (allowSingle=false).
+ *
+ * @param list<array{name:string, bytes:string}> $pages
+ * @return array{start: string, end: string, matched: bool}|null
+ */
+function cb_ocr_dates_from_pages(array $pages, DateTimeImmutable $today, int $maxPages = 2): ?array
+{
+    $scanned = 0;
+    foreach ($pages as $page) {
+        if ($scanned >= $maxPages) {
+            break;
+        }
+        $scanned++;
+        $text = cb_ocr_image_to_text($page['bytes'] ?? '');
+        if (trim($text) === '') {
+            continue;
+        }
+        $hit = cb_match_dates_in_text($text, $today, false);
+        if ($hit !== null && $hit['end'] !== null) {
+            return [
+                'start' => $hit['start']->format('Y-m-d'),
+                'end' => $hit['end']->format('Y-m-d'),
+                'matched' => true,
+            ];
+        }
+    }
+
+    return null;
 }
 
 /**
@@ -609,6 +738,16 @@ function cb_fetch_brochure(array $cfg, array $item, ?string $cookieFile): array
 
     $today = new DateTimeImmutable('now');
     $dates = cb_parse_brochure_dates($item['title'], $today);
+    if (!$dates['matched']) {
+        // Baslikta tarih yok; kapak gorsellerinde yazan araligi OCR ile yakala.
+        $ocrDates = cb_ocr_dates_from_pages($pages, $today);
+        if ($ocrDates !== null) {
+            cb_log("Tarih OCR ile bulundu: {$ocrDates['start']} -> {$ocrDates['end']} ({$sourceKey})");
+            $dates = $ocrDates;
+        } else {
+            cb_debug('Tarih baslikta/OCR ile bulunamadi, varsayilan aralik kullanilacak.');
+        }
+    }
 
     cb_log('Indirilen sayfa: ' . count($pages) . " ({$sourceKey})");
 

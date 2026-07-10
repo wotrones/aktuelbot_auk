@@ -372,8 +372,9 @@ function fb_to_jpeg(string $binary, int $quality = 88): ?string
  *
  * @param array{href:string,market:string,title:string,brochure_key:string,source_key:string} $item
  * @param list<array{name:string,bytes:string}> $pages
+ * @param array{start:string,end:string,matched:bool} $dates
  */
-function fb_import_brochure(array $cfg, array $item, array $pages): void
+function fb_import_brochure(array $cfg, array $item, array $pages, array $dates): void
 {
     $docId = $item['source_key']; // ab_{key}
 
@@ -386,8 +387,30 @@ function fb_import_brochure(array $cfg, array $item, array $pages): void
         cb_sleep_ms($cfg['request_delay_ms']);
     }
 
-    $start = new DateTimeImmutable('now');
-    $end = $start->modify('+' . $cfg['valid_days'] . ' days');
+    // Tarihler: basliktan/OCR'dan cikarilan (cb_fetch_brochure). Cozulemediyse
+    // (matched=false) bugun -> bugun + BROCHURE_VALID_DAYS'e dus.
+    try {
+        $start = new DateTimeImmutable(($dates['start'] ?? '') !== '' ? $dates['start'] : 'now');
+    } catch (Throwable $e) {
+        $start = new DateTimeImmutable('now');
+    }
+    $end = null;
+    if (!empty($dates['matched']) && ($dates['end'] ?? '') !== '') {
+        try {
+            $end = new DateTimeImmutable($dates['end']);
+        } catch (Throwable $e) {
+            $end = null;
+        }
+    }
+    if ($end === null || $end < $start) {
+        $end = $start->modify('+' . $cfg['valid_days'] . ' days');
+    }
+    cb_log(sprintf(
+        "Tarih: %s -> %s (%s)",
+        $start->format('Y-m-d'),
+        $end->format('Y-m-d'),
+        !empty($dates['matched']) ? 'kaynaktan' : 'varsayilan'
+    ));
 
     fb_document_set($cfg, "brosurler/{$docId}", [
         'market_adi' => $item['market'],
