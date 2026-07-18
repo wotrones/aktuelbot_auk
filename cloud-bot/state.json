@@ -28,21 +28,13 @@
             "lastCheckedAt": 1784404113
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1783695679
+            "lastCheckedAt": 1784406785
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
             "lastCheckedAt": 1783697483
         }
     },
     "queue": [
-        {
-            "source_key": "ab_5d623cccb6f9472bb33eabd34cdb13fe",
-            "brochure_key": "5d623cccb6f9472bb33eabd34cdb13fe",
-            "market": "Tarım Kooperatif",
-            "title": "Meyve ve Sebze Reyonu Fırsatları",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/meyve-ve-sebze-reyonu-firsatlari_5d623cccb6f9472bb33eabd34cdb13fe",
-            "tries": 0
-        },
         {
             "source_key": "ab_6c650fd56d3b47919fff6ef5a9efbe18",
             "brochure_key": "6c650fd56d3b47919fff6ef5a9efbe18",
@@ -121,6 +113,22 @@
             "market": "Tarım Kooperatif",
             "title": "Meyve İndirimleri",
             "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/meyve-indirimleri_de19a89677de492da8fac15ab9e49c5a",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_efdd8bd62be547c28cd7de5e5d3d319e",
+            "brochure_key": "efdd8bd62be547c28cd7de5e5d3d319e",
+            "market": "Hakmar",
+            "title": "Hafta Sonuna Özel Fırsat Ürünleri Broşürü",
+            "href": "https://aktuelbrosurler.com/hakmar/brosurler/hafta-sonuna-ozel-firsat-urunleri-brosuru_efdd8bd62be547c28cd7de5e5d3d319e",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_30c5c218cd364b6b91e3a90829a2f4c7",
+            "brochure_key": "30c5c218cd364b6b91e3a90829a2f4c7",
+            "market": "Hakmar",
+            "title": "Hakmar Aktüel Ürünler İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/hakmar/brosurler/hakmar-aktuel-urunler-indirim-bulteni-brosuru_30c5c218cd364b6b91e3a90829a2f4c7",
             "tries": 0
         }
     ],
@@ -456,7 +464,8 @@
         "ab_c67018c3902d4187a638fad426aa5568": true,
         "ab_3cedbf41b68143c5a896050fd63c8335": true,
         "ab_b7b622d4a6254c10818a6c2683515a3a": true,
-        "ab_7a91c02bf9094d48baa18927c0a85a2f": true
+        "ab_7a91c02bf9094d48baa18927c0a85a2f": true,
+        "ab_5d623cccb6f9472bb33eabd34cdb13fe": true
     },
-    "lastDrainAt": 1784404155
+    "lastDrainAt": 1784406808
 }
