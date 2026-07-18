@@ -1,7 +1,7 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1783698058
+            "lastCheckedAt": 1784413591
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
             "lastCheckedAt": 1783699275
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_566d613c59d74047afc7d606bff4728a",
-            "brochure_key": "566d613c59d74047afc7d606bff4728a",
-            "market": "Tarım Kooperatif",
-            "title": "Tarım Kredi Donuk Dana Kıyma 400 g 230 TL",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-donuk-dana-kiyma-400-g-230-tl_566d613c59d74047afc7d606bff4728a",
-            "tries": 0
-        },
         {
             "source_key": "ab_97beab944f5645acbb2ddd28a93566b6",
             "brochure_key": "97beab944f5645acbb2ddd28a93566b6",
@@ -482,7 +474,8 @@
         "ab_b7b622d4a6254c10818a6c2683515a3a": true,
         "ab_7a91c02bf9094d48baa18927c0a85a2f": true,
         "ab_5d623cccb6f9472bb33eabd34cdb13fe": true,
-        "ab_6c650fd56d3b47919fff6ef5a9efbe18": true
+        "ab_6c650fd56d3b47919fff6ef5a9efbe18": true,
+        "ab_566d613c59d74047afc7d606bff4728a": true
     },
-    "lastDrainAt": 1784410210
+    "lastDrainAt": 1784413632
 }
