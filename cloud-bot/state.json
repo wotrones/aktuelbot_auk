@@ -31,18 +31,10 @@
             "lastCheckedAt": 1784406785
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1783697483
+            "lastCheckedAt": 1784410179
         }
     },
     "queue": [
-        {
-            "source_key": "ab_6c650fd56d3b47919fff6ef5a9efbe18",
-            "brochure_key": "6c650fd56d3b47919fff6ef5a9efbe18",
-            "market": "Tarım Kooperatif",
-            "title": "Bu Cuma KOOP’ta Tarım Kredi Yağlı Süt 1 LT 44 TL",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/bu-cuma-koop-ta-tarim-kredi-yagli-sut-1-lt-44-tl_6c650fd56d3b47919fff6ef5a9efbe18",
-            "tries": 0
-        },
         {
             "source_key": "ab_566d613c59d74047afc7d606bff4728a",
             "brochure_key": "566d613c59d74047afc7d606bff4728a",
@@ -129,6 +121,30 @@
             "market": "Hakmar",
             "title": "Hakmar Aktüel Ürünler İndirim Bülteni Broşürü",
             "href": "https://aktuelbrosurler.com/hakmar/brosurler/hakmar-aktuel-urunler-indirim-bulteni-brosuru_30c5c218cd364b6b91e3a90829a2f4c7",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_c9297363b77943c2b209f839db12e9e4",
+            "brochure_key": "c9297363b77943c2b209f839db12e9e4",
+            "market": "Gratis",
+            "title": "Tüm Makyaj, Yüz Bakım, Güneş, Şampuan, Saç Kremleri ve Hijyenik Pedlerde %75 İNDİRİM",
+            "href": "https://aktuelbrosurler.com/gratis/brosurler/tum-makyaj-yuz-bakim-gunes-sampuan-sac-kremleri-ve-hijyenik-pedlerde-75-indirim_c9297363b77943c2b209f839db12e9e4",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_876b0c19fb19462ea25ee1e9ffae64e3",
+            "brochure_key": "876b0c19fb19462ea25ee1e9ffae64e3",
+            "market": "Gratis",
+            "title": "Güneş Bakım,Hijyenik Ped,Vücut Bakım,Yüz Bakım,Ağda Epilasyon ve Ağız Bakım Ürünlerinde %70 İndirim",
+            "href": "https://aktuelbrosurler.com/gratis/brosurler/gunes-bakim-hijyenik-ped-vucut-bakim-yuz-bakim-agda-epilasyon-ve-agiz-bakim-urunlerinde-70-indirim_876b0c19fb19462ea25ee1e9ffae64e3",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_50e272ae6a164cefaafe54b8df09dd41",
+            "brochure_key": "50e272ae6a164cefaafe54b8df09dd41",
+            "market": "Gratis",
+            "title": "250 TL ve Üzeri Alışverişlerde Tüm Deodorant Ürünlerinde %80 İNDİRİM",
+            "href": "https://aktuelbrosurler.com/gratis/brosurler/250-tl-ve-uzeri-alisverislerde-tum-deodorant-urunlerinde-80-indirim_50e272ae6a164cefaafe54b8df09dd41",
             "tries": 0
         }
     ],
@@ -465,7 +481,8 @@
         "ab_3cedbf41b68143c5a896050fd63c8335": true,
         "ab_b7b622d4a6254c10818a6c2683515a3a": true,
         "ab_7a91c02bf9094d48baa18927c0a85a2f": true,
-        "ab_5d623cccb6f9472bb33eabd34cdb13fe": true
+        "ab_5d623cccb6f9472bb33eabd34cdb13fe": true,
+        "ab_6c650fd56d3b47919fff6ef5a9efbe18": true
     },
-    "lastDrainAt": 1784406808
+    "lastDrainAt": 1784410210
 }
