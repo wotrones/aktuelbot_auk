@@ -25,7 +25,7 @@
             "lastCheckedAt": 1784399708
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1783693867
+            "lastCheckedAt": 1784404113
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
             "lastCheckedAt": 1783695679
@@ -34,7 +34,96 @@
             "lastCheckedAt": 1783697483
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_5d623cccb6f9472bb33eabd34cdb13fe",
+            "brochure_key": "5d623cccb6f9472bb33eabd34cdb13fe",
+            "market": "Tarım Kooperatif",
+            "title": "Meyve ve Sebze Reyonu Fırsatları",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/meyve-ve-sebze-reyonu-firsatlari_5d623cccb6f9472bb33eabd34cdb13fe",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_6c650fd56d3b47919fff6ef5a9efbe18",
+            "brochure_key": "6c650fd56d3b47919fff6ef5a9efbe18",
+            "market": "Tarım Kooperatif",
+            "title": "Bu Cuma KOOP’ta Tarım Kredi Yağlı Süt 1 LT 44 TL",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/bu-cuma-koop-ta-tarim-kredi-yagli-sut-1-lt-44-tl_6c650fd56d3b47919fff6ef5a9efbe18",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_566d613c59d74047afc7d606bff4728a",
+            "brochure_key": "566d613c59d74047afc7d606bff4728a",
+            "market": "Tarım Kooperatif",
+            "title": "Tarım Kredi Donuk Dana Kıyma 400 g 230 TL",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-donuk-dana-kiyma-400-g-230-tl_566d613c59d74047afc7d606bff4728a",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_97beab944f5645acbb2ddd28a93566b6",
+            "brochure_key": "97beab944f5645acbb2ddd28a93566b6",
+            "market": "Tarım Kooperatif",
+            "title": "Tarım Kredi Kooperatif Market İndirim Bülteni Broşürü - Hafta Sonuna Özel Fırsatlar",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-kooperatif-market-indirim-bulteni-brosuru-hafta-sonuna-ozel-firsatlar_97beab944f5645acbb2ddd28a93566b6",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_aca59d4ad0ec4a8ea6ff1514af249696",
+            "brochure_key": "aca59d4ad0ec4a8ea6ff1514af249696",
+            "market": "Tarım Kooperatif",
+            "title": "KOOP Market’te Perşembe Fırsatı! Mr. Oxy Yüzey Temizlik Havlusu 100’lü Çeşitleri 74,90 TL",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-market-te-persembe-firsati-mr-oxy-yuzey-temizlik-havlusu-100-lu-cesitleri-74-90-tl_aca59d4ad0ec4a8ea6ff1514af249696",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_6ca8cac83212499ab1755a1fb5c4148a",
+            "brochure_key": "6ca8cac83212499ab1755a1fb5c4148a",
+            "market": "Tarım Kooperatif",
+            "title": "KOOP Market’te Çarşamba Fırsatı! Bakpiliç Donuk Bütün Piliç kg 79 TL",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-market-te-carsamba-firsati-bakpilic-donuk-butun-pilic-kg-79-tl_6ca8cac83212499ab1755a1fb5c4148a",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_533d01ff38c94eeeaba7e54db88d4c53",
+            "brochure_key": "533d01ff38c94eeeaba7e54db88d4c53",
+            "market": "Tarım Kooperatif",
+            "title": "KOOP Market’te Salı Fırsatı!  Kızılcahamam Çamlık Gazoz 200 ml x 6 64,90 TL",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-market-te-sali-firsati-kizilcahamam-camlik-gazoz-200-ml-x-6-64-90-tl_533d01ff38c94eeeaba7e54db88d4c53",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_a846276630e14d9296955f1c428c4293",
+            "brochure_key": "a846276630e14d9296955f1c428c4293",
+            "market": "Tarım Kooperatif",
+            "title": "Tarım Kredi Kooperatif Market İndirim Bülteni Broşürü - Kat Kat Fırsat",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-kooperatif-market-indirim-bulteni-brosuru-kat-kat-firsat_a846276630e14d9296955f1c428c4293",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_f858ba10530946a2ac241ba8fc38867a",
+            "brochure_key": "f858ba10530946a2ac241ba8fc38867a",
+            "market": "Tarım Kooperatif",
+            "title": "25 TL ve Üzeri Alışverişlerde İndirimli Ürünler",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/25-tl-ve-uzeri-alisverislerde-indirimli-urunler_f858ba10530946a2ac241ba8fc38867a",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_85d958b4c83e415b8a07960adb5cf3ab",
+            "brochure_key": "85d958b4c83e415b8a07960adb5cf3ab",
+            "market": "Tarım Kooperatif",
+            "title": "KOOP Market’te Cumartesi Fırsatı! Renax Bulaşık Makinesi Kapsülü 60’lı 199,90 TL",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-market-te-cumartesi-firsati-renax-bulasik-makinesi-kapsulu-60-li-199-90-tl_85d958b4c83e415b8a07960adb5cf3ab",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_de19a89677de492da8fac15ab9e49c5a",
+            "brochure_key": "de19a89677de492da8fac15ab9e49c5a",
+            "market": "Tarım Kooperatif",
+            "title": "Meyve İndirimleri",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/meyve-indirimleri_de19a89677de492da8fac15ab9e49c5a",
+            "tries": 0
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -366,7 +455,8 @@
         "ab_b1f6a61955f54108a262d70e87b2c1e4": true,
         "ab_c67018c3902d4187a638fad426aa5568": true,
         "ab_3cedbf41b68143c5a896050fd63c8335": true,
-        "ab_b7b622d4a6254c10818a6c2683515a3a": true
+        "ab_b7b622d4a6254c10818a6c2683515a3a": true,
+        "ab_7a91c02bf9094d48baa18927c0a85a2f": true
     },
-    "lastDrainAt": 1784399709
+    "lastDrainAt": 1784404155
 }
