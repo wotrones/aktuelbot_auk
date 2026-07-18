@@ -4,7 +4,7 @@
             "lastCheckedAt": 1784413591
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1783699275
+            "lastCheckedAt": 1784417199
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
             "lastCheckedAt": 1783700456
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_97beab944f5645acbb2ddd28a93566b6",
-            "brochure_key": "97beab944f5645acbb2ddd28a93566b6",
-            "market": "Tarım Kooperatif",
-            "title": "Tarım Kredi Kooperatif Market İndirim Bülteni Broşürü - Hafta Sonuna Özel Fırsatlar",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-kooperatif-market-indirim-bulteni-brosuru-hafta-sonuna-ozel-firsatlar_97beab944f5645acbb2ddd28a93566b6",
-            "tries": 0
-        },
         {
             "source_key": "ab_aca59d4ad0ec4a8ea6ff1514af249696",
             "brochure_key": "aca59d4ad0ec4a8ea6ff1514af249696",
@@ -137,6 +129,22 @@
             "market": "Gratis",
             "title": "250 TL ve Üzeri Alışverişlerde Tüm Deodorant Ürünlerinde %80 İNDİRİM",
             "href": "https://aktuelbrosurler.com/gratis/brosurler/250-tl-ve-uzeri-alisverislerde-tum-deodorant-urunlerinde-80-indirim_50e272ae6a164cefaafe54b8df09dd41",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_47d846749fe04560a852b6e9941978be",
+            "brochure_key": "47d846749fe04560a852b6e9941978be",
+            "market": "Bizim Toptan Market",
+            "title": "HORECA'ya Özel İndirim Broşürü",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/horeca-ya-ozel-indirim-brosuru_47d846749fe04560a852b6e9941978be",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_79675ef1a131424894c11d36117fd6da",
+            "brochure_key": "79675ef1a131424894c11d36117fd6da",
+            "market": "Bizim Toptan Market",
+            "title": "Bizim Toptan Market İndirim Bülteni Broşürü - Haftanın Fırsatları",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-toptan-market-indirim-bulteni-brosuru-haftanin-firsatlari_79675ef1a131424894c11d36117fd6da",
             "tries": 0
         }
     ],
@@ -475,7 +483,8 @@
         "ab_7a91c02bf9094d48baa18927c0a85a2f": true,
         "ab_5d623cccb6f9472bb33eabd34cdb13fe": true,
         "ab_6c650fd56d3b47919fff6ef5a9efbe18": true,
-        "ab_566d613c59d74047afc7d606bff4728a": true
+        "ab_566d613c59d74047afc7d606bff4728a": true,
+        "ab_97beab944f5645acbb2ddd28a93566b6": true
     },
-    "lastDrainAt": 1784413632
+    "lastDrainAt": 1784417244
 }
