@@ -19,7 +19,7 @@
             "lastCheckedAt": 1783708867
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1783690265
+            "lastCheckedAt": 1784398235
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
             "lastCheckedAt": 1783692073
@@ -34,7 +34,16 @@
             "lastCheckedAt": 1783697483
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_b7b622d4a6254c10818a6c2683515a3a",
+            "brochure_key": "b7b622d4a6254c10818a6c2683515a3a",
+            "market": "Watsons",
+            "title": "Bugüne özel favori 185 üründe %85 indirim fırsatı",
+            "href": "https://aktuelbrosurler.com/watsons/brosurler/bugune-ozel-favori-185-urunde-85-indirim-firsati_b7b622d4a6254c10818a6c2683515a3a",
+            "tries": 0
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
