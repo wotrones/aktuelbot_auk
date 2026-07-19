@@ -7,7 +7,7 @@
             "lastCheckedAt": 1784417199
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1783700456
+            "lastCheckedAt": 1784422921
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1783701066
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_aca59d4ad0ec4a8ea6ff1514af249696",
-            "brochure_key": "aca59d4ad0ec4a8ea6ff1514af249696",
-            "market": "Tarım Kooperatif",
-            "title": "KOOP Market’te Perşembe Fırsatı! Mr. Oxy Yüzey Temizlik Havlusu 100’lü Çeşitleri 74,90 TL",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-market-te-persembe-firsati-mr-oxy-yuzey-temizlik-havlusu-100-lu-cesitleri-74-90-tl_aca59d4ad0ec4a8ea6ff1514af249696",
-            "tries": 0
-        },
         {
             "source_key": "ab_6ca8cac83212499ab1755a1fb5c4148a",
             "brochure_key": "6ca8cac83212499ab1755a1fb5c4148a",
@@ -145,6 +137,102 @@
             "market": "Bizim Toptan Market",
             "title": "Bizim Toptan Market İndirim Bülteni Broşürü - Haftanın Fırsatları",
             "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-toptan-market-indirim-bulteni-brosuru-haftanin-firsatlari_79675ef1a131424894c11d36117fd6da",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_4be614f1a6cc4647b20bf92e762f6d0b",
+            "brochure_key": "4be614f1a6cc4647b20bf92e762f6d0b",
+            "market": "A101",
+            "title": "Atıştırmalık Ürünleri Fırsat Broşürü",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/atistirmalik-urunleri-firsat-brosuru_4be614f1a6cc4647b20bf92e762f6d0b",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_7a72f1d5122f40058452235ff37e4458",
+            "brochure_key": "7a72f1d5122f40058452235ff37e4458",
+            "market": "A101",
+            "title": "10 TL ve Üzeri Alışverişlerde İndirimli Fırsat Ürünleri Broşürü 18-24 Temmuz",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/10-tl-ve-uzeri-alisverislerde-indirimli-firsat-urunleri-brosuru-18-24-temmuz_7a72f1d5122f40058452235ff37e4458",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_e89cbfc9b78a4458a46edb8607e04fab",
+            "brochure_key": "e89cbfc9b78a4458a46edb8607e04fab",
+            "market": "A101",
+            "title": "A101 Kahvaltının & Haftanın Yıldızları Broşürü 18-24 Temmuz",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-kahvaltinin-haftanin-yildizlari-brosuru-18-24-temmuz_e89cbfc9b78a4458a46edb8607e04fab",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_059dfa7ff0b44e08a00a805cdb739c5d",
+            "brochure_key": "059dfa7ff0b44e08a00a805cdb739c5d",
+            "market": "A101",
+            "title": "(Net sayfalar firma orjinal broşürü yayınladığında yüklenecektir) 23 Temmuz 2026 A101 Aktüel Broşür",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/net-sayfalar-firma-orjinal-brosuru-yayinladiginda-yuklenecektir-23-temmuz-2026-a101-aktuel-brosur_059dfa7ff0b44e08a00a805cdb739c5d",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_8df09f200b4a4536ab2f249d29be826e",
+            "brochure_key": "8df09f200b4a4536ab2f249d29be826e",
+            "market": "A101",
+            "title": "A101 Haftanın Yıldızları Broşürü 18-24 Temmuz",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-haftanin-yildizlari-brosuru-18-24-temmuz_8df09f200b4a4536ab2f249d29be826e",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_0d4ab8073c294dd386aa59c842dc9df8",
+            "brochure_key": "0d4ab8073c294dd386aa59c842dc9df8",
+            "market": "A101",
+            "title": "Sadece Online Alışverişe Özel Aldın Aldın A101 Ekstra Aktüel Ürünler Broşürü 16 Temmuz 2026",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/sadece-online-alisverise-ozel-aldin-aldin-a101-ekstra-aktuel-urunler-brosuru-16-temmuz-2026_0d4ab8073c294dd386aa59c842dc9df8",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_658db459ac4d47b4a9584f57892bf0a9",
+            "brochure_key": "658db459ac4d47b4a9584f57892bf0a9",
+            "market": "A101",
+            "title": "A101 Tazenin Yıldızları İndirimli Ürünler Broşürü 16-19 Temmuz",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-tazenin-yildizlari-indirimli-urunler-brosuru-16-19-temmuz_658db459ac4d47b4a9584f57892bf0a9",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_214f5b80b0d1493a905583223c8db70a",
+            "brochure_key": "214f5b80b0d1493a905583223c8db70a",
+            "market": "A101",
+            "title": "Detaylı | A101 Aldın Aldın Aktüel Ürünler Broşürü 9 Temmuz 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/detayli-a101-aldin-aldin-aktuel-urunler-brosuru-9-temmuz-2026-dan-itibaren-stoklarla-sinirli_214f5b80b0d1493a905583223c8db70a",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_4cd9cbf2d13543328a31b9bfc5b12d6c",
+            "brochure_key": "4cd9cbf2d13543328a31b9bfc5b12d6c",
+            "market": "A101",
+            "title": "30'lu M boy yumurta indirimi 89 TL",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/30-lu-m-boy-yumurta-indirimi-89-tl_4cd9cbf2d13543328a31b9bfc5b12d6c",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_efc333087c404ec2bb9d30f10c4a9fc9",
+            "brochure_key": "efc333087c404ec2bb9d30f10c4a9fc9",
+            "market": "A101",
+            "title": "Atıştırmalık Ürünleri Fırsat Broşürü",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/atistirmalik-urunleri-firsat-brosuru_efc333087c404ec2bb9d30f10c4a9fc9",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_eaadecb40e5c498e9716e777fe6360d3",
+            "brochure_key": "eaadecb40e5c498e9716e777fe6360d3",
+            "market": "A101",
+            "title": "A101 Haftanın Yıldızları Broşürü 11-17 Temmuz",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-haftanin-yildizlari-brosuru-11-17-temmuz_eaadecb40e5c498e9716e777fe6360d3",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_ff6bb53710f54b4abb96d5f033e489f7",
+            "brochure_key": "ff6bb53710f54b4abb96d5f033e489f7",
+            "market": "A101",
+            "title": "Seçili Ürünlerde İndirimli Fiyatlar",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/secili-urunlerde-indirimli-fiyatlar_ff6bb53710f54b4abb96d5f033e489f7",
             "tries": 0
         }
     ],
@@ -484,7 +572,8 @@
         "ab_5d623cccb6f9472bb33eabd34cdb13fe": true,
         "ab_6c650fd56d3b47919fff6ef5a9efbe18": true,
         "ab_566d613c59d74047afc7d606bff4728a": true,
-        "ab_97beab944f5645acbb2ddd28a93566b6": true
+        "ab_97beab944f5645acbb2ddd28a93566b6": true,
+        "ab_aca59d4ad0ec4a8ea6ff1514af249696": true
     },
-    "lastDrainAt": 1784417244
+    "lastDrainAt": 1784422951
 }
