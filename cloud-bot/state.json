@@ -31,18 +31,10 @@
             "lastCheckedAt": 1784470307
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1784410179
+            "lastCheckedAt": 1784474081
         }
     },
     "queue": [
-        {
-            "source_key": "ab_30c5c218cd364b6b91e3a90829a2f4c7",
-            "brochure_key": "30c5c218cd364b6b91e3a90829a2f4c7",
-            "market": "Hakmar",
-            "title": "Hakmar Aktüel Ürünler İndirim Bülteni Broşürü",
-            "href": "https://aktuelbrosurler.com/hakmar/brosurler/hakmar-aktuel-urunler-indirim-bulteni-brosuru_30c5c218cd364b6b91e3a90829a2f4c7",
-            "tries": 0
-        },
         {
             "source_key": "ab_c9297363b77943c2b209f839db12e9e4",
             "brochure_key": "c9297363b77943c2b209f839db12e9e4",
@@ -732,7 +724,8 @@
         "ab_f858ba10530946a2ac241ba8fc38867a": true,
         "ab_85d958b4c83e415b8a07960adb5cf3ab": true,
         "ab_de19a89677de492da8fac15ab9e49c5a": true,
-        "ab_efdd8bd62be547c28cd7de5e5d3d319e": true
+        "ab_efdd8bd62be547c28cd7de5e5d3d319e": true,
+        "ab_30c5c218cd364b6b91e3a90829a2f4c7": true
     },
-    "lastDrainAt": 1784470331
+    "lastDrainAt": 1784474174
 }
