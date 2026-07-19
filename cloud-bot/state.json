@@ -19,7 +19,7 @@
             "lastCheckedAt": 1784496219
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1784457961
+            "lastCheckedAt": 1784499278
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
             "lastCheckedAt": 1784461501
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_7a72f1d5122f40058452235ff37e4458",
-            "brochure_key": "7a72f1d5122f40058452235ff37e4458",
-            "market": "A101",
-            "title": "10 TL ve Üzeri Alışverişlerde İndirimli Fırsat Ürünleri Broşürü 18-24 Temmuz",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/10-tl-ve-uzeri-alisverislerde-indirimli-firsat-urunleri-brosuru-18-24-temmuz_7a72f1d5122f40058452235ff37e4458",
-            "tries": 0
-        },
         {
             "source_key": "ab_e89cbfc9b78a4458a46edb8607e04fab",
             "brochure_key": "e89cbfc9b78a4458a46edb8607e04fab",
@@ -683,7 +675,8 @@
         "ab_50e272ae6a164cefaafe54b8df09dd41": true,
         "ab_47d846749fe04560a852b6e9941978be": true,
         "ab_79675ef1a131424894c11d36117fd6da": true,
-        "ab_4be614f1a6cc4647b20bf92e762f6d0b": true
+        "ab_4be614f1a6cc4647b20bf92e762f6d0b": true,
+        "ab_7a72f1d5122f40058452235ff37e4458": true
     },
-    "lastDrainAt": 1784496258
+    "lastDrainAt": 1784499301
 }
