@@ -25,7 +25,7 @@
             "lastCheckedAt": 1784461501
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1784404113
+            "lastCheckedAt": 1784464725
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
             "lastCheckedAt": 1784406785
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_de19a89677de492da8fac15ab9e49c5a",
-            "brochure_key": "de19a89677de492da8fac15ab9e49c5a",
-            "market": "Tarım Kooperatif",
-            "title": "Meyve İndirimleri",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/meyve-indirimleri_de19a89677de492da8fac15ab9e49c5a",
-            "tries": 0
-        },
         {
             "source_key": "ab_efdd8bd62be547c28cd7de5e5d3d319e",
             "brochure_key": "efdd8bd62be547c28cd7de5e5d3d319e",
@@ -746,7 +738,8 @@
         "ab_533d01ff38c94eeeaba7e54db88d4c53": true,
         "ab_a846276630e14d9296955f1c428c4293": true,
         "ab_f858ba10530946a2ac241ba8fc38867a": true,
-        "ab_85d958b4c83e415b8a07960adb5cf3ab": true
+        "ab_85d958b4c83e415b8a07960adb5cf3ab": true,
+        "ab_de19a89677de492da8fac15ab9e49c5a": true
     },
-    "lastDrainAt": 1784461502
+    "lastDrainAt": 1784464726
 }
