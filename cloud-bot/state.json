@@ -19,7 +19,7 @@
             "lastCheckedAt": 1784452513
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1784398235
+            "lastCheckedAt": 1784457961
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
             "lastCheckedAt": 1784399708
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_f858ba10530946a2ac241ba8fc38867a",
-            "brochure_key": "f858ba10530946a2ac241ba8fc38867a",
-            "market": "Tarım Kooperatif",
-            "title": "25 TL ve Üzeri Alışverişlerde İndirimli Ürünler",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/25-tl-ve-uzeri-alisverislerde-indirimli-urunler_f858ba10530946a2ac241ba8fc38867a",
-            "tries": 0
-        },
         {
             "source_key": "ab_85d958b4c83e415b8a07960adb5cf3ab",
             "brochure_key": "85d958b4c83e415b8a07960adb5cf3ab",
@@ -410,6 +402,14 @@
             "title": "İndirimli Ürünler",
             "href": "https://aktuelbrosurler.com/carrefour/brosurler/indirimli-urunler_33baa4407117462ca59438e237fd0cf9",
             "tries": 0
+        },
+        {
+            "source_key": "ab_7a44c05d714f4fa7a379a6c267ad963f",
+            "brochure_key": "7a44c05d714f4fa7a379a6c267ad963f",
+            "market": "Watsons",
+            "title": "Pastel & Show by Pastel Ürünlerinde %70 İndirim",
+            "href": "https://aktuelbrosurler.com/watsons/brosurler/pastel-show-by-pastel-urunlerinde-70-indirim_7a44c05d714f4fa7a379a6c267ad963f",
+            "tries": 0
         }
     ],
     "uploaded": {
@@ -752,7 +752,8 @@
         "ab_aca59d4ad0ec4a8ea6ff1514af249696": true,
         "ab_6ca8cac83212499ab1755a1fb5c4148a": true,
         "ab_533d01ff38c94eeeaba7e54db88d4c53": true,
-        "ab_a846276630e14d9296955f1c428c4293": true
+        "ab_a846276630e14d9296955f1c428c4293": true,
+        "ab_f858ba10530946a2ac241ba8fc38867a": true
     },
-    "lastDrainAt": 1784452572
+    "lastDrainAt": 1784458028
 }
