@@ -16,7 +16,7 @@
             "lastCheckedAt": 1784444845
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1783708867
+            "lastCheckedAt": 1784452513
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
             "lastCheckedAt": 1784398235
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_a846276630e14d9296955f1c428c4293",
-            "brochure_key": "a846276630e14d9296955f1c428c4293",
-            "market": "Tarım Kooperatif",
-            "title": "Tarım Kredi Kooperatif Market İndirim Bülteni Broşürü - Kat Kat Fırsat",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-kooperatif-market-indirim-bulteni-brosuru-kat-kat-firsat_a846276630e14d9296955f1c428c4293",
-            "tries": 0
-        },
         {
             "source_key": "ab_f858ba10530946a2ac241ba8fc38867a",
             "brochure_key": "f858ba10530946a2ac241ba8fc38867a",
@@ -410,6 +402,14 @@
             "title": "Atıştırmalık Ürünleri Fırsat Broşürü 11-17 Temmuz",
             "href": "https://aktuelbrosurler.com/sok-market/brosurler/atistirmalik-urunleri-firsat-brosuru-11-17-temmuz_b486feaef1a44628ad3d1b85d3c20c68",
             "tries": 0
+        },
+        {
+            "source_key": "ab_33baa4407117462ca59438e237fd0cf9",
+            "brochure_key": "33baa4407117462ca59438e237fd0cf9",
+            "market": "Carrefour",
+            "title": "İndirimli Ürünler",
+            "href": "https://aktuelbrosurler.com/carrefour/brosurler/indirimli-urunler_33baa4407117462ca59438e237fd0cf9",
+            "tries": 0
         }
     ],
     "uploaded": {
@@ -751,7 +751,8 @@
         "ab_97beab944f5645acbb2ddd28a93566b6": true,
         "ab_aca59d4ad0ec4a8ea6ff1514af249696": true,
         "ab_6ca8cac83212499ab1755a1fb5c4148a": true,
-        "ab_533d01ff38c94eeeaba7e54db88d4c53": true
+        "ab_533d01ff38c94eeeaba7e54db88d4c53": true,
+        "ab_a846276630e14d9296955f1c428c4293": true
     },
-    "lastDrainAt": 1784444898
+    "lastDrainAt": 1784452572
 }
