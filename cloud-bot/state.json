@@ -13,7 +13,7 @@
             "lastCheckedAt": 1784435353
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1783702877
+            "lastCheckedAt": 1784444845
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1783708867
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_533d01ff38c94eeeaba7e54db88d4c53",
-            "brochure_key": "533d01ff38c94eeeaba7e54db88d4c53",
-            "market": "Tarım Kooperatif",
-            "title": "KOOP Market’te Salı Fırsatı!  Kızılcahamam Çamlık Gazoz 200 ml x 6 64,90 TL",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-market-te-sali-firsati-kizilcahamam-camlik-gazoz-200-ml-x-6-64-90-tl_533d01ff38c94eeeaba7e54db88d4c53",
-            "tries": 0
-        },
         {
             "source_key": "ab_a846276630e14d9296955f1c428c4293",
             "brochure_key": "a846276630e14d9296955f1c428c4293",
@@ -321,6 +313,102 @@
             "market": "Bim",
             "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 14-21 Temmuz 2026 Stoklarla Sınırlı",
             "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-14-21-temmuz-2026-stoklarla-sinirli_732528ab5eb84009b0e7be51e3dddb46",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_257b5fd5e6e645f68fa0c70325aec288",
+            "brochure_key": "257b5fd5e6e645f68fa0c70325aec288",
+            "market": "Şok Market",
+            "title": "Seçili Ürünlerde İndirimli Fiyatlar",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/secili-urunlerde-indirimli-fiyatlar_257b5fd5e6e645f68fa0c70325aec288",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_e962580700b0468f9972a0129bd20fee",
+            "brochure_key": "e962580700b0468f9972a0129bd20fee",
+            "market": "Şok Market",
+            "title": "Kişisel Bakım Ürünleri Fırsat Broşürü",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/kisisel-bakim-urunleri-firsat-brosuru_e962580700b0468f9972a0129bd20fee",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_ffbb8f308024416e98b1ac2d0e7eea6e",
+            "brochure_key": "ffbb8f308024416e98b1ac2d0e7eea6e",
+            "market": "Şok Market",
+            "title": "Fırsat Ürünleri Broşürü",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/firsat-urunleri-brosuru_ffbb8f308024416e98b1ac2d0e7eea6e",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_268d79e89a384f8d8b476cf5e51820f6",
+            "brochure_key": "268d79e89a384f8d8b476cf5e51820f6",
+            "market": "Şok Market",
+            "title": "Şok Market Fırsat Ürünleri Broşürü 18-21 Temmuz 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-firsat-urunleri-brosuru-18-21-temmuz-2026_268d79e89a384f8d8b476cf5e51820f6",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_956074431b624e3db308faed3ba2ae88",
+            "brochure_key": "956074431b624e3db308faed3ba2ae88",
+            "market": "Şok Market",
+            "title": "Şok Market İste Gelsin Ürünleri Broşürü 18-21 Temmuz",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-18-21-temmuz_956074431b624e3db308faed3ba2ae88",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_84fb7fdad0754e3f8a169e9335833a74",
+            "brochure_key": "84fb7fdad0754e3f8a169e9335833a74",
+            "market": "Şok Market",
+            "title": "Şok Market Hafta Sonu Fırsatları Aktüel Ürünler Broşür 18-21 Temmuz 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-hafta-sonu-firsatlari-aktuel-urunler-brosur-18-21-temmuz-2026_84fb7fdad0754e3f8a169e9335833a74",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_6d6c6cc599cf4bc7a08bb1e5782937e9",
+            "brochure_key": "6d6c6cc599cf4bc7a08bb1e5782937e9",
+            "market": "Şok Market",
+            "title": "Detaylı | Şok Market Haftanın Fırsatları Aktüel Ürünler Broşür 15-21 Temmuz 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-haftanin-firsatlari-aktuel-urunler-brosur-15-21-temmuz-2026_6d6c6cc599cf4bc7a08bb1e5782937e9",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_4b97678d6b0e4a709e29fef41fb32838",
+            "brochure_key": "4b97678d6b0e4a709e29fef41fb32838",
+            "market": "Şok Market",
+            "title": "Şok Market İste Gelsin Ürünleri Broşürü 15-21 Temmuz",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-15-21-temmuz_4b97678d6b0e4a709e29fef41fb32838",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_6a095ea779074fcda62cee380ca64cec",
+            "brochure_key": "6a095ea779074fcda62cee380ca64cec",
+            "market": "Şok Market",
+            "title": "Şok Market Haftanın Fırsatları Aktüel Ürünler Broşür 15-21 Temmuz 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-haftanin-firsatlari-aktuel-urunler-brosur-15-21-temmuz-2026_6a095ea779074fcda62cee380ca64cec",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_77a341a3617c41aa9a2a8c8246e5c19a",
+            "brochure_key": "77a341a3617c41aa9a2a8c8246e5c19a",
+            "market": "Şok Market",
+            "title": "Şok Market Fırsat Ürünleri Broşürü - Haftaya Özel 10 Üründe Fırsatlar",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-firsat-urunleri-brosuru-haftaya-ozel-10-urunde-firsatlar_77a341a3617c41aa9a2a8c8246e5c19a",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_36cab9689c244f328c5899bcce56d362",
+            "brochure_key": "36cab9689c244f328c5899bcce56d362",
+            "market": "Şok Market",
+            "title": "Detaylı | Şok Market Hafta Sonu Fırsatları Aktüel Ürünler Broşür 11-14 Temmuz",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-hafta-sonu-firsatlari-aktuel-urunler-brosur-11-14-temmuz_36cab9689c244f328c5899bcce56d362",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_b486feaef1a44628ad3d1b85d3c20c68",
+            "brochure_key": "b486feaef1a44628ad3d1b85d3c20c68",
+            "market": "Şok Market",
+            "title": "Atıştırmalık Ürünleri Fırsat Broşürü 11-17 Temmuz",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/atistirmalik-urunleri-firsat-brosuru-11-17-temmuz_b486feaef1a44628ad3d1b85d3c20c68",
             "tries": 0
         }
     ],
@@ -662,7 +750,8 @@
         "ab_566d613c59d74047afc7d606bff4728a": true,
         "ab_97beab944f5645acbb2ddd28a93566b6": true,
         "ab_aca59d4ad0ec4a8ea6ff1514af249696": true,
-        "ab_6ca8cac83212499ab1755a1fb5c4148a": true
+        "ab_6ca8cac83212499ab1755a1fb5c4148a": true,
+        "ab_533d01ff38c94eeeaba7e54db88d4c53": true
     },
-    "lastDrainAt": 1784435399
+    "lastDrainAt": 1784444898
 }
