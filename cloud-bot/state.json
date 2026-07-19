@@ -4,7 +4,7 @@
             "lastCheckedAt": 1784477575
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1784417199
+            "lastCheckedAt": 1784481446
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
             "lastCheckedAt": 1784422921
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_876b0c19fb19462ea25ee1e9ffae64e3",
-            "brochure_key": "876b0c19fb19462ea25ee1e9ffae64e3",
-            "market": "Gratis",
-            "title": "Güneş Bakım,Hijyenik Ped,Vücut Bakım,Yüz Bakım,Ağda Epilasyon ve Ağız Bakım Ürünlerinde %70 İndirim",
-            "href": "https://aktuelbrosurler.com/gratis/brosurler/gunes-bakim-hijyenik-ped-vucut-bakim-yuz-bakim-agda-epilasyon-ve-agiz-bakim-urunlerinde-70-indirim_876b0c19fb19462ea25ee1e9ffae64e3",
-            "tries": 0
-        },
         {
             "source_key": "ab_50e272ae6a164cefaafe54b8df09dd41",
             "brochure_key": "50e272ae6a164cefaafe54b8df09dd41",
@@ -718,7 +710,8 @@
         "ab_de19a89677de492da8fac15ab9e49c5a": true,
         "ab_efdd8bd62be547c28cd7de5e5d3d319e": true,
         "ab_30c5c218cd364b6b91e3a90829a2f4c7": true,
-        "ab_c9297363b77943c2b209f839db12e9e4": true
+        "ab_c9297363b77943c2b209f839db12e9e4": true,
+        "ab_876b0c19fb19462ea25ee1e9ffae64e3": true
     },
-    "lastDrainAt": 1784477608
+    "lastDrainAt": 1784481484
 }
