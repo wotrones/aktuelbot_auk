@@ -7,7 +7,7 @@
             "lastCheckedAt": 1784481446
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1784422921
+            "lastCheckedAt": 1784484738
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1784435353
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_50e272ae6a164cefaafe54b8df09dd41",
-            "brochure_key": "50e272ae6a164cefaafe54b8df09dd41",
-            "market": "Gratis",
-            "title": "250 TL ve Üzeri Alışverişlerde Tüm Deodorant Ürünlerinde %80 İNDİRİM",
-            "href": "https://aktuelbrosurler.com/gratis/brosurler/250-tl-ve-uzeri-alisverislerde-tum-deodorant-urunlerinde-80-indirim_50e272ae6a164cefaafe54b8df09dd41",
-            "tries": 0
-        },
         {
             "source_key": "ab_47d846749fe04560a852b6e9941978be",
             "brochure_key": "47d846749fe04560a852b6e9941978be",
@@ -711,7 +703,8 @@
         "ab_efdd8bd62be547c28cd7de5e5d3d319e": true,
         "ab_30c5c218cd364b6b91e3a90829a2f4c7": true,
         "ab_c9297363b77943c2b209f839db12e9e4": true,
-        "ab_876b0c19fb19462ea25ee1e9ffae64e3": true
+        "ab_876b0c19fb19462ea25ee1e9ffae64e3": true,
+        "ab_50e272ae6a164cefaafe54b8df09dd41": true
     },
-    "lastDrainAt": 1784481484
+    "lastDrainAt": 1784484739
 }
