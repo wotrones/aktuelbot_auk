@@ -22,7 +22,7 @@
             "lastCheckedAt": 1784457961
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1784399708
+            "lastCheckedAt": 1784461501
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
             "lastCheckedAt": 1784404113
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_85d958b4c83e415b8a07960adb5cf3ab",
-            "brochure_key": "85d958b4c83e415b8a07960adb5cf3ab",
-            "market": "Tarım Kooperatif",
-            "title": "KOOP Market’te Cumartesi Fırsatı! Renax Bulaşık Makinesi Kapsülü 60’lı 199,90 TL",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-market-te-cumartesi-firsati-renax-bulasik-makinesi-kapsulu-60-li-199-90-tl_85d958b4c83e415b8a07960adb5cf3ab",
-            "tries": 0
-        },
         {
             "source_key": "ab_de19a89677de492da8fac15ab9e49c5a",
             "brochure_key": "de19a89677de492da8fac15ab9e49c5a",
@@ -753,7 +745,8 @@
         "ab_6ca8cac83212499ab1755a1fb5c4148a": true,
         "ab_533d01ff38c94eeeaba7e54db88d4c53": true,
         "ab_a846276630e14d9296955f1c428c4293": true,
-        "ab_f858ba10530946a2ac241ba8fc38867a": true
+        "ab_f858ba10530946a2ac241ba8fc38867a": true,
+        "ab_85d958b4c83e415b8a07960adb5cf3ab": true
     },
-    "lastDrainAt": 1784458028
+    "lastDrainAt": 1784461502
 }
