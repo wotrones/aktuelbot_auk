@@ -4,7 +4,7 @@
             "lastCheckedAt": 1784543133
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1784481446
+            "lastCheckedAt": 1784550677
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
             "lastCheckedAt": 1784484738
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_214f5b80b0d1493a905583223c8db70a",
-            "brochure_key": "214f5b80b0d1493a905583223c8db70a",
-            "market": "A101",
-            "title": "Detaylı | A101 Aldın Aldın Aktüel Ürünler Broşürü 9 Temmuz 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/detayli-a101-aldin-aldin-aktuel-urunler-brosuru-9-temmuz-2026-dan-itibaren-stoklarla-sinirli_214f5b80b0d1493a905583223c8db70a",
-            "tries": 0
-        },
         {
             "source_key": "ab_4cd9cbf2d13543328a31b9bfc5b12d6c",
             "brochure_key": "4cd9cbf2d13543328a31b9bfc5b12d6c",
@@ -641,7 +633,8 @@
         "ab_059dfa7ff0b44e08a00a805cdb739c5d": true,
         "ab_8df09f200b4a4536ab2f249d29be826e": true,
         "ab_0d4ab8073c294dd386aa59c842dc9df8": true,
-        "ab_658db459ac4d47b4a9584f57892bf0a9": true
+        "ab_658db459ac4d47b4a9584f57892bf0a9": true,
+        "ab_214f5b80b0d1493a905583223c8db70a": true
     },
-    "lastDrainAt": 1784543219
+    "lastDrainAt": 1784550971
 }
