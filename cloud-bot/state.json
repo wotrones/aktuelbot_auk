@@ -22,7 +22,7 @@
             "lastCheckedAt": 1784582416
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1784502846
+            "lastCheckedAt": 1784586408
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
             "lastCheckedAt": 1784506477
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_45b194b68a5246ee8b8f5b2fa9c0d6be",
-            "brochure_key": "45b194b68a5246ee8b8f5b2fa9c0d6be",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 18-24 Temmuz",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-18-24-temmuz_45b194b68a5246ee8b8f5b2fa9c0d6be",
-            "tries": 0
-        },
         {
             "source_key": "ab_b32a7faa710841fbaa9e52e40e40f400",
             "brochure_key": "b32a7faa710841fbaa9e52e40e40f400",
@@ -281,6 +273,14 @@
             "market": "Şok Market",
             "title": "Şok Market Fırsat Ürünleri Broşürü - Haftaya Özel 10 Üründe Fırsatlar",
             "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-firsat-urunleri-brosuru-haftaya-ozel-10-urunde-firsatlar_694ab36d859440a4a50a2c05abe7143b",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_71e889045dad4774a8047c12d65c1483",
+            "brochure_key": "71e889045dad4774a8047c12d65c1483",
+            "market": "Rossmann",
+            "title": "TÜM seçkin parfüm ve deodorant çeşitlerinde NET %60 İNDİRİM",
+            "href": "https://aktuelbrosurler.com/rossmann/brosurler/tum-seckin-parfum-ve-deodorant-cesitlerinde-net-60-indirim_71e889045dad4774a8047c12d65c1483",
             "tries": 0
         }
     ],
@@ -647,7 +647,8 @@
         "ab_efc333087c404ec2bb9d30f10c4a9fc9": true,
         "ab_eaadecb40e5c498e9716e777fe6360d3": true,
         "ab_ff6bb53710f54b4abb96d5f033e489f7": true,
-        "ab_aa181e029cd042f9a09a326fa283a82a": true
+        "ab_aa181e029cd042f9a09a326fa283a82a": true,
+        "ab_45b194b68a5246ee8b8f5b2fa9c0d6be": true
     },
-    "lastDrainAt": 1784582461
+    "lastDrainAt": 1784586465
 }
