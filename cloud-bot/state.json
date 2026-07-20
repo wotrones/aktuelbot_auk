@@ -31,18 +31,10 @@
             "lastCheckedAt": 1784520447
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1784474081
+            "lastCheckedAt": 1784532371
         }
     },
     "queue": [
-        {
-            "source_key": "ab_0d4ab8073c294dd386aa59c842dc9df8",
-            "brochure_key": "0d4ab8073c294dd386aa59c842dc9df8",
-            "market": "A101",
-            "title": "Sadece Online Alışverişe Özel Aldın Aldın A101 Ekstra Aktüel Ürünler Broşürü 16 Temmuz 2026",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/sadece-online-alisverise-ozel-aldin-aldin-a101-ekstra-aktuel-urunler-brosuru-16-temmuz-2026_0d4ab8073c294dd386aa59c842dc9df8",
-            "tries": 0
-        },
         {
             "source_key": "ab_658db459ac4d47b4a9584f57892bf0a9",
             "brochure_key": "658db459ac4d47b4a9584f57892bf0a9",
@@ -655,7 +647,8 @@
         "ab_7a72f1d5122f40058452235ff37e4458": true,
         "ab_e89cbfc9b78a4458a46edb8607e04fab": true,
         "ab_059dfa7ff0b44e08a00a805cdb739c5d": true,
-        "ab_8df09f200b4a4536ab2f249d29be826e": true
+        "ab_8df09f200b4a4536ab2f249d29be826e": true,
+        "ab_0d4ab8073c294dd386aa59c842dc9df8": true
     },
-    "lastDrainAt": 1784520504
+    "lastDrainAt": 1784532487
 }
