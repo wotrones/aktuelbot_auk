@@ -1,7 +1,7 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1784477575
+            "lastCheckedAt": 1784543133
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
             "lastCheckedAt": 1784481446
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_658db459ac4d47b4a9584f57892bf0a9",
-            "brochure_key": "658db459ac4d47b4a9584f57892bf0a9",
-            "market": "A101",
-            "title": "A101 Tazenin Yıldızları İndirimli Ürünler Broşürü 16-19 Temmuz",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-tazenin-yildizlari-indirimli-urunler-brosuru-16-19-temmuz_658db459ac4d47b4a9584f57892bf0a9",
-            "tries": 0
-        },
         {
             "source_key": "ab_214f5b80b0d1493a905583223c8db70a",
             "brochure_key": "214f5b80b0d1493a905583223c8db70a",
@@ -648,7 +640,8 @@
         "ab_e89cbfc9b78a4458a46edb8607e04fab": true,
         "ab_059dfa7ff0b44e08a00a805cdb739c5d": true,
         "ab_8df09f200b4a4536ab2f249d29be826e": true,
-        "ab_0d4ab8073c294dd386aa59c842dc9df8": true
+        "ab_0d4ab8073c294dd386aa59c842dc9df8": true,
+        "ab_658db459ac4d47b4a9584f57892bf0a9": true
     },
-    "lastDrainAt": 1784532487
+    "lastDrainAt": 1784543219
 }
