@@ -16,7 +16,7 @@
             "lastCheckedAt": 1784571893
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1784496219
+            "lastCheckedAt": 1784577935
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
             "lastCheckedAt": 1784499278
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_ff6bb53710f54b4abb96d5f033e489f7",
-            "brochure_key": "ff6bb53710f54b4abb96d5f033e489f7",
-            "market": "A101",
-            "title": "Seçili Ürünlerde İndirimli Fiyatlar",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/secili-urunlerde-indirimli-fiyatlar_ff6bb53710f54b4abb96d5f033e489f7",
-            "tries": 0
-        },
         {
             "source_key": "ab_aa181e029cd042f9a09a326fa283a82a",
             "brochure_key": "aa181e029cd042f9a09a326fa283a82a",
@@ -661,7 +653,8 @@
         "ab_214f5b80b0d1493a905583223c8db70a": true,
         "ab_4cd9cbf2d13543328a31b9bfc5b12d6c": true,
         "ab_efc333087c404ec2bb9d30f10c4a9fc9": true,
-        "ab_eaadecb40e5c498e9716e777fe6360d3": true
+        "ab_eaadecb40e5c498e9716e777fe6360d3": true,
+        "ab_ff6bb53710f54b4abb96d5f033e489f7": true
     },
-    "lastDrainAt": 1784571895
+    "lastDrainAt": 1784577936
 }
