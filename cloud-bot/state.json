@@ -36,14 +36,6 @@
     },
     "queue": [
         {
-            "source_key": "ab_b32a7faa710841fbaa9e52e40e40f400",
-            "brochure_key": "b32a7faa710841fbaa9e52e40e40f400",
-            "market": "Bim",
-            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 24 Temmuz 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-24-temmuz-2026-dan-itibaren-stoklarla-sinirli_b32a7faa710841fbaa9e52e40e40f400",
-            "tries": 0
-        },
-        {
             "source_key": "ab_569eaab52b6b4c3a80bac1065f3ed3c8",
             "brochure_key": "569eaab52b6b4c3a80bac1065f3ed3c8",
             "market": "Bim",
@@ -648,7 +640,8 @@
         "ab_eaadecb40e5c498e9716e777fe6360d3": true,
         "ab_ff6bb53710f54b4abb96d5f033e489f7": true,
         "ab_aa181e029cd042f9a09a326fa283a82a": true,
-        "ab_45b194b68a5246ee8b8f5b2fa9c0d6be": true
+        "ab_45b194b68a5246ee8b8f5b2fa9c0d6be": true,
+        "ab_b32a7faa710841fbaa9e52e40e40f400": true
     },
-    "lastDrainAt": 1784586465
+    "lastDrainAt": 1784590308
 }
