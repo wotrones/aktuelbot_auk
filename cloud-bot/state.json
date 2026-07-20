@@ -28,21 +28,13 @@
             "lastCheckedAt": 1784506477
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1784470307
+            "lastCheckedAt": 1784520447
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
             "lastCheckedAt": 1784474081
         }
     },
     "queue": [
-        {
-            "source_key": "ab_8df09f200b4a4536ab2f249d29be826e",
-            "brochure_key": "8df09f200b4a4536ab2f249d29be826e",
-            "market": "A101",
-            "title": "A101 Haftanın Yıldızları Broşürü 18-24 Temmuz",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-haftanin-yildizlari-brosuru-18-24-temmuz_8df09f200b4a4536ab2f249d29be826e",
-            "tries": 0
-        },
         {
             "source_key": "ab_0d4ab8073c294dd386aa59c842dc9df8",
             "brochure_key": "0d4ab8073c294dd386aa59c842dc9df8",
@@ -662,7 +654,8 @@
         "ab_4be614f1a6cc4647b20bf92e762f6d0b": true,
         "ab_7a72f1d5122f40058452235ff37e4458": true,
         "ab_e89cbfc9b78a4458a46edb8607e04fab": true,
-        "ab_059dfa7ff0b44e08a00a805cdb739c5d": true
+        "ab_059dfa7ff0b44e08a00a805cdb739c5d": true,
+        "ab_8df09f200b4a4536ab2f249d29be826e": true
     },
-    "lastDrainAt": 1784506575
+    "lastDrainAt": 1784520504
 }
