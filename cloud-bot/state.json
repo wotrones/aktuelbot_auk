@@ -7,7 +7,7 @@
             "lastCheckedAt": 1784550677
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1784484738
+            "lastCheckedAt": 1784559062
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1784489583
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_4cd9cbf2d13543328a31b9bfc5b12d6c",
-            "brochure_key": "4cd9cbf2d13543328a31b9bfc5b12d6c",
-            "market": "A101",
-            "title": "30'lu M boy yumurta indirimi 89 TL",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/30-lu-m-boy-yumurta-indirimi-89-tl_4cd9cbf2d13543328a31b9bfc5b12d6c",
-            "tries": 0
-        },
         {
             "source_key": "ab_efc333087c404ec2bb9d30f10c4a9fc9",
             "brochure_key": "efc333087c404ec2bb9d30f10c4a9fc9",
@@ -273,6 +265,14 @@
             "market": "Watsons",
             "title": "Pastel & Show by Pastel Ürünlerinde %70 İndirim",
             "href": "https://aktuelbrosurler.com/watsons/brosurler/pastel-show-by-pastel-urunlerinde-70-indirim_7a44c05d714f4fa7a379a6c267ad963f",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_0db4ee4f89fe47aca0c854f9de47833d",
+            "brochure_key": "0db4ee4f89fe47aca0c854f9de47833d",
+            "market": "A101",
+            "title": "Detaylı | A101 Aldın Aldın Aktüel Ürünler Broşürü 23 Temmuz 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/detayli-a101-aldin-aldin-aktuel-urunler-brosuru-23-temmuz-2026-dan-itibaren-stoklarla-sinirli_0db4ee4f89fe47aca0c854f9de47833d",
             "tries": 0
         }
     ],
@@ -634,7 +634,8 @@
         "ab_8df09f200b4a4536ab2f249d29be826e": true,
         "ab_0d4ab8073c294dd386aa59c842dc9df8": true,
         "ab_658db459ac4d47b4a9584f57892bf0a9": true,
-        "ab_214f5b80b0d1493a905583223c8db70a": true
+        "ab_214f5b80b0d1493a905583223c8db70a": true,
+        "ab_4cd9cbf2d13543328a31b9bfc5b12d6c": true
     },
-    "lastDrainAt": 1784550971
+    "lastDrainAt": 1784559063
 }
