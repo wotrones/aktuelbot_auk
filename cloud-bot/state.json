@@ -22,7 +22,7 @@
             "lastCheckedAt": 1784660338
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1784586408
+            "lastCheckedAt": 1784665290
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
             "lastCheckedAt": 1784595728
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_e962580700b0468f9972a0129bd20fee",
-            "brochure_key": "e962580700b0468f9972a0129bd20fee",
-            "market": "Şok Market",
-            "title": "Kişisel Bakım Ürünleri Fırsat Broşürü",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/kisisel-bakim-urunleri-firsat-brosuru_e962580700b0468f9972a0129bd20fee",
-            "tries": 0
-        },
         {
             "source_key": "ab_ffbb8f308024416e98b1ac2d0e7eea6e",
             "brochure_key": "ffbb8f308024416e98b1ac2d0e7eea6e",
@@ -635,7 +627,8 @@
         "ab_4a2280cc775b4e76ba190a3367620135": true,
         "ab_afbcbf6ed7eb4db6ae00ecdf186679ee": true,
         "ab_732528ab5eb84009b0e7be51e3dddb46": true,
-        "ab_257b5fd5e6e645f68fa0c70325aec288": true
+        "ab_257b5fd5e6e645f68fa0c70325aec288": true,
+        "ab_e962580700b0468f9972a0129bd20fee": true
     },
-    "lastDrainAt": 1784660356
+    "lastDrainAt": 1784665306
 }
