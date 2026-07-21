@@ -25,7 +25,7 @@
             "lastCheckedAt": 1784665290
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1784595728
+            "lastCheckedAt": 1784669830
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
             "lastCheckedAt": 1784607815
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_ffbb8f308024416e98b1ac2d0e7eea6e",
-            "brochure_key": "ffbb8f308024416e98b1ac2d0e7eea6e",
-            "market": "Şok Market",
-            "title": "Fırsat Ürünleri Broşürü",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/firsat-urunleri-brosuru_ffbb8f308024416e98b1ac2d0e7eea6e",
-            "tries": 0
-        },
         {
             "source_key": "ab_268d79e89a384f8d8b476cf5e51820f6",
             "brochure_key": "268d79e89a384f8d8b476cf5e51820f6",
@@ -249,6 +241,14 @@
             "market": "Watsons",
             "title": "Deborah Milano Makyaj Ürünlerinde %70 İndirim",
             "href": "https://aktuelbrosurler.com/watsons/brosurler/deborah-milano-makyaj-urunlerinde-70-indirim_88de0905ac0d419b8e8464cba9c583c5",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_ac5cabec2f484fa7b2b9e35ac7109b51",
+            "brochure_key": "ac5cabec2f484fa7b2b9e35ac7109b51",
+            "market": "Tarım Kooperatif",
+            "title": "KOOP Market’te Çarşamba Fırsatı!",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-market-te-carsamba-firsati_ac5cabec2f484fa7b2b9e35ac7109b51",
             "tries": 0
         }
     ],
@@ -628,7 +628,8 @@
         "ab_afbcbf6ed7eb4db6ae00ecdf186679ee": true,
         "ab_732528ab5eb84009b0e7be51e3dddb46": true,
         "ab_257b5fd5e6e645f68fa0c70325aec288": true,
-        "ab_e962580700b0468f9972a0129bd20fee": true
+        "ab_e962580700b0468f9972a0129bd20fee": true,
+        "ab_ffbb8f308024416e98b1ac2d0e7eea6e": true
     },
-    "lastDrainAt": 1784665306
+    "lastDrainAt": 1784669846
 }
