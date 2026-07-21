@@ -31,18 +31,10 @@
             "lastCheckedAt": 1784673230
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1784617481
+            "lastCheckedAt": 1784676924
         }
     },
     "queue": [
-        {
-            "source_key": "ab_956074431b624e3db308faed3ba2ae88",
-            "brochure_key": "956074431b624e3db308faed3ba2ae88",
-            "market": "Şok Market",
-            "title": "Şok Market İste Gelsin Ürünleri Broşürü 18-21 Temmuz",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-18-21-temmuz_956074431b624e3db308faed3ba2ae88",
-            "tries": 0
-        },
         {
             "source_key": "ab_84fb7fdad0754e3f8a169e9335833a74",
             "brochure_key": "84fb7fdad0754e3f8a169e9335833a74",
@@ -622,7 +614,8 @@
         "ab_257b5fd5e6e645f68fa0c70325aec288": true,
         "ab_e962580700b0468f9972a0129bd20fee": true,
         "ab_ffbb8f308024416e98b1ac2d0e7eea6e": true,
-        "ab_268d79e89a384f8d8b476cf5e51820f6": true
+        "ab_268d79e89a384f8d8b476cf5e51820f6": true,
+        "ab_956074431b624e3db308faed3ba2ae88": true
     },
-    "lastDrainAt": 1784673255
+    "lastDrainAt": 1784676949
 }
