@@ -28,21 +28,13 @@
             "lastCheckedAt": 1784669830
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1784607815
+            "lastCheckedAt": 1784673230
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
             "lastCheckedAt": 1784617481
         }
     },
     "queue": [
-        {
-            "source_key": "ab_268d79e89a384f8d8b476cf5e51820f6",
-            "brochure_key": "268d79e89a384f8d8b476cf5e51820f6",
-            "market": "Şok Market",
-            "title": "Şok Market Fırsat Ürünleri Broşürü 18-21 Temmuz 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-firsat-urunleri-brosuru-18-21-temmuz-2026_268d79e89a384f8d8b476cf5e51820f6",
-            "tries": 0
-        },
         {
             "source_key": "ab_956074431b624e3db308faed3ba2ae88",
             "brochure_key": "956074431b624e3db308faed3ba2ae88",
@@ -629,7 +621,8 @@
         "ab_732528ab5eb84009b0e7be51e3dddb46": true,
         "ab_257b5fd5e6e645f68fa0c70325aec288": true,
         "ab_e962580700b0468f9972a0129bd20fee": true,
-        "ab_ffbb8f308024416e98b1ac2d0e7eea6e": true
+        "ab_ffbb8f308024416e98b1ac2d0e7eea6e": true,
+        "ab_268d79e89a384f8d8b476cf5e51820f6": true
     },
-    "lastDrainAt": 1784669846
+    "lastDrainAt": 1784673255
 }
