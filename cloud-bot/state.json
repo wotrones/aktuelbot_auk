@@ -10,7 +10,7 @@
             "lastCheckedAt": 1784638412
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1784564293
+            "lastCheckedAt": 1784645848
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 1784571893
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_4a2280cc775b4e76ba190a3367620135",
-            "brochure_key": "4a2280cc775b4e76ba190a3367620135",
-            "market": "Bim",
-            "title": "5 Al 4 Öde Ürünleri",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/5-al-4-ode-urunleri_4a2280cc775b4e76ba190a3367620135",
-            "tries": 0
-        },
         {
             "source_key": "ab_afbcbf6ed7eb4db6ae00ecdf186679ee",
             "brochure_key": "afbcbf6ed7eb4db6ae00ecdf186679ee",
@@ -631,7 +623,8 @@
         "ab_ff3363df6d1e4ed299d1b835feb78201": true,
         "ab_e8d45a7697174ad48363168d2e22075a": true,
         "ab_c845df8910564d4daa182dfbf4f4ca22": true,
-        "ab_74bddc252a94481089b2d78dec635436": true
+        "ab_74bddc252a94481089b2d78dec635436": true,
+        "ab_4a2280cc775b4e76ba190a3367620135": true
     },
-    "lastDrainAt": 1784638489
+    "lastDrainAt": 1784645872
 }
