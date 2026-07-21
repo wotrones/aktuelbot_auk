@@ -25,7 +25,7 @@
             "lastCheckedAt": 1784586408
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1784506477
+            "lastCheckedAt": 1784595728
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
             "lastCheckedAt": 1784520447
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_569eaab52b6b4c3a80bac1065f3ed3c8",
-            "brochure_key": "569eaab52b6b4c3a80bac1065f3ed3c8",
-            "market": "Bim",
-            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 26 Temmuz 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-26-temmuz-2026-dan-itibaren-stoklarla-sinirli_569eaab52b6b4c3a80bac1065f3ed3c8",
-            "tries": 0
-        },
         {
             "source_key": "ab_510e8069b7a14c82b4b25c1a2c390edd",
             "brochure_key": "510e8069b7a14c82b4b25c1a2c390edd",
@@ -273,6 +265,38 @@
             "market": "Rossmann",
             "title": "TÜM seçkin parfüm ve deodorant çeşitlerinde NET %60 İNDİRİM",
             "href": "https://aktuelbrosurler.com/rossmann/brosurler/tum-seckin-parfum-ve-deodorant-cesitlerinde-net-60-indirim_71e889045dad4774a8047c12d65c1483",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_49e485c0611b4f859ef96e918c7450d8",
+            "brochure_key": "49e485c0611b4f859ef96e918c7450d8",
+            "market": "Tarım Kooperatif",
+            "title": "Bu Salı KOOP’ta Tarsüt Yarım Yağlı Tost Peyniri 1 kg 299 TL",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/bu-sali-koop-ta-tarsut-yarim-yagli-tost-peyniri-1-kg-299-tl_49e485c0611b4f859ef96e918c7450d8",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_4062bce50faa4a34a7fb5f74780f1d6c",
+            "brochure_key": "4062bce50faa4a34a7fb5f74780f1d6c",
+            "market": "Tarım Kooperatif",
+            "title": "Tarım Kredi Kooperatif Market İndirim Bülteni Broşürü - Kat Kat Fırsat",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-kooperatif-market-indirim-bulteni-brosuru-kat-kat-firsat_4062bce50faa4a34a7fb5f74780f1d6c",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_253d8b6a130e4fcdb56eb011e60ef693",
+            "brochure_key": "253d8b6a130e4fcdb56eb011e60ef693",
+            "market": "Tarım Kooperatif",
+            "title": "25TL ve Üzeri Alışverişlerde İndirimli Ürünler",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/25tl-ve-uzeri-alisverislerde-indirimli-urunler_253d8b6a130e4fcdb56eb011e60ef693",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_34b31470fc56480385954c63ed9e44f0",
+            "brochure_key": "34b31470fc56480385954c63ed9e44f0",
+            "market": "Tarım Kooperatif",
+            "title": "KOOP Market’te Pazartesi Fırsatı",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-market-te-pazartesi-firsati_34b31470fc56480385954c63ed9e44f0",
             "tries": 0
         }
     ],
@@ -641,7 +665,8 @@
         "ab_ff6bb53710f54b4abb96d5f033e489f7": true,
         "ab_aa181e029cd042f9a09a326fa283a82a": true,
         "ab_45b194b68a5246ee8b8f5b2fa9c0d6be": true,
-        "ab_b32a7faa710841fbaa9e52e40e40f400": true
+        "ab_b32a7faa710841fbaa9e52e40e40f400": true,
+        "ab_569eaab52b6b4c3a80bac1065f3ed3c8": true
     },
-    "lastDrainAt": 1784590308
+    "lastDrainAt": 1784595762
 }
