@@ -19,7 +19,7 @@
             "lastCheckedAt": 1784656274
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1784582416
+            "lastCheckedAt": 1784660338
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
             "lastCheckedAt": 1784586408
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_257b5fd5e6e645f68fa0c70325aec288",
-            "brochure_key": "257b5fd5e6e645f68fa0c70325aec288",
-            "market": "Şok Market",
-            "title": "Seçili Ürünlerde İndirimli Fiyatlar",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/secili-urunlerde-indirimli-fiyatlar_257b5fd5e6e645f68fa0c70325aec288",
-            "tries": 0
-        },
         {
             "source_key": "ab_e962580700b0468f9972a0129bd20fee",
             "brochure_key": "e962580700b0468f9972a0129bd20fee",
@@ -257,6 +249,14 @@
             "market": "Carrefour",
             "title": "İndirimli Ürünler",
             "href": "https://aktuelbrosurler.com/carrefour/brosurler/indirimli-urunler_b55350a9bd1a41569c99f73839d14561",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_88de0905ac0d419b8e8464cba9c583c5",
+            "brochure_key": "88de0905ac0d419b8e8464cba9c583c5",
+            "market": "Watsons",
+            "title": "Deborah Milano Makyaj Ürünlerinde %70 İndirim",
+            "href": "https://aktuelbrosurler.com/watsons/brosurler/deborah-milano-makyaj-urunlerinde-70-indirim_88de0905ac0d419b8e8464cba9c583c5",
             "tries": 0
         }
     ],
@@ -634,7 +634,8 @@
         "ab_74bddc252a94481089b2d78dec635436": true,
         "ab_4a2280cc775b4e76ba190a3367620135": true,
         "ab_afbcbf6ed7eb4db6ae00ecdf186679ee": true,
-        "ab_732528ab5eb84009b0e7be51e3dddb46": true
+        "ab_732528ab5eb84009b0e7be51e3dddb46": true,
+        "ab_257b5fd5e6e645f68fa0c70325aec288": true
     },
-    "lastDrainAt": 1784656291
+    "lastDrainAt": 1784660356
 }
