@@ -13,7 +13,7 @@
             "lastCheckedAt": 1784645848
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1784571893
+            "lastCheckedAt": 1784651028
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1784577935
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_afbcbf6ed7eb4db6ae00ecdf186679ee",
-            "brochure_key": "afbcbf6ed7eb4db6ae00ecdf186679ee",
-            "market": "Bim",
-            "title": "Detaylı | Bim Aktüel Ürünler İndirim Bülteni Broşürü 17 Temmuz 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/detayli-bim-aktuel-urunler-indirim-bulteni-brosuru-17-temmuz-2026-dan-itibaren-stoklarla-sinirli_afbcbf6ed7eb4db6ae00ecdf186679ee",
-            "tries": 0
-        },
         {
             "source_key": "ab_732528ab5eb84009b0e7be51e3dddb46",
             "brochure_key": "732528ab5eb84009b0e7be51e3dddb46",
@@ -249,6 +241,22 @@
             "market": "Tarım Kooperatif",
             "title": "KOOP Market’te Pazartesi Fırsatı",
             "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-market-te-pazartesi-firsati_34b31470fc56480385954c63ed9e44f0",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_6c557692f88e46b6a3014df08af19373",
+            "brochure_key": "6c557692f88e46b6a3014df08af19373",
+            "market": "Şok Market",
+            "title": "Şok Market İste Gelsin Ürünleri Broşürü 22-28 Temmuz 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-22-28-temmuz-2026_6c557692f88e46b6a3014df08af19373",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_09c8ba20570c41e799258a644b5b3148",
+            "brochure_key": "09c8ba20570c41e799258a644b5b3148",
+            "market": "Şok Market",
+            "title": "(Net sayfalar firma orijinal broşürü yayınladığında yüklenecektir) 22-28 Temmuz 2026 Şok Broşür",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/net-sayfalar-firma-orijinal-brosuru-yayinladiginda-yuklenecektir-22-28-temmuz-2026-sok-brosur_09c8ba20570c41e799258a644b5b3148",
             "tries": 0
         }
     ],
@@ -624,7 +632,8 @@
         "ab_e8d45a7697174ad48363168d2e22075a": true,
         "ab_c845df8910564d4daa182dfbf4f4ca22": true,
         "ab_74bddc252a94481089b2d78dec635436": true,
-        "ab_4a2280cc775b4e76ba190a3367620135": true
+        "ab_4a2280cc775b4e76ba190a3367620135": true,
+        "ab_afbcbf6ed7eb4db6ae00ecdf186679ee": true
     },
-    "lastDrainAt": 1784645872
+    "lastDrainAt": 1784651095
 }
