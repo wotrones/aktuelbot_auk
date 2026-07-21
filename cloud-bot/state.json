@@ -31,18 +31,10 @@
             "lastCheckedAt": 1784607815
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1784532371
+            "lastCheckedAt": 1784617481
         }
     },
     "queue": [
-        {
-            "source_key": "ab_ff3363df6d1e4ed299d1b835feb78201",
-            "brochure_key": "ff3363df6d1e4ed299d1b835feb78201",
-            "market": "Bim",
-            "title": "Bim Aynı Ürünün İkincisi %50 İndirimli Ürünler Broşürü 17-20 Temmuz",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-ayni-urunun-ikincisi-50-indirimli-urunler-brosuru-17-20-temmuz_ff3363df6d1e4ed299d1b835feb78201",
-            "tries": 0
-        },
         {
             "source_key": "ab_e8d45a7697174ad48363168d2e22075a",
             "brochure_key": "e8d45a7697174ad48363168d2e22075a",
@@ -659,7 +651,8 @@
         "ab_45b194b68a5246ee8b8f5b2fa9c0d6be": true,
         "ab_b32a7faa710841fbaa9e52e40e40f400": true,
         "ab_569eaab52b6b4c3a80bac1065f3ed3c8": true,
-        "ab_510e8069b7a14c82b4b25c1a2c390edd": true
+        "ab_510e8069b7a14c82b4b25c1a2c390edd": true,
+        "ab_ff3363df6d1e4ed299d1b835feb78201": true
     },
-    "lastDrainAt": 1784607833
+    "lastDrainAt": 1784617517
 }
