@@ -1,7 +1,7 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1784543133
+            "lastCheckedAt": 1784626511
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
             "lastCheckedAt": 1784550677
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_e8d45a7697174ad48363168d2e22075a",
-            "brochure_key": "e8d45a7697174ad48363168d2e22075a",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 17-20 Temmuz",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-17-20-temmuz_e8d45a7697174ad48363168d2e22075a",
-            "tries": 0
-        },
         {
             "source_key": "ab_c845df8910564d4daa182dfbf4f4ca22",
             "brochure_key": "c845df8910564d4daa182dfbf4f4ca22",
@@ -652,7 +644,8 @@
         "ab_b32a7faa710841fbaa9e52e40e40f400": true,
         "ab_569eaab52b6b4c3a80bac1065f3ed3c8": true,
         "ab_510e8069b7a14c82b4b25c1a2c390edd": true,
-        "ab_ff3363df6d1e4ed299d1b835feb78201": true
+        "ab_ff3363df6d1e4ed299d1b835feb78201": true,
+        "ab_e8d45a7697174ad48363168d2e22075a": true
     },
-    "lastDrainAt": 1784617517
+    "lastDrainAt": 1784626569
 }
