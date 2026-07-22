@@ -216,6 +216,11 @@ function cb_check_market(array $cfg, array &$state, string $listingUrl, ?string 
         if (isset($state['uploaded'][$sourceKey]) || isset($queuedKeys[$sourceKey])) {
             continue;
         }
+        // Baslikta acik ve suresi gecmis tarih varsa kuyruga hic alma.
+        $titleDates = cb_parse_brochure_dates($item['title'], new DateTimeImmutable('today'));
+        if ($titleDates['matched'] && cb_dates_expired($titleDates, new DateTimeImmutable('today'))) {
+            continue;
+        }
         if (count($state['queue']) >= $cfg['max_queue']) {
             cb_log('  kuyruk dolu (MAX_QUEUE), kalan brosurler sonraki kontrole birakildi.');
             break;
@@ -269,6 +274,12 @@ function cb_drain_queue(array $cfg, array &$state, int $batch, ?string $cookieFi
             }
 
             $fetched = cb_fetch_brochure($cfg, $normItem, $cookieFile);
+            if (!empty($fetched['expired'])) {
+                cb_log("Atlandi (suresi gecmis): brosurler/{$sourceKey}");
+                $state['uploaded'][$sourceKey] = true;
+                $processed++;
+                continue;
+            }
             fb_import_brochure($cfg, $normItem, $fetched['pages'], $fetched['dates']);
             $state['uploaded'][$sourceKey] = true;
         } catch (Throwable $e) {

@@ -564,6 +564,25 @@ function cb_parse_brochure_dates(string $title, DateTimeImmutable $today): array
 }
 
 /**
+ * Tarih dizisindeki bitis tarihi bugunden once mi (suresi gecmis mi)?
+ * Bitis yok/cozulemezse false (varsayilan aralik aktif kabul edilir).
+ */
+function cb_dates_expired(array $dates, DateTimeImmutable $today): bool
+{
+    $endStr = (string) ($dates['end'] ?? '');
+    if ($endStr === '') {
+        return false;
+    }
+    try {
+        $end = new DateTimeImmutable($endStr);
+    } catch (Throwable $e) {
+        return false;
+    }
+
+    return $end < $today->setTime(0, 0, 0);
+}
+
+/**
  * Gorsel baytlarini tesseract ile metne cevirir (best-effort). tesseract yoksa
  * veya OCR_ENABLED=0 ise bos string doner. tesseract varligi ilk cagride
  * kontrol edilip onbelleklenir.
@@ -699,6 +718,15 @@ function cb_fetch_brochure(array $cfg, array $item, ?string $cookieFile): array
     }
     cb_debug('Sayfa sayisi: ' . count($pageUrls));
 
+    // Tarihi once basliktan cikar; acik ve suresi gecmis bir aralik varsa
+    // sayfalari indirmeye hic gerek yok (uygulama zaten gostermez).
+    $today = new DateTimeImmutable('today');
+    $dates = cb_parse_brochure_dates($item['title'], $today);
+    if ($dates['matched'] && cb_dates_expired($dates, $today)) {
+        cb_log("Suresi gecmis brosur (baslik tarihi {$dates['end']}), indirilmeden atlandi: {$sourceKey}");
+        return ['pages' => [], 'dates' => $dates, 'expired' => true];
+    }
+
     $pages = [];
     foreach ($pageUrls as $index => $pageUrl) {
         cb_debug('Sayfa indiriliyor [' . ($index + 1) . '/' . count($pageUrls) . ']: ' . $pageUrl);
@@ -736,10 +764,8 @@ function cb_fetch_brochure(array $cfg, array $item, ?string $cookieFile): array
         cb_sleep_ms($cfg['request_delay_ms']);
     }
 
-    $today = new DateTimeImmutable('now');
-    $dates = cb_parse_brochure_dates($item['title'], $today);
+    // Baslikta acik tarih yoksa kapak gorsellerinden OCR ile yakalamayi dene.
     if (!$dates['matched']) {
-        // Baslikta tarih yok; kapak gorsellerinde yazan araligi OCR ile yakala.
         $ocrDates = cb_ocr_dates_from_pages($pages, $today);
         if ($ocrDates !== null) {
             cb_log("Tarih OCR ile bulundu: {$ocrDates['start']} -> {$ocrDates['end']} ({$sourceKey})");
@@ -749,7 +775,13 @@ function cb_fetch_brochure(array $cfg, array $item, ?string $cookieFile): array
         }
     }
 
+    // OCR ile bulunan tarih de gecmis olabilir; oyleyse yazilmayacak.
+    $expired = $dates['matched'] && cb_dates_expired($dates, $today);
+    if ($expired) {
+        cb_log("Suresi gecmis brosur (son tarih {$dates['end']}), yazilmayacak: {$sourceKey}");
+    }
+
     cb_log('Indirilen sayfa: ' . count($pages) . " ({$sourceKey})");
 
-    return ['pages' => $pages, 'dates' => $dates];
+    return ['pages' => $pages, 'dates' => $dates, 'expired' => $expired];
 }

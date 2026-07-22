@@ -374,21 +374,13 @@ function fb_to_jpeg(string $binary, int $quality = 88): ?string
  * @param list<array{name:string,bytes:string}> $pages
  * @param array{start:string,end:string,matched:bool} $dates
  */
-function fb_import_brochure(array $cfg, array $item, array $pages, array $dates): void
+function fb_import_brochure(array $cfg, array $item, array $pages, array $dates): bool
 {
     $docId = $item['source_key']; // ab_{key}
 
-    fb_ensure_market($cfg, $item['market']);
-
-    $imageUrls = [];
-    foreach ($pages as $i => $page) {
-        $imageUrls[] = fb_upload_page($cfg, $page['bytes'], $page['name']);
-        cb_debug('Gorsel yuklendi [' . ($i + 1) . '/' . count($pages) . ']');
-        cb_sleep_ms($cfg['request_delay_ms']);
-    }
-
     // Tarihler: basliktan/OCR'dan cikarilan (cb_fetch_brochure). Cozulemediyse
-    // (matched=false) bugun -> bugun + BROCHURE_VALID_DAYS'e dus.
+    // (matched=false) bugun -> bugun + BROCHURE_VALID_DAYS'e dus. Once hesapla ki
+    // suresi gecmis brosuru gorsel yuklemeden/yazmadan eleyebilelim.
     try {
         $start = new DateTimeImmutable(($dates['start'] ?? '') !== '' ? $dates['start'] : 'now');
     } catch (Throwable $e) {
@@ -405,12 +397,28 @@ function fb_import_brochure(array $cfg, array $item, array $pages, array $dates)
     if ($end === null || $end < $start) {
         $end = $start->modify('+' . $cfg['valid_days'] . ' days');
     }
+
+    // Guvenlik agi: suresi gecmis brosuru yazma/push atma (uygulama gostermez).
+    if ($end < new DateTimeImmutable('today')) {
+        cb_log("Suresi gecmis, yazilmadi: brosurler/{$docId} (bitis {$end->format('Y-m-d')})");
+        return false;
+    }
+
     cb_log(sprintf(
         "Tarih: %s -> %s (%s)",
         $start->format('Y-m-d'),
         $end->format('Y-m-d'),
         !empty($dates['matched']) ? 'kaynaktan' : 'varsayilan'
     ));
+
+    fb_ensure_market($cfg, $item['market']);
+
+    $imageUrls = [];
+    foreach ($pages as $i => $page) {
+        $imageUrls[] = fb_upload_page($cfg, $page['bytes'], $page['name']);
+        cb_debug('Gorsel yuklendi [' . ($i + 1) . '/' . count($pages) . ']');
+        cb_sleep_ms($cfg['request_delay_ms']);
+    }
 
     fb_document_set($cfg, "brosurler/{$docId}", [
         'market_adi' => $item['market'],
@@ -429,6 +437,8 @@ function fb_import_brochure(array $cfg, array $item, array $pages, array $dates)
             cb_log('OneSignal bildirim hatasi: ' . $e->getMessage());
         }
     }
+
+    return true;
 }
 
 /** Yeni brosur icin OneSignal push (tag filtresi) — bot.php ile ayni. */
