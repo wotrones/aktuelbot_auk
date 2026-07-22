@@ -7,7 +7,7 @@
             "lastCheckedAt": 1784694474
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1784638412
+            "lastCheckedAt": 1784704398
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1784645848
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_4b97678d6b0e4a709e29fef41fb32838",
-            "brochure_key": "4b97678d6b0e4a709e29fef41fb32838",
-            "market": "Şok Market",
-            "title": "Şok Market İste Gelsin Ürünleri Broşürü 15-21 Temmuz",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-15-21-temmuz_4b97678d6b0e4a709e29fef41fb32838",
-            "tries": 0
-        },
         {
             "source_key": "ab_6a095ea779074fcda62cee380ca64cec",
             "brochure_key": "6a095ea779074fcda62cee380ca64cec",
@@ -226,6 +218,14 @@
             "title": "Detaylı | Şok Market Haftanın Fırsatları Aktüel Ürünler Broşür 15-21 Temmuz 2026",
             "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-haftanin-firsatlari-aktuel-urunler-brosur-15-21-temmuz-2026_6d6c6cc599cf4bc7a08bb1e5782937e9",
             "tries": 1
+        },
+        {
+            "source_key": "ab_386b512f6bad4b69899fe1ef3fddce84",
+            "brochure_key": "386b512f6bad4b69899fe1ef3fddce84",
+            "market": "A101",
+            "title": "A101 Tazenin Yıldızları İndirimli Ürünler Broşürü 23-26 Temmuz",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-tazenin-yildizlari-indirimli-urunler-brosuru-23-26-temmuz_386b512f6bad4b69899fe1ef3fddce84",
+            "tries": 0
         }
     ],
     "uploaded": {
@@ -608,7 +608,8 @@
         "ab_ffbb8f308024416e98b1ac2d0e7eea6e": true,
         "ab_268d79e89a384f8d8b476cf5e51820f6": true,
         "ab_956074431b624e3db308faed3ba2ae88": true,
-        "ab_84fb7fdad0754e3f8a169e9335833a74": true
+        "ab_84fb7fdad0754e3f8a169e9335833a74": true,
+        "ab_4b97678d6b0e4a709e29fef41fb32838": true
     },
-    "lastDrainAt": 1784694496
+    "lastDrainAt": 1784704418
 }
