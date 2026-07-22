@@ -1,7 +1,7 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1784682213
+            "lastCheckedAt": 1784756447
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
             "lastCheckedAt": 1784694474
@@ -34,48 +34,7 @@
             "lastCheckedAt": 1784752460
         }
     },
-    "queue": [
-        {
-            "source_key": "ab_ac5cabec2f484fa7b2b9e35ac7109b51",
-            "brochure_key": "ac5cabec2f484fa7b2b9e35ac7109b51",
-            "market": "Tarım Kooperatif",
-            "title": "KOOP Market’te Çarşamba Fırsatı!",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-market-te-carsamba-firsati_ac5cabec2f484fa7b2b9e35ac7109b51",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_6d6c6cc599cf4bc7a08bb1e5782937e9",
-            "brochure_key": "6d6c6cc599cf4bc7a08bb1e5782937e9",
-            "market": "Şok Market",
-            "title": "Detaylı | Şok Market Haftanın Fırsatları Aktüel Ürünler Broşür 15-21 Temmuz 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-haftanin-firsatlari-aktuel-urunler-brosur-15-21-temmuz-2026_6d6c6cc599cf4bc7a08bb1e5782937e9",
-            "tries": 1
-        },
-        {
-            "source_key": "ab_386b512f6bad4b69899fe1ef3fddce84",
-            "brochure_key": "386b512f6bad4b69899fe1ef3fddce84",
-            "market": "A101",
-            "title": "A101 Tazenin Yıldızları İndirimli Ürünler Broşürü 23-26 Temmuz",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-tazenin-yildizlari-indirimli-urunler-brosuru-23-26-temmuz_386b512f6bad4b69899fe1ef3fddce84",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_b56d3384a95f4a89a097278af561a9f6",
-            "brochure_key": "b56d3384a95f4a89a097278af561a9f6",
-            "market": "Şok Market",
-            "title": "(Net sayfalar firma orijinal broşürü yayınladığında yüklenecektir) 25-28 Temmuz 2026 Şok Broşür",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/net-sayfalar-firma-orijinal-brosuru-yayinladiginda-yuklenecektir-25-28-temmuz-2026-sok-brosur_b56d3384a95f4a89a097278af561a9f6",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_5428f87f161c4171a84de7596b75cfbd",
-            "brochure_key": "5428f87f161c4171a84de7596b75cfbd",
-            "market": "Şok Market",
-            "title": "Detaylı | Şok Market Haftanın Fırsatları Aktüel Ürünler Broşür 22-28 Temmuz 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-haftanin-firsatlari-aktuel-urunler-brosur-22-28-temmuz-2026_5428f87f161c4171a84de7596b75cfbd",
-            "tries": 0
-        }
-    ],
+    "queue": [],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -478,7 +437,12 @@
         "ab_6c557692f88e46b6a3014df08af19373": true,
         "ab_09c8ba20570c41e799258a644b5b3148": true,
         "ab_b55350a9bd1a41569c99f73839d14561": true,
-        "ab_88de0905ac0d419b8e8464cba9c583c5": true
+        "ab_88de0905ac0d419b8e8464cba9c583c5": true,
+        "ab_ac5cabec2f484fa7b2b9e35ac7109b51": true,
+        "ab_6d6c6cc599cf4bc7a08bb1e5782937e9": true,
+        "ab_386b512f6bad4b69899fe1ef3fddce84": true,
+        "ab_b56d3384a95f4a89a097278af561a9f6": true,
+        "ab_5428f87f161c4171a84de7596b75cfbd": true
     },
-    "lastDrainAt": 1784752578
+    "lastDrainAt": 1784756652
 }
