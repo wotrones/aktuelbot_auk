@@ -31,50 +31,10 @@
             "lastCheckedAt": 1784747838
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1784676924
+            "lastCheckedAt": 1784752460
         }
     },
     "queue": [
-        {
-            "source_key": "ab_34b31470fc56480385954c63ed9e44f0",
-            "brochure_key": "34b31470fc56480385954c63ed9e44f0",
-            "market": "Tarım Kooperatif",
-            "title": "KOOP Market’te Pazartesi Fırsatı",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-market-te-pazartesi-firsati_34b31470fc56480385954c63ed9e44f0",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_6c557692f88e46b6a3014df08af19373",
-            "brochure_key": "6c557692f88e46b6a3014df08af19373",
-            "market": "Şok Market",
-            "title": "Şok Market İste Gelsin Ürünleri Broşürü 22-28 Temmuz 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-22-28-temmuz-2026_6c557692f88e46b6a3014df08af19373",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_09c8ba20570c41e799258a644b5b3148",
-            "brochure_key": "09c8ba20570c41e799258a644b5b3148",
-            "market": "Şok Market",
-            "title": "(Net sayfalar firma orijinal broşürü yayınladığında yüklenecektir) 22-28 Temmuz 2026 Şok Broşür",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/net-sayfalar-firma-orijinal-brosuru-yayinladiginda-yuklenecektir-22-28-temmuz-2026-sok-brosur_09c8ba20570c41e799258a644b5b3148",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_b55350a9bd1a41569c99f73839d14561",
-            "brochure_key": "b55350a9bd1a41569c99f73839d14561",
-            "market": "Carrefour",
-            "title": "İndirimli Ürünler",
-            "href": "https://aktuelbrosurler.com/carrefour/brosurler/indirimli-urunler_b55350a9bd1a41569c99f73839d14561",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_88de0905ac0d419b8e8464cba9c583c5",
-            "brochure_key": "88de0905ac0d419b8e8464cba9c583c5",
-            "market": "Watsons",
-            "title": "Deborah Milano Makyaj Ürünlerinde %70 İndirim",
-            "href": "https://aktuelbrosurler.com/watsons/brosurler/deborah-milano-makyaj-urunlerinde-70-indirim_88de0905ac0d419b8e8464cba9c583c5",
-            "tries": 0
-        },
         {
             "source_key": "ab_ac5cabec2f484fa7b2b9e35ac7109b51",
             "brochure_key": "ac5cabec2f484fa7b2b9e35ac7109b51",
@@ -513,7 +473,12 @@
         "ab_71e889045dad4774a8047c12d65c1483": true,
         "ab_49e485c0611b4f859ef96e918c7450d8": true,
         "ab_4062bce50faa4a34a7fb5f74780f1d6c": true,
-        "ab_253d8b6a130e4fcdb56eb011e60ef693": true
+        "ab_253d8b6a130e4fcdb56eb011e60ef693": true,
+        "ab_34b31470fc56480385954c63ed9e44f0": true,
+        "ab_6c557692f88e46b6a3014df08af19373": true,
+        "ab_09c8ba20570c41e799258a644b5b3148": true,
+        "ab_b55350a9bd1a41569c99f73839d14561": true,
+        "ab_88de0905ac0d419b8e8464cba9c583c5": true
     },
-    "lastDrainAt": 1784747962
+    "lastDrainAt": 1784752578
 }
