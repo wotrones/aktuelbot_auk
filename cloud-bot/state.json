@@ -1,7 +1,7 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1784626511
+            "lastCheckedAt": 1784682213
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
             "lastCheckedAt": 1784633193
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_84fb7fdad0754e3f8a169e9335833a74",
-            "brochure_key": "84fb7fdad0754e3f8a169e9335833a74",
-            "market": "Şok Market",
-            "title": "Şok Market Hafta Sonu Fırsatları Aktüel Ürünler Broşür 18-21 Temmuz 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-hafta-sonu-firsatlari-aktuel-urunler-brosur-18-21-temmuz-2026_84fb7fdad0754e3f8a169e9335833a74",
-            "tries": 0
-        },
         {
             "source_key": "ab_6d6c6cc599cf4bc7a08bb1e5782937e9",
             "brochure_key": "6d6c6cc599cf4bc7a08bb1e5782937e9",
@@ -615,7 +607,8 @@
         "ab_e962580700b0468f9972a0129bd20fee": true,
         "ab_ffbb8f308024416e98b1ac2d0e7eea6e": true,
         "ab_268d79e89a384f8d8b476cf5e51820f6": true,
-        "ab_956074431b624e3db308faed3ba2ae88": true
+        "ab_956074431b624e3db308faed3ba2ae88": true,
+        "ab_84fb7fdad0754e3f8a169e9335833a74": true
     },
-    "lastDrainAt": 1784676949
+    "lastDrainAt": 1784682239
 }
