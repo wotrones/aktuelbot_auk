@@ -36,46 +36,6 @@
     },
     "queue": [
         {
-            "source_key": "ab_0db4ee4f89fe47aca0c854f9de47833d",
-            "brochure_key": "0db4ee4f89fe47aca0c854f9de47833d",
-            "market": "A101",
-            "title": "Detaylı | A101 Aldın Aldın Aktüel Ürünler Broşürü 23 Temmuz 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/detayli-a101-aldin-aldin-aktuel-urunler-brosuru-23-temmuz-2026-dan-itibaren-stoklarla-sinirli_0db4ee4f89fe47aca0c854f9de47833d",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_1e4c257947b0440db04dae1eb830f90e",
-            "brochure_key": "1e4c257947b0440db04dae1eb830f90e",
-            "market": "Bim",
-            "title": "(Net sayfalar firma orjinal broşürü yayınladığında yüklenecektir) 2 Ağustos 2026 Bim Aktüel Broşür",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/net-sayfalar-firma-orjinal-brosuru-yayinladiginda-yuklenecektir-2-agustos-2026-bim-aktuel-brosur_1e4c257947b0440db04dae1eb830f90e",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_e4e63f61aded425082c60af8bc8795be",
-            "brochure_key": "e4e63f61aded425082c60af8bc8795be",
-            "market": "Bim",
-            "title": "(Net sayfalar firma orjinal broşürü yayınladığında yüklenecektir) 31 Temmuz 2026 Bim Aktüel Broşür",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/net-sayfalar-firma-orjinal-brosuru-yayinladiginda-yuklenecektir-31-temmuz-2026-bim-aktuel-brosur_e4e63f61aded425082c60af8bc8795be",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_7631e8d33c4b492e95404fbd2de43755",
-            "brochure_key": "7631e8d33c4b492e95404fbd2de43755",
-            "market": "Bim",
-            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 29 Temmuz 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-29-temmuz-2026-dan-itibaren-stoklarla-sinirli_7631e8d33c4b492e95404fbd2de43755",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_4ad748603016479c97c983d8cc105bfd",
-            "brochure_key": "4ad748603016479c97c983d8cc105bfd",
-            "market": "Bim",
-            "title": "Bim Haftanın Önerileri Aktüel Ürünler Broşürü 28 Temmuz 2026'dan İtibaren",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-haftanin-onerileri-aktuel-urunler-brosuru-28-temmuz-2026-dan-itibaren_4ad748603016479c97c983d8cc105bfd",
-            "tries": 0
-        },
-        {
             "source_key": "ab_694ab36d859440a4a50a2c05abe7143b",
             "brochure_key": "694ab36d859440a4a50a2c05abe7143b",
             "market": "Şok Market",
@@ -583,7 +543,12 @@
         "ab_36cab9689c244f328c5899bcce56d362": true,
         "ab_b486feaef1a44628ad3d1b85d3c20c68": true,
         "ab_33baa4407117462ca59438e237fd0cf9": true,
-        "ab_7a44c05d714f4fa7a379a6c267ad963f": true
+        "ab_7a44c05d714f4fa7a379a6c267ad963f": true,
+        "ab_0db4ee4f89fe47aca0c854f9de47833d": true,
+        "ab_1e4c257947b0440db04dae1eb830f90e": true,
+        "ab_e4e63f61aded425082c60af8bc8795be": true,
+        "ab_7631e8d33c4b492e95404fbd2de43755": true,
+        "ab_4ad748603016479c97c983d8cc105bfd": true
     },
-    "lastDrainAt": 1784742999
+    "lastDrainAt": 1784747451
 }
