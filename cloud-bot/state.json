@@ -4,7 +4,7 @@
             "lastCheckedAt": 1784682213
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1784633193
+            "lastCheckedAt": 1784694474
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
             "lastCheckedAt": 1784638412
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_6d6c6cc599cf4bc7a08bb1e5782937e9",
-            "brochure_key": "6d6c6cc599cf4bc7a08bb1e5782937e9",
-            "market": "Şok Market",
-            "title": "Detaylı | Şok Market Haftanın Fırsatları Aktüel Ürünler Broşür 15-21 Temmuz 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-haftanin-firsatlari-aktuel-urunler-brosur-15-21-temmuz-2026_6d6c6cc599cf4bc7a08bb1e5782937e9",
-            "tries": 0
-        },
         {
             "source_key": "ab_4b97678d6b0e4a709e29fef41fb32838",
             "brochure_key": "4b97678d6b0e4a709e29fef41fb32838",
@@ -226,6 +218,14 @@
             "title": "KOOP Market’te Çarşamba Fırsatı!",
             "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-market-te-carsamba-firsati_ac5cabec2f484fa7b2b9e35ac7109b51",
             "tries": 0
+        },
+        {
+            "source_key": "ab_6d6c6cc599cf4bc7a08bb1e5782937e9",
+            "brochure_key": "6d6c6cc599cf4bc7a08bb1e5782937e9",
+            "market": "Şok Market",
+            "title": "Detaylı | Şok Market Haftanın Fırsatları Aktüel Ürünler Broşür 15-21 Temmuz 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-haftanin-firsatlari-aktuel-urunler-brosur-15-21-temmuz-2026_6d6c6cc599cf4bc7a08bb1e5782937e9",
+            "tries": 1
         }
     ],
     "uploaded": {
@@ -610,5 +610,5 @@
         "ab_956074431b624e3db308faed3ba2ae88": true,
         "ab_84fb7fdad0754e3f8a169e9335833a74": true
     },
-    "lastDrainAt": 1784682239
+    "lastDrainAt": 1784694496
 }
