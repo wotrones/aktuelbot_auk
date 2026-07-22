@@ -22,7 +22,7 @@
             "lastCheckedAt": 1784733108
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1784665290
+            "lastCheckedAt": 1784738761
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
             "lastCheckedAt": 1784669830
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_33baa4407117462ca59438e237fd0cf9",
-            "brochure_key": "33baa4407117462ca59438e237fd0cf9",
-            "market": "Carrefour",
-            "title": "İndirimli Ürünler",
-            "href": "https://aktuelbrosurler.com/carrefour/brosurler/indirimli-urunler_33baa4407117462ca59438e237fd0cf9",
-            "tries": 0
-        },
         {
             "source_key": "ab_7a44c05d714f4fa7a379a6c267ad963f",
             "brochure_key": "7a44c05d714f4fa7a379a6c267ad963f",
@@ -597,7 +589,8 @@
         "ab_6a095ea779074fcda62cee380ca64cec": true,
         "ab_77a341a3617c41aa9a2a8c8246e5c19a": true,
         "ab_36cab9689c244f328c5899bcce56d362": true,
-        "ab_b486feaef1a44628ad3d1b85d3c20c68": true
+        "ab_b486feaef1a44628ad3d1b85d3c20c68": true,
+        "ab_33baa4407117462ca59438e237fd0cf9": true
     },
-    "lastDrainAt": 1784733109
+    "lastDrainAt": 1784738801
 }
