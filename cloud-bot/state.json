@@ -16,7 +16,7 @@
             "lastCheckedAt": 1784719782
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1784656274
+            "lastCheckedAt": 1784725523
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
             "lastCheckedAt": 1784660338
@@ -35,14 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_36cab9689c244f328c5899bcce56d362",
-            "brochure_key": "36cab9689c244f328c5899bcce56d362",
-            "market": "Şok Market",
-            "title": "Detaylı | Şok Market Hafta Sonu Fırsatları Aktüel Ürünler Broşür 11-14 Temmuz",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-hafta-sonu-firsatlari-aktuel-urunler-brosur-11-14-temmuz_36cab9689c244f328c5899bcce56d362",
-            "tries": 0
-        },
         {
             "source_key": "ab_b486feaef1a44628ad3d1b85d3c20c68",
             "brochure_key": "b486feaef1a44628ad3d1b85d3c20c68",
@@ -611,7 +603,8 @@
         "ab_84fb7fdad0754e3f8a169e9335833a74": true,
         "ab_4b97678d6b0e4a709e29fef41fb32838": true,
         "ab_6a095ea779074fcda62cee380ca64cec": true,
-        "ab_77a341a3617c41aa9a2a8c8246e5c19a": true
+        "ab_77a341a3617c41aa9a2a8c8246e5c19a": true,
+        "ab_36cab9689c244f328c5899bcce56d362": true
     },
-    "lastDrainAt": 1784719829
+    "lastDrainAt": 1784725523
 }
