@@ -16,7 +16,7 @@
             "lastCheckedAt": 1785264051
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1785190520
+            "lastCheckedAt": 1785267501
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
             "lastCheckedAt": 1785194974
@@ -34,7 +34,16 @@
             "lastCheckedAt": 1785230628
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_36757eb337664f82b5580f2afd935050",
+            "brochure_key": "36757eb337664f82b5580f2afd935050",
+            "market": "Carrefour",
+            "title": "İndirimli Fırsat Ürünleri Broşürü",
+            "href": "https://aktuelbrosurler.com/carrefour/brosurler/indirimli-firsat-urunleri-brosuru_36757eb337664f82b5580f2afd935050",
+            "tries": 0
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
