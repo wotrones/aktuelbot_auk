@@ -216,16 +216,23 @@ function cb_check_market(array $cfg, array &$state, string $listingUrl, ?string 
         if (isset($state['uploaded'][$sourceKey]) || isset($queuedKeys[$sourceKey])) {
             continue;
         }
+        // Yer tutucu ("net sayfalar ... yuklenecektir") kayitlari hic alma;
+        // gercek brosur yayinlaninca ayri kayit olarak zaten gelir.
+        if (cb_is_placeholder_brochure($item['title'])) {
+            cb_log("  yer tutucu brosur atlandi: {$item['title']}");
+            continue;
+        }
         // Baslikta acik ve suresi gecmis tarih varsa kuyruga hic alma.
-        $titleDates = cb_parse_brochure_dates($item['title'], new DateTimeImmutable('today'));
-        if ($titleDates['matched'] && cb_dates_expired($titleDates, new DateTimeImmutable('today'))) {
+        $today = new DateTimeImmutable('today');
+        $titleDates = cb_parse_brochure_dates($item['title'], $today);
+        if ($titleDates['matched'] && cb_dates_expired($titleDates, $today)) {
             continue;
         }
         if (count($state['queue']) >= $cfg['max_queue']) {
             cb_log('  kuyruk dolu (MAX_QUEUE), kalan brosurler sonraki kontrole birakildi.');
             break;
         }
-        $state['queue'][] = [
+        $queued = [
             'source_key' => $sourceKey,
             'brochure_key' => $item['brochure_key'],
             'market' => $item['market'],
@@ -233,6 +240,13 @@ function cb_check_market(array $cfg, array &$state, string $listingUrl, ?string 
             'href' => $item['href'],
             'tries' => 0,
         ];
+        // Ileri tarihli brosur: kuyruga alinir ama basligindaki baslangic
+        // tarihi gelene kadar indirilmez/bildirilmez (bkz. cb_drain_queue).
+        if (cb_dates_start_future($titleDates, $today)) {
+            $queued['not_before'] = $titleDates['start'];
+            cb_log("  ileri tarihli, {$titleDates['start']} tarihine kadar bekletilecek: {$item['title']}");
+        }
+        $state['queue'][] = $queued;
         $queuedKeys[$sourceKey] = true;
         $added++;
     }
@@ -245,15 +259,65 @@ function cb_check_market(array $cfg, array &$state, string $listingUrl, ?string 
 
 /**
  * Kuyruktan en fazla $batch brosur isler.
+ *
+ * $changed, state'in degisip degismedigini bildirir. Donen sayi yalniz GERCEKTEN
+ * islenen (indirilen/atlanan) brosurleri sayar; yer tutucu dusurme ve ileri
+ * tarihli erteleme 0 dondurur ama state'i degistirir — cagiran taraf bu durumda
+ * da kaydetmezse o degisiklikler kaybolur.
  */
-function cb_drain_queue(array $cfg, array &$state, int $batch, ?string $cookieFile): int
+function cb_drain_queue(array $cfg, array &$state, int $batch, ?string $cookieFile, bool &$changed = false): int
 {
+    $today = new DateTimeImmutable('today');
     $processed = 0;
-    while ($processed < $batch && $state['queue'] !== []) {
+
+    // Tarihi gelmedigi icin ertelenen kayitlar; dongu bitince kuyrugun sonuna
+    // geri konur. Kuyrukta tutulmalari yerine kenara alinmalari sart, aksi
+    // halde ayni kaydi tekrar tekrar cekip sonsuz donguye gireriz.
+    $deferred = [];
+
+    // Kuyrugun tamami ertelenebilir; her kaydi en fazla bir kez ele al.
+    $remaining = count($state['queue']);
+
+    while ($processed < $batch && $remaining > 0 && $state['queue'] !== []) {
+        $remaining--;
         $item = array_shift($state['queue']);
+        $changed = true; // kuyruktan cikarmak basli basina bir state degisikligi
         $sourceKey = (string) ($item['source_key'] ?? '');
         if ($sourceKey === '' || isset($state['uploaded'][$sourceKey])) {
             continue;
+        }
+
+        $title = (string) ($item['title'] ?? '');
+
+        // Kuyrukta bekleyen eski kayitlar icin de yer tutucu kontrolu.
+        if (cb_is_placeholder_brochure($title)) {
+            cb_log("Yer tutucu brosur, kuyruktan dusuruldu: {$sourceKey}");
+            $state['uploaded'][$sourceKey] = true;
+            continue;
+        }
+
+        // Ileri tarihli brosuru tarihi gelene kadar bekleterek erken
+        // yazilmasini/bildirilmesini onle. not_before eski kayitlarda
+        // olmayabilir; o yuzden baslikdan da hesaplanir.
+        $dates = cb_parse_brochure_dates($title, $today);
+        $notBefore = (string) ($item['not_before'] ?? '');
+        if ($notBefore === '' && cb_dates_start_future($dates, $today)) {
+            $notBefore = (string) $dates['start'];
+        }
+        if ($notBefore !== '') {
+            try {
+                $notBeforeDate = new DateTimeImmutable($notBefore);
+            } catch (Throwable $e) {
+                // Bozuk not_before kaydi tum kosuyu dusurmesin; yok say.
+                cb_log("Gecersiz not_before ({$notBefore}), yok sayildi: {$sourceKey}");
+                $notBeforeDate = null;
+            }
+            if ($notBeforeDate !== null && $notBeforeDate > $today) {
+                $item['not_before'] = $notBefore;
+                $deferred[] = $item;
+                cb_debug("Ileri tarihli, bekletiliyor ({$notBefore}): {$sourceKey}");
+                continue;
+            }
         }
 
         $normItem = [
@@ -280,6 +344,15 @@ function cb_drain_queue(array $cfg, array &$state, int $batch, ?string $cookieFi
                 $processed++;
                 continue;
             }
+            // Basliktan anlasilmayip OCR'dan cikan ileri tarih: uploaded'a
+            // yazma, tarihi gelene kadar kuyrukta beklet.
+            if (!empty($fetched['future'])) {
+                $item['not_before'] = (string) $fetched['dates']['start'];
+                $deferred[] = $item;
+                cb_log("Ileri tarihli (OCR), {$item['not_before']} tarihine bekletildi: brosurler/{$sourceKey}");
+                $processed++;
+                continue;
+            }
             fb_import_brochure($cfg, $normItem, $fetched['pages'], $fetched['dates']);
             $state['uploaded'][$sourceKey] = true;
         } catch (Throwable $e) {
@@ -293,6 +366,14 @@ function cb_drain_queue(array $cfg, array &$state, int $batch, ?string $cookieFi
         }
 
         $processed++;
+    }
+
+    // Ertelenenleri kuyrugun sonuna geri koy: tarihleri geldiginde islenecekler.
+    if ($deferred !== []) {
+        foreach ($deferred as $d) {
+            $state['queue'][] = $d;
+        }
+        cb_log('Ileri tarihli olup bekletilen brosur: ' . count($deferred));
     }
 
     return $processed;
@@ -350,13 +431,20 @@ try {
         cb_save_state($cfg['state_file'], $state);
         $total = 0;
         while ($state['queue'] !== []) {
-            $n = cb_drain_queue($cfg, $state, $cfg['drain_batch'], $cookieFile);
+            $drainChanged = false;
+            $n = cb_drain_queue($cfg, $state, $cfg['drain_batch'], $cookieFile, $drainChanged);
+            if ($n > 0) {
+                $total += $n;
+                $state['lastDrainAt'] = time();
+            }
+            // n === 0 olsa bile (yer tutucu dusuruldu / ileri tarihli ertelendi)
+            // state degistiyse cikmadan once kaydet.
+            if ($drainChanged) {
+                cb_save_state($cfg['state_file'], $state);
+            }
             if ($n === 0) {
                 break;
             }
-            $total += $n;
-            $state['lastDrainAt'] = time();
-            cb_save_state($cfg['state_file'], $state);
         }
         cb_log("once-all bitti. Islenen brosur: {$total}");
         exit(0);
@@ -389,11 +477,16 @@ try {
     if (!$checkOnly) {
         $drainDue = ($now - (int) $state['lastDrainAt']) >= $cfg['drain_interval_min'] * 60;
         if ($state['queue'] !== [] && $drainDue) {
-            $n = cb_drain_queue($cfg, $state, $cfg['drain_batch'], $cookieFile);
+            $drainChanged = false;
+            $n = cb_drain_queue($cfg, $state, $cfg['drain_batch'], $cookieFile, $drainChanged);
             if ($n > 0) {
                 $state['lastDrainAt'] = time();
-                $dirty = true;
                 cb_log("Kuyruktan islenen: {$n} | kalan: " . count($state['queue']));
+            }
+            // Hic brosur islenmemis olsa da yer tutucu dusurme / erteleme
+            // state'i degistirmis olabilir; kaydedilmezse her kosuda tekrarlanir.
+            if ($drainChanged) {
+                $dirty = true;
             }
         } elseif ($state['queue'] !== []) {
             $wait = $cfg['drain_interval_min'] * 60 - ($now - (int) $state['lastDrainAt']);

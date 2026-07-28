@@ -583,6 +583,54 @@ function cb_dates_expired(array $dates, DateTimeImmutable $today): bool
 }
 
 /**
+ * Baslangic tarihi henuz gelmedi mi (ileri tarihli brosur)?
+ *
+ * Yalniz basliktan ACIK olarak okunan tarihlerde (matched=true) anlamlidir;
+ * varsayilan "bugun" araligi ileri tarihli sayilmaz. Ileri tarihli brosurler
+ * yazilmaz/bildirilmez, tarihi gelene kadar kuyrukta bekletilir — yoksa
+ * uygulamadaki "Son Eklenen Brosurler" listesi (start_date desc) bastan
+ * asagi henuz gecerli olmayan brosurlerle dolar ve gercekten yeni eklenenler
+ * ilk sayfaya giremez.
+ */
+function cb_dates_start_future(array $dates, DateTimeImmutable $today): bool
+{
+    if (empty($dates['matched'])) {
+        return false;
+    }
+    $startStr = (string) ($dates['start'] ?? '');
+    if ($startStr === '') {
+        return false;
+    }
+    try {
+        $start = new DateTimeImmutable($startStr);
+    } catch (Throwable $e) {
+        return false;
+    }
+
+    return $start > $today->setTime(0, 0, 0);
+}
+
+/**
+ * Kaynak site, firma orijinal brosuru yayinlamadan once "yer tutucu" kayit
+ * acar: baslikta "(Net sayfalar firma orjinal brosuru yayinladiginda
+ * yuklenecektir)" yazar ve icerik 1-3 bos/dusuk kaliteli sayfadir. Bunlar
+ * eklenmemeli ve bildirim gonderilmemeli; gercek brosur yayinlaninca zaten
+ * ayri bir kayit olarak normal akista gelir.
+ */
+function cb_is_placeholder_brochure(string $title): bool
+{
+    $t = cb_tr_lower($title);
+
+    if (preg_match('/net\s+sayfalar/u', $t) === 1) {
+        return true;
+    }
+
+    // "... yayinladiginda yuklenecektir" (orjinal/orijinal yazimlari degisiyor).
+    return preg_match('/yay[ıi]nla/u', $t) === 1
+        && preg_match('/y[üu]klenecek/u', $t) === 1;
+}
+
+/**
  * Gorsel baytlarini tesseract ile metne cevirir (best-effort). tesseract yoksa
  * veya OCR_ENABLED=0 ise bos string doner. tesseract varligi ilk cagride
  * kontrol edilip onbelleklenir.
@@ -724,7 +772,7 @@ function cb_fetch_brochure(array $cfg, array $item, ?string $cookieFile): array
     $dates = cb_parse_brochure_dates($item['title'], $today);
     if ($dates['matched'] && cb_dates_expired($dates, $today)) {
         cb_log("Suresi gecmis brosur (baslik tarihi {$dates['end']}), indirilmeden atlandi: {$sourceKey}");
-        return ['pages' => [], 'dates' => $dates, 'expired' => true];
+        return ['pages' => [], 'dates' => $dates, 'expired' => true, 'future' => false];
     }
 
     $pages = [];
@@ -781,7 +829,14 @@ function cb_fetch_brochure(array $cfg, array $item, ?string $cookieFile): array
         cb_log("Suresi gecmis brosur (son tarih {$dates['end']}), yazilmayacak: {$sourceKey}");
     }
 
+    // Baslikta tarih yokken OCR ileri tarihli bir aralik bulmus olabilir;
+    // boyle brosur simdi yazilmaz, cagiran tarafindan kuyrukta bekletilir.
+    $future = !$expired && cb_dates_start_future($dates, $today);
+    if ($future) {
+        cb_log("Ileri tarihli brosur (baslangic {$dates['start']}), simdi yazilmayacak: {$sourceKey}");
+    }
+
     cb_log('Indirilen sayfa: ' . count($pages) . " ({$sourceKey})");
 
-    return ['pages' => $pages, 'dates' => $dates, 'expired' => $expired];
+    return ['pages' => $pages, 'dates' => $dates, 'expired' => $expired, 'future' => $future];
 }

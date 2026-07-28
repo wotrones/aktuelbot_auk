@@ -424,6 +424,10 @@ function fb_import_brochure(array $cfg, array $item, array $pages, array $dates)
         'market_adi' => $item['market'],
         'start_date' => $start,
         'end_date' => $end,
+        // Gercek eklenme ani. start_date brosurun BASILI gecerlilik baslangici
+        // oldugu icin "son eklenenler" siralamasi icin guvenilir degil; uygulama
+        // ileride bu alana gecebilsin diye simdiden yaziliyor.
+        'created_at' => new DateTimeImmutable('now'),
         'gorseller' => $imageUrls,
         'clicks' => 0,
         'favs' => 0,
