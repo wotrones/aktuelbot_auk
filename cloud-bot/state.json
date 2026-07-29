@@ -28,7 +28,7 @@
             "lastCheckedAt": 1785353859
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1785281512
+            "lastCheckedAt": 1785357271
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
             "lastCheckedAt": 1785286969
@@ -41,6 +41,15 @@
             "market": "A101",
             "title": "A101 Tazenin Yıldızları İndirimli Ürünler Broşürü 30 Temmuz-2 Ağustos",
             "href": "https://aktuelbrosurler.com/a101/brosurler/a101-tazenin-yildizlari-indirimli-urunler-brosuru-30-temmuz-2-agustos_8a1af86fafef4fa4ad9c9c125a0a1bf5",
+            "tries": 0,
+            "not_before": "2026-07-30"
+        },
+        {
+            "source_key": "ab_3718517c4a234418a212bad736713d33",
+            "brochure_key": "3718517c4a234418a212bad736713d33",
+            "market": "Hakmar",
+            "title": "Hakmar Aktüel Ürünler İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/hakmar/brosurler/hakmar-aktuel-urunler-indirim-bulteni-brosuru_3718517c4a234418a212bad736713d33",
             "tries": 0,
             "not_before": "2026-07-30"
         }
@@ -508,5 +517,5 @@
         "ab_08553a4ea3c0413894d9eb83910228ef": true,
         "ab_122f46f80d0149c98a5a373d0cb67b84": true
     },
-    "lastDrainAt": 1785353906
+    "lastDrainAt": 1785357311
 }
