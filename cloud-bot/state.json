@@ -7,7 +7,7 @@
             "lastCheckedAt": 1785309086
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1785253026
+            "lastCheckedAt": 1785318583
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1785258406
@@ -34,7 +34,17 @@
             "lastCheckedAt": 1785286969
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_8a1af86fafef4fa4ad9c9c125a0a1bf5",
+            "brochure_key": "8a1af86fafef4fa4ad9c9c125a0a1bf5",
+            "market": "A101",
+            "title": "A101 Tazenin Yıldızları İndirimli Ürünler Broşürü 30 Temmuz-2 Ağustos",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-tazenin-yildizlari-indirimli-urunler-brosuru-30-temmuz-2-agustos_8a1af86fafef4fa4ad9c9c125a0a1bf5",
+            "tries": 0,
+            "not_before": "2026-07-30"
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
