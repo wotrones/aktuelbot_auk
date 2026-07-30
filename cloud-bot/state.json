@@ -34,26 +34,7 @@
             "lastCheckedAt": 1785360718
         }
     },
-    "queue": [
-        {
-            "source_key": "ab_8a1af86fafef4fa4ad9c9c125a0a1bf5",
-            "brochure_key": "8a1af86fafef4fa4ad9c9c125a0a1bf5",
-            "market": "A101",
-            "title": "A101 Tazenin Yıldızları İndirimli Ürünler Broşürü 30 Temmuz-2 Ağustos",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-tazenin-yildizlari-indirimli-urunler-brosuru-30-temmuz-2-agustos_8a1af86fafef4fa4ad9c9c125a0a1bf5",
-            "tries": 0,
-            "not_before": "2026-07-30"
-        },
-        {
-            "source_key": "ab_3718517c4a234418a212bad736713d33",
-            "brochure_key": "3718517c4a234418a212bad736713d33",
-            "market": "Hakmar",
-            "title": "Hakmar Aktüel Ürünler İndirim Bülteni Broşürü",
-            "href": "https://aktuelbrosurler.com/hakmar/brosurler/hakmar-aktuel-urunler-indirim-bulteni-brosuru_3718517c4a234418a212bad736713d33",
-            "tries": 0,
-            "not_before": "2026-07-30"
-        }
-    ],
+    "queue": [],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -518,7 +499,9 @@
         "ab_122f46f80d0149c98a5a373d0cb67b84": true,
         "ab_fe5e1da254454d0bbb7e8a78994fbd76": true,
         "ab_bc1cb90338f64004b1201bc5ae8b74c7": true,
-        "ab_92db63a5d39341e8ba3ec0727ca46903": true
+        "ab_92db63a5d39341e8ba3ec0727ca46903": true,
+        "ab_8a1af86fafef4fa4ad9c9c125a0a1bf5": true,
+        "ab_3718517c4a234418a212bad736713d33": true
     },
-    "lastDrainAt": 1785368322
+    "lastDrainAt": 1785373373
 }
