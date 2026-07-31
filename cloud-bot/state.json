@@ -13,7 +13,7 @@
             "lastCheckedAt": 1785536900
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1785470155
+            "lastCheckedAt": 1785540731
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1785480111
@@ -133,6 +133,33 @@
             "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-2-agustos-2026-dan-itibaren-stoklarla-sinirli_f239f6c2efcc4be8a9c229faef2d268b",
             "tries": 0,
             "not_before": "2026-08-02"
+        },
+        {
+            "source_key": "ab_47fd616b751b4b8f8c00c27258587b7a",
+            "brochure_key": "47fd616b751b4b8f8c00c27258587b7a",
+            "market": "Şok Market",
+            "title": "Detaylı | Şok Market Hafta Sonu Fırsatları Aktüel Ürünler Broşür 1-4 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-hafta-sonu-firsatlari-aktuel-urunler-brosur-1-4-agustos-2026_47fd616b751b4b8f8c00c27258587b7a",
+            "tries": 0,
+            "not_before": "2026-08-01"
+        },
+        {
+            "source_key": "ab_9cac37ab88064b888671fef6b87a31fb",
+            "brochure_key": "9cac37ab88064b888671fef6b87a31fb",
+            "market": "Şok Market",
+            "title": "Atıştırmalık Ürünleri Fırsat Broşürü",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/atistirmalik-urunleri-firsat-brosuru_9cac37ab88064b888671fef6b87a31fb",
+            "tries": 0,
+            "not_before": "2026-08-01"
+        },
+        {
+            "source_key": "ab_972bbe619fa54918898126c5709f1ead",
+            "brochure_key": "972bbe619fa54918898126c5709f1ead",
+            "market": "Şok Market",
+            "title": "Şok Market İndirimli Fırsat Ürünleri Broşürü 1-4 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-indirimli-firsat-urunleri-brosuru-1-4-agustos-2026_972bbe619fa54918898126c5709f1ead",
+            "tries": 0,
+            "not_before": "2026-08-01"
         }
     ],
     "uploaded": {
@@ -619,5 +646,5 @@
         "ab_6770e7cc49fb4ee1bad283d98dd0295d": true,
         "ab_291fa4a185f84f208325bb81ebb54a85": true
     },
-    "lastDrainAt": 1785537001
+    "lastDrainAt": 1785540743
 }
