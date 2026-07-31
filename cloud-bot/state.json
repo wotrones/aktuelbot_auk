@@ -13,7 +13,7 @@
             "lastCheckedAt": 1785457053
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1785403144
+            "lastCheckedAt": 1785470155
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1785410700
@@ -52,6 +52,15 @@
             "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-7-agustos-2026-dan-itibaren-stoklarla-sinirli_ff999ac31450434c9d179e089b6f0233",
             "tries": 0,
             "not_before": "2026-08-07"
+        },
+        {
+            "source_key": "ab_150a11aff0cd4ed5b0b9cff7275e3da3",
+            "brochure_key": "150a11aff0cd4ed5b0b9cff7275e3da3",
+            "market": "Şok Market",
+            "title": "Şok Market İste Gelsin Ürünleri Broşürü 1-4 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-1-4-agustos-2026_150a11aff0cd4ed5b0b9cff7275e3da3",
+            "tries": 0,
+            "not_before": "2026-08-01"
         }
     ],
     "uploaded": {
@@ -527,7 +536,9 @@
         "ab_d01fe324123c475f80d8f4e82ad1c0fe": true,
         "ab_88b782ce3cc141d99bbe4b1577fdeaf5": true,
         "ab_90f8908e713e4c18a17718ce345afb82": true,
-        "ab_ef5522d53d324c9d95718fdf33891d93": true
+        "ab_ef5522d53d324c9d95718fdf33891d93": true,
+        "ab_2025665f15704efe929206c101b97480": true,
+        "ab_fe977f7410004c09ab82a780541c001a": true
     },
-    "lastDrainAt": 1785457215
+    "lastDrainAt": 1785470354
 }
