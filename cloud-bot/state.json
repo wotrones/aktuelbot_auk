@@ -10,7 +10,7 @@
             "lastCheckedAt": 1785532833
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1785457053
+            "lastCheckedAt": 1785536900
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 1785470155
@@ -106,6 +106,33 @@
             "href": "https://aktuelbrosurler.com/a101/brosurler/a101-haftanin-yildizlari-brosuru-1-7-agustos-2026_603e4a7408484284bcd35e2286da941b",
             "tries": 0,
             "not_before": "2026-08-01"
+        },
+        {
+            "source_key": "ab_8a27d95db8e64106b10ddbf9eae02331",
+            "brochure_key": "8a27d95db8e64106b10ddbf9eae02331",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 1-7 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-1-7-agustos-2026_8a27d95db8e64106b10ddbf9eae02331",
+            "tries": 0,
+            "not_before": "2026-08-01"
+        },
+        {
+            "source_key": "ab_b0870ec94677498e8383f43d769b9de3",
+            "brochure_key": "b0870ec94677498e8383f43d769b9de3",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 1-7 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-1-7-agustos-2026_b0870ec94677498e8383f43d769b9de3",
+            "tries": 0,
+            "not_before": "2026-08-01"
+        },
+        {
+            "source_key": "ab_f239f6c2efcc4be8a9c229faef2d268b",
+            "brochure_key": "f239f6c2efcc4be8a9c229faef2d268b",
+            "market": "Bim",
+            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 2 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-2-agustos-2026-dan-itibaren-stoklarla-sinirli_f239f6c2efcc4be8a9c229faef2d268b",
+            "tries": 0,
+            "not_before": "2026-08-02"
         }
     ],
     "uploaded": {
@@ -588,7 +615,9 @@
         "ab_352d27ea3e97403bb4cf69c523fce51d": true,
         "ab_14a4c1a5a8124bc2b8da9179252c0654": true,
         "ab_88c8f0545bf2430384937e8329f4cd94": true,
-        "ab_879eb8b7e12d4cbebef93785e394f93b": true
+        "ab_879eb8b7e12d4cbebef93785e394f93b": true,
+        "ab_6770e7cc49fb4ee1bad283d98dd0295d": true,
+        "ab_291fa4a185f84f208325bb81ebb54a85": true
     },
-    "lastDrainAt": 1785532886
+    "lastDrainAt": 1785537001
 }
