@@ -19,7 +19,7 @@
             "lastCheckedAt": 1785546515
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1785490396
+            "lastCheckedAt": 1785558800
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
             "lastCheckedAt": 1785498012
@@ -43,33 +43,6 @@
             "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-2-agustos-2026-dan-itibaren-stoklarla-sinirli_f239f6c2efcc4be8a9c229faef2d268b",
             "tries": 0,
             "not_before": "2026-08-02"
-        },
-        {
-            "source_key": "ab_47fd616b751b4b8f8c00c27258587b7a",
-            "brochure_key": "47fd616b751b4b8f8c00c27258587b7a",
-            "market": "Şok Market",
-            "title": "Detaylı | Şok Market Hafta Sonu Fırsatları Aktüel Ürünler Broşür 1-4 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-hafta-sonu-firsatlari-aktuel-urunler-brosur-1-4-agustos-2026_47fd616b751b4b8f8c00c27258587b7a",
-            "tries": 0,
-            "not_before": "2026-08-01"
-        },
-        {
-            "source_key": "ab_9cac37ab88064b888671fef6b87a31fb",
-            "brochure_key": "9cac37ab88064b888671fef6b87a31fb",
-            "market": "Şok Market",
-            "title": "Atıştırmalık Ürünleri Fırsat Broşürü",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/atistirmalik-urunleri-firsat-brosuru_9cac37ab88064b888671fef6b87a31fb",
-            "tries": 0,
-            "not_before": "2026-08-01"
-        },
-        {
-            "source_key": "ab_972bbe619fa54918898126c5709f1ead",
-            "brochure_key": "972bbe619fa54918898126c5709f1ead",
-            "market": "Şok Market",
-            "title": "Şok Market İndirimli Fırsat Ürünleri Broşürü 1-4 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-indirimli-firsat-urunleri-brosuru-1-4-agustos-2026_972bbe619fa54918898126c5709f1ead",
-            "tries": 0,
-            "not_before": "2026-08-01"
         },
         {
             "source_key": "ab_069a76dfb85b46adadd3ee22aca148a7",
@@ -604,7 +577,10 @@
         "ab_613bfca905ad45e7bbf87ba2207e2833": true,
         "ab_603e4a7408484284bcd35e2286da941b": true,
         "ab_8a27d95db8e64106b10ddbf9eae02331": true,
-        "ab_b0870ec94677498e8383f43d769b9de3": true
+        "ab_b0870ec94677498e8383f43d769b9de3": true,
+        "ab_47fd616b751b4b8f8c00c27258587b7a": true,
+        "ab_9cac37ab88064b888671fef6b87a31fb": true,
+        "ab_972bbe619fa54918898126c5709f1ead": true
     },
-    "lastDrainAt": 1785546658
+    "lastDrainAt": 1785558891
 }
