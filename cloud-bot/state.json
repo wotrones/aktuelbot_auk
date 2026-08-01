@@ -7,7 +7,7 @@
             "lastCheckedAt": 1785598981
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1785532833
+            "lastCheckedAt": 1785602301
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1785536900
@@ -583,7 +583,9 @@
         "ab_972bbe619fa54918898126c5709f1ead": true,
         "ab_1dacf8b189d1446f94ac93670dbb1cf0": true,
         "ab_63dabab4150f4b209df4badc9fc85cd9": true,
-        "ab_89e3c611c055454582e4d9fc7cb54f8b": true
+        "ab_89e3c611c055454582e4d9fc7cb54f8b": true,
+        "ab_9342a2c416b5453d81d6432385d70b11": true,
+        "ab_cde90d0b7c294283844ce2b05c1f2698": true
     },
-    "lastDrainAt": 1785585289
+    "lastDrainAt": 1785602351
 }
