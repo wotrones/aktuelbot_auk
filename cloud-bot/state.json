@@ -10,7 +10,7 @@
             "lastCheckedAt": 1785602301
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1785536900
+            "lastCheckedAt": 1785606091
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 1785540731
@@ -88,6 +88,15 @@
             "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-urunler-brosuru-6-agustos-2026-dan-itibaren-stoklarla-sinirli_5d3ce146fc53406885e545022824da24",
             "tries": 0,
             "not_before": "2026-08-06"
+        },
+        {
+            "source_key": "ab_033fcefc2e82425580106d57d8943d62",
+            "brochure_key": "033fcefc2e82425580106d57d8943d62",
+            "market": "Bim",
+            "title": "Seçili TV ürünleri indirimli fiyatlarıyla 2-31 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/secili-tv-urunleri-indirimli-fiyatlariyla-2-31-agustos-2026_033fcefc2e82425580106d57d8943d62",
+            "tries": 0,
+            "not_before": "2026-08-02"
         }
     ],
     "uploaded": {
