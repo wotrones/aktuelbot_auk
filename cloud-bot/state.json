@@ -31,19 +31,10 @@
             "lastCheckedAt": 1785627399
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1785585265
+            "lastCheckedAt": 1785633117
         }
     },
     "queue": [
-        {
-            "source_key": "ab_f239f6c2efcc4be8a9c229faef2d268b",
-            "brochure_key": "f239f6c2efcc4be8a9c229faef2d268b",
-            "market": "Bim",
-            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 2 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-2-agustos-2026-dan-itibaren-stoklarla-sinirli_f239f6c2efcc4be8a9c229faef2d268b",
-            "tries": 0,
-            "not_before": "2026-08-02"
-        },
         {
             "source_key": "ab_069a76dfb85b46adadd3ee22aca148a7",
             "brochure_key": "069a76dfb85b46adadd3ee22aca148a7",
@@ -88,15 +79,6 @@
             "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-urunler-brosuru-6-agustos-2026-dan-itibaren-stoklarla-sinirli_5d3ce146fc53406885e545022824da24",
             "tries": 0,
             "not_before": "2026-08-06"
-        },
-        {
-            "source_key": "ab_033fcefc2e82425580106d57d8943d62",
-            "brochure_key": "033fcefc2e82425580106d57d8943d62",
-            "market": "Bim",
-            "title": "Seçili TV ürünleri indirimli fiyatlarıyla 2-31 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/secili-tv-urunleri-indirimli-fiyatlariyla-2-31-agustos-2026_033fcefc2e82425580106d57d8943d62",
-            "tries": 0,
-            "not_before": "2026-08-02"
         }
     ],
     "uploaded": {
@@ -595,7 +577,9 @@
         "ab_89e3c611c055454582e4d9fc7cb54f8b": true,
         "ab_9342a2c416b5453d81d6432385d70b11": true,
         "ab_cde90d0b7c294283844ce2b05c1f2698": true,
-        "ab_50b7a75e17064c6d9f1d2813a2ee5cff": true
+        "ab_50b7a75e17064c6d9f1d2813a2ee5cff": true,
+        "ab_f239f6c2efcc4be8a9c229faef2d268b": true,
+        "ab_033fcefc2e82425580106d57d8943d62": true
     },
-    "lastDrainAt": 1785623851
+    "lastDrainAt": 1785633192
 }
