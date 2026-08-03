@@ -7,7 +7,7 @@
             "lastCheckedAt": 1785790092
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1785707991
+            "lastCheckedAt": 1785794001
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1785711720
@@ -106,6 +106,15 @@
             "href": "https://aktuelbrosurler.com/bim/brosurler/detayli-bim-haftanin-onerileri-aktuel-urunler-brosuru-4-agustos-2026-dan-itibaren_a99e2af92c354eae8fcaf3c41afd108e",
             "tries": 0,
             "not_before": "2026-08-04"
+        },
+        {
+            "source_key": "ab_7dec896cfb2a4c00bb5f272823e32613",
+            "brochure_key": "7dec896cfb2a4c00bb5f272823e32613",
+            "market": "A101",
+            "title": "Detaylı | A101 Aldın Aldın Aktüel Ürünler Broşürü 6 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/detayli-a101-aldin-aldin-aktuel-urunler-brosuru-6-agustos-2026-dan-itibaren-stoklarla-sinirli_7dec896cfb2a4c00bb5f272823e32613",
+            "tries": 0,
+            "not_before": "2026-08-06"
         }
     ],
     "uploaded": {
