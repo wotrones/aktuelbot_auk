@@ -434,19 +434,15 @@ function fb_import_brochure(array $cfg, array $item, array $pages, array $dates)
     ]);
     cb_log("Firestore'a yazildi: brosurler/{$docId} ({$item['market']}, " . count($imageUrls) . ' sayfa)');
 
-    if ($cfg['onesignal_enabled']) {
-        try {
-            fb_onesignal_notify($cfg, $item['market'], $docId);
-        } catch (Throwable $e) {
-            cb_log('OneSignal bildirim hatasi: ' . $e->getMessage());
-        }
-    }
+    // NOT: Bildirim burada gonderilmez. Ayni kosuda ayni marketten birden cok
+    // brosur islendiginde kullaniciya ayni metinle 2-3 ayri push gitmesin diye
+    // cb_drain_queue kosu sonunda market basina TEK ozet bildirim gonderir.
 
     return true;
 }
 
-/** Yeni brosur icin OneSignal push (tag filtresi) — bot.php ile ayni. */
-function fb_onesignal_notify(array $cfg, string $marketName, string $brochureDocId): void
+/** Yeni brosur icin OneSignal push. $count > 1 ise ozet metin gonderilir. */
+function fb_onesignal_notify(array $cfg, string $marketName, string $brochureDocId, int $count = 1): void
 {
     $appId = $cfg['onesignal_app_id'];
     $restKey = $cfg['onesignal_rest_api_key'];
@@ -457,7 +453,9 @@ function fb_onesignal_notify(array $cfg, string $marketName, string $brochureDoc
 
     $marketDocId = fb_market_doc_id($marketName);
     $title = 'Yeni broşür';
-    $bodyText = "{$marketName} için yeni broşür eklendi.";
+    $bodyText = $count > 1
+        ? "{$marketName} için {$count} yeni broşür eklendi."
+        : "{$marketName} için yeni broşür eklendi.";
 
     $payload = [
         'app_id' => $appId,
@@ -466,6 +464,9 @@ function fb_onesignal_notify(array $cfg, string $marketName, string $brochureDoc
         'contents' => ['en' => $bodyText, 'tr' => $bodyText],
         // Tüm abonelenmiş push kullanıcılarına gönder (etiket filtresi kaldırıldı).
         'included_segments' => ['Total Subscriptions'],
+        // Ayni marketin kisa araliklarla gelen bildirimleri tepside ust uste
+        // birikmesin; yenisi eskisinin yerine gecsin.
+        'collapse_id' => 'brosur_' . $marketDocId,
         'data' => [
             'type' => 'new_brosur',
             'brochure_id' => $brochureDocId,

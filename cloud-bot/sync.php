@@ -270,6 +270,11 @@ function cb_drain_queue(array $cfg, array &$state, int $batch, ?string $cookieFi
     $today = new DateTimeImmutable('today');
     $processed = 0;
 
+    // Bu kosuda ICE AKTARILAN brosurler, market bazinda: market => list<docId>.
+    // Bildirim brosur basina degil, dongu sonunda market basina TEK sefer
+    // gonderilir (ayni marketten 2-3 brosur = ayni metinle 2-3 push sorunu).
+    $imported = [];
+
     // Tarihi gelmedigi icin ertelenen kayitlar; dongu bitince kuyrugun sonuna
     // geri konur. Kuyrukta tutulmalari yerine kenara alinmalari sart, aksi
     // halde ayni kaydi tekrar tekrar cekip sonsuz donguye gireriz.
@@ -353,7 +358,9 @@ function cb_drain_queue(array $cfg, array &$state, int $batch, ?string $cookieFi
                 $processed++;
                 continue;
             }
-            fb_import_brochure($cfg, $normItem, $fetched['pages'], $fetched['dates']);
+            if (fb_import_brochure($cfg, $normItem, $fetched['pages'], $fetched['dates'])) {
+                $imported[$normItem['market']][] = $sourceKey;
+            }
             $state['uploaded'][$sourceKey] = true;
         } catch (Throwable $e) {
             $item['tries'] = (int) ($item['tries'] ?? 0) + 1;
@@ -374,6 +381,18 @@ function cb_drain_queue(array $cfg, array &$state, int $batch, ?string $cookieFi
             $state['queue'][] = $d;
         }
         cb_log('Ileri tarihli olup bekletilen brosur: ' . count($deferred));
+    }
+
+    // Market basina TEK bildirim: ayni kosuda 3 brosur geldiyse "3 yeni brosur".
+    // Bildirim hatasi importlari geri almaz; sadece loglanir.
+    if ($cfg['onesignal_enabled']) {
+        foreach ($imported as $market => $docIds) {
+            try {
+                fb_onesignal_notify($cfg, (string) $market, (string) end($docIds), count($docIds));
+            } catch (Throwable $e) {
+                cb_log('OneSignal bildirim hatasi: ' . $e->getMessage());
+            }
+        }
     }
 
     return $processed;
