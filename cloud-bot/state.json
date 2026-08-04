@@ -7,7 +7,7 @@
             "lastCheckedAt": 1785869819
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1785794001
+            "lastCheckedAt": 1785875115
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1785797552
@@ -115,6 +115,15 @@
             "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-5-11-agustos-2026_029d642c49204b03b0139261aaf83636",
             "tries": 0,
             "not_before": "2026-08-05"
+        },
+        {
+            "source_key": "ab_b257470f94b24c2dbd2460c9f422caf9",
+            "brochure_key": "b257470f94b24c2dbd2460c9f422caf9",
+            "market": "A101",
+            "title": "A101 Tazenin Yıldızları İndirimli Ürünler Broşürü 6-9 Ağustos",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-tazenin-yildizlari-indirimli-urunler-brosuru-6-9-agustos_b257470f94b24c2dbd2460c9f422caf9",
+            "tries": 0,
+            "not_before": "2026-08-06"
         }
     ],
     "uploaded": {
@@ -624,7 +633,8 @@
         "ab_277a99ab7e734b6cb149dc34002b5305": true,
         "ab_a99e2af92c354eae8fcaf3c41afd108e": true,
         "ab_245db414f2df4452ba07aa6bda4f2a9c": true,
-        "ab_3bb5b118432941369738a0b2e7b881af": true
+        "ab_3bb5b118432941369738a0b2e7b881af": true,
+        "ab_fd10a440a1174c90932e5ca35f3c1bb1": true
     },
-    "lastDrainAt": 1785841990
+    "lastDrainAt": 1785875136
 }
