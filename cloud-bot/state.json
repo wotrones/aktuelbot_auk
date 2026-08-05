@@ -13,7 +13,7 @@
             "lastCheckedAt": 1785958084
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1785883649
+            "lastCheckedAt": 1785962674
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1785887247
@@ -650,7 +650,9 @@
         "ab_9329564e97ac470cb347486ef76a0a1d": true,
         "ab_3e818515ac9d4d838f69c54a5d31de5c": true,
         "ab_375c3999104c4abf9974999921a990b8": true,
-        "ab_8e8ba7139dd6405ca4941327be26f23f": true
+        "ab_8e8ba7139dd6405ca4941327be26f23f": true,
+        "ab_cf4ad1affec04cd09ca99e2fc3a3eea1": true,
+        "ab_17dee01f624340b0a8e5bc5297391d0c": true
     },
-    "lastDrainAt": 1785952631
+    "lastDrainAt": 1785962839
 }
