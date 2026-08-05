@@ -19,7 +19,7 @@
             "lastCheckedAt": 1785887247
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1785823509
+            "lastCheckedAt": 1785892400
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
             "lastCheckedAt": 1785833522
@@ -106,15 +106,6 @@
             "href": "https://aktuelbrosurler.com/a101/brosurler/detayli-a101-aldin-aldin-aktuel-urunler-brosuru-6-agustos-2026-dan-itibaren-stoklarla-sinirli_7dec896cfb2a4c00bb5f272823e32613",
             "tries": 0,
             "not_before": "2026-08-06"
-        },
-        {
-            "source_key": "ab_029d642c49204b03b0139261aaf83636",
-            "brochure_key": "029d642c49204b03b0139261aaf83636",
-            "market": "Şok Market",
-            "title": "Şok Market İste Gelsin Ürünleri Broşürü 5-11 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-5-11-agustos-2026_029d642c49204b03b0139261aaf83636",
-            "tries": 0,
-            "not_before": "2026-08-05"
         },
         {
             "source_key": "ab_b257470f94b24c2dbd2460c9f422caf9",
@@ -636,7 +627,10 @@
         "ab_3bb5b118432941369738a0b2e7b881af": true,
         "ab_fd10a440a1174c90932e5ca35f3c1bb1": true,
         "ab_0116e5fc601046d896691c1e2f98dd8e": true,
-        "ab_27d0ffb90c7e43a3977cf9369c310c2a": true
+        "ab_27d0ffb90c7e43a3977cf9369c310c2a": true,
+        "ab_029d642c49204b03b0139261aaf83636": true,
+        "ab_9329564e97ac470cb347486ef76a0a1d": true,
+        "ab_3e818515ac9d4d838f69c54a5d31de5c": true
     },
-    "lastDrainAt": 1785887282
+    "lastDrainAt": 1785892731
 }
