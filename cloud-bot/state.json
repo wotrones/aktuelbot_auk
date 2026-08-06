@@ -22,7 +22,7 @@
             "lastCheckedAt": 1785970936
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1785904073
+            "lastCheckedAt": 1785974866
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
             "lastCheckedAt": 1785914165
@@ -35,6 +35,24 @@
         }
     },
     "queue": [
+        {
+            "source_key": "ab_3e6f809757a242048b464815a64af678",
+            "brochure_key": "3e6f809757a242048b464815a64af678",
+            "market": "A101",
+            "title": "Sadece Online Alışverişe Özel Aldın Aldın A101 Ekstra Aktüel Ürünler Broşürü 6 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/sadece-online-alisverise-ozel-aldin-aldin-a101-ekstra-aktuel-urunler-brosuru-6-agustos-2026_3e6f809757a242048b464815a64af678",
+            "tries": 0,
+            "not_before": "2026-08-06"
+        },
+        {
+            "source_key": "ab_0f96835779214e63ae5b4bcbe8d30ed2",
+            "brochure_key": "0f96835779214e63ae5b4bcbe8d30ed2",
+            "market": "A101",
+            "title": "Meyve İndirimleri",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/meyve-indirimleri_0f96835779214e63ae5b4bcbe8d30ed2",
+            "tries": 0,
+            "not_before": "2026-08-06"
+        },
         {
             "source_key": "ab_069a76dfb85b46adadd3ee22aca148a7",
             "brochure_key": "069a76dfb85b46adadd3ee22aca148a7",
@@ -54,33 +72,6 @@
             "not_before": "2026-08-07"
         },
         {
-            "source_key": "ab_01befbdefda44830a797d56b38884240",
-            "brochure_key": "01befbdefda44830a797d56b38884240",
-            "market": "A101",
-            "title": "A101 Aldın Aldın Aktüel Ürünler Broşürü 6-28 Ağustos 2026 Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-urunler-brosuru-6-28-agustos-2026-stoklarla-sinirli_01befbdefda44830a797d56b38884240",
-            "tries": 0,
-            "not_before": "2026-08-06"
-        },
-        {
-            "source_key": "ab_b0eafc14a18a4a9a8bcb424e005dce20",
-            "brochure_key": "b0eafc14a18a4a9a8bcb424e005dce20",
-            "market": "A101",
-            "title": "Tekstil Ürünleri Fırsat Broşürü 6-9 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/tekstil-urunleri-firsat-brosuru-6-9-agustos-2026_b0eafc14a18a4a9a8bcb424e005dce20",
-            "tries": 0,
-            "not_before": "2026-08-06"
-        },
-        {
-            "source_key": "ab_5d3ce146fc53406885e545022824da24",
-            "brochure_key": "5d3ce146fc53406885e545022824da24",
-            "market": "A101",
-            "title": "A101 Aldın Aldın Aktüel Ürünler Broşürü 6 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-urunler-brosuru-6-agustos-2026-dan-itibaren-stoklarla-sinirli_5d3ce146fc53406885e545022824da24",
-            "tries": 0,
-            "not_before": "2026-08-06"
-        },
-        {
             "source_key": "ab_86211590f0974551907ebad7bd695f9b",
             "brochure_key": "86211590f0974551907ebad7bd695f9b",
             "market": "Bim",
@@ -97,42 +88,6 @@
             "href": "https://aktuelbrosurler.com/bim/brosurler/bim-haftanin-onerileri-aktuel-urunler-brosuru-11-agustos-2026-dan-itibaren_32d244d74ca64af8a86958d1e14224fc",
             "tries": 0,
             "not_before": "2026-08-11"
-        },
-        {
-            "source_key": "ab_7dec896cfb2a4c00bb5f272823e32613",
-            "brochure_key": "7dec896cfb2a4c00bb5f272823e32613",
-            "market": "A101",
-            "title": "Detaylı | A101 Aldın Aldın Aktüel Ürünler Broşürü 6 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/detayli-a101-aldin-aldin-aktuel-urunler-brosuru-6-agustos-2026-dan-itibaren-stoklarla-sinirli_7dec896cfb2a4c00bb5f272823e32613",
-            "tries": 0,
-            "not_before": "2026-08-06"
-        },
-        {
-            "source_key": "ab_b257470f94b24c2dbd2460c9f422caf9",
-            "brochure_key": "b257470f94b24c2dbd2460c9f422caf9",
-            "market": "A101",
-            "title": "A101 Tazenin Yıldızları İndirimli Ürünler Broşürü 6-9 Ağustos",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-tazenin-yildizlari-indirimli-urunler-brosuru-6-9-agustos_b257470f94b24c2dbd2460c9f422caf9",
-            "tries": 0,
-            "not_before": "2026-08-06"
-        },
-        {
-            "source_key": "ab_3e6f809757a242048b464815a64af678",
-            "brochure_key": "3e6f809757a242048b464815a64af678",
-            "market": "A101",
-            "title": "Sadece Online Alışverişe Özel Aldın Aldın A101 Ekstra Aktüel Ürünler Broşürü 6 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/sadece-online-alisverise-ozel-aldin-aldin-a101-ekstra-aktuel-urunler-brosuru-6-agustos-2026_3e6f809757a242048b464815a64af678",
-            "tries": 0,
-            "not_before": "2026-08-06"
-        },
-        {
-            "source_key": "ab_0f96835779214e63ae5b4bcbe8d30ed2",
-            "brochure_key": "0f96835779214e63ae5b4bcbe8d30ed2",
-            "market": "A101",
-            "title": "Meyve İndirimleri",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/meyve-indirimleri_0f96835779214e63ae5b4bcbe8d30ed2",
-            "tries": 0,
-            "not_before": "2026-08-06"
         }
     ],
     "uploaded": {
@@ -652,7 +607,12 @@
         "ab_375c3999104c4abf9974999921a990b8": true,
         "ab_8e8ba7139dd6405ca4941327be26f23f": true,
         "ab_cf4ad1affec04cd09ca99e2fc3a3eea1": true,
-        "ab_17dee01f624340b0a8e5bc5297391d0c": true
+        "ab_17dee01f624340b0a8e5bc5297391d0c": true,
+        "ab_01befbdefda44830a797d56b38884240": true,
+        "ab_b0eafc14a18a4a9a8bcb424e005dce20": true,
+        "ab_5d3ce146fc53406885e545022824da24": true,
+        "ab_7dec896cfb2a4c00bb5f272823e32613": true,
+        "ab_b257470f94b24c2dbd2460c9f422caf9": true
     },
-    "lastDrainAt": 1785962839
+    "lastDrainAt": 1785975187
 }
