@@ -25,7 +25,7 @@
             "lastCheckedAt": 1785974866
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1785914165
+            "lastCheckedAt": 1785987167
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
             "lastCheckedAt": 1785923963
@@ -35,24 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_3e6f809757a242048b464815a64af678",
-            "brochure_key": "3e6f809757a242048b464815a64af678",
-            "market": "A101",
-            "title": "Sadece Online Alışverişe Özel Aldın Aldın A101 Ekstra Aktüel Ürünler Broşürü 6 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/sadece-online-alisverise-ozel-aldin-aldin-a101-ekstra-aktuel-urunler-brosuru-6-agustos-2026_3e6f809757a242048b464815a64af678",
-            "tries": 0,
-            "not_before": "2026-08-06"
-        },
-        {
-            "source_key": "ab_0f96835779214e63ae5b4bcbe8d30ed2",
-            "brochure_key": "0f96835779214e63ae5b4bcbe8d30ed2",
-            "market": "A101",
-            "title": "Meyve İndirimleri",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/meyve-indirimleri_0f96835779214e63ae5b4bcbe8d30ed2",
-            "tries": 0,
-            "not_before": "2026-08-06"
-        },
         {
             "source_key": "ab_069a76dfb85b46adadd3ee22aca148a7",
             "brochure_key": "069a76dfb85b46adadd3ee22aca148a7",
@@ -612,7 +594,10 @@
         "ab_b0eafc14a18a4a9a8bcb424e005dce20": true,
         "ab_5d3ce146fc53406885e545022824da24": true,
         "ab_7dec896cfb2a4c00bb5f272823e32613": true,
-        "ab_b257470f94b24c2dbd2460c9f422caf9": true
+        "ab_b257470f94b24c2dbd2460c9f422caf9": true,
+        "ab_3e6f809757a242048b464815a64af678": true,
+        "ab_0f96835779214e63ae5b4bcbe8d30ed2": true,
+        "ab_8c0d108d848a46579d1d56aa546a4686": true
     },
-    "lastDrainAt": 1785975187
+    "lastDrainAt": 1785987263
 }
