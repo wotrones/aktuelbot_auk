@@ -10,7 +10,7 @@
             "lastCheckedAt": 1786030380
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1785958084
+            "lastCheckedAt": 1786062647
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 1785962674
@@ -43,15 +43,6 @@
             "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-9-agustos-2026-dan-itibaren-stoklarla-sinirli_069a76dfb85b46adadd3ee22aca148a7",
             "tries": 0,
             "not_before": "2026-08-09"
-        },
-        {
-            "source_key": "ab_ff999ac31450434c9d179e089b6f0233",
-            "brochure_key": "ff999ac31450434c9d179e089b6f0233",
-            "market": "Bim",
-            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 7 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-7-agustos-2026-dan-itibaren-stoklarla-sinirli_ff999ac31450434c9d179e089b6f0233",
-            "tries": 0,
-            "not_before": "2026-08-07"
         },
         {
             "source_key": "ab_86211590f0974551907ebad7bd695f9b",
@@ -601,7 +592,11 @@
         "ab_790ef1d0b520442684628be7d4b6a2d0": true,
         "ab_27a58a81fe48418c81a67c75fb2b735b": true,
         "ab_0a1d4219b19e458cb200d431dbae67dd": true,
-        "ab_49c85bf5fc1d4a248cebe2c359dca57f": true
+        "ab_49c85bf5fc1d4a248cebe2c359dca57f": true,
+        "ab_ff999ac31450434c9d179e089b6f0233": true,
+        "ab_13182319fdec4e64a3887fd9687c07ea": true,
+        "ab_515906a20ac846ccb5947dee08fc1df5": true,
+        "ab_7d4748ca80ee47f69309efbe23c248f9": true
     },
-    "lastDrainAt": 1786017845
+    "lastDrainAt": 1786062923
 }
