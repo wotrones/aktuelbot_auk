@@ -10,7 +10,7 @@
             "lastCheckedAt": 1786143885
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1786114914
+            "lastCheckedAt": 1786146259
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 1786118594
@@ -133,6 +133,42 @@
             "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-urunler-brosuru-13-agustos-2026-dan-itibaren-stoklarla-sinirli_163b124de8284cd2b35c6ed8cbec5ef8",
             "tries": 0,
             "not_before": "2026-08-13"
+        },
+        {
+            "source_key": "ab_48606619f9bb43988498542dead61fc1",
+            "brochure_key": "48606619f9bb43988498542dead61fc1",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 8-14 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-8-14-agustos-2026_48606619f9bb43988498542dead61fc1",
+            "tries": 0,
+            "not_before": "2026-08-08"
+        },
+        {
+            "source_key": "ab_037388cee70049beaf7f93c7d2281bbd",
+            "brochure_key": "037388cee70049beaf7f93c7d2281bbd",
+            "market": "Bim",
+            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 14 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-14-agustos-2026-dan-itibaren-stoklarla-sinirli_037388cee70049beaf7f93c7d2281bbd",
+            "tries": 0,
+            "not_before": "2026-08-14"
+        },
+        {
+            "source_key": "ab_d9fc44e34710445aba9ef565fbc3cfa9",
+            "brochure_key": "d9fc44e34710445aba9ef565fbc3cfa9",
+            "market": "Bim",
+            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 16 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-16-agustos-2026-dan-itibaren-stoklarla-sinirli_d9fc44e34710445aba9ef565fbc3cfa9",
+            "tries": 0,
+            "not_before": "2026-08-16"
+        },
+        {
+            "source_key": "ab_84df659c2b8f48ab95b50fc3fe780632",
+            "brochure_key": "84df659c2b8f48ab95b50fc3fe780632",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 8-14 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-8-14-agustos-2026_84df659c2b8f48ab95b50fc3fe780632",
+            "tries": 0,
+            "not_before": "2026-08-08"
         }
     ],
     "uploaded": {
@@ -675,7 +711,8 @@
         "ab_a548faac16bb4585a4d89c9224cc7632": true,
         "ab_5385974047b8485c855439f4b697677e": true,
         "ab_d7900f17b3fc446db69668aa2713df92": true,
-        "ab_f70b6e63c77348669d304e14a962a742": true
+        "ab_f70b6e63c77348669d304e14a962a742": true,
+        "ab_0c11e907afa14881ae2b11c0d77174bc": true
     },
-    "lastDrainAt": 1786143918
+    "lastDrainAt": 1786146275
 }
