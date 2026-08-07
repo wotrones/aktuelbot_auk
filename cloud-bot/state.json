@@ -7,7 +7,7 @@
             "lastCheckedAt": 1786141576
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1786111180
+            "lastCheckedAt": 1786143885
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1786114914
@@ -115,6 +115,24 @@
             "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/hafta-sonuna-ozel-meyve-ve-sebze-reyonu-firsatlari_1bad15627b4d4e098046615ad10181a8",
             "tries": 0,
             "not_before": "2026-08-08"
+        },
+        {
+            "source_key": "ab_bc8f1eb002824d7890de4a729f2b2af8",
+            "brochure_key": "bc8f1eb002824d7890de4a729f2b2af8",
+            "market": "A101",
+            "title": "A101 Aldın Aldın Aktüel Klima Ürünleri Broşürü 8-14 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-klima-urunleri-brosuru-8-14-agustos-2026_bc8f1eb002824d7890de4a729f2b2af8",
+            "tries": 0,
+            "not_before": "2026-08-08"
+        },
+        {
+            "source_key": "ab_163b124de8284cd2b35c6ed8cbec5ef8",
+            "brochure_key": "163b124de8284cd2b35c6ed8cbec5ef8",
+            "market": "A101",
+            "title": "A101 Aldın Aldın Aktüel Ürünler Broşürü 13 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-urunler-brosuru-13-agustos-2026-dan-itibaren-stoklarla-sinirli_163b124de8284cd2b35c6ed8cbec5ef8",
+            "tries": 0,
+            "not_before": "2026-08-13"
         }
     ],
     "uploaded": {
@@ -655,7 +673,9 @@
         "ab_2c896cfaecbc4db0aa362284775c3098": true,
         "ab_3bfa40e032ac436f9fc65387a8a6cd4e": true,
         "ab_a548faac16bb4585a4d89c9224cc7632": true,
-        "ab_5385974047b8485c855439f4b697677e": true
+        "ab_5385974047b8485c855439f4b697677e": true,
+        "ab_d7900f17b3fc446db69668aa2713df92": true,
+        "ab_f70b6e63c77348669d304e14a962a742": true
     },
-    "lastDrainAt": 1786132207
+    "lastDrainAt": 1786143918
 }
