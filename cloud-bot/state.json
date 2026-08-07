@@ -13,7 +13,7 @@
             "lastCheckedAt": 1786114914
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1786073616
+            "lastCheckedAt": 1786118594
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1786079960
@@ -88,6 +88,24 @@
             "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-urunler-brosuru-13-19-agustos-2026-stoklarla-sinirli_dc8ccfae11e54139837a2dbcadabc2b6",
             "tries": 0,
             "not_before": "2026-08-13"
+        },
+        {
+            "source_key": "ab_18ed29a15ade4c2c962fe48917aa41a7",
+            "brochure_key": "18ed29a15ade4c2c962fe48917aa41a7",
+            "market": "Şok Market",
+            "title": "Detaylı | Şok Market Hafta Sonu Fırsatları Aktüel Ürünler Broşür 8-11 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-hafta-sonu-firsatlari-aktuel-urunler-brosur-8-11-agustos-2026_18ed29a15ade4c2c962fe48917aa41a7",
+            "tries": 0,
+            "not_before": "2026-08-08"
+        },
+        {
+            "source_key": "ab_10ed032e64984abc8e809645699ce3c4",
+            "brochure_key": "10ed032e64984abc8e809645699ce3c4",
+            "market": "Şok Market",
+            "title": "Şok Market İndirimli Fırsat Ürünleri Broşürü 8-11 Ağustos",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-indirimli-firsat-urunleri-brosuru-8-11-agustos_10ed032e64984abc8e809645699ce3c4",
+            "tries": 0,
+            "not_before": "2026-08-08"
         }
     ],
     "uploaded": {
