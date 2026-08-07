@@ -7,7 +7,7 @@
             "lastCheckedAt": 1786106531
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1786030380
+            "lastCheckedAt": 1786111180
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1786062647
@@ -61,6 +61,33 @@
             "href": "https://aktuelbrosurler.com/bim/brosurler/bim-haftanin-onerileri-aktuel-urunler-brosuru-11-agustos-2026-dan-itibaren_32d244d74ca64af8a86958d1e14224fc",
             "tries": 0,
             "not_before": "2026-08-11"
+        },
+        {
+            "source_key": "ab_90eec507bd34486988761bd06197654c",
+            "brochure_key": "90eec507bd34486988761bd06197654c",
+            "market": "A101",
+            "title": "10 TL ve Üzeri Alışverişlerde İndirimli Fırsat Ürünleri Broşürü 8-14 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/10-tl-ve-uzeri-alisverislerde-indirimli-firsat-urunleri-brosuru-8-14-agustos-2026_90eec507bd34486988761bd06197654c",
+            "tries": 0,
+            "not_before": "2026-08-08"
+        },
+        {
+            "source_key": "ab_941313ffb6004f38a02bda57fc2296e5",
+            "brochure_key": "941313ffb6004f38a02bda57fc2296e5",
+            "market": "A101",
+            "title": "A101 Haftanın Yıldızları Broşürü 8-14 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-haftanin-yildizlari-brosuru-8-14-agustos-2026_941313ffb6004f38a02bda57fc2296e5",
+            "tries": 0,
+            "not_before": "2026-08-08"
+        },
+        {
+            "source_key": "ab_dc8ccfae11e54139837a2dbcadabc2b6",
+            "brochure_key": "dc8ccfae11e54139837a2dbcadabc2b6",
+            "market": "A101",
+            "title": "A101 Aldın Aldın Aktüel Ürünler Broşürü 13-19 Ağustos 2026 Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-urunler-brosuru-13-19-agustos-2026-stoklarla-sinirli_dc8ccfae11e54139837a2dbcadabc2b6",
+            "tries": 0,
+            "not_before": "2026-08-13"
         }
     ],
     "uploaded": {
