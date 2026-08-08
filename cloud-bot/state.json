@@ -13,7 +13,7 @@
             "lastCheckedAt": 1786146259
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1786118594
+            "lastCheckedAt": 1786149160
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1786122195
@@ -35,87 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_069a76dfb85b46adadd3ee22aca148a7",
-            "brochure_key": "069a76dfb85b46adadd3ee22aca148a7",
-            "market": "Bim",
-            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 9 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-9-agustos-2026-dan-itibaren-stoklarla-sinirli_069a76dfb85b46adadd3ee22aca148a7",
-            "tries": 0,
-            "not_before": "2026-08-09"
-        },
-        {
-            "source_key": "ab_86211590f0974551907ebad7bd695f9b",
-            "brochure_key": "86211590f0974551907ebad7bd695f9b",
-            "market": "Bim",
-            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 12 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-12-agustos-2026-dan-itibaren-stoklarla-sinirli_86211590f0974551907ebad7bd695f9b",
-            "tries": 0,
-            "not_before": "2026-08-12"
-        },
-        {
-            "source_key": "ab_32d244d74ca64af8a86958d1e14224fc",
-            "brochure_key": "32d244d74ca64af8a86958d1e14224fc",
-            "market": "Bim",
-            "title": "Bim Haftanın Önerileri Aktüel Ürünler Broşürü 11 Ağustos 2026'dan İtibaren",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-haftanin-onerileri-aktuel-urunler-brosuru-11-agustos-2026-dan-itibaren_32d244d74ca64af8a86958d1e14224fc",
-            "tries": 0,
-            "not_before": "2026-08-11"
-        },
-        {
-            "source_key": "ab_90eec507bd34486988761bd06197654c",
-            "brochure_key": "90eec507bd34486988761bd06197654c",
-            "market": "A101",
-            "title": "10 TL ve Üzeri Alışverişlerde İndirimli Fırsat Ürünleri Broşürü 8-14 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/10-tl-ve-uzeri-alisverislerde-indirimli-firsat-urunleri-brosuru-8-14-agustos-2026_90eec507bd34486988761bd06197654c",
-            "tries": 0,
-            "not_before": "2026-08-08"
-        },
-        {
-            "source_key": "ab_941313ffb6004f38a02bda57fc2296e5",
-            "brochure_key": "941313ffb6004f38a02bda57fc2296e5",
-            "market": "A101",
-            "title": "A101 Haftanın Yıldızları Broşürü 8-14 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-haftanin-yildizlari-brosuru-8-14-agustos-2026_941313ffb6004f38a02bda57fc2296e5",
-            "tries": 0,
-            "not_before": "2026-08-08"
-        },
-        {
-            "source_key": "ab_dc8ccfae11e54139837a2dbcadabc2b6",
-            "brochure_key": "dc8ccfae11e54139837a2dbcadabc2b6",
-            "market": "A101",
-            "title": "A101 Aldın Aldın Aktüel Ürünler Broşürü 13-19 Ağustos 2026 Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-urunler-brosuru-13-19-agustos-2026-stoklarla-sinirli_dc8ccfae11e54139837a2dbcadabc2b6",
-            "tries": 0,
-            "not_before": "2026-08-13"
-        },
-        {
-            "source_key": "ab_18ed29a15ade4c2c962fe48917aa41a7",
-            "brochure_key": "18ed29a15ade4c2c962fe48917aa41a7",
-            "market": "Şok Market",
-            "title": "Detaylı | Şok Market Hafta Sonu Fırsatları Aktüel Ürünler Broşür 8-11 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-hafta-sonu-firsatlari-aktuel-urunler-brosur-8-11-agustos-2026_18ed29a15ade4c2c962fe48917aa41a7",
-            "tries": 0,
-            "not_before": "2026-08-08"
-        },
-        {
-            "source_key": "ab_10ed032e64984abc8e809645699ce3c4",
-            "brochure_key": "10ed032e64984abc8e809645699ce3c4",
-            "market": "Şok Market",
-            "title": "Şok Market İndirimli Fırsat Ürünleri Broşürü 8-11 Ağustos",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-indirimli-firsat-urunleri-brosuru-8-11-agustos_10ed032e64984abc8e809645699ce3c4",
-            "tries": 0,
-            "not_before": "2026-08-08"
-        },
-        {
-            "source_key": "ab_1bad15627b4d4e098046615ad10181a8",
-            "brochure_key": "1bad15627b4d4e098046615ad10181a8",
-            "market": "Tarım Kooperatif",
-            "title": "Hafta Sonuna Özel Meyve ve Sebze Reyonu Fırsatları",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/hafta-sonuna-ozel-meyve-ve-sebze-reyonu-firsatlari_1bad15627b4d4e098046615ad10181a8",
-            "tries": 0,
-            "not_before": "2026-08-08"
-        },
         {
             "source_key": "ab_bc8f1eb002824d7890de4a729f2b2af8",
             "brochure_key": "bc8f1eb002824d7890de4a729f2b2af8",
@@ -169,6 +88,74 @@
             "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-8-14-agustos-2026_84df659c2b8f48ab95b50fc3fe780632",
             "tries": 0,
             "not_before": "2026-08-08"
+        },
+        {
+            "source_key": "ab_0861b8729f654483921112b7a3c074f1",
+            "brochure_key": "0861b8729f654483921112b7a3c074f1",
+            "market": "Şok Market",
+            "title": "Atıştırmalık Ürünleri Fırsat Broşürü",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/atistirmalik-urunleri-firsat-brosuru_0861b8729f654483921112b7a3c074f1",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_cf45f9cdfe2341398f938d6b88d66238",
+            "brochure_key": "cf45f9cdfe2341398f938d6b88d66238",
+            "market": "Şok Market",
+            "title": "Atıştırmalık Ürünleri Fırsat Broşürü",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/atistirmalik-urunleri-firsat-brosuru_cf45f9cdfe2341398f938d6b88d66238",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_68f8c7a072e54dcfb644995ab19df7a6",
+            "brochure_key": "68f8c7a072e54dcfb644995ab19df7a6",
+            "market": "Şok Market",
+            "title": "Atıştırmalık Ürünleri Fırsat Broşürü",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/atistirmalik-urunleri-firsat-brosuru_68f8c7a072e54dcfb644995ab19df7a6",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_27d4157426ee45aa8cf24b9d339c71b0",
+            "brochure_key": "27d4157426ee45aa8cf24b9d339c71b0",
+            "market": "Şok Market",
+            "title": "Şok Market İndirimli Fırsat Ürünleri Broşürü 8-11 Ağustos",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-indirimli-firsat-urunleri-brosuru-8-11-agustos_27d4157426ee45aa8cf24b9d339c71b0",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_069a76dfb85b46adadd3ee22aca148a7",
+            "brochure_key": "069a76dfb85b46adadd3ee22aca148a7",
+            "market": "Bim",
+            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 9 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-9-agustos-2026-dan-itibaren-stoklarla-sinirli_069a76dfb85b46adadd3ee22aca148a7",
+            "tries": 0,
+            "not_before": "2026-08-09"
+        },
+        {
+            "source_key": "ab_86211590f0974551907ebad7bd695f9b",
+            "brochure_key": "86211590f0974551907ebad7bd695f9b",
+            "market": "Bim",
+            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 12 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-12-agustos-2026-dan-itibaren-stoklarla-sinirli_86211590f0974551907ebad7bd695f9b",
+            "tries": 0,
+            "not_before": "2026-08-12"
+        },
+        {
+            "source_key": "ab_32d244d74ca64af8a86958d1e14224fc",
+            "brochure_key": "32d244d74ca64af8a86958d1e14224fc",
+            "market": "Bim",
+            "title": "Bim Haftanın Önerileri Aktüel Ürünler Broşürü 11 Ağustos 2026'dan İtibaren",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-haftanin-onerileri-aktuel-urunler-brosuru-11-agustos-2026-dan-itibaren_32d244d74ca64af8a86958d1e14224fc",
+            "tries": 0,
+            "not_before": "2026-08-11"
+        },
+        {
+            "source_key": "ab_dc8ccfae11e54139837a2dbcadabc2b6",
+            "brochure_key": "dc8ccfae11e54139837a2dbcadabc2b6",
+            "market": "A101",
+            "title": "A101 Aldın Aldın Aktüel Ürünler Broşürü 13-19 Ağustos 2026 Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-urunler-brosuru-13-19-agustos-2026-stoklarla-sinirli_dc8ccfae11e54139837a2dbcadabc2b6",
+            "tries": 0,
+            "not_before": "2026-08-13"
         }
     ],
     "uploaded": {
@@ -712,7 +699,12 @@
         "ab_5385974047b8485c855439f4b697677e": true,
         "ab_d7900f17b3fc446db69668aa2713df92": true,
         "ab_f70b6e63c77348669d304e14a962a742": true,
-        "ab_0c11e907afa14881ae2b11c0d77174bc": true
+        "ab_0c11e907afa14881ae2b11c0d77174bc": true,
+        "ab_90eec507bd34486988761bd06197654c": true,
+        "ab_941313ffb6004f38a02bda57fc2296e5": true,
+        "ab_18ed29a15ade4c2c962fe48917aa41a7": true,
+        "ab_10ed032e64984abc8e809645699ce3c4": true,
+        "ab_1bad15627b4d4e098046615ad10181a8": true
     },
-    "lastDrainAt": 1786146275
+    "lastDrainAt": 1786149274
 }
