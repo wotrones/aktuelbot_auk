@@ -10,7 +10,7 @@
             "lastCheckedAt": 1786312510
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1786291485
+            "lastCheckedAt": 1786314358
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 1786294211
@@ -88,6 +88,24 @@
             "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-16-agustos-2026-dan-itibaren-stoklarla-sinirli_d9fc44e34710445aba9ef565fbc3cfa9",
             "tries": 0,
             "not_before": "2026-08-16"
+        },
+        {
+            "source_key": "ab_f0734fa4341b4cfea6a63721940e1b15",
+            "brochure_key": "f0734fa4341b4cfea6a63721940e1b15",
+            "market": "Bim",
+            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 19 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-19-agustos-2026-dan-itibaren-stoklarla-sinirli_f0734fa4341b4cfea6a63721940e1b15",
+            "tries": 0,
+            "not_before": "2026-08-19"
+        },
+        {
+            "source_key": "ab_354ff09e23c546428125d550f2fa9261",
+            "brochure_key": "354ff09e23c546428125d550f2fa9261",
+            "market": "Bim",
+            "title": "Bim Haftanın Önerileri Aktüel Ürünler Broşürü 18 Ağustos 2026'dan İtibaren",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-haftanin-onerileri-aktuel-urunler-brosuru-18-agustos-2026-dan-itibaren_354ff09e23c546428125d550f2fa9261",
+            "tries": 0,
+            "not_before": "2026-08-18"
         }
     ],
     "uploaded": {
