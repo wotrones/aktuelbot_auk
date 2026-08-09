@@ -19,7 +19,7 @@
             "lastCheckedAt": 1786232355
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1786212950
+            "lastCheckedAt": 1786233695
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
             "lastCheckedAt": 1786215733
@@ -35,15 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_069a76dfb85b46adadd3ee22aca148a7",
-            "brochure_key": "069a76dfb85b46adadd3ee22aca148a7",
-            "market": "Bim",
-            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 9 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-9-agustos-2026-dan-itibaren-stoklarla-sinirli_069a76dfb85b46adadd3ee22aca148a7",
-            "tries": 0,
-            "not_before": "2026-08-09"
-        },
         {
             "source_key": "ab_86211590f0974551907ebad7bd695f9b",
             "brochure_key": "86211590f0974551907ebad7bd695f9b",
@@ -656,7 +647,8 @@
         "ab_a8fd1ac1393e44b7856b0e8ed483d573": true,
         "ab_454a21a0df53438a8e4f48f9e6f1b461": true,
         "ab_67ba79e806e34369848d6eab9d7b5217": true,
-        "ab_a03037a64ba948d19a3494a7c3db217c": true
+        "ab_a03037a64ba948d19a3494a7c3db217c": true,
+        "ab_069a76dfb85b46adadd3ee22aca148a7": true
     },
-    "lastDrainAt": 1786217923
+    "lastDrainAt": 1786233830
 }
