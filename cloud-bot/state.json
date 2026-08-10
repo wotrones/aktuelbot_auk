@@ -13,7 +13,7 @@
             "lastCheckedAt": 1786400652
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1786369005
+            "lastCheckedAt": 1786403121
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1786372866
@@ -115,6 +115,15 @@
             "href": "https://aktuelbrosurler.com/a101/brosurler/detayli-a101-aldin-aldin-aktuel-urunler-brosuru-13-agustos-2026-dan-itibaren-stoklarla-sinirli_4163ac0c7dcf454da764af6bcbc24a79",
             "tries": 0,
             "not_before": "2026-08-13"
+        },
+        {
+            "source_key": "ab_19183b7846524b2090c9df163fc3414d",
+            "brochure_key": "19183b7846524b2090c9df163fc3414d",
+            "market": "Şok Market",
+            "title": "Şok Market İste Gelsin Ürünleri Broşürü 12-18 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-12-18-agustos-2026_19183b7846524b2090c9df163fc3414d",
+            "tries": 0,
+            "not_before": "2026-08-12"
         }
     ],
     "uploaded": {
