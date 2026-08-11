@@ -19,7 +19,7 @@
             "lastCheckedAt": 1786405621
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1786376234
+            "lastCheckedAt": 1786408621
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
             "lastCheckedAt": 1786379338
@@ -43,15 +43,6 @@
             "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-12-agustos-2026-dan-itibaren-stoklarla-sinirli_86211590f0974551907ebad7bd695f9b",
             "tries": 0,
             "not_before": "2026-08-12"
-        },
-        {
-            "source_key": "ab_32d244d74ca64af8a86958d1e14224fc",
-            "brochure_key": "32d244d74ca64af8a86958d1e14224fc",
-            "market": "Bim",
-            "title": "Bim Haftanın Önerileri Aktüel Ürünler Broşürü 11 Ağustos 2026'dan İtibaren",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-haftanin-onerileri-aktuel-urunler-brosuru-11-agustos-2026-dan-itibaren_32d244d74ca64af8a86958d1e14224fc",
-            "tries": 0,
-            "not_before": "2026-08-11"
         },
         {
             "source_key": "ab_dc8ccfae11e54139837a2dbcadabc2b6",
@@ -687,7 +678,8 @@
         "ab_069a76dfb85b46adadd3ee22aca148a7": true,
         "ab_135ba7d2a69d44579398ca9f7a9ce8ff": true,
         "ab_a8d79303d7e747f193b9163669972bd9": true,
-        "ab_6d0a2d2c83a64ca8b61659962cf70ab1": true
+        "ab_6d0a2d2c83a64ca8b61659962cf70ab1": true,
+        "ab_32d244d74ca64af8a86958d1e14224fc": true
     },
-    "lastDrainAt": 1786400689
+    "lastDrainAt": 1786408753
 }
