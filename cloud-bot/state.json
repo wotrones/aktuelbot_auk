@@ -7,7 +7,7 @@
             "lastCheckedAt": 1786530513
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1786479745
+            "lastCheckedAt": 1786533816
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1786482658
@@ -95,6 +95,15 @@
             "market": "A101",
             "title": "Detaylı | A101 Aldın Aldın Aktüel Ürünler Broşürü 13 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
             "href": "https://aktuelbrosurler.com/a101/brosurler/detayli-a101-aldin-aldin-aktuel-urunler-brosuru-13-agustos-2026-dan-itibaren-stoklarla-sinirli_4163ac0c7dcf454da764af6bcbc24a79",
+            "tries": 0,
+            "not_before": "2026-08-13"
+        },
+        {
+            "source_key": "ab_f3b7421ee7f84ba484cf3fac01d7399a",
+            "brochure_key": "f3b7421ee7f84ba484cf3fac01d7399a",
+            "market": "A101",
+            "title": "A101 Tazenin Yıldızları İndirimli Ürünler Broşürü 13-16 Ağustos",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-tazenin-yildizlari-indirimli-urunler-brosuru-13-16-agustos_f3b7421ee7f84ba484cf3fac01d7399a",
             "tries": 0,
             "not_before": "2026-08-13"
         }
@@ -670,7 +679,10 @@
         "ab_19183b7846524b2090c9df163fc3414d": true,
         "ab_0e0ab34219e94f1fb58827c1e582e383": true,
         "ab_b797468668f747df8965f76b4f8f95ae": true,
-        "ab_5d8bf9e4bc5541578ab41cf03086d801": true
+        "ab_5d8bf9e4bc5541578ab41cf03086d801": true,
+        "ab_5d0bd25166ef4dbf91288ef272abb763": true,
+        "ab_545fa13106a34cfe8112aaad2acefd94": true,
+        "ab_334282bc493148ef9baae31cd6cbbb4d": true
     },
-    "lastDrainAt": 1786530622
+    "lastDrainAt": 1786533869
 }
