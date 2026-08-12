@@ -22,7 +22,7 @@
             "lastCheckedAt": 1786491747
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1786459257
+            "lastCheckedAt": 1786495385
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
             "lastCheckedAt": 1786462730
@@ -35,15 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_86211590f0974551907ebad7bd695f9b",
-            "brochure_key": "86211590f0974551907ebad7bd695f9b",
-            "market": "Bim",
-            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 12 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-12-agustos-2026-dan-itibaren-stoklarla-sinirli_86211590f0974551907ebad7bd695f9b",
-            "tries": 0,
-            "not_before": "2026-08-12"
-        },
         {
             "source_key": "ab_dc8ccfae11e54139837a2dbcadabc2b6",
             "brochure_key": "dc8ccfae11e54139837a2dbcadabc2b6",
@@ -106,15 +97,6 @@
             "href": "https://aktuelbrosurler.com/a101/brosurler/detayli-a101-aldin-aldin-aktuel-urunler-brosuru-13-agustos-2026-dan-itibaren-stoklarla-sinirli_4163ac0c7dcf454da764af6bcbc24a79",
             "tries": 0,
             "not_before": "2026-08-13"
-        },
-        {
-            "source_key": "ab_19183b7846524b2090c9df163fc3414d",
-            "brochure_key": "19183b7846524b2090c9df163fc3414d",
-            "market": "Şok Market",
-            "title": "Şok Market İste Gelsin Ürünleri Broşürü 12-18 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-12-18-agustos-2026_19183b7846524b2090c9df163fc3414d",
-            "tries": 0,
-            "not_before": "2026-08-12"
         }
     ],
     "uploaded": {
@@ -683,7 +665,9 @@
         "ab_c494a02e416e41c2b2d8df6ca4883029": true,
         "ab_6389bb25fd8a4240ac66dc6b72540f62": true,
         "ab_5cb65d5b431b4cc884fafaea0bbcb73b": true,
-        "ab_27cfb0483d6148a6bb2f638ba2f402e6": true
+        "ab_27cfb0483d6148a6bb2f638ba2f402e6": true,
+        "ab_86211590f0974551907ebad7bd695f9b": true,
+        "ab_19183b7846524b2090c9df163fc3414d": true
     },
-    "lastDrainAt": 1786466025
+    "lastDrainAt": 1786495454
 }
