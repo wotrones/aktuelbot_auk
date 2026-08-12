@@ -25,7 +25,7 @@
             "lastCheckedAt": 1786552506
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1786504322
+            "lastCheckedAt": 1786556195
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
             "lastCheckedAt": 1786510965
@@ -104,6 +104,15 @@
             "market": "A101",
             "title": "A101 Tazenin Yıldızları İndirimli Ürünler Broşürü 13-16 Ağustos",
             "href": "https://aktuelbrosurler.com/a101/brosurler/a101-tazenin-yildizlari-indirimli-urunler-brosuru-13-16-agustos_f3b7421ee7f84ba484cf3fac01d7399a",
+            "tries": 0,
+            "not_before": "2026-08-13"
+        },
+        {
+            "source_key": "ab_e41e89dab7bb4feabefb03978c7dc92c",
+            "brochure_key": "e41e89dab7bb4feabefb03978c7dc92c",
+            "market": "Tarım Kooperatif",
+            "title": "25TL ve Üzeri Alışverişlerde İndirimli Ürünler",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/25tl-ve-uzeri-alisverislerde-indirimli-urunler_e41e89dab7bb4feabefb03978c7dc92c",
             "tries": 0,
             "not_before": "2026-08-13"
         }
@@ -684,7 +693,8 @@
         "ab_545fa13106a34cfe8112aaad2acefd94": true,
         "ab_334282bc493148ef9baae31cd6cbbb4d": true,
         "ab_e3acd32d5e244455a0837e1f9e200a35": true,
-        "ab_8699aee494c840f0977e2f876b1c0cf3": true
+        "ab_8699aee494c840f0977e2f876b1c0cf3": true,
+        "ab_c3556c2052a74fef9688119519131427": true
     },
-    "lastDrainAt": 1786542270
+    "lastDrainAt": 1786556248
 }
