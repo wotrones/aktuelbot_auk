@@ -1,0 +1,22 @@
+name: onesignal delivery stats
+# Verilen bildirim id'sinin teslimat kirilimini loglar (key loglanmaz).
+on:
+  workflow_dispatch:
+    inputs:
+      notification_id:
+        description: 'OneSignal notification id'
+        required: true
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch delivery outcome
+        env:
+          APP_ID: ${{ vars.ONESIGNAL_APP_ID }}
+          KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
+          NID: ${{ github.event.inputs.notification_id }}
+        run: |
+          curl -sf "https://api.onesignal.com/notifications/${NID}?app_id=${APP_ID}" \
+            -H "Authorization: Key ${KEY}" -H "accept: application/json" \
+            | jq '{queued_at, completed_at, successful, failed, errored, converted, remaining, received, platform_delivery_stats}'
