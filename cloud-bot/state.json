@@ -10,7 +10,7 @@
             "lastCheckedAt": 1786661613
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1786627115
+            "lastCheckedAt": 1786663968
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 1786631683
@@ -79,6 +79,69 @@
             "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-kooperatif-market-indirim-bulteni-brosuru-hafta-sonuna-ozel-firsatlar_70e1d3d54da14111adbcf725eaa2bd0a",
             "tries": 0,
             "not_before": "2026-08-14"
+        },
+        {
+            "source_key": "ab_46bd3fe16e1f4e318403a54c5c1aefe7",
+            "brochure_key": "46bd3fe16e1f4e318403a54c5c1aefe7",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 14-17 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-14-17-agustos-2026_46bd3fe16e1f4e318403a54c5c1aefe7",
+            "tries": 0,
+            "not_before": "2026-08-14"
+        },
+        {
+            "source_key": "ab_43f612a4eb3c44a0840bcae5af1d7860",
+            "brochure_key": "43f612a4eb3c44a0840bcae5af1d7860",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 14-17 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-14-17-agustos-2026_43f612a4eb3c44a0840bcae5af1d7860",
+            "tries": 0,
+            "not_before": "2026-08-14"
+        },
+        {
+            "source_key": "ab_99ea81e9d6ad4a0a84a7cd937aa8400f",
+            "brochure_key": "99ea81e9d6ad4a0a84a7cd937aa8400f",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 14-17 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-14-17-agustos-2026_99ea81e9d6ad4a0a84a7cd937aa8400f",
+            "tries": 0,
+            "not_before": "2026-08-14"
+        },
+        {
+            "source_key": "ab_bc66883fb41a4e33b8e694d4640ea220",
+            "brochure_key": "bc66883fb41a4e33b8e694d4640ea220",
+            "market": "Bim",
+            "title": "Aynı Ürünün İkincisi %25 İndirimli Ürünler",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/ayni-urunun-ikincisi-25-indirimli-urunler_bc66883fb41a4e33b8e694d4640ea220",
+            "tries": 0,
+            "not_before": "2026-08-14"
+        },
+        {
+            "source_key": "ab_eccf19b0fdb74a0b962ebc140e516ab8",
+            "brochure_key": "eccf19b0fdb74a0b962ebc140e516ab8",
+            "market": "Bim",
+            "title": "Bim Aynı Ürünün İkincisi %50 İndirimli Ürünler Broşürü 14-17 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-ayni-urunun-ikincisi-50-indirimli-urunler-brosuru-14-17-agustos-2026_eccf19b0fdb74a0b962ebc140e516ab8",
+            "tries": 0,
+            "not_before": "2026-08-14"
+        },
+        {
+            "source_key": "ab_25b50490ead045ac80235ce5e9dd5589",
+            "brochure_key": "25b50490ead045ac80235ce5e9dd5589",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 14-21 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-14-21-agustos-2026_25b50490ead045ac80235ce5e9dd5589",
+            "tries": 0,
+            "not_before": "2026-08-14"
+        },
+        {
+            "source_key": "ab_acff25e7647c463d8c5bb9196dff08eb",
+            "brochure_key": "acff25e7647c463d8c5bb9196dff08eb",
+            "market": "Bim",
+            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 21 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-21-agustos-2026-dan-itibaren-stoklarla-sinirli_acff25e7647c463d8c5bb9196dff08eb",
+            "tries": 0,
+            "not_before": "2026-08-21"
         }
     ],
     "uploaded": {
@@ -674,5 +737,5 @@
         "ab_f85cb3be4a8342a69838b898b82d839a": true,
         "ab_34dee71a25d0414498ee54ef71e92d4b": true
     },
-    "lastDrainAt": 1786652721
+    "lastDrainAt": 1786663980
 }
