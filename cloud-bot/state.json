@@ -25,7 +25,7 @@
             "lastCheckedAt": 1786642345
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1786600971
+            "lastCheckedAt": 1786645857
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
             "lastCheckedAt": 1786607242
@@ -70,6 +70,15 @@
             "href": "https://aktuelbrosurler.com/bim/brosurler/bim-haftanin-onerileri-aktuel-urunler-brosuru-18-agustos-2026-dan-itibaren_354ff09e23c546428125d550f2fa9261",
             "tries": 0,
             "not_before": "2026-08-18"
+        },
+        {
+            "source_key": "ab_70e1d3d54da14111adbcf725eaa2bd0a",
+            "brochure_key": "70e1d3d54da14111adbcf725eaa2bd0a",
+            "market": "Tarım Kooperatif",
+            "title": "Tarım Kredi Kooperatif Market İndirim Bülteni Broşürü - Hafta Sonuna Özel Fırsatlar",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-kooperatif-market-indirim-bulteni-brosuru-hafta-sonuna-ozel-firsatlar_70e1d3d54da14111adbcf725eaa2bd0a",
+            "tries": 0,
+            "not_before": "2026-08-14"
         }
     ],
     "uploaded": {
@@ -660,7 +669,8 @@
         "ab_aecc41d2a75b4bf9be77d70cdbfd99f9": true,
         "ab_1277fe494eed47ee81f27593b7480eb9": true,
         "ab_39c6ee0bd4974921bbc9dacd109bcc0f": true,
-        "ab_79aecc540eb543cfa1f08c0767537aaa": true
+        "ab_79aecc540eb543cfa1f08c0767537aaa": true,
+        "ab_9be213dd2baf4861a4567292a7042cce": true
     },
-    "lastDrainAt": 1786631705
+    "lastDrainAt": 1786645900
 }
