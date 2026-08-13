@@ -1,0 +1,23 @@
+name: onesignal targeted test send
+# Yalnizca verilen subscription id'ye test bildirimi atar (toplu gonderim YAPMAZ).
+on:
+  workflow_dispatch:
+    inputs:
+      subscription_id:
+        description: 'OneSignal subscription id (tek cihaz)'
+        required: true
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send targeted notification
+        env:
+          APP_ID: ${{ vars.ONESIGNAL_APP_ID }}
+          KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
+          SID: ${{ github.event.inputs.subscription_id }}
+        run: |
+          curl -sf -X POST "https://api.onesignal.com/notifications" \
+            -H "Authorization: Key ${KEY}" -H "Content-Type: application/json" \
+            -d "{\"app_id\":\"${APP_ID}\",\"target_channel\":\"push\",\"include_subscription_ids\":[\"${SID}\"],\"headings\":{\"en\":\"Test\"},\"contents\":{\"en\":\"OneSignal hedefli teslimat testi\"}}" \
+            | jq '{id, errors}'
