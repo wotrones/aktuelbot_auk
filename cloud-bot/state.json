@@ -19,7 +19,7 @@
             "lastCheckedAt": 1786579804
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1786549216
+            "lastCheckedAt": 1786589146
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
             "lastCheckedAt": 1786552506
@@ -35,42 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_1b3d150d930d412dae875e617d4713d6",
-            "brochure_key": "1b3d150d930d412dae875e617d4713d6",
-            "market": "Hakmar",
-            "title": "Hakmar Aktüel Ürünler İndirim Bülteni Broşürü",
-            "href": "https://aktuelbrosurler.com/hakmar/brosurler/hakmar-aktuel-urunler-indirim-bulteni-brosuru_1b3d150d930d412dae875e617d4713d6",
-            "tries": 0,
-            "not_before": "2026-08-13"
-        },
-        {
-            "source_key": "ab_aecc41d2a75b4bf9be77d70cdbfd99f9",
-            "brochure_key": "aecc41d2a75b4bf9be77d70cdbfd99f9",
-            "market": "A101",
-            "title": "A101 Aldın Aldın Aktüel Ürünler Broşürü 13 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-urunler-brosuru-13-agustos-2026-dan-itibaren-stoklarla-sinirli_aecc41d2a75b4bf9be77d70cdbfd99f9",
-            "tries": 0,
-            "not_before": "2026-08-13"
-        },
-        {
-            "source_key": "ab_1277fe494eed47ee81f27593b7480eb9",
-            "brochure_key": "1277fe494eed47ee81f27593b7480eb9",
-            "market": "A101",
-            "title": "Sadece Online Alışverişe Özel Aldın Aldın A101 Ekstra Aktüel Ürünler Broşürü 13-20 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/sadece-online-alisverise-ozel-aldin-aldin-a101-ekstra-aktuel-urunler-brosuru-13-20-agustos-2026_1277fe494eed47ee81f27593b7480eb9",
-            "tries": 0,
-            "not_before": "2026-08-13"
-        },
-        {
-            "source_key": "ab_39c6ee0bd4974921bbc9dacd109bcc0f",
-            "brochure_key": "39c6ee0bd4974921bbc9dacd109bcc0f",
-            "market": "A101",
-            "title": "Sadece Online Alışverişe Özel Aldın Aldın A101 Ekstra Aktüel Ürünler Broşürü 13 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/sadece-online-alisverise-ozel-aldin-aldin-a101-ekstra-aktuel-urunler-brosuru-13-agustos-2026_39c6ee0bd4974921bbc9dacd109bcc0f",
-            "tries": 0,
-            "not_before": "2026-08-13"
-        },
         {
             "source_key": "ab_037388cee70049beaf7f93c7d2281bbd",
             "brochure_key": "037388cee70049beaf7f93c7d2281bbd",
@@ -691,7 +655,11 @@
         "ab_163b124de8284cd2b35c6ed8cbec5ef8": true,
         "ab_4163ac0c7dcf454da764af6bcbc24a79": true,
         "ab_f3b7421ee7f84ba484cf3fac01d7399a": true,
-        "ab_e41e89dab7bb4feabefb03978c7dc92c": true
+        "ab_e41e89dab7bb4feabefb03978c7dc92c": true,
+        "ab_1b3d150d930d412dae875e617d4713d6": true,
+        "ab_aecc41d2a75b4bf9be77d70cdbfd99f9": true,
+        "ab_1277fe494eed47ee81f27593b7480eb9": true,
+        "ab_39c6ee0bd4974921bbc9dacd109bcc0f": true
     },
-    "lastDrainAt": 1786580268
+    "lastDrainAt": 1786589336
 }
