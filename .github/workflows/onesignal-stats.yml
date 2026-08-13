@@ -19,4 +19,4 @@ jobs:
         run: |
           curl -sf "https://api.onesignal.com/notifications/${NID}?app_id=${APP_ID}" \
             -H "Authorization: Key ${KEY}" -H "accept: application/json" \
-            | jq '{queued_at, completed_at, successful, failed, errored, converted, remaining, received, platform_delivery_stats}'
+            | jq .
