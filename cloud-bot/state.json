@@ -16,7 +16,7 @@
             "lastCheckedAt": 1786668021
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1786635242
+            "lastCheckedAt": 1786677126
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
             "lastCheckedAt": 1786638580
@@ -36,33 +36,6 @@
     },
     "queue": [
         {
-            "source_key": "ab_bc66883fb41a4e33b8e694d4640ea220",
-            "brochure_key": "bc66883fb41a4e33b8e694d4640ea220",
-            "market": "Bim",
-            "title": "Aynı Ürünün İkincisi %25 İndirimli Ürünler",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/ayni-urunun-ikincisi-25-indirimli-urunler_bc66883fb41a4e33b8e694d4640ea220",
-            "tries": 0,
-            "not_before": "2026-08-14"
-        },
-        {
-            "source_key": "ab_eccf19b0fdb74a0b962ebc140e516ab8",
-            "brochure_key": "eccf19b0fdb74a0b962ebc140e516ab8",
-            "market": "Bim",
-            "title": "Bim Aynı Ürünün İkincisi %50 İndirimli Ürünler Broşürü 14-17 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-ayni-urunun-ikincisi-50-indirimli-urunler-brosuru-14-17-agustos-2026_eccf19b0fdb74a0b962ebc140e516ab8",
-            "tries": 0,
-            "not_before": "2026-08-14"
-        },
-        {
-            "source_key": "ab_25b50490ead045ac80235ce5e9dd5589",
-            "brochure_key": "25b50490ead045ac80235ce5e9dd5589",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 14-21 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-14-21-agustos-2026_25b50490ead045ac80235ce5e9dd5589",
-            "tries": 0,
-            "not_before": "2026-08-14"
-        },
-        {
             "source_key": "ab_acff25e7647c463d8c5bb9196dff08eb",
             "brochure_key": "acff25e7647c463d8c5bb9196dff08eb",
             "market": "Bim",
@@ -79,15 +52,6 @@
             "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-15-18-agustos-2026_c5ede0632ed54928ac6515408c3c56dc",
             "tries": 0,
             "not_before": "2026-08-15"
-        },
-        {
-            "source_key": "ab_46bd3fe16e1f4e318403a54c5c1aefe7",
-            "brochure_key": "46bd3fe16e1f4e318403a54c5c1aefe7",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 14-17 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-14-17-agustos-2026_46bd3fe16e1f4e318403a54c5c1aefe7",
-            "tries": 1,
-            "not_before": "2026-08-14"
         },
         {
             "source_key": "ab_d9fc44e34710445aba9ef565fbc3cfa9",
@@ -712,7 +676,11 @@
         "ab_037388cee70049beaf7f93c7d2281bbd": true,
         "ab_70e1d3d54da14111adbcf725eaa2bd0a": true,
         "ab_43f612a4eb3c44a0840bcae5af1d7860": true,
-        "ab_99ea81e9d6ad4a0a84a7cd937aa8400f": true
+        "ab_99ea81e9d6ad4a0a84a7cd937aa8400f": true,
+        "ab_bc66883fb41a4e33b8e694d4640ea220": true,
+        "ab_eccf19b0fdb74a0b962ebc140e516ab8": true,
+        "ab_25b50490ead045ac80235ce5e9dd5589": true,
+        "ab_46bd3fe16e1f4e318403a54c5c1aefe7": true
     },
-    "lastDrainAt": 1786668267
+    "lastDrainAt": 1786677263
 }
