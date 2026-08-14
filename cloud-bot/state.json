@@ -13,7 +13,7 @@
             "lastCheckedAt": 1786663968
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1786631683
+            "lastCheckedAt": 1786668021
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1786635242
@@ -35,78 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_037388cee70049beaf7f93c7d2281bbd",
-            "brochure_key": "037388cee70049beaf7f93c7d2281bbd",
-            "market": "Bim",
-            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 14 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-14-agustos-2026-dan-itibaren-stoklarla-sinirli_037388cee70049beaf7f93c7d2281bbd",
-            "tries": 0,
-            "not_before": "2026-08-14"
-        },
-        {
-            "source_key": "ab_d9fc44e34710445aba9ef565fbc3cfa9",
-            "brochure_key": "d9fc44e34710445aba9ef565fbc3cfa9",
-            "market": "Bim",
-            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 16 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-16-agustos-2026-dan-itibaren-stoklarla-sinirli_d9fc44e34710445aba9ef565fbc3cfa9",
-            "tries": 0,
-            "not_before": "2026-08-16"
-        },
-        {
-            "source_key": "ab_f0734fa4341b4cfea6a63721940e1b15",
-            "brochure_key": "f0734fa4341b4cfea6a63721940e1b15",
-            "market": "Bim",
-            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 19 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-19-agustos-2026-dan-itibaren-stoklarla-sinirli_f0734fa4341b4cfea6a63721940e1b15",
-            "tries": 0,
-            "not_before": "2026-08-19"
-        },
-        {
-            "source_key": "ab_354ff09e23c546428125d550f2fa9261",
-            "brochure_key": "354ff09e23c546428125d550f2fa9261",
-            "market": "Bim",
-            "title": "Bim Haftanın Önerileri Aktüel Ürünler Broşürü 18 Ağustos 2026'dan İtibaren",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-haftanin-onerileri-aktuel-urunler-brosuru-18-agustos-2026-dan-itibaren_354ff09e23c546428125d550f2fa9261",
-            "tries": 0,
-            "not_before": "2026-08-18"
-        },
-        {
-            "source_key": "ab_70e1d3d54da14111adbcf725eaa2bd0a",
-            "brochure_key": "70e1d3d54da14111adbcf725eaa2bd0a",
-            "market": "Tarım Kooperatif",
-            "title": "Tarım Kredi Kooperatif Market İndirim Bülteni Broşürü - Hafta Sonuna Özel Fırsatlar",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-kooperatif-market-indirim-bulteni-brosuru-hafta-sonuna-ozel-firsatlar_70e1d3d54da14111adbcf725eaa2bd0a",
-            "tries": 0,
-            "not_before": "2026-08-14"
-        },
-        {
-            "source_key": "ab_46bd3fe16e1f4e318403a54c5c1aefe7",
-            "brochure_key": "46bd3fe16e1f4e318403a54c5c1aefe7",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 14-17 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-14-17-agustos-2026_46bd3fe16e1f4e318403a54c5c1aefe7",
-            "tries": 0,
-            "not_before": "2026-08-14"
-        },
-        {
-            "source_key": "ab_43f612a4eb3c44a0840bcae5af1d7860",
-            "brochure_key": "43f612a4eb3c44a0840bcae5af1d7860",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 14-17 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-14-17-agustos-2026_43f612a4eb3c44a0840bcae5af1d7860",
-            "tries": 0,
-            "not_before": "2026-08-14"
-        },
-        {
-            "source_key": "ab_99ea81e9d6ad4a0a84a7cd937aa8400f",
-            "brochure_key": "99ea81e9d6ad4a0a84a7cd937aa8400f",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 14-17 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-14-17-agustos-2026_99ea81e9d6ad4a0a84a7cd937aa8400f",
-            "tries": 0,
-            "not_before": "2026-08-14"
-        },
         {
             "source_key": "ab_bc66883fb41a4e33b8e694d4640ea220",
             "brochure_key": "bc66883fb41a4e33b8e694d4640ea220",
@@ -142,6 +70,51 @@
             "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-21-agustos-2026-dan-itibaren-stoklarla-sinirli_acff25e7647c463d8c5bb9196dff08eb",
             "tries": 0,
             "not_before": "2026-08-21"
+        },
+        {
+            "source_key": "ab_c5ede0632ed54928ac6515408c3c56dc",
+            "brochure_key": "c5ede0632ed54928ac6515408c3c56dc",
+            "market": "Şok Market",
+            "title": "Şok Market İste Gelsin Ürünleri Broşürü 15-18 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-15-18-agustos-2026_c5ede0632ed54928ac6515408c3c56dc",
+            "tries": 0,
+            "not_before": "2026-08-15"
+        },
+        {
+            "source_key": "ab_46bd3fe16e1f4e318403a54c5c1aefe7",
+            "brochure_key": "46bd3fe16e1f4e318403a54c5c1aefe7",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 14-17 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-14-17-agustos-2026_46bd3fe16e1f4e318403a54c5c1aefe7",
+            "tries": 1,
+            "not_before": "2026-08-14"
+        },
+        {
+            "source_key": "ab_d9fc44e34710445aba9ef565fbc3cfa9",
+            "brochure_key": "d9fc44e34710445aba9ef565fbc3cfa9",
+            "market": "Bim",
+            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 16 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-16-agustos-2026-dan-itibaren-stoklarla-sinirli_d9fc44e34710445aba9ef565fbc3cfa9",
+            "tries": 0,
+            "not_before": "2026-08-16"
+        },
+        {
+            "source_key": "ab_f0734fa4341b4cfea6a63721940e1b15",
+            "brochure_key": "f0734fa4341b4cfea6a63721940e1b15",
+            "market": "Bim",
+            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 19 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-19-agustos-2026-dan-itibaren-stoklarla-sinirli_f0734fa4341b4cfea6a63721940e1b15",
+            "tries": 0,
+            "not_before": "2026-08-19"
+        },
+        {
+            "source_key": "ab_354ff09e23c546428125d550f2fa9261",
+            "brochure_key": "354ff09e23c546428125d550f2fa9261",
+            "market": "Bim",
+            "title": "Bim Haftanın Önerileri Aktüel Ürünler Broşürü 18 Ağustos 2026'dan İtibaren",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-haftanin-onerileri-aktuel-urunler-brosuru-18-agustos-2026-dan-itibaren_354ff09e23c546428125d550f2fa9261",
+            "tries": 0,
+            "not_before": "2026-08-18"
         }
     ],
     "uploaded": {
@@ -735,7 +708,11 @@
         "ab_79aecc540eb543cfa1f08c0767537aaa": true,
         "ab_9be213dd2baf4861a4567292a7042cce": true,
         "ab_f85cb3be4a8342a69838b898b82d839a": true,
-        "ab_34dee71a25d0414498ee54ef71e92d4b": true
+        "ab_34dee71a25d0414498ee54ef71e92d4b": true,
+        "ab_037388cee70049beaf7f93c7d2281bbd": true,
+        "ab_70e1d3d54da14111adbcf725eaa2bd0a": true,
+        "ab_43f612a4eb3c44a0840bcae5af1d7860": true,
+        "ab_99ea81e9d6ad4a0a84a7cd937aa8400f": true
     },
-    "lastDrainAt": 1786663980
+    "lastDrainAt": 1786668267
 }
