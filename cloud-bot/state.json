@@ -10,7 +10,7 @@
             "lastCheckedAt": 1786743821
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1786717125
+            "lastCheckedAt": 1786744829
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 1786720237
@@ -140,6 +140,24 @@
             "market": "A101",
             "title": "10 TL ve Üzeri Alışverişlerde İndirimli Fırsat Ürünleri Broşürü 15-21 Ağustos 2026",
             "href": "https://aktuelbrosurler.com/a101/brosurler/10-tl-ve-uzeri-alisverislerde-indirimli-firsat-urunleri-brosuru-15-21-agustos-2026_3390a5f9f7334d70b292d22e7c434571",
+            "tries": 0,
+            "not_before": "2026-08-15"
+        },
+        {
+            "source_key": "ab_901dd3c3205a4e249fe8c3a4b068e4b3",
+            "brochure_key": "901dd3c3205a4e249fe8c3a4b068e4b3",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 15-21 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-15-21-agustos-2026_901dd3c3205a4e249fe8c3a4b068e4b3",
+            "tries": 0,
+            "not_before": "2026-08-15"
+        },
+        {
+            "source_key": "ab_44b8cd9aaf2a410ca68ab5b50d0f4b32",
+            "brochure_key": "44b8cd9aaf2a410ca68ab5b50d0f4b32",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 15-21 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-15-21-agustos-2026_44b8cd9aaf2a410ca68ab5b50d0f4b32",
             "tries": 0,
             "not_before": "2026-08-15"
         }
@@ -749,7 +767,8 @@
         "ab_efaba9fe1461417a89bee6958c30cbfc": true,
         "ab_d2275ffef0d745da8a40d0dfefbe9b8d": true,
         "ab_e55680b6e8984bddac436c28778a13f0": true,
-        "ab_6296d531f0e34a3eaa6d8a8a2ccd0010": true
+        "ab_6296d531f0e34a3eaa6d8a8a2ccd0010": true,
+        "ab_bb26010f56cb4d12b7a7e3640efa65ba": true
     },
-    "lastDrainAt": 1786727216
+    "lastDrainAt": 1786744843
 }
