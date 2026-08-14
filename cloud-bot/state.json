@@ -25,7 +25,7 @@
             "lastCheckedAt": 1786750861
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1786734428
+            "lastCheckedAt": 1786751954
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
             "lastCheckedAt": 1786737215
@@ -176,6 +176,15 @@
             "market": "Şok Market",
             "title": "Şok Market Fırsat Ürünleri Broşürü 15-18 Ağustos 2026",
             "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-firsat-urunleri-brosuru-15-18-agustos-2026_4c7c859b5b594dd188e547f215a24508",
+            "tries": 0,
+            "not_before": "2026-08-15"
+        },
+        {
+            "source_key": "ab_b072fe528e734675acdd026349fdbb19",
+            "brochure_key": "b072fe528e734675acdd026349fdbb19",
+            "market": "Tarım Kooperatif",
+            "title": "Hafta Sonuna Özel Meyve ve Sebze Reyonu Fırsatları",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/hafta-sonuna-ozel-meyve-ve-sebze-reyonu-firsatlari_b072fe528e734675acdd026349fdbb19",
             "tries": 0,
             "not_before": "2026-08-15"
         }
@@ -788,5 +797,5 @@
         "ab_6296d531f0e34a3eaa6d8a8a2ccd0010": true,
         "ab_bb26010f56cb4d12b7a7e3640efa65ba": true
     },
-    "lastDrainAt": 1786744843
+    "lastDrainAt": 1786751970
 }
