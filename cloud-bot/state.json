@@ -7,7 +7,7 @@
             "lastCheckedAt": 1786742147
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1786712556
+            "lastCheckedAt": 1786743821
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1786717125
@@ -79,6 +79,69 @@
             "href": "https://aktuelbrosurler.com/bim/brosurler/bim-haftanin-onerileri-aktuel-urunler-brosuru-18-agustos-2026-dan-itibaren_354ff09e23c546428125d550f2fa9261",
             "tries": 0,
             "not_before": "2026-08-18"
+        },
+        {
+            "source_key": "ab_e0a092444b1746d38c797132a7b70c11",
+            "brochure_key": "e0a092444b1746d38c797132a7b70c11",
+            "market": "A101",
+            "title": "A101 Aldın Aldın Aktüel Çikolata Ürünleri Broşürü 20 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-cikolata-urunleri-brosuru-20-agustos-2026-dan-itibaren-stoklarla-sinirli_e0a092444b1746d38c797132a7b70c11",
+            "tries": 0,
+            "not_before": "2026-08-20"
+        },
+        {
+            "source_key": "ab_16da52ce5e514ab7aaff4d8fbf138ccd",
+            "brochure_key": "16da52ce5e514ab7aaff4d8fbf138ccd",
+            "market": "A101",
+            "title": "A101 Fırsat Ürünleri Broşürü 15-21 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-firsat-urunleri-brosuru-15-21-agustos-2026_16da52ce5e514ab7aaff4d8fbf138ccd",
+            "tries": 0,
+            "not_before": "2026-08-15"
+        },
+        {
+            "source_key": "ab_c4abf5337f544d418e01d4ef54d60abc",
+            "brochure_key": "c4abf5337f544d418e01d4ef54d60abc",
+            "market": "A101",
+            "title": "A101 Fırsat Ürünleri Broşürü 15-21 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-firsat-urunleri-brosuru-15-21-agustos-2026_c4abf5337f544d418e01d4ef54d60abc",
+            "tries": 0,
+            "not_before": "2026-08-15"
+        },
+        {
+            "source_key": "ab_1b2ee8262f284c92a83857cc256ce7f4",
+            "brochure_key": "1b2ee8262f284c92a83857cc256ce7f4",
+            "market": "A101",
+            "title": "A101 Haftanın Yıldızları Broşürü 15-21 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-haftanin-yildizlari-brosuru-15-21-agustos-2026_1b2ee8262f284c92a83857cc256ce7f4",
+            "tries": 0,
+            "not_before": "2026-08-15"
+        },
+        {
+            "source_key": "ab_da5b0e4436f7406197aefd452c5ca239",
+            "brochure_key": "da5b0e4436f7406197aefd452c5ca239",
+            "market": "A101",
+            "title": "A101 Aldın Aldın Aktüel TV Ürünleri Broşürü 20-26 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-tv-urunleri-brosuru-20-26-agustos-2026_da5b0e4436f7406197aefd452c5ca239",
+            "tries": 0,
+            "not_before": "2026-08-20"
+        },
+        {
+            "source_key": "ab_716a25bf44074d999e244231b9a294ed",
+            "brochure_key": "716a25bf44074d999e244231b9a294ed",
+            "market": "A101",
+            "title": "A101 Aldın Aldın Aktüel Ürünler Broşürü 20 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-urunler-brosuru-20-agustos-2026-dan-itibaren-stoklarla-sinirli_716a25bf44074d999e244231b9a294ed",
+            "tries": 0,
+            "not_before": "2026-08-20"
+        },
+        {
+            "source_key": "ab_3390a5f9f7334d70b292d22e7c434571",
+            "brochure_key": "3390a5f9f7334d70b292d22e7c434571",
+            "market": "A101",
+            "title": "10 TL ve Üzeri Alışverişlerde İndirimli Fırsat Ürünleri Broşürü 15-21 Ağustos 2026",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/10-tl-ve-uzeri-alisverislerde-indirimli-firsat-urunleri-brosuru-15-21-agustos-2026_3390a5f9f7334d70b292d22e7c434571",
+            "tries": 0,
+            "not_before": "2026-08-15"
         }
     ],
     "uploaded": {
