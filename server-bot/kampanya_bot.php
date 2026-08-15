@@ -370,8 +370,11 @@ try {
         $start = null;
         $end = null;
         try {
-            $start = $dates['start'] ? new DateTimeImmutable((string) $dates['start']) : null;
-            $end = $dates['end'] ? new DateTimeImmutable(((string) $dates['end']) . ' 23:59:59') : null;
+            // Tarihler Turkiye saatiyle yazilir; UTC yazilinca 31.08 23:59
+            // cihazda 01.09 gorunuyordu.
+            $tz = new DateTimeZone('Europe/Istanbul');
+            $start = $dates['start'] ? new DateTimeImmutable((string) $dates['start'], $tz) : null;
+            $end = $dates['end'] ? new DateTimeImmutable(((string) $dates['end']) . ' 23:59:59', $tz) : null;
         } catch (Throwable $e) {
             // tarih parse edilemezse null kalir
         }
