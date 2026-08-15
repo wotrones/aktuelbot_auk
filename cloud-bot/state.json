@@ -31,55 +31,10 @@
             "lastCheckedAt": 1786758054
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1786738978
+            "lastCheckedAt": 1786761492
         }
     },
     "queue": [
-        {
-            "source_key": "ab_901dd3c3205a4e249fe8c3a4b068e4b3",
-            "brochure_key": "901dd3c3205a4e249fe8c3a4b068e4b3",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 15-21 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-15-21-agustos-2026_901dd3c3205a4e249fe8c3a4b068e4b3",
-            "tries": 0,
-            "not_before": "2026-08-15"
-        },
-        {
-            "source_key": "ab_44b8cd9aaf2a410ca68ab5b50d0f4b32",
-            "brochure_key": "44b8cd9aaf2a410ca68ab5b50d0f4b32",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 15-21 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-15-21-agustos-2026_44b8cd9aaf2a410ca68ab5b50d0f4b32",
-            "tries": 0,
-            "not_before": "2026-08-15"
-        },
-        {
-            "source_key": "ab_9ae2e45b00ca457c876dc4f2a921e2e0",
-            "brochure_key": "9ae2e45b00ca457c876dc4f2a921e2e0",
-            "market": "Şok Market",
-            "title": "Şok Market Fırsat Ürünleri Broşürü 15-21 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-firsat-urunleri-brosuru-15-21-agustos-2026_9ae2e45b00ca457c876dc4f2a921e2e0",
-            "tries": 0,
-            "not_before": "2026-08-15"
-        },
-        {
-            "source_key": "ab_4c7c859b5b594dd188e547f215a24508",
-            "brochure_key": "4c7c859b5b594dd188e547f215a24508",
-            "market": "Şok Market",
-            "title": "Şok Market Fırsat Ürünleri Broşürü 15-18 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-firsat-urunleri-brosuru-15-18-agustos-2026_4c7c859b5b594dd188e547f215a24508",
-            "tries": 0,
-            "not_before": "2026-08-15"
-        },
-        {
-            "source_key": "ab_b072fe528e734675acdd026349fdbb19",
-            "brochure_key": "b072fe528e734675acdd026349fdbb19",
-            "market": "Tarım Kooperatif",
-            "title": "Hafta Sonuna Özel Meyve ve Sebze Reyonu Fırsatları",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/hafta-sonuna-ozel-meyve-ve-sebze-reyonu-firsatlari_b072fe528e734675acdd026349fdbb19",
-            "tries": 0,
-            "not_before": "2026-08-15"
-        },
         {
             "source_key": "ab_acff25e7647c463d8c5bb9196dff08eb",
             "brochure_key": "acff25e7647c463d8c5bb9196dff08eb",
@@ -755,7 +710,12 @@
         "ab_16da52ce5e514ab7aaff4d8fbf138ccd": true,
         "ab_c4abf5337f544d418e01d4ef54d60abc": true,
         "ab_1b2ee8262f284c92a83857cc256ce7f4": true,
-        "ab_3390a5f9f7334d70b292d22e7c434571": true
+        "ab_3390a5f9f7334d70b292d22e7c434571": true,
+        "ab_901dd3c3205a4e249fe8c3a4b068e4b3": true,
+        "ab_44b8cd9aaf2a410ca68ab5b50d0f4b32": true,
+        "ab_9ae2e45b00ca457c876dc4f2a921e2e0": true,
+        "ab_4c7c859b5b594dd188e547f215a24508": true,
+        "ab_b072fe528e734675acdd026349fdbb19": true
     },
-    "lastDrainAt": 1786758164
+    "lastDrainAt": 1786761697
 }
