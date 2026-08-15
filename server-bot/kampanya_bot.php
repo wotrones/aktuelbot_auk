@@ -377,10 +377,9 @@ try {
             $yeni++;
         }
         k_log("Sayfa {$page}: " . count($cards) . ' kart, yeni: ' . $yeni);
-        // Sayfa tamamen bilinen kayitlardan olusuyorsa devami da eskidir.
-        if ($yeni === 0 && $page > 1) {
-            break;
-        }
+        // NOT: erken cikis YOK — eski kayitlar sayfalara dagilmis olabilecegi
+        // icin "yeni yok" sayfasi katalogun bittigi anlamina gelmez. max_pages
+        // kadar taranir (~95 istek, istekler arasi bekleme ile ~2 dk).
         k_sleep_ms($cfg['request_delay_ms']);
     }
 
