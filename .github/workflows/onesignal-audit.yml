@@ -1,0 +1,24 @@
+name: onesignal audience audit
+# Abone havuzunun platform/durum dokumu (ilk 300 kayit ornegi + toplam).
+on:
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sample players and summarize
+        env:
+          APP_ID: ${{ vars.ONESIGNAL_APP_ID }}
+          KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
+        run: |
+          curl -sf "https://api.onesignal.com/players?app_id=${APP_ID}&limit=300" \
+            -H "Authorization: Key ${KEY}" -H "accept: application/json" -o players.json
+          jq '{total_count, ornek: (.players | length),
+               platform_dagilimi: (.players | group_by(.device_type) | map({tip: .[0].device_type, adet: length})),
+               abonelik_durumu: (.players | group_by(.device_type) | map({tip: .[0].device_type,
+                 abone: (map(select(.invalid_identifier != true and .notification_types >= 1)) | length),
+                 gecersiz: (map(select(.invalid_identifier == true)) | length),
+                 izin_yok: (map(select(.notification_types < 1 and .invalid_identifier != true)) | length)})),
+               en_yeni_kayit: (.players | map(.created_at) | max),
+               son_aktif: (.players | map(.last_active) | max)}' players.json
