@@ -3,16 +3,18 @@
 declare(strict_types=1);
 
 /**
- * kampanya_bot.php — getkampania.com'dan kampanya çeker, Firestore'a yazar.
+ * kampanya_bot.php — rivoxe.com'dan kampanya çeker, Firestore'a yazar.
  *
  * Kullanıcının sunucusunda cron ile çalışır (GitHub Actions DEĞİL). Manuel
  * kampanya ekleme yok; tek kaynak bu bot. Uygulamadaki "Kampanyalar" sekmesi
  * `kampanyalar` koleksiyonunu okur.
  *
- * Veri kaynağı: sitenin sektör sayfalarının SSR çıktısına gömülü JSON
- * (self.__next_f flight verisi). Sayfa başına en yeni ~12 kampanya gelir;
- * bot her koşuda 14 sektörü tarar, YENİ hash_id'leri detay sayfasından
- * tarih bilgisiyle zenginleştirip yazar. Zamanla katalog kendiliğinden büyür.
+ * Veri kaynağı: /kampanyalar?page=N listeleme sayfalarındaki kart HTML'i
+ * (kategori, marka, logo, sponsor/popüler rozeti, bitiş tarihi karttadır).
+ * YENİ kampanyaların detay sayfasından "Kampanyaya Git" linki (markanın
+ * kendi sayfası) ve açıklama (JSON-LD Article) alınır.
+ *
+ * KURAL: paylaşan marka Rivoxe ise kampanya EKLENMEZ (kullanıcı kararı).
  *
  * Kurulum (örnek):
  *   /var/www/vhosts/kampanyacebimde.com/kampanya-bot/kampanya_bot.php
@@ -29,11 +31,12 @@ declare(strict_types=1);
 $CFG = [
     'firebase_credentials' => __DIR__ . '/auk.json',
     'proxy_url' => '',            // örn. http://user:pass@host:port
-    'source_base' => 'https://www.getkampania.com',
+    'source_base' => 'https://rivoxe.com',
     'user_agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36',
     'request_delay_ms' => 1200,   // kaynak istekleri arası bekleme
     'timeout' => 45,
     'max_new_per_run' => 40,      // bir koşuda en fazla bu kadar YENİ kampanya işlenir
+    'max_pages_per_run' => 8,     // bir koşuda taranacak listeleme sayfası sayısı
     'collection' => 'kampanyalar',
 ];
 
@@ -43,12 +46,6 @@ if (is_file(__DIR__ . '/config.php')) {
         $CFG = array_merge($CFG, $override);
     }
 }
-
-$SEKTORLER = [
-    'akaryakit', 'arac', 'e-ticaret', 'egitim-kirtasiye', 'eglence',
-    'elektronik', 'dekorasyon', 'moda-kozmetik', 'market', 'saglik',
-    'seyahat', 'yeme-icme', 'yurt-disi', 'diger',
-];
 
 // ================================================================
 
@@ -94,94 +91,114 @@ function k_source_get(array $cfg, string $url): string
     return (string) $body;
 }
 
-/** Next.js flight verisini (self.__next_f push string'leri) tek metne çevirir. */
-function k_flight_blob(string $html): string
+/** HTML entity'leri çözüp boşlukları sadeleştirir. */
+function k_temiz(string $s): string
 {
-    if (!preg_match_all('/self\.__next_f\.push\(\[1,"(.*?)"\]\)<\/script>/s', $html, $m)) {
-        return '';
-    }
-    $blob = '';
-    foreach ($m[1] as $chunk) {
-        // JS string kaçışlarını çöz (\" \\ \n \uXXXX).
-        $decoded = json_decode('"' . $chunk . '"');
-        $blob .= is_string($decoded) ? $decoded : '';
-    }
-    return $blob;
+    return trim(html_entity_decode($s, ENT_QUOTES | ENT_HTML5, 'UTF-8'));
 }
 
-/** Blob içinde $anchor'dan başlayan dengeli JSON dizisini döndürür. */
-function k_extract_array(string $blob, string $anchor): ?array
+/** Göreli URL'yi mutlaklaştırır. */
+function k_abs(array $cfg, string $url): string
 {
-    $i = strpos($blob, $anchor);
-    if ($i === false) {
-        return null;
+    if ($url === '' || str_starts_with($url, 'http')) {
+        return $url;
     }
-    $start = strpos($blob, '[', $i);
-    if ($start === false) {
-        return null;
-    }
-    $depth = 0;
-    $inStr = false;
-    $esc = false;
-    $len = strlen($blob);
-    for ($p = $start; $p < $len; $p++) {
-        $c = $blob[$p];
-        if ($inStr) {
-            if ($esc) {
-                $esc = false;
-            } elseif ($c === '\\') {
-                $esc = true;
-            } elseif ($c === '"') {
-                $inStr = false;
-            }
-            continue;
-        }
-        if ($c === '"') {
-            $inStr = true;
-        } elseif ($c === '[') {
-            $depth++;
-        } elseif ($c === ']') {
-            $depth--;
-            if ($depth === 0) {
-                $json = substr($blob, $start, $p - $start + 1);
-                $arr = json_decode($json, true);
-                return is_array($arr) ? $arr : null;
-            }
-        }
-    }
-    return null;
+    return $cfg['source_base'] . (str_starts_with($url, '/') ? '' : '/') . $url;
+}
+
+/** Türkçe karakterli metinden URL-slug üretir (kategori_slug için). */
+function k_slugify(string $s): string
+{
+    $map = ['ı' => 'i', 'İ' => 'i', 'ş' => 's', 'Ş' => 's', 'ğ' => 'g', 'Ğ' => 'g',
+            'ü' => 'u', 'Ü' => 'u', 'ö' => 'o', 'Ö' => 'o', 'ç' => 'c', 'Ç' => 'c', '&' => ''];
+    $s = strtolower(strtr($s, $map));
+    $s = preg_replace('/[^a-z0-9]+/', '-', $s);
+    return trim((string) $s, '-');
 }
 
 /**
- * Detay sayfasının JSON-LD Offer bloğundan tarihleri VE markanın kendi
- * kampanya sayfası linkini (potentialAction.target) çeker. Uygulamadaki
- * "Kampanyaya Git" butonu bu linke gider — Kampania/araci link kullanilmaz.
+ * Listeleme sayfasındaki kampanya kartlarını çözümler.
+ * Dönen kayıt: id, slug, url, baslik, resim, kategori, marka, marka_slug,
+ * marka_logo, sponsorlu, populer, bitis (d.m.Y veya null).
+ *
+ * @return list<array<string,mixed>>
+ */
+function k_parse_cards(array $cfg, string $html): array
+{
+    $out = [];
+    $parcalar = explode('<article class="kmp-card', $html);
+    array_shift($parcalar); // ilk parça kart öncesi
+    foreach ($parcalar as $p) {
+        if (!preg_match('#href="(/kampanya/(\\d+)-([a-z0-9-]+))"#', $p, $m)) {
+            continue;
+        }
+        $rec = [
+            'id' => $m[2],
+            'slug' => $m[2] . '-' . $m[3],
+            'url' => k_abs($cfg, $m[1]),
+        ];
+        $rec['baslik'] = preg_match('#class="kmp-detail-btn" title="([^"]+)"#', $p, $t)
+            ? k_temiz($t[1]) : '';
+        if ($rec['baslik'] === '' && preg_match('#<img src="[^"]+"\\s+alt="([^"]+)"#', $p, $t)) {
+            $rec['baslik'] = k_temiz($t[1]);
+        }
+        $rec['resim'] = preg_match('#<img src="([^"]+)"#', $p, $t) ? k_abs($cfg, $t[1]) : '';
+        $rec['kategori'] = preg_match('#class="kmp-cat">([^<]+)<#', $p, $t)
+            ? k_temiz($t[1]) : 'Diğer';
+        if (preg_match('#href="/marka/([a-z0-9-]+)"[^>]*>([^<]+)</a>#', $p, $t)) {
+            $rec['marka_slug'] = $t[1];
+            $rec['marka'] = k_temiz($t[2]);
+        } else {
+            $rec['marka_slug'] = '';
+            $rec['marka'] = '';
+        }
+        // Marka logosu: kmp-brand blogundaki ilk <img>.
+        $rec['marka_logo'] = '';
+        $bi = strpos($p, 'kmp-brand');
+        if ($bi !== false && preg_match('#<img src="([^"]+)"#', substr($p, $bi), $t)) {
+            $rec['marka_logo'] = k_abs($cfg, $t[1]);
+        }
+        $rec['sponsorlu'] = str_contains($p, 'rvx-sponsor');
+        $rec['populer'] = str_contains($p, 'rvx-populer');
+        $rec['bitis'] = preg_match('#(\\d{2}\\.\\d{2}\\.\\d{4}) tarihine kadar#', $p, $t)
+            ? $t[1] : null;
+        $out[] = $rec;
+    }
+    return $out;
+}
+
+/**
+ * Detay sayfasından markanın kendi kampanya linki ("Kampanyaya Git",
+ * kmpd-cta) ve açıklama (JSON-LD Article.description) alınır.
  */
 function k_detail_info(array $cfg, string $slug): array
 {
-    $out = ['start' => null, 'end' => null, 'hedef' => ''];
+    $out = ['hedef' => '', 'aciklama' => '', 'yayin' => null];
     try {
-        $html = k_source_get($cfg, $cfg['source_base'] . '/kampanyalar/' . $slug);
+        $html = k_source_get($cfg, $cfg['source_base'] . '/kampanya/' . $slug);
     } catch (Throwable $e) {
         k_log('Detay alinamadi (' . $slug . '): ' . $e->getMessage());
         return $out;
     }
-    if (preg_match_all('/<script type="application\/ld\+json">(.*?)<\/script>/s', $html, $m)) {
+    if (preg_match('#<a href="([^"]+)"[^>]*class="kmpd-cta"#', $html, $m)
+        || preg_match('#class="kmpd-cta"[^>]*href="([^"]+)"#', $html, $m)) {
+        $hedef = html_entity_decode($m[1], ENT_QUOTES, 'UTF-8');
+        // utm vb. izleme parametrelerini temizle.
+        $hedef = preg_replace('/([?&])(utm_[a-z]+|ref|source)=[^&]*/', '$1', $hedef);
+        $hedef = rtrim(str_replace('?&', '?', $hedef), '?&');
+        // Rivoxe'a geri donen linkleri hedef sayma.
+        if (!str_contains($hedef, 'rivoxe.com')) {
+            $out['hedef'] = $hedef;
+        }
+    }
+    if (preg_match_all('#<script type="application/ld\\+json">(.*?)</script>#s', $html, $m)) {
         foreach ($m[1] as $json) {
             $d = json_decode($json, true);
             $items = isset($d['@type']) ? [$d] : (is_array($d) ? $d : []);
             foreach ($items as $it) {
-                if (($it['@type'] ?? '') === 'Offer') {
-                    $out['start'] = $it['validFrom'] ?? null;
-                    $out['end'] = $it['validThrough'] ?? null;
-                    $hedef = (string) ($it['potentialAction']['target'] ?? '');
-                    // utm vb. izleme parametrelerini temizle.
-                    if ($hedef !== '') {
-                        $hedef = preg_replace('/([?&])(utm_[a-z]+|ref|source)=[^&]*/', '$1', $hedef);
-                        $hedef = rtrim(preg_replace('/[?&]+$/', '', str_replace('?&', '?', $hedef)), '&');
-                    }
-                    $out['hedef'] = $hedef;
-                    return $out;
+                if (($it['@type'] ?? '') === 'Article') {
+                    $out['aciklama'] = k_temiz((string) ($it['description'] ?? ''));
+                    $out['yayin'] = $it['datePublished'] ?? null;
                 }
             }
         }
@@ -327,38 +344,43 @@ try {
     $existing = k_fb_existing_ids($cfg);
     k_log('Firestore mevcut kampanya: ' . count($existing));
 
-    global $SEKTORLER;
     $seen = [];
     $newQueue = [];
-    foreach ($SEKTORLER as $sektor) {
+    $maxPages = max(1, (int) ($cfg['max_pages_per_run'] ?? 8));
+    for ($page = 1; $page <= $maxPages; $page++) {
         try {
-            $html = k_source_get($cfg, $cfg['source_base'] . '/sektorler/' . $sektor);
+            $html = k_source_get($cfg, $cfg['source_base'] . '/kampanyalar?page=' . $page);
         } catch (Throwable $e) {
-            k_log("Sektor alinamadi ({$sektor}): " . $e->getMessage());
-            k_sleep_ms($cfg['request_delay_ms']);
-            continue;
+            k_log("Sayfa alinamadi (page={$page}): " . $e->getMessage());
+            break;
         }
-        $blob = k_flight_blob($html);
-        $campaigns = k_extract_array($blob, '"campaigns":');
-        if ($campaigns === null) {
-            k_log("Sektor parse edilemedi ({$sektor}) — site yapisi degismis olabilir.");
-            k_sleep_ms($cfg['request_delay_ms']);
-            continue;
+        $cards = k_parse_cards($cfg, $html);
+        if ($cards === []) {
+            k_log("Sayfa {$page}: kart bulunamadi (son sayfa veya yapi degisti).");
+            break;
         }
         $yeni = 0;
-        foreach ($campaigns as $c) {
-            $hid = (string) ($c['hash_id'] ?? '');
-            if ($hid === '' || isset($seen[$hid])) {
+        foreach ($cards as $c) {
+            $docId = 'rv_' . $c['id'];
+            if (isset($seen[$docId])) {
                 continue;
             }
-            $seen[$hid] = true;
-            if (isset($existing[$hid])) {
+            $seen[$docId] = true;
+            // KURAL: paylasan marka Rivoxe ise ekleme (kullanici karari).
+            if ($c['marka_slug'] === 'rivoxe' || mb_strtolower($c['marka'], 'UTF-8') === 'rivoxe') {
+                continue;
+            }
+            if (isset($existing[$docId])) {
                 continue;
             }
             $newQueue[] = $c;
             $yeni++;
         }
-        k_log("Sektor {$sektor}: " . count($campaigns) . ' kampanya, yeni: ' . $yeni);
+        k_log("Sayfa {$page}: " . count($cards) . ' kart, yeni: ' . $yeni);
+        // Sayfa tamamen bilinen kayitlardan olusuyorsa devami da eskidir.
+        if ($yeni === 0 && $page > 1) {
+            break;
+        }
         k_sleep_ms($cfg['request_delay_ms']);
     }
 
@@ -369,56 +391,57 @@ try {
 
     $islenen = 0;
     foreach (array_slice($newQueue, 0, $cfg['max_new_per_run']) as $c) {
-        $hid = (string) $c['hash_id'];
-        $slug = (string) ($c['slug'] ?? '');
-        $campaigner = $c['campaigners'][0] ?? [];
-        $kategori = $c['categories'][0] ?? [];
-        $marka = $c['brands'][0]['name'] ?? ($campaigner['name'] ?? '');
-
-        $dates = $slug !== '' ? k_detail_info($cfg, $slug) : ['start' => null, 'end' => null, 'hedef' => ''];
+        $docId = 'rv_' . $c['id'];
+        $detay = k_detail_info($cfg, $c['slug']);
         k_sleep_ms($cfg['request_delay_ms']);
 
-        $start = null;
-        $end = null;
-        try {
-            // Tarihler Turkiye saatiyle yazilir; UTC yazilinca 31.08 23:59
-            // cihazda 01.09 gorunuyordu.
-            $tz = new DateTimeZone('Europe/Istanbul');
-            $start = $dates['start'] ? new DateTimeImmutable((string) $dates['start'], $tz) : null;
-            $end = $dates['end'] ? new DateTimeImmutable(((string) $dates['end']) . ' 23:59:59', $tz) : null;
-        } catch (Throwable $e) {
-            // tarih parse edilemezse null kalir
+        $bitis = null;
+        if (!empty($c['bitis'])) {
+            try {
+                $bitis = new DateTimeImmutable(
+                    str_replace('.', '-', substr($c['bitis'], 6) . '-' . substr($c['bitis'], 3, 2) . '-' . substr($c['bitis'], 0, 2)) . ' 23:59:59',
+                    new DateTimeZone('Europe/Istanbul')
+                );
+            } catch (Throwable $e) {
+                $bitis = null;
+            }
+        }
+        $baslangic = null;
+        if (!empty($detay['yayin'])) {
+            try {
+                $baslangic = new DateTimeImmutable((string) $detay['yayin']);
+            } catch (Throwable $e) {
+                $baslangic = null;
+            }
         }
 
         $fields = [
-            'baslik' => (string) ($c['title'] ?? ''),
-            'slug' => $slug,
-            'resim' => (string) ($c['image_url'] ?? ''),
-            'kategori' => (string) ($kategori['name'] ?? 'Diğer'),
-            'kategori_slug' => (string) ($kategori['slug'] ?? 'diger'),
-            'marka' => (string) $marka,
-            'marka_logo' => (string) ($campaigner['logo_url'] ?? ''),
-            'kart_adi' => (string) ($campaigner['name'] ?? ''),
-            // Nihai link: markanin KENDI kampanya sayfasi (Kampania/araci degil).
-            // Bulunamazsa bos kalir; uygulama kaynak_url'e duser.
-            'basvuru_url' => (string) ($dates['hedef'] ?? ''),
-            // Kartin basvuru linki (hesap.com araci zinciri) ayri alanda saklanir.
-            'kart_basvuru_url' => (string) ($campaigner['apply_url'] ?? ''),
-            'sponsorlu' => (bool) ($campaigner['is_sponsored'] ?? false),
-            'kazanc_tipi' => (string) ($c['earning_type'] ?? ''),
-            'aciklama' => (string) ($campaigner['description'] ?? ''),
-            'kaynak_url' => $cfg['source_base'] . '/kampanyalar/' . $slug,
-            'baslangic' => $start,
-            'bitis' => $end,
+            'baslik' => (string) $c['baslik'],
+            'slug' => (string) $c['slug'],
+            'resim' => (string) $c['resim'],
+            'kategori' => (string) $c['kategori'],
+            'kategori_slug' => k_slugify((string) $c['kategori']),
+            'marka' => (string) $c['marka'],
+            'marka_logo' => (string) $c['marka_logo'],
+            'kart_adi' => (string) $c['marka'],
+            // Nihai link: markanin KENDI kampanya sayfasi (kmpd-cta).
+            'basvuru_url' => (string) $detay['hedef'],
+            'sponsorlu' => (bool) $c['sponsorlu'],
+            'populer' => (bool) $c['populer'],
+            'kazanc_tipi' => '',
+            'aciklama' => (string) $detay['aciklama'],
+            'kaynak_url' => (string) $c['url'],
+            'baslangic' => $baslangic,
+            'bitis' => $bitis,
             'created_at' => new DateTimeImmutable('now'),
             'aktif' => true,
         ];
         try {
-            k_fb_set($cfg, $hid, $fields);
+            k_fb_set($cfg, $docId, $fields);
             $islenen++;
-            k_log("Yazildi: {$hid} [{$fields['kategori']}] {$fields['baslik']}" . ($end ? ' (bitis ' . $end->format('Y-m-d') . ')' : ''));
+            k_log("Yazildi: {$docId} [{$fields['kategori']}] {$fields['baslik']}" . ($bitis ? ' (bitis ' . $bitis->format('Y-m-d') . ')' : ''));
         } catch (Throwable $e) {
-            k_log("Yazma hatasi ({$hid}): " . $e->getMessage());
+            k_log("Yazma hatasi ({$docId}): " . $e->getMessage());
         }
     }
 
