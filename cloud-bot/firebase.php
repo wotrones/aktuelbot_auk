@@ -321,6 +321,56 @@ function fb_addimage(array $cfg, string $bytes, string $filename): string
     }
 }
 
+/**
+ * Sayfa gorselinin OCR metni (uygulamadaki urun aramasi icin).
+ *
+ * Oncelik sunucudaki ocr.php (OCR_URL); hata/bos yanit durumunda kosucudaki
+ * tesseract'a (cb_ocr_image_to_text) dusulur. Hicbiri calismazsa bos string
+ * doner — OCR eksikligi import'u ASLA durdurmaz.
+ */
+function fb_ocr_page_text(array $cfg, string $bytes, string $filename): string
+{
+    $endpoint = (string) ($cfg['ocr_url'] ?? '');
+    if ($endpoint !== '') {
+        $tmp = tempnam(sys_get_temp_dir(), 'cbocr_');
+        if ($tmp !== false && file_put_contents($tmp, $bytes) !== false) {
+            try {
+                $fields = ['source' => new CURLFile($tmp, 'application/octet-stream', $filename)];
+                if (($cfg['ocr_token'] ?? '') !== '') {
+                    $fields['token'] = $cfg['ocr_token'];
+                }
+                $ch = curl_init($endpoint);
+                curl_setopt_array($ch, [
+                    CURLOPT_POST => true,
+                    CURLOPT_RETURNTRANSFER => true,
+                    CURLOPT_CONNECTTIMEOUT => 15,
+                    CURLOPT_TIMEOUT => max(60, (int) $cfg['timeout']),
+                    CURLOPT_POSTFIELDS => $fields,
+                ]);
+                $body = curl_exec($ch);
+                $status = (int) curl_getinfo($ch, CURLINFO_RESPONSE_CODE);
+                curl_close($ch);
+                $json = is_string($body) ? json_decode($body, true) : null;
+                if ($status >= 200 && $status < 300 && is_array($json) && !empty($json['ok'])) {
+                    return (string) ($json['text'] ?? '');
+                }
+                cb_debug("Sunucu OCR basarisiz (HTTP {$status}), yerel tesseract'a dusuluyor.");
+            } catch (Throwable $e) {
+                cb_debug('Sunucu OCR hatasi: ' . $e->getMessage());
+            } finally {
+                @unlink($tmp);
+            }
+        }
+    }
+
+    // Yedek: kosucudaki tesseract (tarih OCR'i ile ayni altyapi).
+    try {
+        return cb_ocr_image_to_text($bytes);
+    } catch (Throwable $e) {
+        return '';
+    }
+}
+
 /** Ham gorsel baytini JPEG'e cevirir (imagick veya gd). Olmazsa null. */
 function fb_to_jpeg(string $binary, int $quality = 88): ?string
 {
@@ -414,13 +464,25 @@ function fb_import_brochure(array $cfg, array $item, array $pages, array $dates)
     fb_ensure_market($cfg, $item['market']);
 
     $imageUrls = [];
+    $ocrTexts = [];
+    $ocrHits = 0;
     foreach ($pages as $i => $page) {
         $imageUrls[] = fb_upload_page($cfg, $page['bytes'], $page['name']);
         cb_debug('Gorsel yuklendi [' . ($i + 1) . '/' . count($pages) . ']');
+        // Urun aramasi icin sayfa OCR'i. Sayfa sirasi gorseller ile birebir
+        // ayni tutulur; okunamayan sayfa bos string olarak yerini korur.
+        $text = fb_ocr_page_text($cfg, $page['bytes'], $page['name']);
+        if (mb_strlen($text, 'UTF-8') > 3500) {
+            $text = mb_substr($text, 0, 3500, 'UTF-8');
+        }
+        $ocrTexts[] = $text;
+        if ($text !== '') {
+            $ocrHits++;
+        }
         cb_sleep_ms($cfg['request_delay_ms']);
     }
 
-    fb_document_set($cfg, "brosurler/{$docId}", [
+    $doc = [
         'market_adi' => $item['market'],
         'start_date' => $start,
         'end_date' => $end,
@@ -431,7 +493,12 @@ function fb_import_brochure(array $cfg, array $item, array $pages, array $dates)
         'gorseller' => $imageUrls,
         'clicks' => 0,
         'favs' => 0,
-    ]);
+    ];
+    if ($ocrHits > 0) {
+        $doc['ocr_sayfalar'] = $ocrTexts;
+    }
+    fb_document_set($cfg, "brosurler/{$docId}", $doc);
+    cb_log("OCR: {$ocrHits}/" . count($pages) . ' sayfa metni cikarildi.');
     cb_log("Firestore'a yazildi: brosurler/{$docId} ({$item['market']}, " . count($imageUrls) . ' sayfa)');
 
     // NOT: Bildirim burada gonderilmez. Ayni kosuda ayni marketten birden cok

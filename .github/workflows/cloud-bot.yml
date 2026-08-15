@@ -76,6 +76,9 @@ jobs:
           ONESIGNAL_REST_API_KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
           ONESIGNAL_TAG_KEY: ${{ vars.ONESIGNAL_TAG_KEY }}
           ONESIGNAL_TAG_VALUE: ${{ vars.ONESIGNAL_TAG_VALUE }}
+          # Tam sayfa OCR: sunucudaki ocr.php (bos birakilirsa kosucudaki tesseract kullanilir)
+          OCR_URL: ${{ vars.OCR_URL }}
+          OCR_TOKEN: ${{ secrets.OCR_TOKEN }}
         run: |
           MODE="${{ github.event.inputs.mode }}"
           case "$MODE" in

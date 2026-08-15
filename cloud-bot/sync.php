@@ -113,6 +113,11 @@ function cb_config(): array
         'onesignal_rest_api_key' => (string) $env('ONESIGNAL_REST_API_KEY', ''),
         'onesignal_tag_key' => (string) $env('ONESIGNAL_TAG_KEY', 'bildirim'),
         'onesignal_tag_value' => (string) $env('ONESIGNAL_TAG_VALUE', '0'),
+        // Tam sayfa OCR (uygulamadaki urun aramasi icin ocr_sayfalar alani).
+        // OCR_URL doluysa once sunucudaki ocr.php denenir; olmazsa/bossa
+        // kosucudaki tesseract'a (cb_ocr_image_to_text) dusulur.
+        'ocr_url' => (string) $env('OCR_URL', ''),
+        'ocr_token' => (string) $env('OCR_TOKEN', ''),
     ];
 
     if ($cfg['firebase_credentials'] === '' || !is_file($cfg['firebase_credentials'])) {
