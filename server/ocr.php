@@ -16,8 +16,11 @@ declare(strict_types=1);
  *   GET https://kampanyacebimde.com/ocr.php?health=1
  *   -> {"ok":true,"tesseract":"tesseract 5.x"} veya {"ok":false,...}
  *
- * OCR isteği — cloud-bot multipart POST atar:
- *   alan adı: source  (görsel dosya)
+ * OCR isteği — cloud-bot POST atar; iki mod:
+ *   1) source (dosya, multipart)          — görseli yükleyerek
+ *   2) path   (metin, uploads-göreli yol) — görsel ZATEN bu sunucudaysa
+ *      yeniden yüklemeden yerinden okur (backfill bunun için).
+ *      Örn: path=uploads/aktuel/2026/07/ab12.jpg (tam URL de kabul edilir).
  *   (opsiyonel) token (OCR_TOKEN ayarlıysa zorunlu)
  * Yanıt: {"ok":true,"text":"..."} | {"ok":false,"error":"..."}
  */
@@ -39,6 +42,9 @@ const MAX_BYTES = 20 * 1024 * 1024; // 20 MB
 
 /** Yanıtta metnin kırpılacağı üst sınır (karakter). */
 const MAX_TEXT_CHARS = 4000;
+
+/** 'path' modunda okumaya izin verilen kök (bu dosyaya göre). */
+const UPLOAD_SUBDIR_OCR = 'uploads/aktuel';
 
 // ================================================================
 
@@ -96,17 +102,43 @@ if (OCR_TOKEN !== '') {
     }
 }
 
-if (!isset($_FILES['source']) || !is_uploaded_file($_FILES['source']['tmp_name'] ?? '')) {
-    respond(400, ['ok' => false, 'error' => "Dosya yok ('source' alanı bekleniyor)"]);
-}
-if ((int) $_FILES['source']['size'] > MAX_BYTES) {
-    respond(413, ['ok' => false, 'error' => 'Dosya çok büyük']);
-}
 if (tesseract_version() === null) {
     respond(500, ['ok' => false, 'error' => 'tesseract kullanılamıyor (kurulum/exec kontrol et)']);
 }
 
-$src = (string) $_FILES['source']['tmp_name'];
+$src = '';
+$pathParam = trim((string) ($_POST['path'] ?? ''));
+if ($pathParam !== '') {
+    // Yerel dosya modu: yalnızca uploads/aktuel altındaki görseller okunabilir.
+    // Tam URL geldiyse yol kısmına indirgenir; dizin kaçışı realpath ile kesilir.
+    $rel = $pathParam;
+    $parsed = parse_url($pathParam, PHP_URL_PATH);
+    if (is_string($parsed) && $parsed !== '') {
+        $rel = $parsed;
+    }
+    $rel = ltrim($rel, '/');
+    $base = realpath(__DIR__ . '/' . UPLOAD_SUBDIR_OCR);
+    $full = $base !== false ? realpath(__DIR__ . '/' . $rel) : false;
+    if ($base === false || $full === false || !str_starts_with($full, $base . '/')) {
+        respond(400, ['ok' => false, 'error' => 'Geçersiz path (uploads/aktuel altında olmalı)']);
+    }
+    $ext = strtolower(pathinfo($full, PATHINFO_EXTENSION));
+    if (!in_array($ext, ['jpg', 'jpeg', 'png', 'webp', 'gif'], true)) {
+        respond(400, ['ok' => false, 'error' => 'İzin verilmeyen uzantı']);
+    }
+    if ((int) filesize($full) > MAX_BYTES) {
+        respond(413, ['ok' => false, 'error' => 'Dosya çok büyük']);
+    }
+    $src = $full;
+} else {
+    if (!isset($_FILES['source']) || !is_uploaded_file($_FILES['source']['tmp_name'] ?? '')) {
+        respond(400, ['ok' => false, 'error' => "Dosya yok ('source' dosyası veya 'path' bekleniyor)"]);
+    }
+    if ((int) $_FILES['source']['size'] > MAX_BYTES) {
+        respond(413, ['ok' => false, 'error' => 'Dosya çok büyük']);
+    }
+    $src = (string) $_FILES['source']['tmp_name'];
+}
 
 // tesseract çıktı dosyası: {base}.txt olarak yazar.
 $base = tempnam(sys_get_temp_dir(), 'ocr_');

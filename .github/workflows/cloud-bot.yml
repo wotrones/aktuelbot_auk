@@ -79,6 +79,7 @@ jobs:
           # Tam sayfa OCR: sunucudaki ocr.php (bos birakilirsa kosucudaki tesseract kullanilir)
           OCR_URL: ${{ vars.OCR_URL }}
           OCR_TOKEN: ${{ secrets.OCR_TOKEN }}
+          OCR_BACKFILL_PER_RUN: ${{ vars.OCR_BACKFILL_PER_RUN }}
         run: |
           MODE="${{ github.event.inputs.mode }}"
           case "$MODE" in

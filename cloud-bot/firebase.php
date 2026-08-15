@@ -152,6 +152,118 @@ function fb_document_set(array $cfg, string $path, array $fields): void
 }
 
 /**
+ * Dokumanin YALNIZCA verilen alanlarini gunceller (updateMask). fb_document_set
+ * maskesiz PATCH attigi icin tum dokumani degistirir; mevcut dokumana alan
+ * eklemek/guncellemek icin bu kullanilmali (backfill boyle yapar).
+ */
+function fb_document_update_fields(array $cfg, string $path, array $fields): void
+{
+    $c = fb_client($cfg);
+    $doc = ['fields' => []];
+    $mask = [];
+    foreach ($fields as $k => $v) {
+        $doc['fields'][$k] = fb_to_value($v);
+        $mask[] = 'updateMask.fieldPaths=' . rawurlencode($k);
+    }
+    $json = json_encode($doc, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+    $url = fb_firestore_base($cfg) . $path . '?' . implode('&', $mask);
+    [$status, $body] = fb_request('PATCH', $url, [
+        'Authorization: Bearer ' . $c['token'],
+        'Content-Type: application/json',
+    ], $json, $cfg['timeout']);
+    if ($status < 200 || $status >= 300) {
+        throw new RuntimeException("Firestore PATCH(mask) {$path} HTTP {$status}: {$body}");
+    }
+}
+
+/**
+ * Aktif (bitis tarihi bugunden ileri) brosurleri dondurur:
+ * list<{id, gorseller: list<string>, has_ocr: bool}>. Backfill icin.
+ */
+function fb_list_active_brochures(array $cfg): array
+{
+    $c = fb_client($cfg);
+    $today = (new DateTimeImmutable('today'))->format(DateTimeInterface::RFC3339);
+    $q = [
+        'structuredQuery' => [
+            'from' => [['collectionId' => 'brosurler']],
+            'where' => [
+                'fieldFilter' => [
+                    'field' => ['fieldPath' => 'end_date'],
+                    'op' => 'GREATER_THAN_OR_EQUAL',
+                    'value' => ['timestampValue' => $today],
+                ],
+            ],
+            'limit' => 300,
+        ],
+    ];
+    $base = "https://firestore.googleapis.com/v1/projects/{$c['project']}/databases/(default)/documents:runQuery";
+    [$status, $body] = fb_request('POST', $base, [
+        'Authorization: Bearer ' . $c['token'],
+        'Content-Type: application/json',
+    ], json_encode($q), $cfg['timeout']);
+    if ($status < 200 || $status >= 300) {
+        throw new RuntimeException("Firestore runQuery HTTP {$status}: {$body}");
+    }
+    $rows = json_decode($body, true);
+    $out = [];
+    foreach (is_array($rows) ? $rows : [] as $row) {
+        $doc = $row['document'] ?? null;
+        if (!is_array($doc)) {
+            continue;
+        }
+        $fields = $doc['fields'] ?? [];
+        $gorseller = [];
+        foreach ($fields['gorseller']['arrayValue']['values'] ?? [] as $v) {
+            $u = (string) ($v['stringValue'] ?? '');
+            if ($u !== '') {
+                $gorseller[] = $u;
+            }
+        }
+        $out[] = [
+            'id' => basename((string) $doc['name']),
+            'gorseller' => $gorseller,
+            'has_ocr' => isset($fields['ocr_sayfalar']),
+        ];
+    }
+    return $out;
+}
+
+/**
+ * Sunucudaki ocr.php'nin 'path' modu: gorsel zaten sunucudaysa (uploads URL'i),
+ * baytlari tekrar gondermeden yerinden OCR'lat. Sunucu OCR'i kapali/hataliysa
+ * bos string doner (backfill sirada bekler, import akisini etkilemez).
+ */
+function fb_ocr_remote_path(array $cfg, string $imageUrl): string
+{
+    $endpoint = (string) ($cfg['ocr_url'] ?? '');
+    if ($endpoint === '') {
+        return '';
+    }
+    $fields = ['path' => $imageUrl];
+    if (($cfg['ocr_token'] ?? '') !== '') {
+        $fields['token'] = $cfg['ocr_token'];
+    }
+    $ch = curl_init($endpoint);
+    curl_setopt_array($ch, [
+        CURLOPT_POST => true,
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_CONNECTTIMEOUT => 15,
+        CURLOPT_TIMEOUT => max(60, (int) $cfg['timeout']),
+        CURLOPT_POSTFIELDS => $fields,
+    ]);
+    $body = curl_exec($ch);
+    $status = (int) curl_getinfo($ch, CURLINFO_RESPONSE_CODE);
+    curl_close($ch);
+    $json = is_string($body) ? json_decode($body, true) : null;
+    if ($status >= 200 && $status < 300 && is_array($json) && !empty($json['ok'])) {
+        return (string) ($json['text'] ?? '');
+    }
+    cb_debug("Backfill OCR basarisiz (HTTP {$status}): {$imageUrl}");
+    return '';
+}
+
+/**
  * PHP degerini Firestore tip-degerine cevirir (bot.php toFirestoreValue ile ayni).
  * DateTimeInterface -> timestampValue.
  */

@@ -118,6 +118,9 @@ function cb_config(): array
         // kosucudaki tesseract'a (cb_ocr_image_to_text) dusulur.
         'ocr_url' => (string) $env('OCR_URL', ''),
         'ocr_token' => (string) $env('OCR_TOKEN', ''),
+        // Backfill: her kosuda en fazla bu kadar AKTIF brosur OCR'lanir
+        // (sunucuyu yormamak icin sirayla, sayfalar arasi bekleyerek).
+        'ocr_backfill_per_run' => max(0, (int) $env('OCR_BACKFILL_PER_RUN', '2')),
     ];
 
     if ($cfg['firebase_credentials'] === '' || !is_file($cfg['firebase_credentials'])) {
@@ -403,6 +406,57 @@ function cb_drain_queue(array $cfg, array &$state, int $batch, ?string $cookieFi
     return $processed;
 }
 
+/**
+ * Aktif brosurlerden ocr_sayfalar alani OLMAYANLARI sirayla OCR'lar.
+ * Kosun basina en fazla $maxBrochures brosur islenir; sayfalar tek tek,
+ * aralarinda request_delay_ms beklenerek gonderilir (sunucu yorulmasin).
+ * Gorseller zaten sunucuda oldugu icin ocr.php'nin 'path' modu kullanilir.
+ */
+function cb_ocr_backfill(array $cfg, int $maxBrochures): void
+{
+    if ($maxBrochures <= 0 || ($cfg['ocr_url'] ?? '') === '') {
+        return;
+    }
+    try {
+        $all = fb_list_active_brochures($cfg);
+    } catch (Throwable $e) {
+        cb_log('Backfill: aktif brosur listesi alinamadi - ' . $e->getMessage());
+        return;
+    }
+    $pending = array_values(array_filter($all, static fn (array $b) => !$b['has_ocr'] && $b['gorseller'] !== []));
+    if ($pending === []) {
+        cb_debug('Backfill: OCR bekleyen aktif brosur yok.');
+        return;
+    }
+    cb_log('Backfill: OCR bekleyen aktif brosur: ' . count($pending) . " (bu kosuda en fazla {$maxBrochures})");
+
+    foreach (array_slice($pending, 0, $maxBrochures) as $b) {
+        $texts = [];
+        $hits = 0;
+        foreach ($b['gorseller'] as $url) {
+            $text = fb_ocr_remote_path($cfg, $url);
+            if (mb_strlen($text, 'UTF-8') > 3500) {
+                $text = mb_substr($text, 0, 3500, 'UTF-8');
+            }
+            $texts[] = $text;
+            if ($text !== '') {
+                $hits++;
+            }
+            cb_sleep_ms(max(500, (int) $cfg['request_delay_ms']));
+        }
+        if ($hits === 0) {
+            cb_log("Backfill: hicbir sayfa okunamadi, atlandi: {$b['id']}");
+            continue;
+        }
+        try {
+            fb_document_update_fields($cfg, "brosurler/{$b['id']}", ['ocr_sayfalar' => $texts]);
+            cb_log("Backfill OCR yazildi: {$b['id']} ({$hits}/" . count($texts) . ' sayfa)');
+        } catch (Throwable $e) {
+            cb_log("Backfill yazma hatasi: {$b['id']} - " . $e->getMessage());
+        }
+    }
+}
+
 // ----------------------------------------------------------------------------
 
 try {
@@ -516,6 +570,11 @@ try {
             $wait = $cfg['drain_interval_min'] * 60 - ($now - (int) $state['lastDrainAt']);
             cb_log('Kuyruk dolu ama indirme araligi beklenmiyor (kalan ~' . max(0, (int) ceil($wait / 60)) . ' dk).');
         }
+    }
+
+    // 3) Aktif brosurlerde OCR backfill (sirayla, kosu basina sinirli).
+    if (!$checkOnly) {
+        cb_ocr_backfill($cfg, (int) $cfg['ocr_backfill_per_run']);
     }
 
     if ($dirty) {
