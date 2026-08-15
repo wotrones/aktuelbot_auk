@@ -152,10 +152,14 @@ function k_extract_array(string $blob, string $anchor): ?array
     return null;
 }
 
-/** Detay sayfasının JSON-LD Offer bloğundan tarihleri çeker. */
-function k_detail_dates(array $cfg, string $slug): array
+/**
+ * Detay sayfasının JSON-LD Offer bloğundan tarihleri VE markanın kendi
+ * kampanya sayfası linkini (potentialAction.target) çeker. Uygulamadaki
+ * "Kampanyaya Git" butonu bu linke gider — Kampania/araci link kullanilmaz.
+ */
+function k_detail_info(array $cfg, string $slug): array
 {
-    $out = ['start' => null, 'end' => null];
+    $out = ['start' => null, 'end' => null, 'hedef' => ''];
     try {
         $html = k_source_get($cfg, $cfg['source_base'] . '/kampanyalar/' . $slug);
     } catch (Throwable $e) {
@@ -170,6 +174,13 @@ function k_detail_dates(array $cfg, string $slug): array
                 if (($it['@type'] ?? '') === 'Offer') {
                     $out['start'] = $it['validFrom'] ?? null;
                     $out['end'] = $it['validThrough'] ?? null;
+                    $hedef = (string) ($it['potentialAction']['target'] ?? '');
+                    // utm vb. izleme parametrelerini temizle.
+                    if ($hedef !== '') {
+                        $hedef = preg_replace('/([?&])(utm_[a-z]+|ref|source)=[^&]*/', '$1', $hedef);
+                        $hedef = rtrim(preg_replace('/[?&]+$/', '', str_replace('?&', '?', $hedef)), '&');
+                    }
+                    $out['hedef'] = $hedef;
                     return $out;
                 }
             }
@@ -364,7 +375,7 @@ try {
         $kategori = $c['categories'][0] ?? [];
         $marka = $c['brands'][0]['name'] ?? ($campaigner['name'] ?? '');
 
-        $dates = $slug !== '' ? k_detail_dates($cfg, $slug) : ['start' => null, 'end' => null];
+        $dates = $slug !== '' ? k_detail_info($cfg, $slug) : ['start' => null, 'end' => null, 'hedef' => ''];
         k_sleep_ms($cfg['request_delay_ms']);
 
         $start = null;
@@ -388,7 +399,11 @@ try {
             'marka' => (string) $marka,
             'marka_logo' => (string) ($campaigner['logo_url'] ?? ''),
             'kart_adi' => (string) ($campaigner['name'] ?? ''),
-            'basvuru_url' => (string) ($campaigner['apply_url'] ?? ''),
+            // Nihai link: markanin KENDI kampanya sayfasi (Kampania/araci degil).
+            // Bulunamazsa bos kalir; uygulama kaynak_url'e duser.
+            'basvuru_url' => (string) ($dates['hedef'] ?? ''),
+            // Kartin basvuru linki (hesap.com araci zinciri) ayri alanda saklanir.
+            'kart_basvuru_url' => (string) ($campaigner['apply_url'] ?? ''),
             'sponsorlu' => (bool) ($campaigner['is_sponsored'] ?? false),
             'kazanc_tipi' => (string) ($c['earning_type'] ?? ''),
             'aciklama' => (string) ($campaigner['description'] ?? ''),
