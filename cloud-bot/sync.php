@@ -309,29 +309,9 @@ function cb_drain_queue(array $cfg, array &$state, int $batch, ?string $cookieFi
             continue;
         }
 
-        // Ileri tarihli brosuru tarihi gelene kadar bekleterek erken
-        // yazilmasini/bildirilmesini onle. not_before eski kayitlarda
-        // olmayabilir; o yuzden baslikdan da hesaplanir.
-        $dates = cb_parse_brochure_dates($title, $today);
-        $notBefore = (string) ($item['not_before'] ?? '');
-        if ($notBefore === '' && cb_dates_start_future($dates, $today)) {
-            $notBefore = (string) $dates['start'];
-        }
-        if ($notBefore !== '') {
-            try {
-                $notBeforeDate = new DateTimeImmutable($notBefore);
-            } catch (Throwable $e) {
-                // Bozuk not_before kaydi tum kosuyu dusurmesin; yok say.
-                cb_log("Gecersiz not_before ({$notBefore}), yok sayildi: {$sourceKey}");
-                $notBeforeDate = null;
-            }
-            if ($notBeforeDate !== null && $notBeforeDate > $today) {
-                $item['not_before'] = $notBefore;
-                $deferred[] = $item;
-                cb_debug("Ileri tarihli, bekletiliyor ({$notBefore}): {$sourceKey}");
-                continue;
-            }
-        }
+        // NOT (2026-08-16): Ileri tarihli brosurler artik BEKLETILMIYOR —
+        // ayni gun eklenir; uygulama "Baslamasina X gun kaldi" rozetiyle
+        // gosterir ve listeler created_at'e gore siralanir (kullanici karari).
 
         $normItem = [
             'href' => (string) $item['href'],
@@ -354,15 +334,6 @@ function cb_drain_queue(array $cfg, array &$state, int $batch, ?string $cookieFi
             if (!empty($fetched['expired'])) {
                 cb_log("Atlandi (suresi gecmis): brosurler/{$sourceKey}");
                 $state['uploaded'][$sourceKey] = true;
-                $processed++;
-                continue;
-            }
-            // Basliktan anlasilmayip OCR'dan cikan ileri tarih: uploaded'a
-            // yazma, tarihi gelene kadar kuyrukta beklet.
-            if (!empty($fetched['future'])) {
-                $item['not_before'] = (string) $fetched['dates']['start'];
-                $deferred[] = $item;
-                cb_log("Ileri tarihli (OCR), {$item['not_before']} tarihine bekletildi: brosurler/{$sourceKey}");
                 $processed++;
                 continue;
             }
