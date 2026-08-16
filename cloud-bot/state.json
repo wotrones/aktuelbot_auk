@@ -1,7 +1,7 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1786888702
+            "lastCheckedAt": 1786903144
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
             "lastCheckedAt": 1786890455
@@ -35,51 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_acff25e7647c463d8c5bb9196dff08eb",
-            "brochure_key": "acff25e7647c463d8c5bb9196dff08eb",
-            "market": "Bim",
-            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 21 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-21-agustos-2026-dan-itibaren-stoklarla-sinirli_acff25e7647c463d8c5bb9196dff08eb",
-            "tries": 0,
-            "not_before": "2026-08-21"
-        },
-        {
-            "source_key": "ab_f0734fa4341b4cfea6a63721940e1b15",
-            "brochure_key": "f0734fa4341b4cfea6a63721940e1b15",
-            "market": "Bim",
-            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 19 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-19-agustos-2026-dan-itibaren-stoklarla-sinirli_f0734fa4341b4cfea6a63721940e1b15",
-            "tries": 0,
-            "not_before": "2026-08-19"
-        },
-        {
-            "source_key": "ab_354ff09e23c546428125d550f2fa9261",
-            "brochure_key": "354ff09e23c546428125d550f2fa9261",
-            "market": "Bim",
-            "title": "Bim Haftanın Önerileri Aktüel Ürünler Broşürü 18 Ağustos 2026'dan İtibaren",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-haftanin-onerileri-aktuel-urunler-brosuru-18-agustos-2026-dan-itibaren_354ff09e23c546428125d550f2fa9261",
-            "tries": 0,
-            "not_before": "2026-08-18"
-        },
-        {
-            "source_key": "ab_e0a092444b1746d38c797132a7b70c11",
-            "brochure_key": "e0a092444b1746d38c797132a7b70c11",
-            "market": "A101",
-            "title": "A101 Aldın Aldın Aktüel Çikolata Ürünleri Broşürü 20 Ağustos 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-cikolata-urunleri-brosuru-20-agustos-2026-dan-itibaren-stoklarla-sinirli_e0a092444b1746d38c797132a7b70c11",
-            "tries": 0,
-            "not_before": "2026-08-20"
-        },
-        {
-            "source_key": "ab_da5b0e4436f7406197aefd452c5ca239",
-            "brochure_key": "da5b0e4436f7406197aefd452c5ca239",
-            "market": "A101",
-            "title": "A101 Aldın Aldın Aktüel TV Ürünleri Broşürü 20-26 Ağustos 2026",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-tv-urunleri-brosuru-20-26-agustos-2026_da5b0e4436f7406197aefd452c5ca239",
-            "tries": 0,
-            "not_before": "2026-08-20"
-        },
         {
             "source_key": "ab_716a25bf44074d999e244231b9a294ed",
             "brochure_key": "716a25bf44074d999e244231b9a294ed",
@@ -710,7 +665,12 @@
         "ab_f2d06e6879a842af99ed11fe1fb71a1a": true,
         "ab_e2717d67abce4ab0a9ef049e3ee88be9": true,
         "ab_d9fc44e34710445aba9ef565fbc3cfa9": true,
-        "ab_5e4bf75be8c24892b437770824de2585": true
+        "ab_5e4bf75be8c24892b437770824de2585": true,
+        "ab_acff25e7647c463d8c5bb9196dff08eb": true,
+        "ab_f0734fa4341b4cfea6a63721940e1b15": true,
+        "ab_354ff09e23c546428125d550f2fa9261": true,
+        "ab_e0a092444b1746d38c797132a7b70c11": true,
+        "ab_da5b0e4436f7406197aefd452c5ca239": true
     },
-    "lastDrainAt": 1786882672
+    "lastDrainAt": 1786903412
 }
