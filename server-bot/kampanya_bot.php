@@ -197,13 +197,79 @@ function k_detail_info(array $cfg, string $slug): array
             $items = isset($d['@type']) ? [$d] : (is_array($d) ? $d : []);
             foreach ($items as $it) {
                 if (($it['@type'] ?? '') === 'Article') {
+                    // Kisa meta ozet — yalnizca tam metin bulunamazsa kullanilir.
                     $out['aciklama'] = k_temiz((string) ($it['description'] ?? ''));
                     $out['yayin'] = $it['datePublished'] ?? null;
                 }
             }
         }
     }
+    // Asil kampanya metni sayfa govdesindeki kmpd-desc blogudur (basliklar,
+    // maddeler, kosullar). Meta ozet 1-2 cumle oldugu icin uygulamada
+    // "yazi cok kisa" kaliyordu; tam metin varsa onu kullan.
+    $tam = k_desc_text($html);
+    if ($tam !== '') {
+        $out['aciklama'] = $tam;
+    }
     return $out;
+}
+
+/** kmpd-desc blogunu bulup okunabilir düz metne çevirir ('' = bulunamadı). */
+function k_desc_text(string $html): string
+{
+    $i = strpos($html, 'class="kmpd-desc"');
+    if ($i === false) {
+        return '';
+    }
+    $start = strrpos(substr($html, 0, $i), '<div');
+    if ($start === false) {
+        return '';
+    }
+    // Dengeli div kapanisini bul.
+    $depth = 0;
+    $p = $start;
+    $len = strlen($html);
+    $end = false;
+    while ($p < $len) {
+        $ac = strpos($html, '<div', $p);
+        $kap = strpos($html, '</div>', $p);
+        if ($kap === false) {
+            break;
+        }
+        if ($ac !== false && $ac < $kap) {
+            $depth++;
+            $p = $ac + 4;
+        } else {
+            $depth--;
+            $p = $kap + 6;
+            if ($depth === 0) {
+                $end = $p;
+                break;
+            }
+        }
+    }
+    if ($end === false) {
+        return '';
+    }
+    $blok = substr($html, $start, $end - $start);
+
+    // HTML -> okunabilir metin: basliklar ayri satir, maddeler "• ".
+    $blok = preg_replace('#<h[1-6][^>]*>#i', "\n\n", $blok);
+    $blok = preg_replace('#</h[1-6]>#i', "\n", $blok);
+    $blok = preg_replace('#<li[^>]*>#i', "\n• ", $blok);
+    $blok = preg_replace('#</(p|ul|ol)>#i', "\n", $blok);
+    $blok = preg_replace('#<br\s*/?>#i', "\n", $blok);
+    $blok = strip_tags($blok);
+    $blok = html_entity_decode($blok, ENT_QUOTES | ENT_HTML5, 'UTF-8');
+    // Satir ici bosluklari sadelestir ama satir sonlarini koru.
+    $blok = preg_replace('/[ \t]+/', ' ', $blok);
+    $blok = preg_replace('/ *\n */', "\n", $blok);
+    $blok = preg_replace('/\n{3,}/', "\n\n", $blok);
+    $blok = trim((string) $blok);
+    if (mb_strlen($blok, 'UTF-8') > 6000) {
+        $blok = mb_substr($blok, 0, 6000, 'UTF-8');
+    }
+    return $blok;
 }
 
 // ---------------------------- Firestore ----------------------------
@@ -318,6 +384,45 @@ function k_fb_existing_ids(array $cfg): array
     return $ids;
 }
 
+/** Dokumanin YALNIZCA verilen alanlarini gunceller (updateMask). */
+function k_fb_update(array $cfg, string $docId, array $fields): void
+{
+    $c = k_fb_client($cfg);
+    $doc = ['fields' => []];
+    $mask = [];
+    foreach ($fields as $k => $v) {
+        $doc['fields'][$k] = k_fb_value($v);
+        $mask[] = 'updateMask.fieldPaths=' . rawurlencode($k);
+    }
+    $url = "https://firestore.googleapis.com/v1/projects/{$c['project']}/databases/(default)/documents/{$cfg['collection']}/{$docId}?" . implode('&', $mask);
+    [$status, $body] = k_fb_request($cfg, 'PATCH', $url, $doc);
+    if ($status < 200 || $status >= 300) {
+        throw new RuntimeException("Firestore PATCH(mask) {$docId} HTTP {$status}: {$body}");
+    }
+}
+
+/** Tum dokumanlarin id+slug listesini dondurur (backfill icin). */
+function k_fb_list_slugs(array $cfg): array
+{
+    $c = k_fb_client($cfg);
+    $out = [];
+    $pageToken = '';
+    do {
+        $url = "https://firestore.googleapis.com/v1/projects/{$c['project']}/databases/(default)/documents/{$cfg['collection']}?pageSize=300&mask.fieldPaths=slug" . ($pageToken !== '' ? "&pageToken={$pageToken}" : '');
+        [$status, $body] = k_fb_request($cfg, 'GET', $url);
+        if ($status < 200 || $status >= 300) {
+            throw new RuntimeException("Firestore list HTTP {$status}: {$body}");
+        }
+        $d = json_decode($body, true);
+        foreach ($d['documents'] ?? [] as $doc) {
+            $out[basename((string) $doc['name'])] =
+                (string) ($doc['fields']['slug']['stringValue'] ?? '');
+        }
+        $pageToken = (string) ($d['nextPageToken'] ?? '');
+    } while ($pageToken !== '');
+    return $out;
+}
+
 function k_fb_set(array $cfg, string $docId, array $fields): void
 {
     $c = k_fb_client($cfg);
@@ -340,6 +445,35 @@ try {
         throw new RuntimeException('Service account bulunamadi: ' . $cfg['firebase_credentials']);
     }
     k_log('Kampanya botu basladi.' . (($cfg['proxy_url'] ?? '') !== '' ? ' (proxy aktif)' : ' (proxy YOK)'));
+
+    // Tek seferlik: mevcut kayitlarin kisa meta aciklamalarini detay
+    // sayfasindaki tam metinle degistirir. Kullanim: --desc-backfill
+    if (in_array('--desc-backfill', $argv ?? [], true)) {
+        $slugs = k_fb_list_slugs($cfg);
+        k_log('Aciklama backfill: ' . count($slugs) . ' kayit taranacak.');
+        $g = 0;
+        foreach ($slugs as $docId => $slug) {
+            if ($slug === '') {
+                continue;
+            }
+            $detay = k_detail_info($cfg, $slug);
+            k_sleep_ms($cfg['request_delay_ms']);
+            if (($detay['aciklama'] ?? '') === '') {
+                continue;
+            }
+            try {
+                k_fb_update($cfg, $docId, ['aciklama' => $detay['aciklama']]);
+                $g++;
+                if ($g % 50 === 0) {
+                    k_log("Aciklama guncellenen: {$g}");
+                }
+            } catch (Throwable $e) {
+                k_log("Backfill hata ({$docId}): " . $e->getMessage());
+            }
+        }
+        k_log("Aciklama backfill bitti. Guncellenen: {$g}");
+        exit(0);
+    }
 
     $existing = k_fb_existing_ids($cfg);
     k_log('Firestore mevcut kampanya: ' . count($existing));
