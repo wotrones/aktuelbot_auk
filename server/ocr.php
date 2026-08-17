@@ -146,23 +146,45 @@ if ($base === false) {
     respond(500, ['ok' => false, 'error' => 'Geçici dosya oluşturulamadı']);
 }
 
-$cmd = sprintf(
-    '%s %s %s -l %s --psm 6 2>/dev/null',
-    escapeshellcmd(TESSERACT_BIN),
+// Ön işleme: 2x büyütme + gri + kontrast + keskinleştirme. Küçük puntolu,
+// renkli broşür kolajlarında doğruluğu belirgin artırıyor. convert yoksa
+// ham görselle devam edilir.
+$pre = $base . '_pre.png';
+$convCode = 1;
+@exec(sprintf(
+    'convert %s -resize 200%%%% -colorspace Gray -normalize -sharpen 0x1 %s 2>/dev/null',
     escapeshellarg($src),
-    escapeshellarg($base),
-    escapeshellarg(TESSERACT_LANG)
-);
-$code = 1;
-@exec($cmd, $_, $code);
+    escapeshellarg($pre)
+), $_, $convCode);
+$ocrSrc = ($convCode === 0 && is_file($pre)) ? $pre : $src;
 
-$txtFile = $base . '.txt';
-$text = is_file($txtFile) ? (string) file_get_contents($txtFile) : '';
+// İki geçiş: psm 11 (seyrek metin — ürün adlarını temiz ayırır) + psm 6
+// (blok metin — tarih/koşul satırları). Arama için birleşimi en iyi sonucu verdi.
+$parcalar = [];
+$sonKod = 0;
+foreach ([11, 6] as $psm) {
+    $out = $base . '_' . $psm;
+    $kod = 1;
+    @exec(sprintf(
+        '%s %s %s -l %s --psm %d 2>/dev/null',
+        escapeshellcmd(TESSERACT_BIN),
+        escapeshellarg($ocrSrc),
+        escapeshellarg($out),
+        escapeshellarg(TESSERACT_LANG),
+        $psm
+    ), $_, $kod);
+    $sonKod = $kod;
+    if (is_file($out . '.txt')) {
+        $parcalar[] = (string) file_get_contents($out . '.txt');
+    }
+    @unlink($out . '.txt');
+}
+$text = trim(implode("\n", $parcalar));
 @unlink($base);
-@unlink($txtFile);
+@unlink($pre);
 
-if ($code !== 0) {
-    respond(500, ['ok' => false, 'error' => "tesseract hata kodu {$code}"]);
+if ($text === '' && $sonKod !== 0) {
+    respond(500, ['ok' => false, 'error' => "tesseract hata kodu {$sonKod}"]);
 }
 
 // Fazla boşlukları sadeleştir, üst sınırı uygula.
