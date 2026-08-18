@@ -1,0 +1,28 @@
+name: onesignal broadcast
+# Tum abonelere kisa duyuru/test gonderir. DIKKAT: gercek kullanicilara gider.
+on:
+  workflow_dispatch:
+    inputs:
+      baslik:
+        description: 'Bildirim basligi'
+        required: true
+      icerik:
+        description: 'Bildirim metni'
+        required: true
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send broadcast
+        env:
+          APP_ID: ${{ vars.ONESIGNAL_APP_ID }}
+          KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
+          BASLIK: ${{ github.event.inputs.baslik }}
+          ICERIK: ${{ github.event.inputs.icerik }}
+        run: |
+          jq -n --arg app "$APP_ID" --arg t "$BASLIK" --arg c "$ICERIK" \
+            '{app_id:$app, target_channel:"push", included_segments:["Total Subscriptions"], headings:{en:$t,tr:$t}, contents:{en:$c,tr:$c}}' \
+          | curl -sf -X POST "https://api.onesignal.com/notifications" \
+              -H "Authorization: Key ${KEY}" -H "Content-Type: application/json" -d @- \
+          | jq '{id, errors}'
