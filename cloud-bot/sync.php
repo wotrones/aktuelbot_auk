@@ -401,10 +401,22 @@ function cb_ocr_backfill(array $cfg, int $maxBrochures): void
     }
     cb_log('Backfill: OCR bekleyen aktif brosur: ' . count($pending) . " (bu kosuda en fazla {$maxBrochures})");
 
+    // Kosu basina SAYFA butcesi: 62 sayfalik kataloglar tek kosuyu saatlerce
+    // uzatip bir sonraki zamanli kosuyla cakisiyordu (sunucu kesintisi).
+    $sayfaButcesi = 120;
+
     foreach (array_slice($pending, 0, $maxBrochures) as $b) {
+        if ($sayfaButcesi <= 0) {
+            cb_log('Backfill: sayfa butcesi doldu, kalanlar sonraki kosuda.');
+            break;
+        }
         $texts = [];
         $hits = 0;
         foreach ($b['gorseller'] as $url) {
+            if ($sayfaButcesi-- <= 0) {
+                $texts[] = '';
+                continue;
+            }
             $text = fb_ocr_remote_path($cfg, $url);
             if (mb_strlen($text, 'UTF-8') > 3500) {
                 $text = mb_substr($text, 0, 3500, 'UTF-8');

@@ -146,45 +146,45 @@ if ($base === false) {
     respond(500, ['ok' => false, 'error' => 'Geçici dosya oluşturulamadı']);
 }
 
-// Ön işleme: 2x büyütme + gri + kontrast + keskinleştirme. Küçük puntolu,
-// renkli broşür kolajlarında doğruluğu belirgin artırıyor. convert yoksa
-// ham görselle devam edilir.
+// Aynı anda TEK OCR işi: paralel istekler CPU'yu katlayıp siteyi
+// düşürüyordu (2026-08-18 kesintisi). Meşgulken 429 dönülür; bot yerel
+// tesseract'ına düşer / sonraki koşuda yeniden dener.
+$kilit = fopen(sys_get_temp_dir() . '/ocr_gate.lock', 'c');
+if ($kilit === false || !flock($kilit, LOCK_EX | LOCK_NB)) {
+    respond(429, ['ok' => false, 'error' => 'OCR mesgul, sonra tekrar deneyin']);
+}
+
+// Ön işleme: gri + kontrast + keskinleştirme. Boyut SINIRLI: genişlik
+// 2400px'i aşmaz (dev görselde körlemesine 2x büyütme tesseract'ı
+// dakikalarca sürüyordu), 1400px altındaki küçük görseller ise büyütülür.
 $pre = $base . '_pre.png';
 $convCode = 1;
 @exec(sprintf(
-    'convert %s -resize 200%%%% -colorspace Gray -normalize -sharpen 0x1 %s 2>/dev/null',
+    "convert %s -resize '2400x2400>' -resize '1400x1400<' -colorspace Gray -normalize -sharpen 0x1 %s 2>/dev/null",
     escapeshellarg($src),
     escapeshellarg($pre)
 ), $_, $convCode);
 $ocrSrc = ($convCode === 0 && is_file($pre)) ? $pre : $src;
 
-// İki geçiş: psm 11 (seyrek metin — ürün adlarını temiz ayırır) + psm 6
-// (blok metin — tarih/koşul satırları). Arama için birleşimi en iyi sonucu verdi.
-$parcalar = [];
-$sonKod = 0;
-foreach ([11, 6] as $psm) {
-    $out = $base . '_' . $psm;
-    $kod = 1;
-    @exec(sprintf(
-        '%s %s %s -l %s --psm %d 2>/dev/null',
-        escapeshellcmd(TESSERACT_BIN),
-        escapeshellarg($ocrSrc),
-        escapeshellarg($out),
-        escapeshellarg(TESSERACT_LANG),
-        $psm
-    ), $_, $kod);
-    $sonKod = $kod;
-    if (is_file($out . '.txt')) {
-        $parcalar[] = (string) file_get_contents($out . '.txt');
-    }
-    @unlink($out . '.txt');
-}
-$text = trim(implode("\n", $parcalar));
+// Tek geçiş (psm 11 — seyrek metin): kalite testinde kazanan buydu; ikinci
+// geçiş süreyi ikiye katlayıp kesintiye katkı vermişti. 120 sn üst sınır.
+$out = $base . '_o';
+$kod = 1;
+@exec(sprintf(
+    'timeout 120 %s %s %s -l %s --psm 11 2>/dev/null',
+    escapeshellcmd(TESSERACT_BIN),
+    escapeshellarg($ocrSrc),
+    escapeshellarg($out),
+    escapeshellarg(TESSERACT_LANG)
+), $_, $kod);
+$text = is_file($out . '.txt') ? trim((string) file_get_contents($out . '.txt')) : '';
+@unlink($out . '.txt');
 @unlink($base);
 @unlink($pre);
+flock($kilit, LOCK_UN);
 
-if ($text === '' && $sonKod !== 0) {
-    respond(500, ['ok' => false, 'error' => "tesseract hata kodu {$sonKod}"]);
+if ($text === '' && $kod !== 0) {
+    respond(500, ['ok' => false, 'error' => "tesseract hata kodu {$kod}"]);
 }
 
 // Fazla boşlukları sadeleştir, üst sınırı uygula.
