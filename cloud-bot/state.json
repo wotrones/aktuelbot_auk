@@ -28,7 +28,7 @@
             "lastCheckedAt": 1787256281
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1787231144
+            "lastCheckedAt": 1787258453
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
             "lastCheckedAt": 1787234188
@@ -687,7 +687,9 @@
         "ab_2bc483fca3e949c3b3469c1ef9540894": true,
         "ab_108b1e54e4394dbbb54da19196a8f319": true,
         "ab_5b25cffd2353400988e483b68c7feee1": true,
-        "ab_85df561a9b9846c7985b2fee1d6f89ed": true
+        "ab_85df561a9b9846c7985b2fee1d6f89ed": true,
+        "ab_266087f104214c63a15dacc5da75600d": true,
+        "ab_50b1faccf20145e281d3619cdb907a02": true
     },
-    "lastDrainAt": 1787256315
+    "lastDrainAt": 1787258576
 }
