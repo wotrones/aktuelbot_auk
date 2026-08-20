@@ -1,0 +1,35 @@
+name: onesignal android diag
+# En YENI oyunculari ornekler (son sayfa) ve Android abonelik sagligini ozetler.
+# 15 Agustos 2026 sonrasi kayitli, gecerli+abone Android cihaz sayisini verir.
+on:
+  workflow_dispatch:
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Newest players android health
+        env:
+          APP_ID: ${{ vars.ONESIGNAL_APP_ID }}
+          KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
+        run: |
+          TOTAL=$(curl -sf "https://api.onesignal.com/players?app_id=${APP_ID}&limit=1" \
+            -H "Authorization: Key ${KEY}" -H "accept: application/json" | jq '.total_count')
+          echo "total_count=$TOTAL"
+          OFFSET=$(( TOTAL > 300 ? TOTAL - 300 : 0 ))
+          echo "offset=$OFFSET"
+          curl -sf "https://api.onesignal.com/players?app_id=${APP_ID}&limit=300&offset=${OFFSET}" \
+            -H "Authorization: Key ${KEY}" -H "accept: application/json" -o newest.json
+          # tip 0 = Android, tip 1 = iOS. Esik: 1786752000 = 2026-08-15 UTC
+          jq '{ornek:(.players|length),
+               en_eski_ornek:(.players|map(.created_at)|min),
+               en_yeni_ornek:(.players|map(.created_at)|max),
+               dagilim:(.players|group_by(.device_type)|map({tip:.[0].device_type,adet:length})),
+               android_saglik:(.players|map(select(.device_type==0))|{
+                 toplam:length,
+                 abone:(map(select(.invalid_identifier!=true and .notification_types>=1))|length),
+                 gecersiz:(map(select(.invalid_identifier==true))|length),
+                 izin_yok:(map(select(.notification_types<1 and .invalid_identifier!=true))|length),
+                 ag15_sonrasi_abone:(map(select(.created_at>1786752000 and .invalid_identifier!=true and .notification_types>=1))|length),
+                 ag15_sonrasi_toplam:(map(select(.created_at>1786752000))|length)}),
+               ios_abone:(.players|map(select(.device_type==1 and .invalid_identifier!=true and .notification_types>=1))|length)}' newest.json
