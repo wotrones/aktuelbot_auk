@@ -13,7 +13,7 @@
             "lastCheckedAt": 1787342994
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1787324220
+            "lastCheckedAt": 1787344821
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1787326433
@@ -34,17 +34,7 @@
             "lastCheckedAt": 1787336138
         }
     },
-    "queue": [
-        {
-            "source_key": "ab_bbf6fa51fac84331bcfb60a1966c42bf",
-            "brochure_key": "bbf6fa51fac84331bcfb60a1966c42bf",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 22-28 Ağustos",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-22-28-agustos_bbf6fa51fac84331bcfb60a1966c42bf",
-            "tries": 1,
-            "not_before": "2026-08-22"
-        }
-    ],
+    "queue": [],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -716,7 +706,9 @@
         "ab_4ea73509a9a34224a284015aef60de06": true,
         "ab_f5273ca525a94f3c8572576da2b6d440": true,
         "ab_e0a83da635074735a3bc8191d8399d52": true,
-        "ab_0b3f030070c2492cb2e7e835e49a868e": true
+        "ab_0b3f030070c2492cb2e7e835e49a868e": true,
+        "ab_bbf6fa51fac84331bcfb60a1966c42bf": true,
+        "ab_56d5cb59efaa405b9f2ee798f593b05d": true
     },
-    "lastDrainAt": 1787343072
+    "lastDrainAt": 1787344975
 }
