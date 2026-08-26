@@ -16,7 +16,7 @@
             "lastCheckedAt": 1787750937
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1787724096
+            "lastCheckedAt": 1787754013
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
             "lastCheckedAt": 1787727761
@@ -736,7 +736,8 @@
         "ab_6ab5593cf8014b6e849e160e2220e8fb": true,
         "ab_a01125571d45402c87637c2fbe248733": true,
         "ab_ae6fc961177c4b599affb688707e4287": true,
-        "ab_cad3a739b1bd48ab84f9408fd54062a8": true
+        "ab_cad3a739b1bd48ab84f9408fd54062a8": true,
+        "ab_800e45e236714f548bbbeebcabd77314": true
     },
-    "lastDrainAt": 1787746849
+    "lastDrainAt": 1787754518
 }
