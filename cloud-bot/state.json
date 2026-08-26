@@ -10,7 +10,7 @@
             "lastCheckedAt": 1787714824
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1787691022
+            "lastCheckedAt": 1787717481
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 1787692420
@@ -34,16 +34,7 @@
             "lastCheckedAt": 1787702003
         }
     },
-    "queue": [
-        {
-            "source_key": "ab_8f21a27dcc5445878b40578122b20dda",
-            "brochure_key": "8f21a27dcc5445878b40578122b20dda",
-            "market": "A101",
-            "title": "A101 Yazın Yıldızları İndirimli Ürünler Broşürü 26-29 Ağustos",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-yazin-yildizlari-indirimli-urunler-brosuru-26-29-agustos_8f21a27dcc5445878b40578122b20dda",
-            "tries": 1
-        }
-    ],
+    "queue": [],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -739,7 +730,8 @@
         "ab_ab7e9f84afc34054bb81443edb8fa7e4": true,
         "ab_1ff2a4c45b4c4a4998de8f024f395396": true,
         "ab_c6754c028df745df88eb5d9b0f33e3eb": true,
-        "ab_9810397b746c49ba856bf682b9af9a93": true
+        "ab_9810397b746c49ba856bf682b9af9a93": true,
+        "ab_8f21a27dcc5445878b40578122b20dda": true
     },
-    "lastDrainAt": 1787714887
+    "lastDrainAt": 1787717509
 }
