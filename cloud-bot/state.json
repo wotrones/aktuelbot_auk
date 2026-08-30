@@ -7,7 +7,7 @@
             "lastCheckedAt": 1788085880
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1787889877
+            "lastCheckedAt": 1788101802
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1787934836
@@ -34,7 +34,16 @@
             "lastCheckedAt": 1788048375
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_b1b80281fd4046efa3e26f22400ec47e",
+            "brochure_key": "b1b80281fd4046efa3e26f22400ec47e",
+            "market": "A101",
+            "title": "A101 Haftanın & Kahvaltının Yıldızları Broşürü 29 Ağustos-4 Eylül 2026",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-haftanin-kahvaltinin-yildizlari-brosuru-29-agustos-4-eylul-2026_b1b80281fd4046efa3e26f22400ec47e",
+            "tries": 1
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -756,7 +765,11 @@
         "ab_b17233877b5c4338b22cac6d52884cde": true,
         "ab_eff6b5b28e3346e69330dc07c035c699": true,
         "ab_9ffa9dc9a8fe4d8c8ce483f58b68bae6": true,
-        "ab_6e4ffe499e2e4a009af239bf729cb848": true
+        "ab_6e4ffe499e2e4a009af239bf729cb848": true,
+        "ab_99ebc7a65fb84cf1aab2d4fc3d56026f": true,
+        "ab_0f425dfdef314805bcd3575c6c1738e0": true,
+        "ab_cdf5f219e62244a29af7b02f4e28b150": true,
+        "ab_08b2a83088bb465eb27f4fd444526827": true
     },
-    "lastDrainAt": 1788048390
+    "lastDrainAt": 1788102060
 }
