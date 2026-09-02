@@ -22,7 +22,7 @@
             "lastCheckedAt": 1788311028
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1788161780
+            "lastCheckedAt": 1788327793
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
             "lastCheckedAt": 1788189893
@@ -773,7 +773,12 @@
         "ab_90d830726ec24329ad5292570a47ec75": true,
         "ab_720aa0274ae343d0a381bfb184b66e33": true,
         "ab_b7fdf33a1af240ee9a168af3e9d7fc6a": true,
-        "ab_18018777b6c641dcbdb3d3af7e65e685": true
+        "ab_18018777b6c641dcbdb3d3af7e65e685": true,
+        "ab_e19b0d5159fa4d339899f2abc80523f0": true,
+        "ab_e387662f016e409d9c92309b1789ed12": true,
+        "ab_b3939fdf76dd46f9baf501adaf516360": true,
+        "ab_760940c5952d42f7be47e4e1dda94c10": true,
+        "ab_e5a70871319f4de396fd0fa3f4a035e2": true
     },
-    "lastDrainAt": 1788311521
+    "lastDrainAt": 1788328771
 }
