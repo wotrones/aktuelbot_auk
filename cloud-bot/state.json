@@ -7,7 +7,7 @@
             "lastCheckedAt": 1788557626
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1788443535
+            "lastCheckedAt": 1788563708
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1788456084
@@ -34,7 +34,25 @@
             "lastCheckedAt": 1788540975
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_32b5d4bd85a44a278c79194cba8278ab",
+            "brochure_key": "32b5d4bd85a44a278c79194cba8278ab",
+            "market": "A101",
+            "title": "A101 Tazenin Yıldızları İndirimli Ürünler Broşürü 4-6 Eylül",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-tazenin-yildizlari-indirimli-urunler-brosuru-4-6-eylul_32b5d4bd85a44a278c79194cba8278ab",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_9472ef56cdb94b768e52df273a89b09c",
+            "brochure_key": "9472ef56cdb94b768e52df273a89b09c",
+            "market": "A101",
+            "title": "10 TL ve Üzeri Alışverişlerde İndirimli Fırsat Ürünleri Broşürü 5-11 Eylül 2026",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/10-tl-ve-uzeri-alisverislerde-indirimli-firsat-urunleri-brosuru-5-11-eylul-2026_9472ef56cdb94b768e52df273a89b09c",
+            "tries": 0,
+            "not_before": "2026-09-05"
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -797,7 +815,12 @@
         "ab_81e0f2a510db4e41affe508b1eaed21b": true,
         "ab_583bb2cfc624466181f323622a0f3d5d": true,
         "ab_17727b0844cb47048ed73f339c1c9ba4": true,
-        "ab_c4a2d88359184f9e867a7e4a5fc749c3": true
+        "ab_c4a2d88359184f9e867a7e4a5fc749c3": true,
+        "ab_ae25c085a9c341ab987396f50140ee62": true,
+        "ab_a9c8eaffdb1143a49e17df6e3df89482": true,
+        "ab_17980ab3b0254e8fbdf670089bc8e350": true,
+        "ab_a7ca3b1a5b8842ec84e14e130d1e0ab4": true,
+        "ab_f1056541fe184293b717c0836372db48": true
     },
-    "lastDrainAt": 1788557707
+    "lastDrainAt": 1788564033
 }
