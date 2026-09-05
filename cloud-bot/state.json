@@ -13,7 +13,7 @@
             "lastCheckedAt": 1788570115
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1788465457
+            "lastCheckedAt": 1788586557
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1788474195
@@ -34,25 +34,7 @@
             "lastCheckedAt": 1788540975
         }
     },
-    "queue": [
-        {
-            "source_key": "ab_7aa9a3e102d44885939acfe08812a89c",
-            "brochure_key": "7aa9a3e102d44885939acfe08812a89c",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 4-7 Eylül",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-4-7-eylul_7aa9a3e102d44885939acfe08812a89c",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_6285226832d9418ba963be0dfe585cd2",
-            "brochure_key": "6285226832d9418ba963be0dfe585cd2",
-            "market": "Bim",
-            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 11 Eylül 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-11-eylul-2026-dan-itibaren-stoklarla-sinirli_6285226832d9418ba963be0dfe585cd2",
-            "tries": 0,
-            "not_before": "2026-09-11"
-        }
-    ],
+    "queue": [],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -825,7 +807,12 @@
         "ab_9472ef56cdb94b768e52df273a89b09c": true,
         "ab_546987f8c2a24f66a14dd485db84e56f": true,
         "ab_32ebee2ed6b84093ba059257c142c74a": true,
-        "ab_afb9b0a4682d40c0af0a81c299ef734a": true
+        "ab_afb9b0a4682d40c0af0a81c299ef734a": true,
+        "ab_7aa9a3e102d44885939acfe08812a89c": true,
+        "ab_6285226832d9418ba963be0dfe585cd2": true,
+        "ab_4728768d43444533a17e4e637418ac85": true,
+        "ab_d4c84d55453641e693ec217bc441565a": true,
+        "ab_e22bca55c8e84eb4af9363f536ef67d4": true
     },
-    "lastDrainAt": 1788570330
+    "lastDrainAt": 1788586703
 }
