@@ -10,7 +10,7 @@
             "lastCheckedAt": 1788563708
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1788456084
+            "lastCheckedAt": 1788570115
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 1788465457
@@ -36,21 +36,21 @@
     },
     "queue": [
         {
-            "source_key": "ab_32b5d4bd85a44a278c79194cba8278ab",
-            "brochure_key": "32b5d4bd85a44a278c79194cba8278ab",
-            "market": "A101",
-            "title": "A101 Tazenin Yıldızları İndirimli Ürünler Broşürü 4-6 Eylül",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-tazenin-yildizlari-indirimli-urunler-brosuru-4-6-eylul_32b5d4bd85a44a278c79194cba8278ab",
+            "source_key": "ab_7aa9a3e102d44885939acfe08812a89c",
+            "brochure_key": "7aa9a3e102d44885939acfe08812a89c",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 4-7 Eylül",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-4-7-eylul_7aa9a3e102d44885939acfe08812a89c",
             "tries": 0
         },
         {
-            "source_key": "ab_9472ef56cdb94b768e52df273a89b09c",
-            "brochure_key": "9472ef56cdb94b768e52df273a89b09c",
-            "market": "A101",
-            "title": "10 TL ve Üzeri Alışverişlerde İndirimli Fırsat Ürünleri Broşürü 5-11 Eylül 2026",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/10-tl-ve-uzeri-alisverislerde-indirimli-firsat-urunleri-brosuru-5-11-eylul-2026_9472ef56cdb94b768e52df273a89b09c",
+            "source_key": "ab_6285226832d9418ba963be0dfe585cd2",
+            "brochure_key": "6285226832d9418ba963be0dfe585cd2",
+            "market": "Bim",
+            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 11 Eylül 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-11-eylul-2026-dan-itibaren-stoklarla-sinirli_6285226832d9418ba963be0dfe585cd2",
             "tries": 0,
-            "not_before": "2026-09-05"
+            "not_before": "2026-09-11"
         }
     ],
     "uploaded": {
@@ -820,7 +820,12 @@
         "ab_a9c8eaffdb1143a49e17df6e3df89482": true,
         "ab_17980ab3b0254e8fbdf670089bc8e350": true,
         "ab_a7ca3b1a5b8842ec84e14e130d1e0ab4": true,
-        "ab_f1056541fe184293b717c0836372db48": true
+        "ab_f1056541fe184293b717c0836372db48": true,
+        "ab_32b5d4bd85a44a278c79194cba8278ab": true,
+        "ab_9472ef56cdb94b768e52df273a89b09c": true,
+        "ab_546987f8c2a24f66a14dd485db84e56f": true,
+        "ab_32ebee2ed6b84093ba059257c142c74a": true,
+        "ab_afb9b0a4682d40c0af0a81c299ef734a": true
     },
-    "lastDrainAt": 1788564033
+    "lastDrainAt": 1788570330
 }
