@@ -10,7 +10,7 @@
             "lastCheckedAt": 1788808199
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1788687761
+            "lastCheckedAt": 1788818420
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 1788700208
@@ -34,7 +34,17 @@
             "lastCheckedAt": 1788755001
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_dd476ef8d04441cc8fbf6229380e4be7",
+            "brochure_key": "dd476ef8d04441cc8fbf6229380e4be7",
+            "market": "Bim",
+            "title": "Bim Haftanın Önerileri Aktüel Ürünler Broşürü 15 Eylül 2026'dan İtibaren",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-haftanin-onerileri-aktuel-urunler-brosuru-15-eylul-2026-dan-itibaren_dd476ef8d04441cc8fbf6229380e4be7",
+            "tries": 1,
+            "not_before": "2026-09-15"
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -818,7 +828,11 @@
         "ab_2ee8f343f77149a29291b91eaf8cf230": true,
         "ab_a5bb75d29a6b4503a5effa3e2946501f": true,
         "ab_634bea5f1a7c4c2eb295f6aad139cae9": true,
-        "ab_216d25bd2bcc4f0487321a4e8a977b91": true
+        "ab_216d25bd2bcc4f0487321a4e8a977b91": true,
+        "ab_7bdf4bd343124dfc998c2a6be8f3f63a": true,
+        "ab_2029da8540d142d0ba36d7e4bdaff227": true,
+        "ab_8cbf8dad53ff45f4a99c4d05938dd108": true,
+        "ab_ec7a8d6229d24a428a413856e85fbbb5": true
     },
-    "lastDrainAt": 1788733073
+    "lastDrainAt": 1788818550
 }
