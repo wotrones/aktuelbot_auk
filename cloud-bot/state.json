@@ -4,7 +4,7 @@
             "lastCheckedAt": 1789077490
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1788930390
+            "lastCheckedAt": 1789084248
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
             "lastCheckedAt": 1788946765
@@ -36,20 +36,12 @@
     },
     "queue": [
         {
-            "source_key": "ab_3bee008ffe364f0687bcc23f096940ec",
-            "brochure_key": "3bee008ffe364f0687bcc23f096940ec",
-            "market": "Migros",
-            "title": "Migros'larda Geçerli İndirim Bülteni Kataloğu - Okul İhtiyaçlarını İyisi İyi Fiyata Migros'ta",
-            "href": "https://aktuelbrosurler.com/migros/brosurler/migros-larda-gecerli-indirim-bulteni-katalogu-okul-ihtiyaclarini-iyisi-iyi-fiyata-migros-ta_3bee008ffe364f0687bcc23f096940ec",
-            "tries": 1
-        },
-        {
             "source_key": "ab_97d8d0be80f440619f788ac32fb91581",
             "brochure_key": "97d8d0be80f440619f788ac32fb91581",
             "market": "Migros",
             "title": "Migros'larda Geçerli İndirim Bülteni Kataloğu - Her 50 TL'lik Alışverişe Seç-Al",
             "href": "https://aktuelbrosurler.com/migros/brosurler/migros-larda-gecerli-indirim-bulteni-katalogu-her-50-tl-lik-alisverise-sec-al_97d8d0be80f440619f788ac32fb91581",
-            "tries": 1
+            "tries": 2
         }
     ],
     "uploaded": {
@@ -857,7 +849,11 @@
         "ab_7e4d29fbd54645688d62e284542cb8ba": true,
         "ab_f3dcefbef1234782bc6574fdf8cd1088": true,
         "ab_7ab29deb62df40c78293c6d47cc0f8e7": true,
-        "ab_f09bc07567274c2c94cb3419502830f5": true
+        "ab_f09bc07567274c2c94cb3419502830f5": true,
+        "ab_3bee008ffe364f0687bcc23f096940ec": true,
+        "ab_d64f036aab8c4b798a6a288df4510839": true,
+        "ab_cba57efc76754a8ba8dbd5dbc7bee1a3": true,
+        "ab_f05fa3d73c7e4909ac5f642c44cafdbb": true
     },
-    "lastDrainAt": 1789078409
+    "lastDrainAt": 1789085035
 }
