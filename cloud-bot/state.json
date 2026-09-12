@@ -13,7 +13,7 @@
             "lastCheckedAt": 1789237805
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1789127188
+            "lastCheckedAt": 1789246302
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1789139754
@@ -36,19 +36,27 @@
     },
     "queue": [
         {
-            "source_key": "ab_a598efa2dc36482d8f845b032d8aed89",
-            "brochure_key": "a598efa2dc36482d8f845b032d8aed89",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 12-18 Eylül",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-12-18-eylul_a598efa2dc36482d8f845b032d8aed89",
+            "source_key": "ab_da631f2cba03465db3c48cab49c05b59",
+            "brochure_key": "da631f2cba03465db3c48cab49c05b59",
+            "market": "Şok Market",
+            "title": "Atıştırmalık Ürünleri Fırsat Broşürü",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/atistirmalik-urunleri-firsat-brosuru_da631f2cba03465db3c48cab49c05b59",
             "tries": 0
         },
         {
-            "source_key": "ab_4b49e54f513c4619bc7c10031ff13075",
-            "brochure_key": "4b49e54f513c4619bc7c10031ff13075",
-            "market": "Bim",
-            "title": "Bim Aynı Ürünün İkincisi %50 İndirimli Ürünler Broşürü 11-14 Eylül",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-ayni-urunun-ikincisi-50-indirimli-urunler-brosuru-11-14-eylul_4b49e54f513c4619bc7c10031ff13075",
+            "source_key": "ab_dec668c08ca541099f6f49127e5b4ce7",
+            "brochure_key": "dec668c08ca541099f6f49127e5b4ce7",
+            "market": "Şok Market",
+            "title": "50TL ve Üzeri Alışverişlerde İndirimli Ürünler 12 Eylül - 13 Kasım",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/50tl-ve-uzeri-alisverislerde-indirimli-urunler-12-eylul-13-kasim_dec668c08ca541099f6f49127e5b4ce7",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_ed126dfdc8ba4c6dad0b965090802e05",
+            "brochure_key": "ed126dfdc8ba4c6dad0b965090802e05",
+            "market": "Şok Market",
+            "title": "Hafta Sonuna Özel İndirimli Ürünler",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/hafta-sonuna-ozel-indirimli-urunler_ed126dfdc8ba4c6dad0b965090802e05",
             "tries": 0
         },
         {
@@ -57,14 +65,6 @@
             "market": "Bim",
             "title": "Meyve ve Sebze İndirimleri Broşürü",
             "href": "https://aktuelbrosurler.com/bim/brosurler/meyve-ve-sebze-indirimleri-brosuru_95699a7a11fc4bbd9bcad6e9aa9f1482",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_31c57947ea4d48b79de9f31a9b753ffe",
-            "brochure_key": "31c57947ea4d48b79de9f31a9b753ffe",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 12-18 Eylül",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-12-18-eylul_31c57947ea4d48b79de9f31a9b753ffe",
             "tries": 1
         }
     ],
@@ -896,7 +896,11 @@
         "ab_036f3f82900a47af9ff91baece99e4e3": true,
         "ab_aadafe7a585e4039974cccd107bfcefd": true,
         "ab_fdbf45226092425bb9184e25639a07ed": true,
-        "ab_3aed6ad1c9994ea597923ad42ed3e369": true
+        "ab_3aed6ad1c9994ea597923ad42ed3e369": true,
+        "ab_a598efa2dc36482d8f845b032d8aed89": true,
+        "ab_4b49e54f513c4619bc7c10031ff13075": true,
+        "ab_31c57947ea4d48b79de9f31a9b753ffe": true,
+        "ab_b11b312a3c0d4d84a56ca50e2664e492": true
     },
-    "lastDrainAt": 1789238269
+    "lastDrainAt": 1789246514
 }
