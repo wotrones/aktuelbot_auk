@@ -16,7 +16,7 @@
             "lastCheckedAt": 1789246302
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1789139754
+            "lastCheckedAt": 1789252813
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
             "lastCheckedAt": 1789151892
@@ -34,40 +34,7 @@
             "lastCheckedAt": 1789192420
         }
     },
-    "queue": [
-        {
-            "source_key": "ab_da631f2cba03465db3c48cab49c05b59",
-            "brochure_key": "da631f2cba03465db3c48cab49c05b59",
-            "market": "Şok Market",
-            "title": "Atıştırmalık Ürünleri Fırsat Broşürü",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/atistirmalik-urunleri-firsat-brosuru_da631f2cba03465db3c48cab49c05b59",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_dec668c08ca541099f6f49127e5b4ce7",
-            "brochure_key": "dec668c08ca541099f6f49127e5b4ce7",
-            "market": "Şok Market",
-            "title": "50TL ve Üzeri Alışverişlerde İndirimli Ürünler 12 Eylül - 13 Kasım",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/50tl-ve-uzeri-alisverislerde-indirimli-urunler-12-eylul-13-kasim_dec668c08ca541099f6f49127e5b4ce7",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_ed126dfdc8ba4c6dad0b965090802e05",
-            "brochure_key": "ed126dfdc8ba4c6dad0b965090802e05",
-            "market": "Şok Market",
-            "title": "Hafta Sonuna Özel İndirimli Ürünler",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/hafta-sonuna-ozel-indirimli-urunler_ed126dfdc8ba4c6dad0b965090802e05",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_95699a7a11fc4bbd9bcad6e9aa9f1482",
-            "brochure_key": "95699a7a11fc4bbd9bcad6e9aa9f1482",
-            "market": "Bim",
-            "title": "Meyve ve Sebze İndirimleri Broşürü",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/meyve-ve-sebze-indirimleri-brosuru_95699a7a11fc4bbd9bcad6e9aa9f1482",
-            "tries": 1
-        }
-    ],
+    "queue": [],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -900,7 +867,11 @@
         "ab_a598efa2dc36482d8f845b032d8aed89": true,
         "ab_4b49e54f513c4619bc7c10031ff13075": true,
         "ab_31c57947ea4d48b79de9f31a9b753ffe": true,
-        "ab_b11b312a3c0d4d84a56ca50e2664e492": true
+        "ab_b11b312a3c0d4d84a56ca50e2664e492": true,
+        "ab_da631f2cba03465db3c48cab49c05b59": true,
+        "ab_dec668c08ca541099f6f49127e5b4ce7": true,
+        "ab_ed126dfdc8ba4c6dad0b965090802e05": true,
+        "ab_95699a7a11fc4bbd9bcad6e9aa9f1482": true
     },
-    "lastDrainAt": 1789246514
+    "lastDrainAt": 1789252894
 }
