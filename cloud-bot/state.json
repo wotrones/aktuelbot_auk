@@ -13,7 +13,7 @@
             "lastCheckedAt": 1789817363
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1789690297
+            "lastCheckedAt": 1789828950
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1789706655
@@ -34,25 +34,7 @@
             "lastCheckedAt": 1789768256
         }
     },
-    "queue": [
-        {
-            "source_key": "ab_afd1b67eb8354cb09453c44a1fd4607f",
-            "brochure_key": "afd1b67eb8354cb09453c44a1fd4607f",
-            "market": "Bim",
-            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 25 Eylül 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-25-eylul-2026-dan-itibaren-stoklarla-sinirli_afd1b67eb8354cb09453c44a1fd4607f",
-            "tries": 0,
-            "not_before": "2026-09-25"
-        },
-        {
-            "source_key": "ab_7d0810aa64a04edc8cc4499ea8281600",
-            "brochure_key": "7d0810aa64a04edc8cc4499ea8281600",
-            "market": "Bim",
-            "title": "Hafta Sonu Meyve ve Sebze İndirimleri",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/hafta-sonu-meyve-ve-sebze-indirimleri_7d0810aa64a04edc8cc4499ea8281600",
-            "tries": 0
-        }
-    ],
+    "queue": [],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -939,7 +921,12 @@
         "ab_29064a2bd4fe4f2eb4bc0fa227524020": true,
         "ab_ed136bce407c4b1690272f1054020ea3": true,
         "ab_8a21d9c844a64ed28568dd7b758bca34": true,
-        "ab_0526463f741945f2b1ab10e6147efa13": true
+        "ab_0526463f741945f2b1ab10e6147efa13": true,
+        "ab_afd1b67eb8354cb09453c44a1fd4607f": true,
+        "ab_7d0810aa64a04edc8cc4499ea8281600": true,
+        "ab_0a1228a0974e49cf9b84a704bcfebbd8": true,
+        "ab_aa7db9e969784d4381b941345758cdc6": true,
+        "ab_e75df12548c340faacbb21160be0233a": true
     },
-    "lastDrainAt": 1789817602
+    "lastDrainAt": 1789829263
 }
