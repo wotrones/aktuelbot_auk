@@ -10,7 +10,7 @@
             "lastCheckedAt": 1789799730
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1789682734
+            "lastCheckedAt": 1789817363
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 1789690297
@@ -36,19 +36,20 @@
     },
     "queue": [
         {
-            "source_key": "ab_58d015510cc04d51be3f423579d27c89",
-            "brochure_key": "58d015510cc04d51be3f423579d27c89",
-            "market": "A101",
-            "title": "A101 Haftanın Yıldızları Broşürü 19-25 Eylül",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-haftanin-yildizlari-brosuru-19-25-eylul_58d015510cc04d51be3f423579d27c89",
-            "tries": 0
+            "source_key": "ab_afd1b67eb8354cb09453c44a1fd4607f",
+            "brochure_key": "afd1b67eb8354cb09453c44a1fd4607f",
+            "market": "Bim",
+            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 25 Eylül 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-25-eylul-2026-dan-itibaren-stoklarla-sinirli_afd1b67eb8354cb09453c44a1fd4607f",
+            "tries": 0,
+            "not_before": "2026-09-25"
         },
         {
-            "source_key": "ab_29064a2bd4fe4f2eb4bc0fa227524020",
-            "brochure_key": "29064a2bd4fe4f2eb4bc0fa227524020",
-            "market": "A101",
-            "title": "Meyve ve Sebze Reyonu Fırsatları",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/meyve-ve-sebze-reyonu-firsatlari_29064a2bd4fe4f2eb4bc0fa227524020",
+            "source_key": "ab_7d0810aa64a04edc8cc4499ea8281600",
+            "brochure_key": "7d0810aa64a04edc8cc4499ea8281600",
+            "market": "Bim",
+            "title": "Hafta Sonu Meyve ve Sebze İndirimleri",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/hafta-sonu-meyve-ve-sebze-indirimleri_7d0810aa64a04edc8cc4499ea8281600",
             "tries": 0
         }
     ],
@@ -933,7 +934,12 @@
         "ab_df1f0116d8364337bb7bd75444146c9c": true,
         "ab_78e00e27d971433db2bedca3d982372c": true,
         "ab_9e3aa04c91db4f3eb172fb37822f3aa7": true,
-        "ab_eb6ead5bc38b40cbacc4c1f132a1f2d2": true
+        "ab_eb6ead5bc38b40cbacc4c1f132a1f2d2": true,
+        "ab_58d015510cc04d51be3f423579d27c89": true,
+        "ab_29064a2bd4fe4f2eb4bc0fa227524020": true,
+        "ab_ed136bce407c4b1690272f1054020ea3": true,
+        "ab_8a21d9c844a64ed28568dd7b758bca34": true,
+        "ab_0526463f741945f2b1ab10e6147efa13": true
     },
-    "lastDrainAt": 1789799994
+    "lastDrainAt": 1789817602
 }
