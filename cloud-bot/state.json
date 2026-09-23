@@ -19,7 +19,7 @@
             "lastCheckedAt": 1790128271
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1789995102
+            "lastCheckedAt": 1790146129
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
             "lastCheckedAt": 1790014834
@@ -941,7 +941,8 @@
         "ab_1c2c929326ef44618c076bcd6a02e92d": true,
         "ab_b8ee90e396a44d8581198cfb2a4446fe": true,
         "ab_0787a9783b054d63867a72d67ed70a5a": true,
-        "ab_9c59fb51dcb94ebabce95937d2af28c7": true
+        "ab_9c59fb51dcb94ebabce95937d2af28c7": true,
+        "ab_303946f79fd14982b58a503feeb5b928": true
     },
-    "lastDrainAt": 1790128342
+    "lastDrainAt": 1790146158
 }
