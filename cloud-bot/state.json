@@ -1,7 +1,7 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1790071976
+            "lastCheckedAt": 1790212722
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
             "lastCheckedAt": 1790088968
@@ -944,7 +944,9 @@
         "ab_9c59fb51dcb94ebabce95937d2af28c7": true,
         "ab_303946f79fd14982b58a503feeb5b928": true,
         "ab_d2381252d02a44fda3442e35ac8f77be": true,
-        "ab_39af3b287d8f4dd2834b84372854c290": true
+        "ab_39af3b287d8f4dd2834b84372854c290": true,
+        "ab_7dd135fc73b344fc8bde6063e2107295": true,
+        "ab_bd7cf56accf94da4bd6d70e743cd038a": true
     },
-    "lastDrainAt": 1790195304
+    "lastDrainAt": 1790214215
 }
