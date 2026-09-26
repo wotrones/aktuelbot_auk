@@ -7,7 +7,7 @@
             "lastCheckedAt": 1790387132
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1790250791
+            "lastCheckedAt": 1790404837
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1790266066
@@ -34,7 +34,33 @@
             "lastCheckedAt": 1790367923
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_8c798de4a563496f95368518434a0bb9",
+            "brochure_key": "8c798de4a563496f95368518434a0bb9",
+            "market": "A101",
+            "title": "A101 Aldın Aldın Aktüel Ürünler Broşürü 1 Ekim 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-urunler-brosuru-1-ekim-2026-dan-itibaren-stoklarla-sinirli_8c798de4a563496f95368518434a0bb9",
+            "tries": 0,
+            "not_before": "2026-10-01"
+        },
+        {
+            "source_key": "ab_b00543eebddf4807b2b2eb3ce775cbea",
+            "brochure_key": "b00543eebddf4807b2b2eb3ce775cbea",
+            "market": "A101",
+            "title": "A101 Haftanın Yıldızları Broşürü 26 Eylül-2 Ekim 2026",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-haftanin-yildizlari-brosuru-26-eylul-2-ekim-2026_b00543eebddf4807b2b2eb3ce775cbea",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_7f37a4f456104d939189654444447188",
+            "brochure_key": "7f37a4f456104d939189654444447188",
+            "market": "A101",
+            "title": "10 TL ve Üzeri Alışverişlerde İndirimli Fırsat Ürünleri Broşürü 26 Eylül-2 Ekim 2026",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/10-tl-ve-uzeri-alisverislerde-indirimli-firsat-urunleri-brosuru-26-eylul-2-ekim-2026_7f37a4f456104d939189654444447188",
+            "tries": 0
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -964,7 +990,12 @@
         "ab_e4d3f99b9665444b9ac9f4bf3736ee3a": true,
         "ab_ddff48eeb3254c17b2c208d4f085e4ea": true,
         "ab_6abb003d2e9547a2a314d1e4629ba1bc": true,
-        "ab_a6bcb0fa5ca84c109a84ad8dc0883402": true
+        "ab_a6bcb0fa5ca84c109a84ad8dc0883402": true,
+        "ab_911994f9d80a4e48be2701a8ef8ec444": true,
+        "ab_9aad38b00df5494ba5d87730d75fed78": true,
+        "ab_84891e0ea54a428d96f20e514f009bf5": true,
+        "ab_b3cdf89100bf489e8ad00ec460932003": true,
+        "ab_ebaa6ab7c30b4965b9bbdf099ba8bb1b": true
     },
-    "lastDrainAt": 1790380122
+    "lastDrainAt": 1790404980
 }
