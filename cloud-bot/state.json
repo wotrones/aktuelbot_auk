@@ -10,7 +10,7 @@
             "lastCheckedAt": 1790404837
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1790266066
+            "lastCheckedAt": 1790423274
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 1790279932
@@ -36,28 +36,60 @@
     },
     "queue": [
         {
-            "source_key": "ab_8c798de4a563496f95368518434a0bb9",
-            "brochure_key": "8c798de4a563496f95368518434a0bb9",
-            "market": "A101",
-            "title": "A101 Aldın Aldın Aktüel Ürünler Broşürü 1 Ekim 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-urunler-brosuru-1-ekim-2026-dan-itibaren-stoklarla-sinirli_8c798de4a563496f95368518434a0bb9",
-            "tries": 0,
-            "not_before": "2026-10-01"
-        },
-        {
-            "source_key": "ab_b00543eebddf4807b2b2eb3ce775cbea",
-            "brochure_key": "b00543eebddf4807b2b2eb3ce775cbea",
-            "market": "A101",
-            "title": "A101 Haftanın Yıldızları Broşürü 26 Eylül-2 Ekim 2026",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-haftanin-yildizlari-brosuru-26-eylul-2-ekim-2026_b00543eebddf4807b2b2eb3ce775cbea",
+            "source_key": "ab_8211514660134d51a81381caa6e3589d",
+            "brochure_key": "8211514660134d51a81381caa6e3589d",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 26 Eylül - 2 Ekim",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-26-eylul-2-ekim_8211514660134d51a81381caa6e3589d",
             "tries": 0
         },
         {
-            "source_key": "ab_7f37a4f456104d939189654444447188",
-            "brochure_key": "7f37a4f456104d939189654444447188",
-            "market": "A101",
-            "title": "10 TL ve Üzeri Alışverişlerde İndirimli Fırsat Ürünleri Broşürü 26 Eylül-2 Ekim 2026",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/10-tl-ve-uzeri-alisverislerde-indirimli-firsat-urunleri-brosuru-26-eylul-2-ekim-2026_7f37a4f456104d939189654444447188",
+            "source_key": "ab_ebd831182ab741c8a9e79a204aadaa3a",
+            "brochure_key": "ebd831182ab741c8a9e79a204aadaa3a",
+            "market": "Bim",
+            "title": "Meyve ve Sebze İndirimleri Broşürü",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/meyve-ve-sebze-indirimleri-brosuru_ebd831182ab741c8a9e79a204aadaa3a",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_598f7035dcec4b08b51d7c38b6ce1d5c",
+            "brochure_key": "598f7035dcec4b08b51d7c38b6ce1d5c",
+            "market": "Bim",
+            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 2 Ekim 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-2-ekim-2026-dan-itibaren-stoklarla-sinirli_598f7035dcec4b08b51d7c38b6ce1d5c",
+            "tries": 0,
+            "not_before": "2026-10-02"
+        },
+        {
+            "source_key": "ab_58ac5bd8097f4d26a0a9715030e32099",
+            "brochure_key": "58ac5bd8097f4d26a0a9715030e32099",
+            "market": "Bim",
+            "title": "Poşetli Bütün Piliç İndirimi Kg 89 TL 25 - 27 Eylül",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/posetli-butun-pilic-indirimi-kg-89-tl-25-27-eylul_58ac5bd8097f4d26a0a9715030e32099",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_b7a8b80a0b8d49a7809815f4a8bc1622",
+            "brochure_key": "b7a8b80a0b8d49a7809815f4a8bc1622",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 25-28 Eylül",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-25-28-eylul_b7a8b80a0b8d49a7809815f4a8bc1622",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_64ed60891f3541e89008a3dfef209052",
+            "brochure_key": "64ed60891f3541e89008a3dfef209052",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 25-28 Eylül",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-25-28-eylul_64ed60891f3541e89008a3dfef209052",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_6a099898365147fcb3904d0802d4a9f9",
+            "brochure_key": "6a099898365147fcb3904d0802d4a9f9",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 25-28 Eylül",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-25-28-eylul_6a099898365147fcb3904d0802d4a9f9",
             "tries": 0
         }
     ],
@@ -995,7 +1027,12 @@
         "ab_9aad38b00df5494ba5d87730d75fed78": true,
         "ab_84891e0ea54a428d96f20e514f009bf5": true,
         "ab_b3cdf89100bf489e8ad00ec460932003": true,
-        "ab_ebaa6ab7c30b4965b9bbdf099ba8bb1b": true
+        "ab_ebaa6ab7c30b4965b9bbdf099ba8bb1b": true,
+        "ab_8c798de4a563496f95368518434a0bb9": true,
+        "ab_b00543eebddf4807b2b2eb3ce775cbea": true,
+        "ab_7f37a4f456104d939189654444447188": true,
+        "ab_a02d8ebe5c3344dfa415fccf590be29c": true,
+        "ab_1069b3d677454d548bb205e77af6ddaa": true
     },
-    "lastDrainAt": 1790404980
+    "lastDrainAt": 1790423651
 }
