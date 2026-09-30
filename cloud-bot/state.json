@@ -13,7 +13,7 @@
             "lastCheckedAt": 1790777846
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1790581343
+            "lastCheckedAt": 1790796479
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1790611195
@@ -34,7 +34,24 @@
             "lastCheckedAt": 1790709143
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_2e0865522f18450d8880ffc0b421f020",
+            "brochure_key": "2e0865522f18450d8880ffc0b421f020",
+            "market": "Şok Market",
+            "title": "Şok Market İste Gelsin Ürünleri Broşürü 30 Eylül-6 Ekim",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-30-eylul-6-ekim_2e0865522f18450d8880ffc0b421f020",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_fd363312e9e4457aab2e55db1fc786e1",
+            "brochure_key": "fd363312e9e4457aab2e55db1fc786e1",
+            "market": "Şok Market",
+            "title": "Atıştırmalık Ürünleri Fırsat Broşürü",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/atistirmalik-urunleri-firsat-brosuru_fd363312e9e4457aab2e55db1fc786e1",
+            "tries": 1
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -996,7 +1013,11 @@
         "ab_1d37ecc6c3094dbaa9d9efb69118499b": true,
         "ab_ac1f0aea90a448cbb82b2b1900c82f04": true,
         "ab_53841c2b7015414d8a960d411535c973": true,
-        "ab_6b21091c3359472689834afe38eb2eb8": true
+        "ab_6b21091c3359472689834afe38eb2eb8": true,
+        "ab_51ab2f8facb5438c8c5c9aef85e88072": true,
+        "ab_6e077246539643f4a456a6c59c153523": true,
+        "ab_2e17d211594b44d7929a2dbb401ba0f8": true,
+        "ab_d8f84d6af5b149fdb411779e90207bc8": true
     },
-    "lastDrainAt": 1790777993
+    "lastDrainAt": 1790796710
 }
