@@ -25,7 +25,7 @@
             "lastCheckedAt": 1790844562
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1790665245
+            "lastCheckedAt": 1790869651
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
             "lastCheckedAt": 1790690281
@@ -34,7 +34,16 @@
             "lastCheckedAt": 1790709143
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_01d0326d99f04f7fbb81e5bb88d298e3",
+            "brochure_key": "01d0326d99f04f7fbb81e5bb88d298e3",
+            "market": "Tarım Kooperatif",
+            "title": "25TL ve Üzeri Alışverişlerde İndirimli Ürünler",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/25tl-ve-uzeri-alisverislerde-indirimli-urunler_01d0326d99f04f7fbb81e5bb88d298e3",
+            "tries": 1
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -1004,7 +1013,9 @@
         "ab_2e0865522f18450d8880ffc0b421f020": true,
         "ab_fd363312e9e4457aab2e55db1fc786e1": true,
         "ab_cf6f81e2bfd440f1aacfd9b8808c5a35": true,
-        "ab_51603a85961b44849fc4e6b0b6ca4f17": true
+        "ab_51603a85961b44849fc4e6b0b6ca4f17": true,
+        "ab_488377195c8e4549a518a8838094127a": true,
+        "ab_a91a3583e2a742febf7c3495c8cf8992": true
     },
-    "lastDrainAt": 1790820894
+    "lastDrainAt": 1790869730
 }
