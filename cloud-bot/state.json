@@ -10,7 +10,7 @@
             "lastCheckedAt": 1790959284
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1790777846
+            "lastCheckedAt": 1790974780
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 1790796479
@@ -36,27 +36,68 @@
     },
     "queue": [
         {
-            "source_key": "ab_2878c61ac60044fba658141e0f07f183",
-            "brochure_key": "2878c61ac60044fba658141e0f07f183",
-            "market": "A101",
-            "title": "Meyve ve Sebze Reyonu Fırsatları",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/meyve-ve-sebze-reyonu-firsatlari_2878c61ac60044fba658141e0f07f183",
+            "source_key": "ab_e805fd9fd6da4217925fd6e232e23757",
+            "brochure_key": "e805fd9fd6da4217925fd6e232e23757",
+            "market": "Bim",
+            "title": "Meyve ve Sebze İndirimleri Broşürü",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/meyve-ve-sebze-indirimleri-brosuru_e805fd9fd6da4217925fd6e232e23757",
             "tries": 0
         },
         {
-            "source_key": "ab_2d685e2801724c5faea6482333b54716",
-            "brochure_key": "2d685e2801724c5faea6482333b54716",
-            "market": "A101",
-            "title": "Sadece Online Alışverişe Özel Aldın Aldın A101 Ekstra Aktüel Ürünler Broşürü 1 Ekim 2026",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/sadece-online-alisverise-ozel-aldin-aldin-a101-ekstra-aktuel-urunler-brosuru-1-ekim-2026_2d685e2801724c5faea6482333b54716",
+            "source_key": "ab_a38fb7a6e5244739b436c32b3f4cca83",
+            "brochure_key": "a38fb7a6e5244739b436c32b3f4cca83",
+            "market": "Bim",
+            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 9 Ekim 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-9-ekim-2026-dan-itibaren-stoklarla-sinirli_a38fb7a6e5244739b436c32b3f4cca83",
+            "tries": 0,
+            "not_before": "2026-10-09"
+        },
+        {
+            "source_key": "ab_b8ac1e603f8e40ab90accb53758bbee1",
+            "brochure_key": "b8ac1e603f8e40ab90accb53758bbee1",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 2-5 Ekim",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-2-5-ekim_b8ac1e603f8e40ab90accb53758bbee1",
             "tries": 0
         },
         {
-            "source_key": "ab_0733d46dd9c64e60a3ff630facdb81c8",
-            "brochure_key": "0733d46dd9c64e60a3ff630facdb81c8",
-            "market": "A101",
-            "title": "A101 Tazenin Yıldızları İndirimli Ürünler Broşürü 1-4 Ekim",
-            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-tazenin-yildizlari-indirimli-urunler-brosuru-1-4-ekim_0733d46dd9c64e60a3ff630facdb81c8",
+            "source_key": "ab_c4546c214bf04ca2acb9259325c4c4f2",
+            "brochure_key": "c4546c214bf04ca2acb9259325c4c4f2",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 2-5 Ekim",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-2-5-ekim_c4546c214bf04ca2acb9259325c4c4f2",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_edc5c6bc22254b639ea999689e1977d7",
+            "brochure_key": "edc5c6bc22254b639ea999689e1977d7",
+            "market": "Bim",
+            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 1 Ekim 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-1-ekim-2026-dan-itibaren-stoklarla-sinirli_edc5c6bc22254b639ea999689e1977d7",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_3b87d6a2dfe24e2b827355630969b58b",
+            "brochure_key": "3b87d6a2dfe24e2b827355630969b58b",
+            "market": "Bim",
+            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 1 Ekim 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-1-ekim-2026-dan-itibaren-stoklarla-sinirli_3b87d6a2dfe24e2b827355630969b58b",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_f2064218e30a4531a44383ce55e29ad9",
+            "brochure_key": "f2064218e30a4531a44383ce55e29ad9",
+            "market": "Bim",
+            "title": "İndirimli Ürün - Balparmak Çıt Kapak Çiçek Balı 460g 264 TL",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/indirimli-urun-balparmak-cit-kapak-cicek-bali-460g-264-tl_f2064218e30a4531a44383ce55e29ad9",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_db19fd3beb814c8c92499ba734170f22",
+            "brochure_key": "db19fd3beb814c8c92499ba734170f22",
+            "market": "Bim",
+            "title": "Seçili Ürünlerde Fırsatlar",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/secili-urunlerde-firsatlar_db19fd3beb814c8c92499ba734170f22",
             "tries": 0
         }
     ],
@@ -1040,7 +1081,12 @@
         "ab_acc1dc40b7b943af90fb9f436817e037": true,
         "ab_e1f4ffeac4f045a399f1ec0c90d57d3f": true,
         "ab_15e69e50ff0d4c84b1c0a27659116c19": true,
-        "ab_cda409b8ab264f54bb1076ebdb1f4753": true
+        "ab_cda409b8ab264f54bb1076ebdb1f4753": true,
+        "ab_2878c61ac60044fba658141e0f07f183": true,
+        "ab_2d685e2801724c5faea6482333b54716": true,
+        "ab_0733d46dd9c64e60a3ff630facdb81c8": true,
+        "ab_feaefc136d744d8584987e3684c864c7": true,
+        "ab_f2ab1b74fe384337aadc14ea41dfe879": true
     },
-    "lastDrainAt": 1790959594
+    "lastDrainAt": 1790975372
 }
