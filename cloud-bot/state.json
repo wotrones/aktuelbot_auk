@@ -7,7 +7,7 @@
             "lastCheckedAt": 1790939864
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1790754583
+            "lastCheckedAt": 1790959284
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1790777846
@@ -34,7 +34,32 @@
             "lastCheckedAt": 1790899707
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_2878c61ac60044fba658141e0f07f183",
+            "brochure_key": "2878c61ac60044fba658141e0f07f183",
+            "market": "A101",
+            "title": "Meyve ve Sebze Reyonu Fırsatları",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/meyve-ve-sebze-reyonu-firsatlari_2878c61ac60044fba658141e0f07f183",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_2d685e2801724c5faea6482333b54716",
+            "brochure_key": "2d685e2801724c5faea6482333b54716",
+            "market": "A101",
+            "title": "Sadece Online Alışverişe Özel Aldın Aldın A101 Ekstra Aktüel Ürünler Broşürü 1 Ekim 2026",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/sadece-online-alisverise-ozel-aldin-aldin-a101-ekstra-aktuel-urunler-brosuru-1-ekim-2026_2d685e2801724c5faea6482333b54716",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_0733d46dd9c64e60a3ff630facdb81c8",
+            "brochure_key": "0733d46dd9c64e60a3ff630facdb81c8",
+            "market": "A101",
+            "title": "A101 Tazenin Yıldızları İndirimli Ürünler Broşürü 1-4 Ekim",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-tazenin-yildizlari-indirimli-urunler-brosuru-1-4-ekim_0733d46dd9c64e60a3ff630facdb81c8",
+            "tries": 0
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -1010,7 +1035,12 @@
         "ab_01d0326d99f04f7fbb81e5bb88d298e3": true,
         "ab_1ad8124c03374d42b3add10d61e07d40": true,
         "ab_7179d1e9bfa743fbac36e08d371650b3": true,
-        "ab_548c170bb2614a9f85285b3e1dbca14c": true
+        "ab_548c170bb2614a9f85285b3e1dbca14c": true,
+        "ab_b4de361eed5546a787255298337c21a5": true,
+        "ab_acc1dc40b7b943af90fb9f436817e037": true,
+        "ab_e1f4ffeac4f045a399f1ec0c90d57d3f": true,
+        "ab_15e69e50ff0d4c84b1c0a27659116c19": true,
+        "ab_cda409b8ab264f54bb1076ebdb1f4753": true
     },
-    "lastDrainAt": 1790900082
+    "lastDrainAt": 1790959594
 }
