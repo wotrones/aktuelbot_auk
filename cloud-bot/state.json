@@ -16,7 +16,7 @@
             "lastCheckedAt": 1790986874
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1790809730
+            "lastCheckedAt": 1791005364
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
             "lastCheckedAt": 1790820412
@@ -35,46 +35,6 @@
         }
     },
     "queue": [
-        {
-            "source_key": "ab_3b87d6a2dfe24e2b827355630969b58b",
-            "brochure_key": "3b87d6a2dfe24e2b827355630969b58b",
-            "market": "Bim",
-            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 1 Ekim 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-1-ekim-2026-dan-itibaren-stoklarla-sinirli_3b87d6a2dfe24e2b827355630969b58b",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_f2064218e30a4531a44383ce55e29ad9",
-            "brochure_key": "f2064218e30a4531a44383ce55e29ad9",
-            "market": "Bim",
-            "title": "İndirimli Ürün - Balparmak Çıt Kapak Çiçek Balı 460g 264 TL",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/indirimli-urun-balparmak-cit-kapak-cicek-bali-460g-264-tl_f2064218e30a4531a44383ce55e29ad9",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_db19fd3beb814c8c92499ba734170f22",
-            "brochure_key": "db19fd3beb814c8c92499ba734170f22",
-            "market": "Bim",
-            "title": "Seçili Ürünlerde Fırsatlar",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/secili-urunlerde-firsatlar_db19fd3beb814c8c92499ba734170f22",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_f4dc3dd097424dc18d5a3b3f911e181b",
-            "brochure_key": "f4dc3dd097424dc18d5a3b3f911e181b",
-            "market": "Şok Market",
-            "title": "Hafta Sonuna Özel Fırsat Ürünleri",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/hafta-sonuna-ozel-firsat-urunleri_f4dc3dd097424dc18d5a3b3f911e181b",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_84edcb6e876046ad8cf2ac372c230f45",
-            "brochure_key": "84edcb6e876046ad8cf2ac372c230f45",
-            "market": "Şok Market",
-            "title": "50TL ve Üzeri Alışverişlerde İndirimli Ürünler 3 Ekim - 4 Aralık",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/50tl-ve-uzeri-alisverislerde-indirimli-urunler-3-ekim-4-aralik_84edcb6e876046ad8cf2ac372c230f45",
-            "tries": 0
-        },
         {
             "source_key": "ab_7ffb4847d7ad4f928f030bccf6f969b8",
             "brochure_key": "7ffb4847d7ad4f928f030bccf6f969b8",
@@ -97,6 +57,14 @@
             "market": "Şok Market",
             "title": "Detaylı + Şok Market Haftanın Fırsatları Aktüel Ürünler Broşür 30 Eylül-6 Ekim",
             "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-haftanin-firsatlari-aktuel-urunler-brosur-30-eylul-6-ekim_cb117e59d47e47e5b93637344bc23ac9",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_c058d49d5d234c9eb4d2692d52695303",
+            "brochure_key": "c058d49d5d234c9eb4d2692d52695303",
+            "market": "Carrefour",
+            "title": "Carrefour Marketlerde Geçerli İndirim Bülteni Kataloğu",
+            "href": "https://aktuelbrosurler.com/carrefour/brosurler/carrefour-marketlerde-gecerli-indirim-bulteni-katalogu_c058d49d5d234c9eb4d2692d52695303",
             "tries": 0
         }
     ],
@@ -1090,7 +1058,12 @@
         "ab_a38fb7a6e5244739b436c32b3f4cca83": true,
         "ab_b8ac1e603f8e40ab90accb53758bbee1": true,
         "ab_c4546c214bf04ca2acb9259325c4c4f2": true,
-        "ab_edc5c6bc22254b639ea999689e1977d7": true
+        "ab_edc5c6bc22254b639ea999689e1977d7": true,
+        "ab_3b87d6a2dfe24e2b827355630969b58b": true,
+        "ab_f2064218e30a4531a44383ce55e29ad9": true,
+        "ab_db19fd3beb814c8c92499ba734170f22": true,
+        "ab_f4dc3dd097424dc18d5a3b3f911e181b": true,
+        "ab_84edcb6e876046ad8cf2ac372c230f45": true
     },
-    "lastDrainAt": 1790987171
+    "lastDrainAt": 1791005535
 }
