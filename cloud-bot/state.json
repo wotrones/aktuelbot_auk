@@ -19,7 +19,7 @@
             "lastCheckedAt": 1791005364
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1790820412
+            "lastCheckedAt": 1791023593
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
             "lastCheckedAt": 1790844562
@@ -34,40 +34,7 @@
             "lastCheckedAt": 1790899707
         }
     },
-    "queue": [
-        {
-            "source_key": "ab_7ffb4847d7ad4f928f030bccf6f969b8",
-            "brochure_key": "7ffb4847d7ad4f928f030bccf6f969b8",
-            "market": "Şok Market",
-            "title": "Şok Market İste Gelsin Ürünleri Broşürü 3-6 Ekim 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-3-6-ekim-2026_7ffb4847d7ad4f928f030bccf6f969b8",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_053105824ccd470cacd387d8a6c009cd",
-            "brochure_key": "053105824ccd470cacd387d8a6c009cd",
-            "market": "Şok Market",
-            "title": "Detaylı + Şok Market Hafta Sonu Fırsatları Aktüel Ürünler Broşür 3-6 Ekim 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-hafta-sonu-firsatlari-aktuel-urunler-brosur-3-6-ekim-2026_053105824ccd470cacd387d8a6c009cd",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_cb117e59d47e47e5b93637344bc23ac9",
-            "brochure_key": "cb117e59d47e47e5b93637344bc23ac9",
-            "market": "Şok Market",
-            "title": "Detaylı + Şok Market Haftanın Fırsatları Aktüel Ürünler Broşür 30 Eylül-6 Ekim",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-haftanin-firsatlari-aktuel-urunler-brosur-30-eylul-6-ekim_cb117e59d47e47e5b93637344bc23ac9",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_c058d49d5d234c9eb4d2692d52695303",
-            "brochure_key": "c058d49d5d234c9eb4d2692d52695303",
-            "market": "Carrefour",
-            "title": "Carrefour Marketlerde Geçerli İndirim Bülteni Kataloğu",
-            "href": "https://aktuelbrosurler.com/carrefour/brosurler/carrefour-marketlerde-gecerli-indirim-bulteni-katalogu_c058d49d5d234c9eb4d2692d52695303",
-            "tries": 0
-        }
-    ],
+    "queue": [],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -1063,7 +1030,12 @@
         "ab_f2064218e30a4531a44383ce55e29ad9": true,
         "ab_db19fd3beb814c8c92499ba734170f22": true,
         "ab_f4dc3dd097424dc18d5a3b3f911e181b": true,
-        "ab_84edcb6e876046ad8cf2ac372c230f45": true
+        "ab_84edcb6e876046ad8cf2ac372c230f45": true,
+        "ab_7ffb4847d7ad4f928f030bccf6f969b8": true,
+        "ab_053105824ccd470cacd387d8a6c009cd": true,
+        "ab_cb117e59d47e47e5b93637344bc23ac9": true,
+        "ab_c058d49d5d234c9eb4d2692d52695303": true,
+        "ab_8e9b0df90f204557b946ca26bc95ef0f": true
     },
-    "lastDrainAt": 1791005535
+    "lastDrainAt": 1791024183
 }
