@@ -13,7 +13,7 @@
             "lastCheckedAt": 1790974780
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1790796479
+            "lastCheckedAt": 1790986874
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1790809730
@@ -36,47 +36,6 @@
     },
     "queue": [
         {
-            "source_key": "ab_e805fd9fd6da4217925fd6e232e23757",
-            "brochure_key": "e805fd9fd6da4217925fd6e232e23757",
-            "market": "Bim",
-            "title": "Meyve ve Sebze İndirimleri Broşürü",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/meyve-ve-sebze-indirimleri-brosuru_e805fd9fd6da4217925fd6e232e23757",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_a38fb7a6e5244739b436c32b3f4cca83",
-            "brochure_key": "a38fb7a6e5244739b436c32b3f4cca83",
-            "market": "Bim",
-            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 9 Ekim 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-9-ekim-2026-dan-itibaren-stoklarla-sinirli_a38fb7a6e5244739b436c32b3f4cca83",
-            "tries": 0,
-            "not_before": "2026-10-09"
-        },
-        {
-            "source_key": "ab_b8ac1e603f8e40ab90accb53758bbee1",
-            "brochure_key": "b8ac1e603f8e40ab90accb53758bbee1",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 2-5 Ekim",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-2-5-ekim_b8ac1e603f8e40ab90accb53758bbee1",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_c4546c214bf04ca2acb9259325c4c4f2",
-            "brochure_key": "c4546c214bf04ca2acb9259325c4c4f2",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 2-5 Ekim",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-2-5-ekim_c4546c214bf04ca2acb9259325c4c4f2",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_edc5c6bc22254b639ea999689e1977d7",
-            "brochure_key": "edc5c6bc22254b639ea999689e1977d7",
-            "market": "Bim",
-            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 1 Ekim 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-1-ekim-2026-dan-itibaren-stoklarla-sinirli_edc5c6bc22254b639ea999689e1977d7",
-            "tries": 0
-        },
-        {
             "source_key": "ab_3b87d6a2dfe24e2b827355630969b58b",
             "brochure_key": "3b87d6a2dfe24e2b827355630969b58b",
             "market": "Bim",
@@ -98,6 +57,46 @@
             "market": "Bim",
             "title": "Seçili Ürünlerde Fırsatlar",
             "href": "https://aktuelbrosurler.com/bim/brosurler/secili-urunlerde-firsatlar_db19fd3beb814c8c92499ba734170f22",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_f4dc3dd097424dc18d5a3b3f911e181b",
+            "brochure_key": "f4dc3dd097424dc18d5a3b3f911e181b",
+            "market": "Şok Market",
+            "title": "Hafta Sonuna Özel Fırsat Ürünleri",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/hafta-sonuna-ozel-firsat-urunleri_f4dc3dd097424dc18d5a3b3f911e181b",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_84edcb6e876046ad8cf2ac372c230f45",
+            "brochure_key": "84edcb6e876046ad8cf2ac372c230f45",
+            "market": "Şok Market",
+            "title": "50TL ve Üzeri Alışverişlerde İndirimli Ürünler 3 Ekim - 4 Aralık",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/50tl-ve-uzeri-alisverislerde-indirimli-urunler-3-ekim-4-aralik_84edcb6e876046ad8cf2ac372c230f45",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_7ffb4847d7ad4f928f030bccf6f969b8",
+            "brochure_key": "7ffb4847d7ad4f928f030bccf6f969b8",
+            "market": "Şok Market",
+            "title": "Şok Market İste Gelsin Ürünleri Broşürü 3-6 Ekim 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-3-6-ekim-2026_7ffb4847d7ad4f928f030bccf6f969b8",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_053105824ccd470cacd387d8a6c009cd",
+            "brochure_key": "053105824ccd470cacd387d8a6c009cd",
+            "market": "Şok Market",
+            "title": "Detaylı + Şok Market Hafta Sonu Fırsatları Aktüel Ürünler Broşür 3-6 Ekim 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-hafta-sonu-firsatlari-aktuel-urunler-brosur-3-6-ekim-2026_053105824ccd470cacd387d8a6c009cd",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_cb117e59d47e47e5b93637344bc23ac9",
+            "brochure_key": "cb117e59d47e47e5b93637344bc23ac9",
+            "market": "Şok Market",
+            "title": "Detaylı + Şok Market Haftanın Fırsatları Aktüel Ürünler Broşür 30 Eylül-6 Ekim",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-haftanin-firsatlari-aktuel-urunler-brosur-30-eylul-6-ekim_cb117e59d47e47e5b93637344bc23ac9",
             "tries": 0
         }
     ],
@@ -1086,7 +1085,12 @@
         "ab_2d685e2801724c5faea6482333b54716": true,
         "ab_0733d46dd9c64e60a3ff630facdb81c8": true,
         "ab_feaefc136d744d8584987e3684c864c7": true,
-        "ab_f2ab1b74fe384337aadc14ea41dfe879": true
+        "ab_f2ab1b74fe384337aadc14ea41dfe879": true,
+        "ab_e805fd9fd6da4217925fd6e232e23757": true,
+        "ab_a38fb7a6e5244739b436c32b3f4cca83": true,
+        "ab_b8ac1e603f8e40ab90accb53758bbee1": true,
+        "ab_c4546c214bf04ca2acb9259325c4c4f2": true,
+        "ab_edc5c6bc22254b639ea999689e1977d7": true
     },
-    "lastDrainAt": 1790975372
+    "lastDrainAt": 1790987171
 }
