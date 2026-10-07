@@ -13,7 +13,7 @@
             "lastCheckedAt": 1791351706
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1791151207
+            "lastCheckedAt": 1791374473
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1791161011
@@ -34,7 +34,16 @@
             "lastCheckedAt": 1791275799
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_61fc76dce37448a39848be3fb3fc16cc",
+            "brochure_key": "61fc76dce37448a39848be3fb3fc16cc",
+            "market": "Şok Market",
+            "title": "Detaylı + Şok Market Haftanın Fırsatları Aktüel Ürünler Broşür 7-13 Ekim 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-haftanin-firsatlari-aktuel-urunler-brosur-7-13-ekim-2026_61fc76dce37448a39848be3fb3fc16cc",
+            "tries": 1
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -1056,7 +1065,10 @@
         "ab_8126a73ab53d43fba3b10cf5609a358f": true,
         "ab_8a3e48f672c0492baca5782c0cd9e598": true,
         "ab_08f8fd7f0b8d4a49bc37f114758b7ca1": true,
-        "ab_17f1b9e7d7b344e3b58654954e7d9ba2": true
+        "ab_17f1b9e7d7b344e3b58654954e7d9ba2": true,
+        "ab_b9d956239b8746cab09be6fca7e8426c": true,
+        "ab_7438d66c8e5e42a79bc292f7794ca398": true,
+        "ab_d0a1ffc47e1a49a6b705f758cfe7f239": true
     },
-    "lastDrainAt": 1791351767
+    "lastDrainAt": 1791374949
 }
