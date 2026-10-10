@@ -16,7 +16,7 @@
             "lastCheckedAt": 1791622959
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1791398982
+            "lastCheckedAt": 1791645319
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
             "lastCheckedAt": 1791415265
@@ -34,40 +34,7 @@
             "lastCheckedAt": 1791495315
         }
     },
-    "queue": [
-        {
-            "source_key": "ab_1d6b23e45a4c44b2a85c75d2f0a9c389",
-            "brochure_key": "1d6b23e45a4c44b2a85c75d2f0a9c389",
-            "market": "Şok Market",
-            "title": "Şok Market İste Gelsin Ürünleri Broşürü 10-13 Ekim 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-10-13-ekim-2026_1d6b23e45a4c44b2a85c75d2f0a9c389",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_5ce6399dc44b4f949077c6e56f802282",
-            "brochure_key": "5ce6399dc44b4f949077c6e56f802282",
-            "market": "Şok Market",
-            "title": "Şok Market İste Gelsin Ürünleri Broşürü 10-13 Ekim 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-10-13-ekim-2026_5ce6399dc44b4f949077c6e56f802282",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_f7809fce57b34c22bc0c9492c41a7fb0",
-            "brochure_key": "f7809fce57b34c22bc0c9492c41a7fb0",
-            "market": "Şok Market",
-            "title": "Şok Market Hafta Sonu Fırsatları Aktüel Ürünler Broşür 10-13 Ekim 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-hafta-sonu-firsatlari-aktuel-urunler-brosur-10-13-ekim-2026_f7809fce57b34c22bc0c9492c41a7fb0",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_5e35678dc070448b8e1ea1c4b42157e3",
-            "brochure_key": "5e35678dc070448b8e1ea1c4b42157e3",
-            "market": "Şok Market",
-            "title": "Haftanın Fırsatları",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/haftanin-firsatlari_5e35678dc070448b8e1ea1c4b42157e3",
-            "tries": 0
-        }
-    ],
+    "queue": [],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -1130,7 +1097,11 @@
         "ab_65a750d8fe42437597d45015f3e2c825": true,
         "ab_846ffe9ca2a445b8a148eabaada200cd": true,
         "ab_a0aba4d1b81d40479f313c37b614cac1": true,
-        "ab_642be350ffd04301b11e3752d5c57a86": true
+        "ab_642be350ffd04301b11e3752d5c57a86": true,
+        "ab_1d6b23e45a4c44b2a85c75d2f0a9c389": true,
+        "ab_5ce6399dc44b4f949077c6e56f802282": true,
+        "ab_f7809fce57b34c22bc0c9492c41a7fb0": true,
+        "ab_5e35678dc070448b8e1ea1c4b42157e3": true
     },
-    "lastDrainAt": 1791623263
+    "lastDrainAt": 1791645465
 }
