@@ -36,48 +36,6 @@
     },
     "queue": [
         {
-            "source_key": "ab_e3661631fd414ffd891238a3d1d144fc",
-            "brochure_key": "e3661631fd414ffd891238a3d1d144fc",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 10-16 Ekim",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-10-16-ekim_e3661631fd414ffd891238a3d1d144fc",
-            "tries": 0,
-            "not_before": "2026-10-10"
-        },
-        {
-            "source_key": "ab_d4a18776faea4699a7660afc33f4c907",
-            "brochure_key": "d4a18776faea4699a7660afc33f4c907",
-            "market": "Bim",
-            "title": "Meyve ve Sebze İndirimleri Broşürü",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/meyve-ve-sebze-indirimleri-brosuru_d4a18776faea4699a7660afc33f4c907",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_7e6b7e86abe5453cbebb2cf4d7730dea",
-            "brochure_key": "7e6b7e86abe5453cbebb2cf4d7730dea",
-            "market": "Bim",
-            "title": "Bim Aktüel Ürünler İndirim Bülteni Broşürü 16 Ekim 2026'dan İtibaren Stoklarla Sınırlı",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-aktuel-urunler-indirim-bulteni-brosuru-16-ekim-2026-dan-itibaren-stoklarla-sinirli_7e6b7e86abe5453cbebb2cf4d7730dea",
-            "tries": 0,
-            "not_before": "2026-10-16"
-        },
-        {
-            "source_key": "ab_514fbbe26f17414d841e646cfef37b49",
-            "brochure_key": "514fbbe26f17414d841e646cfef37b49",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 9-12 Ekim",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-9-12-ekim_514fbbe26f17414d841e646cfef37b49",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_7f5b3a4f90464ae28992b1c6d09b55b1",
-            "brochure_key": "7f5b3a4f90464ae28992b1c6d09b55b1",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 9-12 Ekim",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-9-12-ekim_7f5b3a4f90464ae28992b1c6d09b55b1",
-            "tries": 0
-        },
-        {
             "source_key": "ab_195c6570b390480a89c57a9416c61375",
             "brochure_key": "195c6570b390480a89c57a9416c61375",
             "market": "Bim",
@@ -1154,7 +1112,12 @@
         "ab_64ef5cb57ccb46aebcac90ba8f450c23": true,
         "ab_d5035caca8a54cf991b20aecb3a19ff2": true,
         "ab_7b839250448e4339bf079b018e407f19": true,
-        "ab_ae1458fb05a1456ea85a1430dcd27e47": true
+        "ab_ae1458fb05a1456ea85a1430dcd27e47": true,
+        "ab_e3661631fd414ffd891238a3d1d144fc": true,
+        "ab_d4a18776faea4699a7660afc33f4c907": true,
+        "ab_7e6b7e86abe5453cbebb2cf4d7730dea": true,
+        "ab_514fbbe26f17414d841e646cfef37b49": true,
+        "ab_7f5b3a4f90464ae28992b1c6d09b55b1": true
     },
-    "lastDrainAt": 1791589211
+    "lastDrainAt": 1791600380
 }
