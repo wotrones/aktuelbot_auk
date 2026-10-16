@@ -16,7 +16,7 @@
             "lastCheckedAt": 1792175273
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1792028837
+            "lastCheckedAt": 1792186462
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
             "lastCheckedAt": 1792045944
@@ -34,49 +34,7 @@
             "lastCheckedAt": 1792105265
         }
     },
-    "queue": [
-        {
-            "source_key": "ab_23f1ab91ad59415da1c1b9d09bb4e8f0",
-            "brochure_key": "23f1ab91ad59415da1c1b9d09bb4e8f0",
-            "market": "Şok Market",
-            "title": "Bugüne Özel İndirimli Ürün - Soğan KG 24,90 TL",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/bugune-ozel-indirimli-urun-sogan-kg-24-90-tl_23f1ab91ad59415da1c1b9d09bb4e8f0",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_ea4a93d34e3849268a180c1e4f4596ec",
-            "brochure_key": "ea4a93d34e3849268a180c1e4f4596ec",
-            "market": "Şok Market",
-            "title": "Detaylı + Şok Market Hafta Sonu Fırsatları Aktüel Ürünler Broşür 17-20 Ekim 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-hafta-sonu-firsatlari-aktuel-urunler-brosur-17-20-ekim-2026_ea4a93d34e3849268a180c1e4f4596ec",
-            "tries": 0,
-            "not_before": "2026-10-17"
-        },
-        {
-            "source_key": "ab_ee916367a6d64b9fb76708b9910f19bf",
-            "brochure_key": "ee916367a6d64b9fb76708b9910f19bf",
-            "market": "Şok Market",
-            "title": "50TL ve Üzeri Alışverişlerde İndirimli Ürünler 14 Ekim - 15 Aralık",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/50tl-ve-uzeri-alisverislerde-indirimli-urunler-14-ekim-15-aralik_ee916367a6d64b9fb76708b9910f19bf",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_d6dbd097487a43108e132292d385235d",
-            "brochure_key": "d6dbd097487a43108e132292d385235d",
-            "market": "Şok Market",
-            "title": "Şok Market İste Gelsin Ürünleri Broşürü 14-20 Ekim 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-14-20-ekim-2026_d6dbd097487a43108e132292d385235d",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_a4e41aa3dd2f49479bf3beb745a5d556",
-            "brochure_key": "a4e41aa3dd2f49479bf3beb745a5d556",
-            "market": "Şok Market",
-            "title": "Şok Market Haftanın Fırsatları Aktüel Ürünler Broşür 14-20 Ekim 2026",
-            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-haftanin-firsatlari-aktuel-urunler-brosur-14-20-ekim-2026_a4e41aa3dd2f49479bf3beb745a5d556",
-            "tries": 0
-        }
-    ],
+    "queue": [],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -1178,7 +1136,12 @@
         "ab_a13ff379df4b44ba8d98c47d443a291a": true,
         "ab_d4d5695589204546a2be53198a6c5368": true,
         "ab_f89a05c64d504d50b858825b127535e3": true,
-        "ab_7811fd4858094b0581aead2ad997d2fb": true
+        "ab_7811fd4858094b0581aead2ad997d2fb": true,
+        "ab_23f1ab91ad59415da1c1b9d09bb4e8f0": true,
+        "ab_ea4a93d34e3849268a180c1e4f4596ec": true,
+        "ab_ee916367a6d64b9fb76708b9910f19bf": true,
+        "ab_d6dbd097487a43108e132292d385235d": true,
+        "ab_a4e41aa3dd2f49479bf3beb745a5d556": true
     },
-    "lastDrainAt": 1792175527
+    "lastDrainAt": 1792186706
 }
