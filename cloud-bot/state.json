@@ -13,7 +13,7 @@
             "lastCheckedAt": 1792162237
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1792020866
+            "lastCheckedAt": 1792175273
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1792028837
@@ -36,37 +36,45 @@
     },
     "queue": [
         {
-            "source_key": "ab_7f582fcb499445dca80fb771ba5f57b3",
-            "brochure_key": "7f582fcb499445dca80fb771ba5f57b3",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 16-19 Ekim",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-16-19-ekim_7f582fcb499445dca80fb771ba5f57b3",
+            "source_key": "ab_23f1ab91ad59415da1c1b9d09bb4e8f0",
+            "brochure_key": "23f1ab91ad59415da1c1b9d09bb4e8f0",
+            "market": "Şok Market",
+            "title": "Bugüne Özel İndirimli Ürün - Soğan KG 24,90 TL",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/bugune-ozel-indirimli-urun-sogan-kg-24-90-tl_23f1ab91ad59415da1c1b9d09bb4e8f0",
             "tries": 0
         },
         {
-            "source_key": "ab_a13ff379df4b44ba8d98c47d443a291a",
-            "brochure_key": "a13ff379df4b44ba8d98c47d443a291a",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 16-19 Ekim",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-16-19-ekim_a13ff379df4b44ba8d98c47d443a291a",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_d4d5695589204546a2be53198a6c5368",
-            "brochure_key": "d4d5695589204546a2be53198a6c5368",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü  - Tek Fiyat Ürünler 89TL 16-19 Ekim",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-tek-fiyat-urunler-89tl-16-19-ekim_d4d5695589204546a2be53198a6c5368",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_f89a05c64d504d50b858825b127535e3",
-            "brochure_key": "f89a05c64d504d50b858825b127535e3",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 17-18 Ekim",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-17-18-ekim_f89a05c64d504d50b858825b127535e3",
+            "source_key": "ab_ea4a93d34e3849268a180c1e4f4596ec",
+            "brochure_key": "ea4a93d34e3849268a180c1e4f4596ec",
+            "market": "Şok Market",
+            "title": "Detaylı + Şok Market Hafta Sonu Fırsatları Aktüel Ürünler Broşür 17-20 Ekim 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-hafta-sonu-firsatlari-aktuel-urunler-brosur-17-20-ekim-2026_ea4a93d34e3849268a180c1e4f4596ec",
             "tries": 0,
             "not_before": "2026-10-17"
+        },
+        {
+            "source_key": "ab_ee916367a6d64b9fb76708b9910f19bf",
+            "brochure_key": "ee916367a6d64b9fb76708b9910f19bf",
+            "market": "Şok Market",
+            "title": "50TL ve Üzeri Alışverişlerde İndirimli Ürünler 14 Ekim - 15 Aralık",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/50tl-ve-uzeri-alisverislerde-indirimli-urunler-14-ekim-15-aralik_ee916367a6d64b9fb76708b9910f19bf",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_d6dbd097487a43108e132292d385235d",
+            "brochure_key": "d6dbd097487a43108e132292d385235d",
+            "market": "Şok Market",
+            "title": "Şok Market İste Gelsin Ürünleri Broşürü 14-20 Ekim 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-14-20-ekim-2026_d6dbd097487a43108e132292d385235d",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_a4e41aa3dd2f49479bf3beb745a5d556",
+            "brochure_key": "a4e41aa3dd2f49479bf3beb745a5d556",
+            "market": "Şok Market",
+            "title": "Şok Market Haftanın Fırsatları Aktüel Ürünler Broşür 14-20 Ekim 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-haftanin-firsatlari-aktuel-urunler-brosur-14-20-ekim-2026_a4e41aa3dd2f49479bf3beb745a5d556",
+            "tries": 0
         }
     ],
     "uploaded": {
@@ -1165,7 +1173,12 @@
         "ab_a3ea2428c8644cbbab9634cbca9bfde9": true,
         "ab_7f6c13c43c4f45638a9a965e4e2180f6": true,
         "ab_12f867be21e34738add53302cb9f753c": true,
-        "ab_e91eeead61bf492ebe1e636df58af17a": true
+        "ab_e91eeead61bf492ebe1e636df58af17a": true,
+        "ab_7f582fcb499445dca80fb771ba5f57b3": true,
+        "ab_a13ff379df4b44ba8d98c47d443a291a": true,
+        "ab_d4d5695589204546a2be53198a6c5368": true,
+        "ab_f89a05c64d504d50b858825b127535e3": true,
+        "ab_7811fd4858094b0581aead2ad997d2fb": true
     },
-    "lastDrainAt": 1792162497
+    "lastDrainAt": 1792175527
 }
