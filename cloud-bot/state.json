@@ -10,7 +10,7 @@
             "lastCheckedAt": 1792145425
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1792011246
+            "lastCheckedAt": 1792162237
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 1792020866
@@ -34,7 +34,41 @@
             "lastCheckedAt": 1792105265
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_7f582fcb499445dca80fb771ba5f57b3",
+            "brochure_key": "7f582fcb499445dca80fb771ba5f57b3",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 16-19 Ekim",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-16-19-ekim_7f582fcb499445dca80fb771ba5f57b3",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_a13ff379df4b44ba8d98c47d443a291a",
+            "brochure_key": "a13ff379df4b44ba8d98c47d443a291a",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 16-19 Ekim",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-16-19-ekim_a13ff379df4b44ba8d98c47d443a291a",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_d4d5695589204546a2be53198a6c5368",
+            "brochure_key": "d4d5695589204546a2be53198a6c5368",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü  - Tek Fiyat Ürünler 89TL 16-19 Ekim",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-tek-fiyat-urunler-89tl-16-19-ekim_d4d5695589204546a2be53198a6c5368",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_f89a05c64d504d50b858825b127535e3",
+            "brochure_key": "f89a05c64d504d50b858825b127535e3",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 17-18 Ekim",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-17-18-ekim_f89a05c64d504d50b858825b127535e3",
+            "tries": 0,
+            "not_before": "2026-10-17"
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -1126,7 +1160,12 @@
         "ab_c055a0b61a3e44de98492e5283ab5c78": true,
         "ab_22565721e414436fa4928be39269733b": true,
         "ab_81538711933547768ca9491fb7d2ca89": true,
-        "ab_664a775288b644fb9e118e0845cf10b9": true
+        "ab_664a775288b644fb9e118e0845cf10b9": true,
+        "ab_6a8db9971bea46e38b615f14cf51266d": true,
+        "ab_a3ea2428c8644cbbab9634cbca9bfde9": true,
+        "ab_7f6c13c43c4f45638a9a965e4e2180f6": true,
+        "ab_12f867be21e34738add53302cb9f753c": true,
+        "ab_e91eeead61bf492ebe1e636df58af17a": true
     },
-    "lastDrainAt": 1792145588
+    "lastDrainAt": 1792162497
 }
