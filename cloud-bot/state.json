@@ -13,7 +13,7 @@
             "lastCheckedAt": 1792278725
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1792175273
+            "lastCheckedAt": 1792285370
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1792186462
@@ -34,40 +34,7 @@
             "lastCheckedAt": 1792245444
         }
     },
-    "queue": [
-        {
-            "source_key": "ab_05d9c83c92f1474e925977df5e73aa21",
-            "brochure_key": "05d9c83c92f1474e925977df5e73aa21",
-            "market": "Bim",
-            "title": "Çok Al Az Öde Ürünleri",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/cok-al-az-ode-urunleri_05d9c83c92f1474e925977df5e73aa21",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_7b8e0530ddc54dd9875939c4e5d22a49",
-            "brochure_key": "7b8e0530ddc54dd9875939c4e5d22a49",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 17-23 Ekim",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-17-23-ekim_7b8e0530ddc54dd9875939c4e5d22a49",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_36ff0b46f14745829e9cfab59247f4b4",
-            "brochure_key": "36ff0b46f14745829e9cfab59247f4b4",
-            "market": "Bim",
-            "title": "Bim İndirimli Ürünler Broşürü 17-23 Ekim",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-17-23-ekim_36ff0b46f14745829e9cfab59247f4b4",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_5724b1f6a29c4ec6a453f3e08883c54a",
-            "brochure_key": "5724b1f6a29c4ec6a453f3e08883c54a",
-            "market": "Bim",
-            "title": "Bim Fırsat Ürünleri Broşürü 17-19 Ekim",
-            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-firsat-urunleri-brosuru-17-19-ekim_5724b1f6a29c4ec6a453f3e08883c54a",
-            "tries": 0
-        }
-    ],
+    "queue": [],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -1187,7 +1154,11 @@
         "ab_83171217bd8c4ceba24c84cc36eeab40": true,
         "ab_f8a3f34c8a61463eaed3fcf700b710d7": true,
         "ab_4aeba9508dae436db680201788acd6d8": true,
-        "ab_6a345b4eb2334590b982ead55b5d0a4e": true
+        "ab_6a345b4eb2334590b982ead55b5d0a4e": true,
+        "ab_05d9c83c92f1474e925977df5e73aa21": true,
+        "ab_7b8e0530ddc54dd9875939c4e5d22a49": true,
+        "ab_36ff0b46f14745829e9cfab59247f4b4": true,
+        "ab_5724b1f6a29c4ec6a453f3e08883c54a": true
     },
-    "lastDrainAt": 1792278880
+    "lastDrainAt": 1792285532
 }
