@@ -10,7 +10,7 @@
             "lastCheckedAt": 1792392491
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1792278725
+            "lastCheckedAt": 1792418616
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
             "lastCheckedAt": 1792285370
@@ -1162,7 +1162,9 @@
         "ab_213a49d7dc984230bb055acaae90990c": true,
         "ab_0049cc5231ee47c8aba9ad88f3e8c0a6": true,
         "ab_7a1b9b3359f8422ba42600a4529a0b4f": true,
-        "ab_8acd324435ac4188a42f7efe683e0845": true
+        "ab_8acd324435ac4188a42f7efe683e0845": true,
+        "ab_927b591315ef4649854037d492066e8f": true,
+        "ab_70021674015449fda5c247a3b507632f": true
     },
-    "lastDrainAt": 1792342713
+    "lastDrainAt": 1792418692
 }
