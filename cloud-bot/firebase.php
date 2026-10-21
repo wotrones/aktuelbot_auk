@@ -333,8 +333,10 @@ function fb_ensure_market(array $cfg, string $marketName): void
         cb_debug('Logo bulunamadi/yuklenemedi: ' . $e->getMessage());
     }
 
+    // Uygulama logoyu `image` alanından okur (MarketlerRecord); `logo` eski alan.
     fb_document_set($cfg, "marketler/{$id}", [
         'name' => $marketName,
+        'image' => $logoUrl,
         'logo' => $logoUrl,
     ]);
     cb_log("Market eklendi: {$marketName} ({$id})");

@@ -7,9 +7,10 @@ declare(strict_types=1);
  * cloud-bot scheduler.
  *
  * Her calistirildiginda (GitHub Actions cron ~5 dk) sunlari yapar:
- *   1) Sirada en cok gecikmis ve >= MARKET_INTERVAL_MIN dakikadir bakilmamis
- *      TEK marketi kontrol eder, yeni brosurleri kuyruga ekler.
- *      (11 market sirayla ~saatte 1 kez kontrol edilir.)
+ *   1) >= MARKET_INTERVAL_MIN dakikadir bakilmamis marketleri (en gecikmis once,
+ *      en fazla MARKETS_PER_RUN) kontrol eder, yeni brosurleri kuyruga ekler.
+ *      (GitHub bu depoda zamanlanmis kosulari ~3 saatte bir calistiriyor; her
+ *      kosuda 23 marketin hepsi kontrol edilir.)
  *   2) Kuyrukta bekleyen brosur varsa ve son indirmeden bu yana
  *      >= DRAIN_INTERVAL_MIN dakika gectiyse, DRAIN_BATCH kadar brosuru
  *      indirip import API'ye yukler. (Cok brosur birikmisse 10-15 dk
@@ -56,7 +57,10 @@ Kullanim:
     STATE_FILE           varsayilan cloud-bot/state.json
     MARKET_INTERVAL_MIN  varsayilan 55  (her market en fazla bu sikligla kontrol edilir)
     DRAIN_INTERVAL_MIN   varsayilan 12  (kuyruktan indirme araligi)
-    DRAIN_BATCH          varsayilan 1   (her akitmada kac brosur)
+    DRAIN_BATCH          varsayilan 1   (her akitmada kac brosur; alt sinir)
+    DRAIN_MAX_PER_RUN    varsayilan 20  (kosu basina en fazla brosur; seyrek kosularda birikmesin)
+    DRAIN_TIME_BUDGET_SEC varsayilan 1200 (akitma icin kosu basina sure siniri)
+    MARKETS_PER_RUN      varsayilan 25  (kosu basina kontrol edilecek, sirasi gelmis market sayisi)
     BROCHURE_VALID_DAYS  varsayilan 14  (end_date = start + bu kadar gun)
     REQUEST_DELAY_MS     varsayilan 800
     TIMEOUT              varsayilan 60
@@ -103,6 +107,9 @@ function cb_config(): array
         'market_interval_min' => max(1, (int) $env('MARKET_INTERVAL_MIN', '55')),
         'drain_interval_min' => max(0, (int) $env('DRAIN_INTERVAL_MIN', '12')),
         'drain_batch' => max(1, (int) $env('DRAIN_BATCH', '1')),
+        'drain_max_per_run' => max(1, (int) $env('DRAIN_MAX_PER_RUN', '20')),
+        'drain_time_budget_sec' => max(60, (int) $env('DRAIN_TIME_BUDGET_SEC', '1200')),
+        'markets_per_run' => max(1, (int) $env('MARKETS_PER_RUN', '25')),
         'valid_days' => max(1, (int) $env('BROCHURE_VALID_DAYS', '14')),
         'request_delay_ms' => max(0, (int) $env('REQUEST_DELAY_MS', '800')),
         'timeout' => max(10, (int) $env('TIMEOUT', '60')),
@@ -149,6 +156,21 @@ function cb_market_listing_urls(string $baseUrl): array
         '/tarim-kredi-kooperatif_market/brosurler',
         '/hakmar/brosurler',
         '/gratis/brosurler',
+        // 2026-10-21 eklendi. Görünen adlar (kaynakta "X Broşürleri" başlığı):
+        // Altun Market, Biçen Market, Çağrı Market, File Market, Happy Center,
+        // Kim Market, Metro Market, Mopaş, Onur Market, Seç Market, Korkmaz, Karaca.
+        '/altunmarket/brosurler',
+        '/bicenmarket/brosurler',
+        '/cagrimarket/brosurler',
+        '/file-market/brosurler',
+        '/happycenter/brosurler',
+        '/kimmarket/brosurler',
+        '/metrotoptancimarket/brosurler',
+        '/mopas/brosurler',
+        '/onurmarket/brosurler',
+        '/secmarket/brosurler',
+        '/korkmaz/brosurler',
+        '/karaca/brosurler',
     ];
 
     return array_map(static fn (string $p): string => $baseUrl . $p, $paths);
@@ -218,6 +240,11 @@ function cb_check_market(array $cfg, array &$state, string $listingUrl, ?string 
         }
     }
 
+    // Listeye yeni eklenen marketin ilk kontrolü: sayfadaki tüm güncel broşürler
+    // "yeni" görünür. Bunlar içe aktarılır ama bildirim gönderilmez; yoksa ilk
+    // dolumda kullanıcılara market başına onlarca push gider.
+    $ilkKontrol = (int) ($state['markets'][$listingUrl]['lastCheckedAt'] ?? 0) === 0;
+
     $added = 0;
     foreach ($items as $item) {
         $sourceKey = 'ab_' . $item['brochure_key'];
@@ -248,6 +275,9 @@ function cb_check_market(array $cfg, array &$state, string $listingUrl, ?string 
             'href' => $item['href'],
             'tries' => 0,
         ];
+        if ($ilkKontrol) {
+            $queued['sessiz'] = true;
+        }
         // Ileri tarihli brosur: kuyruga alinir ama basligindaki baslangic
         // tarihi gelene kadar indirilmez/bildirilmez (bkz. cb_drain_queue).
         if (cb_dates_start_future($titleDates, $today)) {
@@ -273,7 +303,7 @@ function cb_check_market(array $cfg, array &$state, string $listingUrl, ?string 
  * tarihli erteleme 0 dondurur ama state'i degistirir — cagiran taraf bu durumda
  * da kaydetmezse o degisiklikler kaybolur.
  */
-function cb_drain_queue(array $cfg, array &$state, int $batch, ?string $cookieFile, bool &$changed = false): int
+function cb_drain_queue(array $cfg, array &$state, int $batch, ?string $cookieFile, bool &$changed = false, ?int $deadline = null): int
 {
     $today = new DateTimeImmutable('today');
     $processed = 0;
@@ -291,7 +321,8 @@ function cb_drain_queue(array $cfg, array &$state, int $batch, ?string $cookieFi
     // Kuyrugun tamami ertelenebilir; her kaydi en fazla bir kez ele al.
     $remaining = count($state['queue']);
 
-    while ($processed < $batch && $remaining > 0 && $state['queue'] !== []) {
+    while ($processed < $batch && $remaining > 0 && $state['queue'] !== []
+        && ($deadline === null || time() < $deadline)) {
         $remaining--;
         $item = array_shift($state['queue']);
         $changed = true; // kuyruktan cikarmak basli basina bir state degisikligi
@@ -337,7 +368,8 @@ function cb_drain_queue(array $cfg, array &$state, int $batch, ?string $cookieFi
                 $processed++;
                 continue;
             }
-            if (fb_import_brochure($cfg, $normItem, $fetched['pages'], $fetched['dates'])) {
+            if (fb_import_brochure($cfg, $normItem, $fetched['pages'], $fetched['dates'])
+                && empty($item['sessiz'])) {
                 $imported[$normItem['market']][] = $sourceKey;
             }
             $state['uploaded'][$sourceKey] = true;
@@ -511,25 +543,29 @@ try {
         exit(0);
     }
 
-    // 1) Sirasi gelen TEK marketi kontrol et (en cok gecikmis olan).
+    // 1) Sirasi gelen marketleri kontrol et (en cok gecikmis once).
+    // GitHub zamanlanmis isleri bu depoda ~3 saatte bir calistiriyor (cron */5
+    // olsa da); kosu basina TEK market 23 markette her marketi ~3 gunde bir
+    // kontrol etmek demekti. Artik kosu basina MARKETS_PER_RUN'a kadar.
     if (!$drainOnly) {
-        $dueUrl = null;
-        $oldest = PHP_INT_MAX;
+        $due = [];
         foreach ($listingUrls as $url) {
             $last = (int) ($state['markets'][$url]['lastCheckedAt'] ?? 0);
-            if ($now - $last >= $cfg['market_interval_min'] * 60 && $last < $oldest) {
-                $oldest = $last;
-                $dueUrl = $url;
+            if ($now - $last >= $cfg['market_interval_min'] * 60) {
+                $due[$url] = $last;
             }
         }
-        if ($dueUrl !== null) {
+        asort($due);
+        $due = array_slice(array_keys($due), 0, $cfg['markets_per_run']);
+        foreach ($due as $dueUrl) {
             try {
                 cb_check_market($cfg, $state, $dueUrl, $cookieFile);
                 $dirty = true;
             } catch (Throwable $e) {
                 cb_log("Market kontrol hatasi: {$dueUrl} - " . $e->getMessage());
             }
-        } else {
+        }
+        if ($due === []) {
             cb_log('Su an kontrol sirasi gelen market yok.');
         }
     }
@@ -539,7 +575,11 @@ try {
         $drainDue = ($now - (int) $state['lastDrainAt']) >= $cfg['drain_interval_min'] * 60;
         if ($state['queue'] !== [] && $drainDue) {
             $drainChanged = false;
-            $n = cb_drain_queue($cfg, $state, $cfg['drain_batch'], $cookieFile, $drainChanged);
+            // Seyrek kosularda kuyruk birikmesin: en az DRAIN_MAX_PER_RUN, sure
+            // butcesiyle sinirli. Tek cagri = market basina tek bildirim korunur.
+            $batch = max($cfg['drain_batch'], $cfg['drain_max_per_run']);
+            $deadline = time() + $cfg['drain_time_budget_sec'];
+            $n = cb_drain_queue($cfg, $state, $batch, $cookieFile, $drainChanged, $deadline);
             if ($n > 0) {
                 $state['lastDrainAt'] = time();
                 cb_log("Kuyruktan islenen: {$n} | kalan: " . count($state['queue']));
