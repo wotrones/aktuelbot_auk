@@ -1,229 +1,76 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1792603727
+            "lastCheckedAt": 1792615766
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1792603731
+            "lastCheckedAt": 1792615771
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1792603741
+            "lastCheckedAt": 1792615776
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1792603681
+            "lastCheckedAt": 1792615731
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1792603685
+            "lastCheckedAt": 1792615735
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1792603689
+            "lastCheckedAt": 1792615738
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1792603693
+            "lastCheckedAt": 1792615746
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1792603697
+            "lastCheckedAt": 1792615751
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1792603701
+            "lastCheckedAt": 1792615755
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1792603716
+            "lastCheckedAt": 1792615759
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1792603720
+            "lastCheckedAt": 1792615761
         },
         "https://aktuelbrosurler.com/altunmarket/brosurler": {
-            "lastCheckedAt": 1792603588
+            "lastCheckedAt": 1792615681
         },
         "https://aktuelbrosurler.com/bicenmarket/brosurler": {
-            "lastCheckedAt": 1792603592
+            "lastCheckedAt": 1792615686
         },
         "https://aktuelbrosurler.com/cagrimarket/brosurler": {
-            "lastCheckedAt": 1792603595
+            "lastCheckedAt": 1792615690
         },
         "https://aktuelbrosurler.com/file-market/brosurler": {
-            "lastCheckedAt": 1792603607
+            "lastCheckedAt": 1792615694
         },
         "https://aktuelbrosurler.com/happycenter/brosurler": {
-            "lastCheckedAt": 1792603612
+            "lastCheckedAt": 1792615698
         },
         "https://aktuelbrosurler.com/kimmarket/brosurler": {
-            "lastCheckedAt": 1792603634
+            "lastCheckedAt": 1792615703
         },
         "https://aktuelbrosurler.com/metrotoptancimarket/brosurler": {
-            "lastCheckedAt": 1792603638
+            "lastCheckedAt": 1792615708
         },
         "https://aktuelbrosurler.com/mopas/brosurler": {
-            "lastCheckedAt": 1792603642
+            "lastCheckedAt": 1792615710
         },
         "https://aktuelbrosurler.com/onurmarket/brosurler": {
-            "lastCheckedAt": 1792603649
+            "lastCheckedAt": 1792615715
         },
         "https://aktuelbrosurler.com/secmarket/brosurler": {
-            "lastCheckedAt": 1792603653
+            "lastCheckedAt": 1792615719
         },
         "https://aktuelbrosurler.com/korkmaz/brosurler": {
-            "lastCheckedAt": 1792598344
+            "lastCheckedAt": 1792615677
         },
         "https://aktuelbrosurler.com/karaca/brosurler": {
-            "lastCheckedAt": 1792603677
+            "lastCheckedAt": 1792615727
         }
     },
     "queue": [
-        {
-            "source_key": "ab_690b60fe58ae4589b1efa95465a2c3b4",
-            "brochure_key": "690b60fe58ae4589b1efa95465a2c3b4",
-            "market": "Happy Center",
-            "title": "Çarşamba Günü Meyve ve Sebze Reyonu Fırsatları",
-            "href": "https://aktuelbrosurler.com/happy-center/brosurler/carsamba-gunu-meyve-ve-sebze-reyonu-firsatlari_690b60fe58ae4589b1efa95465a2c3b4",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_cb522155bf8f4448affaeaf9b32db1c7",
-            "brochure_key": "cb522155bf8f4448affaeaf9b32db1c7",
-            "market": "Happy Center",
-            "title": "Happy Center İndirim Bülteni Kataloğu",
-            "href": "https://aktuelbrosurler.com/happy-center/brosurler/happy-center-indirim-bulteni-katalogu_cb522155bf8f4448affaeaf9b32db1c7",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_e4b395e97dde4da5a7e47bea4f90bfba",
-            "brochure_key": "e4b395e97dde4da5a7e47bea4f90bfba",
-            "market": "Happy Center",
-            "title": "Hafta Sonuna Özel Meyve ve Sebze Reyonu Fırsatları",
-            "href": "https://aktuelbrosurler.com/happy-center/brosurler/hafta-sonuna-ozel-meyve-ve-sebze-reyonu-firsatlari_e4b395e97dde4da5a7e47bea4f90bfba",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_feeab0d2932c4aa782c3682fa25af608",
-            "brochure_key": "feeab0d2932c4aa782c3682fa25af608",
-            "market": "Happy Center",
-            "title": "Kasap Reyonu Fırsatları",
-            "href": "https://aktuelbrosurler.com/happy-center/brosurler/kasap-reyonu-firsatlari_feeab0d2932c4aa782c3682fa25af608",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_08c398f6e380419ebba3124c9f0e8ceb",
-            "brochure_key": "08c398f6e380419ebba3124c9f0e8ceb",
-            "market": "Happy Center",
-            "title": "Çarşamba Günü Manav Reyonu Fırsatları",
-            "href": "https://aktuelbrosurler.com/happy-center/brosurler/carsamba-gunu-manav-reyonu-firsatlari_08c398f6e380419ebba3124c9f0e8ceb",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_35ae4356a9c843b1b9544440dbb2f22c",
-            "brochure_key": "35ae4356a9c843b1b9544440dbb2f22c",
-            "market": "Happy Center",
-            "title": "Hafta Sonuna Özel Fırsat Ürünleri Broşürü",
-            "href": "https://aktuelbrosurler.com/happy-center/brosurler/hafta-sonuna-ozel-firsat-urunleri-brosuru_35ae4356a9c843b1b9544440dbb2f22c",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_30f7342b1ff544d3a60e2b186c0ebbcc",
-            "brochure_key": "30f7342b1ff544d3a60e2b186c0ebbcc",
-            "market": "Happy Center",
-            "title": "Happy Center İndirim Bülteni Broşürü - Sonbahar Fırsatları",
-            "href": "https://aktuelbrosurler.com/happy-center/brosurler/happy-center-indirim-bulteni-brosuru-sonbahar-firsatlari_30f7342b1ff544d3a60e2b186c0ebbcc",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_139949b583d6469c9353bd2fade2f9d5",
-            "brochure_key": "139949b583d6469c9353bd2fade2f9d5",
-            "market": "Happy Center",
-            "title": "Happy Center İndirim Bülteni Broşürü - Sonbahar Fırsatları",
-            "href": "https://aktuelbrosurler.com/happy-center/brosurler/happy-center-indirim-bulteni-brosuru-sonbahar-firsatlari_139949b583d6469c9353bd2fade2f9d5",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_c70be92c1ac7459e869e98679d999ac9",
-            "brochure_key": "c70be92c1ac7459e869e98679d999ac9",
-            "market": "Happy Center",
-            "title": "Kırmızı Et Ürünlerinde Fırsatlar",
-            "href": "https://aktuelbrosurler.com/happy-center/brosurler/kirmizi-et-urunlerinde-firsatlar_c70be92c1ac7459e869e98679d999ac9",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_07a29a74f2294a05a4c1322c17eca879",
-            "brochure_key": "07a29a74f2294a05a4c1322c17eca879",
-            "market": "Happy Center",
-            "title": "Çarşamba Günü Meyve ve Sebze Reyonu Fırsatları",
-            "href": "https://aktuelbrosurler.com/happy-center/brosurler/carsamba-gunu-meyve-ve-sebze-reyonu-firsatlari_07a29a74f2294a05a4c1322c17eca879",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_68f8312dcc9049f39a9aa30ba0750a84",
-            "brochure_key": "68f8312dcc9049f39a9aa30ba0750a84",
-            "market": "Happy Center",
-            "title": "Hafta Sonuna Özel Meyve ve Sebze Reyonu Fırsatları",
-            "href": "https://aktuelbrosurler.com/happy-center/brosurler/hafta-sonuna-ozel-meyve-ve-sebze-reyonu-firsatlari_68f8312dcc9049f39a9aa30ba0750a84",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_8f3532c782fe43d2863610a32aa25c95",
-            "brochure_key": "8f3532c782fe43d2863610a32aa25c95",
-            "market": "Happy Center",
-            "title": "Hafta Sonuna Özel İndirimli Ürünler Broşürü",
-            "href": "https://aktuelbrosurler.com/happy-center/brosurler/hafta-sonuna-ozel-indirimli-urunler-brosuru_8f3532c782fe43d2863610a32aa25c95",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_1c9bda5210a74c278f4a2c35b6d8c23c",
-            "brochure_key": "1c9bda5210a74c278f4a2c35b6d8c23c",
-            "market": "Kim Market",
-            "title": "Marmara Bölgesi Mağazalarında Çarşamba Günü Geçerli Manav Reyonu Fırsatları",
-            "href": "https://aktuelbrosurler.com/kim-market/brosurler/marmara-bolgesi-magazalarinda-carsamba-gunu-gecerli-manav-reyonu-firsatlari_1c9bda5210a74c278f4a2c35b6d8c23c",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_a5aa9b4cd6d04e6fa81977ee5669e9a5",
-            "brochure_key": "a5aa9b4cd6d04e6fa81977ee5669e9a5",
-            "market": "Kim Market",
-            "title": "Ege Bölgesi Mağazalarında Geçerli İndirim Bülteni Broşürü",
-            "href": "https://aktuelbrosurler.com/kim-market/brosurler/ege-bolgesi-magazalarinda-gecerli-indirim-bulteni-brosuru_a5aa9b4cd6d04e6fa81977ee5669e9a5",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_8cc81140777447cda569e277f4b55411",
-            "brochure_key": "8cc81140777447cda569e277f4b55411",
-            "market": "Kim Market",
-            "title": "Marmara Bölgesi Mağazalarında Geçerli İndirim Bülteni Broşürü",
-            "href": "https://aktuelbrosurler.com/kim-market/brosurler/marmara-bolgesi-magazalarinda-gecerli-indirim-bulteni-brosuru_8cc81140777447cda569e277f4b55411",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_98c6787ffa054f4184faddaa94766c88",
-            "brochure_key": "98c6787ffa054f4184faddaa94766c88",
-            "market": "Kim Market",
-            "title": "Marmara Bölgesi Mağazalarında Geçerli Hafta Sonuna Özel Manav Reyonu Fırsatları",
-            "href": "https://aktuelbrosurler.com/kim-market/brosurler/marmara-bolgesi-magazalarinda-gecerli-hafta-sonuna-ozel-manav-reyonu-firsatlari_98c6787ffa054f4184faddaa94766c88",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_d640b0572e644350b28c987424a4e50e",
-            "brochure_key": "d640b0572e644350b28c987424a4e50e",
-            "market": "Kim Market",
-            "title": "İstanbul Mağazalarında Geçerli Kırmızı Et Ürünleri",
-            "href": "https://aktuelbrosurler.com/kim-market/brosurler/istanbul-magazalarinda-gecerli-kirmizi-et-urunleri_d640b0572e644350b28c987424a4e50e",
-            "tries": 0,
-            "sessiz": true
-        },
         {
             "source_key": "ab_69776e5b184d4dee88a296324414a2d2",
             "brochure_key": "69776e5b184d4dee88a296324414a2d2",
@@ -2136,7 +1983,27 @@
         "ab_6c597522f8a04ad689a20e3c1ddb13dd": true,
         "ab_d168e5113f934ebf82a53b1a363029a2": true,
         "ab_e6a8e3c5d40d4920959e5c9ab7f3985c": true,
-        "ab_1b6696073b6d46df832d23e429936404": true
+        "ab_1b6696073b6d46df832d23e429936404": true,
+        "ab_ce751f42c7dd43f0ae231347cb2fb3a2": true,
+        "ab_ee0d3a0430ed4342b2b2425c094c8dd7": true,
+        "ab_d7a329845a834041899585f908bbc1ee": true,
+        "ab_690b60fe58ae4589b1efa95465a2c3b4": true,
+        "ab_cb522155bf8f4448affaeaf9b32db1c7": true,
+        "ab_e4b395e97dde4da5a7e47bea4f90bfba": true,
+        "ab_feeab0d2932c4aa782c3682fa25af608": true,
+        "ab_08c398f6e380419ebba3124c9f0e8ceb": true,
+        "ab_35ae4356a9c843b1b9544440dbb2f22c": true,
+        "ab_30f7342b1ff544d3a60e2b186c0ebbcc": true,
+        "ab_139949b583d6469c9353bd2fade2f9d5": true,
+        "ab_c70be92c1ac7459e869e98679d999ac9": true,
+        "ab_07a29a74f2294a05a4c1322c17eca879": true,
+        "ab_68f8312dcc9049f39a9aa30ba0750a84": true,
+        "ab_8f3532c782fe43d2863610a32aa25c95": true,
+        "ab_1c9bda5210a74c278f4a2c35b6d8c23c": true,
+        "ab_a5aa9b4cd6d04e6fa81977ee5669e9a5": true,
+        "ab_8cc81140777447cda569e277f4b55411": true,
+        "ab_98c6787ffa054f4184faddaa94766c88": true,
+        "ab_d640b0572e644350b28c987424a4e50e": true
     },
-    "lastDrainAt": 1792604644
+    "lastDrainAt": 1792616836
 }
