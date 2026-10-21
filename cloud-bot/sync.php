@@ -308,6 +308,14 @@ function cb_drain_queue(array $cfg, array &$state, int $batch, ?string $cookieFi
     $today = new DateTimeImmutable('today');
     $processed = 0;
 
+    // Gercekten yeni (bildirimli) brosurler, yeni marketlerin ilk dolumundan
+    // (sessiz) once islenir; yoksa BIM/Sok'un yeni brosuru 100+ ilk dolum
+    // brosurunun arkasinda gunlerce bekler. Kendi aralarinda sira korunur.
+    $state['queue'] = array_merge(
+        array_values(array_filter($state['queue'], static fn ($q) => empty($q['sessiz']))),
+        array_values(array_filter($state['queue'], static fn ($q) => !empty($q['sessiz'])))
+    );
+
     // Bu kosuda ICE AKTARILAN brosurler, market bazinda: market => list<docId>.
     // Bildirim brosur basina degil, dongu sonunda market basina TEK sefer
     // gonderilir (ayni marketten 2-3 brosur = ayni metinle 2-3 push sorunu).
