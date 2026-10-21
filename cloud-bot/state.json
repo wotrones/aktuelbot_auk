@@ -1,220 +1,76 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1792598390
+            "lastCheckedAt": 1792603727
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1792598394
+            "lastCheckedAt": 1792603731
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1792598400
+            "lastCheckedAt": 1792603741
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1792598352
+            "lastCheckedAt": 1792603681
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1792598363
+            "lastCheckedAt": 1792603685
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1792598367
+            "lastCheckedAt": 1792603689
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1792598373
+            "lastCheckedAt": 1792603693
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1792598377
+            "lastCheckedAt": 1792603697
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1792598381
+            "lastCheckedAt": 1792603701
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1792598383
+            "lastCheckedAt": 1792603716
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1792598388
+            "lastCheckedAt": 1792603720
         },
         "https://aktuelbrosurler.com/altunmarket/brosurler": {
-            "lastCheckedAt": 1792598304
+            "lastCheckedAt": 1792603588
         },
         "https://aktuelbrosurler.com/bicenmarket/brosurler": {
-            "lastCheckedAt": 1792598309
+            "lastCheckedAt": 1792603592
         },
         "https://aktuelbrosurler.com/cagrimarket/brosurler": {
-            "lastCheckedAt": 1792598314
+            "lastCheckedAt": 1792603595
         },
         "https://aktuelbrosurler.com/file-market/brosurler": {
-            "lastCheckedAt": 1792598318
+            "lastCheckedAt": 1792603607
         },
         "https://aktuelbrosurler.com/happycenter/brosurler": {
-            "lastCheckedAt": 1792598322
+            "lastCheckedAt": 1792603612
         },
         "https://aktuelbrosurler.com/kimmarket/brosurler": {
-            "lastCheckedAt": 1792598326
+            "lastCheckedAt": 1792603634
         },
         "https://aktuelbrosurler.com/metrotoptancimarket/brosurler": {
-            "lastCheckedAt": 1792598330
+            "lastCheckedAt": 1792603638
         },
         "https://aktuelbrosurler.com/mopas/brosurler": {
-            "lastCheckedAt": 1792598334
+            "lastCheckedAt": 1792603642
         },
         "https://aktuelbrosurler.com/onurmarket/brosurler": {
-            "lastCheckedAt": 1792598339
+            "lastCheckedAt": 1792603649
         },
         "https://aktuelbrosurler.com/secmarket/brosurler": {
-            "lastCheckedAt": 1792598341
+            "lastCheckedAt": 1792603653
         },
         "https://aktuelbrosurler.com/korkmaz/brosurler": {
             "lastCheckedAt": 1792598344
         },
         "https://aktuelbrosurler.com/karaca/brosurler": {
-            "lastCheckedAt": 1792598348
+            "lastCheckedAt": 1792603677
         }
     },
     "queue": [
-        {
-            "source_key": "ab_24e4f4184e894f96bd16d942cbfeb870",
-            "brochure_key": "24e4f4184e894f96bd16d942cbfeb870",
-            "market": "Çağrı Market",
-            "title": "Çağrı Market İndirim Bülteni Kataloğu - Sonbahar Fırsatları",
-            "href": "https://aktuelbrosurler.com/cagri-market/brosurler/cagri-market-indirim-bulteni-katalogu-sonbahar-firsatlari_24e4f4184e894f96bd16d942cbfeb870",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_c04de9d8589e4fbb9496f09d3fbcf77a",
-            "brochure_key": "c04de9d8589e4fbb9496f09d3fbcf77a",
-            "market": "Çağrı Market",
-            "title": "Evcil Dostlarımız İçin Fırsat Ürünleri Broşürü",
-            "href": "https://aktuelbrosurler.com/cagri-market/brosurler/evcil-dostlarimiz-icin-firsat-urunleri-brosuru_c04de9d8589e4fbb9496f09d3fbcf77a",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_37550a101262456fa578c674da1c74f7",
-            "brochure_key": "37550a101262456fa578c674da1c74f7",
-            "market": "Çağrı Market",
-            "title": "Çağrı Market İndirim Bülteni Kataloğu - Çağrı'da Hep İndirim Var",
-            "href": "https://aktuelbrosurler.com/cagri-market/brosurler/cagri-market-indirim-bulteni-katalogu-cagri-da-hep-indirim-var_37550a101262456fa578c674da1c74f7",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_549038a46c2d4461ba6dd7bd56266f29",
-            "brochure_key": "549038a46c2d4461ba6dd7bd56266f29",
-            "market": "Çağrı Market",
-            "title": "Hafta Sonuna Özel Meyve ve Sebze İndirimleri Broşürü",
-            "href": "https://aktuelbrosurler.com/cagri-market/brosurler/hafta-sonuna-ozel-meyve-ve-sebze-indirimleri-brosuru_549038a46c2d4461ba6dd7bd56266f29",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_848ddf03bb3b4da29fa40df5c4812c2f",
-            "brochure_key": "848ddf03bb3b4da29fa40df5c4812c2f",
-            "market": "File Market",
-            "title": "Fırsat Ürünleri",
-            "href": "https://aktuelbrosurler.com/file-market/brosurler/firsat-urunleri_848ddf03bb3b4da29fa40df5c4812c2f",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_a25553370fea4e8b9fa982c8bf753c55",
-            "brochure_key": "a25553370fea4e8b9fa982c8bf753c55",
-            "market": "File Market",
-            "title": "Fırsat Ürünleri Broşürü",
-            "href": "https://aktuelbrosurler.com/file-market/brosurler/firsat-urunleri-brosuru_a25553370fea4e8b9fa982c8bf753c55",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_542defe4b52243ccbdb23fbeac1f8944",
-            "brochure_key": "542defe4b52243ccbdb23fbeac1f8944",
-            "market": "File Market",
-            "title": "İndirimli Ürünler",
-            "href": "https://aktuelbrosurler.com/file-market/brosurler/indirimli-urunler_542defe4b52243ccbdb23fbeac1f8944",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_10e6f17970f44de1bcc5b89eedad245d",
-            "brochure_key": "10e6f17970f44de1bcc5b89eedad245d",
-            "market": "File Market",
-            "title": "Seçili Et Ürünlerinde İndirim",
-            "href": "https://aktuelbrosurler.com/file-market/brosurler/secili-et-urunlerinde-indirim_10e6f17970f44de1bcc5b89eedad245d",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_abb06f48bc164652af264f5d9b28ba37",
-            "brochure_key": "abb06f48bc164652af264f5d9b28ba37",
-            "market": "File Market",
-            "title": "İndirimli Ürünler",
-            "href": "https://aktuelbrosurler.com/file-market/brosurler/indirimli-urunler_abb06f48bc164652af264f5d9b28ba37",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_e0cf61579c0a4c1f88759221e42f4342",
-            "brochure_key": "e0cf61579c0a4c1f88759221e42f4342",
-            "market": "File Market",
-            "title": "İndirimli Fırsat Ürünleri",
-            "href": "https://aktuelbrosurler.com/file-market/brosurler/indirimli-firsat-urunleri_e0cf61579c0a4c1f88759221e42f4342",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_ad9e9f244ffd45a1a9413743ac8bb6b6",
-            "brochure_key": "ad9e9f244ffd45a1a9413743ac8bb6b6",
-            "market": "File Market",
-            "title": "İndirimli Ürünler",
-            "href": "https://aktuelbrosurler.com/file-market/brosurler/indirimli-urunler_ad9e9f244ffd45a1a9413743ac8bb6b6",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_95e25c80ff6c45d895687ae6666e46d8",
-            "brochure_key": "95e25c80ff6c45d895687ae6666e46d8",
-            "market": "File Market",
-            "title": "İndirimli Ürünler",
-            "href": "https://aktuelbrosurler.com/file-market/brosurler/indirimli-urunler_95e25c80ff6c45d895687ae6666e46d8",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_6c597522f8a04ad689a20e3c1ddb13dd",
-            "brochure_key": "6c597522f8a04ad689a20e3c1ddb13dd",
-            "market": "File Market",
-            "title": "Seçili Ürünlerde İndirimli Fiyatlar",
-            "href": "https://aktuelbrosurler.com/file-market/brosurler/secili-urunlerde-indirimli-fiyatlar_6c597522f8a04ad689a20e3c1ddb13dd",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_d168e5113f934ebf82a53b1a363029a2",
-            "brochure_key": "d168e5113f934ebf82a53b1a363029a2",
-            "market": "File Market",
-            "title": "İndirimli Fırsat Ürünleri",
-            "href": "https://aktuelbrosurler.com/file-market/brosurler/indirimli-firsat-urunleri_d168e5113f934ebf82a53b1a363029a2",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_e6a8e3c5d40d4920959e5c9ab7f3985c",
-            "brochure_key": "e6a8e3c5d40d4920959e5c9ab7f3985c",
-            "market": "File Market",
-            "title": "İndirimli Ürünler",
-            "href": "https://aktuelbrosurler.com/file-market/brosurler/indirimli-urunler_e6a8e3c5d40d4920959e5c9ab7f3985c",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_1b6696073b6d46df832d23e429936404",
-            "brochure_key": "1b6696073b6d46df832d23e429936404",
-            "market": "File Market",
-            "title": "İndirimli Ürünler",
-            "href": "https://aktuelbrosurler.com/file-market/brosurler/indirimli-urunler_1b6696073b6d46df832d23e429936404",
-            "tries": 0,
-            "sessiz": true
-        },
         {
             "source_key": "ab_690b60fe58ae4589b1efa95465a2c3b4",
             "brochure_key": "690b60fe58ae4589b1efa95465a2c3b4",
@@ -1080,12 +936,13 @@
             "sessiz": true
         },
         {
-            "source_key": "ab_2b96374967db4d84b7e1e70dd2072e1d",
-            "brochure_key": "2b96374967db4d84b7e1e70dd2072e1d",
-            "market": "Carrefour",
-            "title": "Meyve, Sebze ve Kırmızı Et İndirimleri",
-            "href": "https://aktuelbrosurler.com/carrefour/brosurler/meyve-sebze-ve-kirmizi-et-indirimleri_2b96374967db4d84b7e1e70dd2072e1d",
-            "tries": 1
+            "source_key": "ab_37550a101262456fa578c674da1c74f7",
+            "brochure_key": "37550a101262456fa578c674da1c74f7",
+            "market": "Çağrı Market",
+            "title": "Çağrı Market İndirim Bülteni Kataloğu - Çağrı'da Hep İndirim Var",
+            "href": "https://aktuelbrosurler.com/cagri-market/brosurler/cagri-market-indirim-bulteni-katalogu-cagri-da-hep-indirim-var_37550a101262456fa578c674da1c74f7",
+            "tries": 1,
+            "sessiz": true
         }
     ],
     "uploaded": {
@@ -2260,7 +2117,26 @@
         "ab_f5cb55467ae140c1b30beca54bd43a81": true,
         "ab_d968e9236c7642e88f63a2ba04366e3d": true,
         "ab_546335e6c3be4e8eabfa951f2faef01b": true,
-        "ab_2c3a951fd8214f269ef3a26905bd5886": true
+        "ab_2c3a951fd8214f269ef3a26905bd5886": true,
+        "ab_2b96374967db4d84b7e1e70dd2072e1d": true,
+        "ab_dee661e011094866844a36a29f9406b1": true,
+        "ab_8677ff3cf40d4034969cc274f2df5575": true,
+        "ab_902bbe14263e4d64bd25652ebb1b1be2": true,
+        "ab_24e4f4184e894f96bd16d942cbfeb870": true,
+        "ab_c04de9d8589e4fbb9496f09d3fbcf77a": true,
+        "ab_549038a46c2d4461ba6dd7bd56266f29": true,
+        "ab_848ddf03bb3b4da29fa40df5c4812c2f": true,
+        "ab_a25553370fea4e8b9fa982c8bf753c55": true,
+        "ab_542defe4b52243ccbdb23fbeac1f8944": true,
+        "ab_10e6f17970f44de1bcc5b89eedad245d": true,
+        "ab_abb06f48bc164652af264f5d9b28ba37": true,
+        "ab_e0cf61579c0a4c1f88759221e42f4342": true,
+        "ab_ad9e9f244ffd45a1a9413743ac8bb6b6": true,
+        "ab_95e25c80ff6c45d895687ae6666e46d8": true,
+        "ab_6c597522f8a04ad689a20e3c1ddb13dd": true,
+        "ab_d168e5113f934ebf82a53b1a363029a2": true,
+        "ab_e6a8e3c5d40d4920959e5c9ab7f3985c": true,
+        "ab_1b6696073b6d46df832d23e429936404": true
     },
-    "lastDrainAt": 1792600941
+    "lastDrainAt": 1792604644
 }
