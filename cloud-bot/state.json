@@ -1,40 +1,1260 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1792538637
+            "lastCheckedAt": 1792598390
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1792547231
+            "lastCheckedAt": 1792598394
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1792585390
+            "lastCheckedAt": 1792598400
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1792418616
+            "lastCheckedAt": 1792598352
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1792439318
+            "lastCheckedAt": 1792598363
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1792451309
+            "lastCheckedAt": 1792598367
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1792460858
+            "lastCheckedAt": 1792598373
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1792478557
+            "lastCheckedAt": 1792598377
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1792498543
+            "lastCheckedAt": 1792598381
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1792516497
+            "lastCheckedAt": 1792598383
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1792528745
+            "lastCheckedAt": 1792598388
+        },
+        "https://aktuelbrosurler.com/altunmarket/brosurler": {
+            "lastCheckedAt": 1792598304
+        },
+        "https://aktuelbrosurler.com/bicenmarket/brosurler": {
+            "lastCheckedAt": 1792598309
+        },
+        "https://aktuelbrosurler.com/cagrimarket/brosurler": {
+            "lastCheckedAt": 1792598314
+        },
+        "https://aktuelbrosurler.com/file-market/brosurler": {
+            "lastCheckedAt": 1792598318
+        },
+        "https://aktuelbrosurler.com/happycenter/brosurler": {
+            "lastCheckedAt": 1792598322
+        },
+        "https://aktuelbrosurler.com/kimmarket/brosurler": {
+            "lastCheckedAt": 1792598326
+        },
+        "https://aktuelbrosurler.com/metrotoptancimarket/brosurler": {
+            "lastCheckedAt": 1792598330
+        },
+        "https://aktuelbrosurler.com/mopas/brosurler": {
+            "lastCheckedAt": 1792598334
+        },
+        "https://aktuelbrosurler.com/onurmarket/brosurler": {
+            "lastCheckedAt": 1792598339
+        },
+        "https://aktuelbrosurler.com/secmarket/brosurler": {
+            "lastCheckedAt": 1792598341
+        },
+        "https://aktuelbrosurler.com/korkmaz/brosurler": {
+            "lastCheckedAt": 1792598344
+        },
+        "https://aktuelbrosurler.com/karaca/brosurler": {
+            "lastCheckedAt": 1792598348
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_533dd410a3f149bc80f1a82456ee75d7",
+            "brochure_key": "533dd410a3f149bc80f1a82456ee75d7",
+            "market": "Biçen Market",
+            "title": "Biçen Market İndirim Bülteni Kataloğu",
+            "href": "https://aktuelbrosurler.com/bicen-market/brosurler/bicen-market-indirim-bulteni-katalogu_533dd410a3f149bc80f1a82456ee75d7",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_94602a9220634667a16c5670f1d1626c",
+            "brochure_key": "94602a9220634667a16c5670f1d1626c",
+            "market": "Biçen Market",
+            "title": "Salı Günü Meyve ve Sebze Reyonu Fırsatları",
+            "href": "https://aktuelbrosurler.com/bicen-market/brosurler/sali-gunu-meyve-ve-sebze-reyonu-firsatlari_94602a9220634667a16c5670f1d1626c",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_51a1c9f3c8e44bb8a7a045ac9838b71f",
+            "brochure_key": "51a1c9f3c8e44bb8a7a045ac9838b71f",
+            "market": "Biçen Market",
+            "title": "Beyaz Et Ürünlerinde Fırsat",
+            "href": "https://aktuelbrosurler.com/bicen-market/brosurler/beyaz-et-urunlerinde-firsat_51a1c9f3c8e44bb8a7a045ac9838b71f",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_3b36dbf348cc42319025d79f20167b0c",
+            "brochure_key": "3b36dbf348cc42319025d79f20167b0c",
+            "market": "Biçen Market",
+            "title": "Hafta Sonuna Özel Meyve ve Sebze Reyonu Fırsatları",
+            "href": "https://aktuelbrosurler.com/bicen-market/brosurler/hafta-sonuna-ozel-meyve-ve-sebze-reyonu-firsatlari_3b36dbf348cc42319025d79f20167b0c",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_09238c27fb7544e792cae51529dcfda7",
+            "brochure_key": "09238c27fb7544e792cae51529dcfda7",
+            "market": "Biçen Market",
+            "title": "Salı Günü Meyve ve Sebze Reyonu Fırsatları",
+            "href": "https://aktuelbrosurler.com/bicen-market/brosurler/sali-gunu-meyve-ve-sebze-reyonu-firsatlari_09238c27fb7544e792cae51529dcfda7",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_8d09c01b207e4cc4b5cc12322a2f8e53",
+            "brochure_key": "8d09c01b207e4cc4b5cc12322a2f8e53",
+            "market": "Biçen Market",
+            "title": "Pazar Gününe Özel İndirimli Ürün",
+            "href": "https://aktuelbrosurler.com/bicen-market/brosurler/pazar-gunune-ozel-indirimli-urun_8d09c01b207e4cc4b5cc12322a2f8e53",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_aff18b17b6f2416ba2071c948bb950a4",
+            "brochure_key": "aff18b17b6f2416ba2071c948bb950a4",
+            "market": "Biçen Market",
+            "title": "Hafta Sonuna Özel Meyve ve Sebze Reyonu Fırsatları",
+            "href": "https://aktuelbrosurler.com/bicen-market/brosurler/hafta-sonuna-ozel-meyve-ve-sebze-reyonu-firsatlari_aff18b17b6f2416ba2071c948bb950a4",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_0eae51255ba04a1fbf9b5b4ff1261207",
+            "brochure_key": "0eae51255ba04a1fbf9b5b4ff1261207",
+            "market": "Çağrı Market",
+            "title": "Hafta Sonuna Özel Meyve ve Sebze İndirimleri Broşürü",
+            "href": "https://aktuelbrosurler.com/cagri-market/brosurler/hafta-sonuna-ozel-meyve-ve-sebze-indirimleri-brosuru_0eae51255ba04a1fbf9b5b4ff1261207",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_66850d0db1bf4cf5a93fa1366c722c70",
+            "brochure_key": "66850d0db1bf4cf5a93fa1366c722c70",
+            "market": "Çağrı Market",
+            "title": "5 Günlük Dev İndirim Fırsat Ürünleri Broşürü 21-25 Ekim",
+            "href": "https://aktuelbrosurler.com/cagri-market/brosurler/5-gunluk-dev-indirim-firsat-urunleri-brosuru-21-25-ekim_66850d0db1bf4cf5a93fa1366c722c70",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_43b7de8aae1346ed9181514f9d42f500",
+            "brochure_key": "43b7de8aae1346ed9181514f9d42f500",
+            "market": "Çağrı Market",
+            "title": "Çağrı Market İndirim Bülteni Kataloğu",
+            "href": "https://aktuelbrosurler.com/cagri-market/brosurler/cagri-market-indirim-bulteni-katalogu_43b7de8aae1346ed9181514f9d42f500",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_830b41b021ab45f68183c663e536f5c6",
+            "brochure_key": "830b41b021ab45f68183c663e536f5c6",
+            "market": "Çağrı Market",
+            "title": "Hafta Sonuna Özel Meyve ve Sebze İndirimleri Broşürü",
+            "href": "https://aktuelbrosurler.com/cagri-market/brosurler/hafta-sonuna-ozel-meyve-ve-sebze-indirimleri-brosuru_830b41b021ab45f68183c663e536f5c6",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_f5cb55467ae140c1b30beca54bd43a81",
+            "brochure_key": "f5cb55467ae140c1b30beca54bd43a81",
+            "market": "Çağrı Market",
+            "title": "Çağrı Market İndirim Bülteni Kataloğu - Çağrı'da Her Zaman İndirim Var",
+            "href": "https://aktuelbrosurler.com/cagri-market/brosurler/cagri-market-indirim-bulteni-katalogu-cagri-da-her-zaman-indirim-var_f5cb55467ae140c1b30beca54bd43a81",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_d968e9236c7642e88f63a2ba04366e3d",
+            "brochure_key": "d968e9236c7642e88f63a2ba04366e3d",
+            "market": "Çağrı Market",
+            "title": "Hafta Sonuna Özel Meyve ve Sebze İndirimleri Broşürü",
+            "href": "https://aktuelbrosurler.com/cagri-market/brosurler/hafta-sonuna-ozel-meyve-ve-sebze-indirimleri-brosuru_d968e9236c7642e88f63a2ba04366e3d",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_546335e6c3be4e8eabfa951f2faef01b",
+            "brochure_key": "546335e6c3be4e8eabfa951f2faef01b",
+            "market": "Çağrı Market",
+            "title": "Haftanın Ürünleri",
+            "href": "https://aktuelbrosurler.com/cagri-market/brosurler/haftanin-urunleri_546335e6c3be4e8eabfa951f2faef01b",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_2c3a951fd8214f269ef3a26905bd5886",
+            "brochure_key": "2c3a951fd8214f269ef3a26905bd5886",
+            "market": "Çağrı Market",
+            "title": "Hafta Sonuna Özel Meyve ve Sebze İndirimleri Broşürü",
+            "href": "https://aktuelbrosurler.com/cagri-market/brosurler/hafta-sonuna-ozel-meyve-ve-sebze-indirimleri-brosuru_2c3a951fd8214f269ef3a26905bd5886",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_24e4f4184e894f96bd16d942cbfeb870",
+            "brochure_key": "24e4f4184e894f96bd16d942cbfeb870",
+            "market": "Çağrı Market",
+            "title": "Çağrı Market İndirim Bülteni Kataloğu - Sonbahar Fırsatları",
+            "href": "https://aktuelbrosurler.com/cagri-market/brosurler/cagri-market-indirim-bulteni-katalogu-sonbahar-firsatlari_24e4f4184e894f96bd16d942cbfeb870",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_c04de9d8589e4fbb9496f09d3fbcf77a",
+            "brochure_key": "c04de9d8589e4fbb9496f09d3fbcf77a",
+            "market": "Çağrı Market",
+            "title": "Evcil Dostlarımız İçin Fırsat Ürünleri Broşürü",
+            "href": "https://aktuelbrosurler.com/cagri-market/brosurler/evcil-dostlarimiz-icin-firsat-urunleri-brosuru_c04de9d8589e4fbb9496f09d3fbcf77a",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_37550a101262456fa578c674da1c74f7",
+            "brochure_key": "37550a101262456fa578c674da1c74f7",
+            "market": "Çağrı Market",
+            "title": "Çağrı Market İndirim Bülteni Kataloğu - Çağrı'da Hep İndirim Var",
+            "href": "https://aktuelbrosurler.com/cagri-market/brosurler/cagri-market-indirim-bulteni-katalogu-cagri-da-hep-indirim-var_37550a101262456fa578c674da1c74f7",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_549038a46c2d4461ba6dd7bd56266f29",
+            "brochure_key": "549038a46c2d4461ba6dd7bd56266f29",
+            "market": "Çağrı Market",
+            "title": "Hafta Sonuna Özel Meyve ve Sebze İndirimleri Broşürü",
+            "href": "https://aktuelbrosurler.com/cagri-market/brosurler/hafta-sonuna-ozel-meyve-ve-sebze-indirimleri-brosuru_549038a46c2d4461ba6dd7bd56266f29",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_848ddf03bb3b4da29fa40df5c4812c2f",
+            "brochure_key": "848ddf03bb3b4da29fa40df5c4812c2f",
+            "market": "File Market",
+            "title": "Fırsat Ürünleri",
+            "href": "https://aktuelbrosurler.com/file-market/brosurler/firsat-urunleri_848ddf03bb3b4da29fa40df5c4812c2f",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_a25553370fea4e8b9fa982c8bf753c55",
+            "brochure_key": "a25553370fea4e8b9fa982c8bf753c55",
+            "market": "File Market",
+            "title": "Fırsat Ürünleri Broşürü",
+            "href": "https://aktuelbrosurler.com/file-market/brosurler/firsat-urunleri-brosuru_a25553370fea4e8b9fa982c8bf753c55",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_542defe4b52243ccbdb23fbeac1f8944",
+            "brochure_key": "542defe4b52243ccbdb23fbeac1f8944",
+            "market": "File Market",
+            "title": "İndirimli Ürünler",
+            "href": "https://aktuelbrosurler.com/file-market/brosurler/indirimli-urunler_542defe4b52243ccbdb23fbeac1f8944",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_10e6f17970f44de1bcc5b89eedad245d",
+            "brochure_key": "10e6f17970f44de1bcc5b89eedad245d",
+            "market": "File Market",
+            "title": "Seçili Et Ürünlerinde İndirim",
+            "href": "https://aktuelbrosurler.com/file-market/brosurler/secili-et-urunlerinde-indirim_10e6f17970f44de1bcc5b89eedad245d",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_abb06f48bc164652af264f5d9b28ba37",
+            "brochure_key": "abb06f48bc164652af264f5d9b28ba37",
+            "market": "File Market",
+            "title": "İndirimli Ürünler",
+            "href": "https://aktuelbrosurler.com/file-market/brosurler/indirimli-urunler_abb06f48bc164652af264f5d9b28ba37",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_e0cf61579c0a4c1f88759221e42f4342",
+            "brochure_key": "e0cf61579c0a4c1f88759221e42f4342",
+            "market": "File Market",
+            "title": "İndirimli Fırsat Ürünleri",
+            "href": "https://aktuelbrosurler.com/file-market/brosurler/indirimli-firsat-urunleri_e0cf61579c0a4c1f88759221e42f4342",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_ad9e9f244ffd45a1a9413743ac8bb6b6",
+            "brochure_key": "ad9e9f244ffd45a1a9413743ac8bb6b6",
+            "market": "File Market",
+            "title": "İndirimli Ürünler",
+            "href": "https://aktuelbrosurler.com/file-market/brosurler/indirimli-urunler_ad9e9f244ffd45a1a9413743ac8bb6b6",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_95e25c80ff6c45d895687ae6666e46d8",
+            "brochure_key": "95e25c80ff6c45d895687ae6666e46d8",
+            "market": "File Market",
+            "title": "İndirimli Ürünler",
+            "href": "https://aktuelbrosurler.com/file-market/brosurler/indirimli-urunler_95e25c80ff6c45d895687ae6666e46d8",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_6c597522f8a04ad689a20e3c1ddb13dd",
+            "brochure_key": "6c597522f8a04ad689a20e3c1ddb13dd",
+            "market": "File Market",
+            "title": "Seçili Ürünlerde İndirimli Fiyatlar",
+            "href": "https://aktuelbrosurler.com/file-market/brosurler/secili-urunlerde-indirimli-fiyatlar_6c597522f8a04ad689a20e3c1ddb13dd",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_d168e5113f934ebf82a53b1a363029a2",
+            "brochure_key": "d168e5113f934ebf82a53b1a363029a2",
+            "market": "File Market",
+            "title": "İndirimli Fırsat Ürünleri",
+            "href": "https://aktuelbrosurler.com/file-market/brosurler/indirimli-firsat-urunleri_d168e5113f934ebf82a53b1a363029a2",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_e6a8e3c5d40d4920959e5c9ab7f3985c",
+            "brochure_key": "e6a8e3c5d40d4920959e5c9ab7f3985c",
+            "market": "File Market",
+            "title": "İndirimli Ürünler",
+            "href": "https://aktuelbrosurler.com/file-market/brosurler/indirimli-urunler_e6a8e3c5d40d4920959e5c9ab7f3985c",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_1b6696073b6d46df832d23e429936404",
+            "brochure_key": "1b6696073b6d46df832d23e429936404",
+            "market": "File Market",
+            "title": "İndirimli Ürünler",
+            "href": "https://aktuelbrosurler.com/file-market/brosurler/indirimli-urunler_1b6696073b6d46df832d23e429936404",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_690b60fe58ae4589b1efa95465a2c3b4",
+            "brochure_key": "690b60fe58ae4589b1efa95465a2c3b4",
+            "market": "Happy Center",
+            "title": "Çarşamba Günü Meyve ve Sebze Reyonu Fırsatları",
+            "href": "https://aktuelbrosurler.com/happy-center/brosurler/carsamba-gunu-meyve-ve-sebze-reyonu-firsatlari_690b60fe58ae4589b1efa95465a2c3b4",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_cb522155bf8f4448affaeaf9b32db1c7",
+            "brochure_key": "cb522155bf8f4448affaeaf9b32db1c7",
+            "market": "Happy Center",
+            "title": "Happy Center İndirim Bülteni Kataloğu",
+            "href": "https://aktuelbrosurler.com/happy-center/brosurler/happy-center-indirim-bulteni-katalogu_cb522155bf8f4448affaeaf9b32db1c7",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_e4b395e97dde4da5a7e47bea4f90bfba",
+            "brochure_key": "e4b395e97dde4da5a7e47bea4f90bfba",
+            "market": "Happy Center",
+            "title": "Hafta Sonuna Özel Meyve ve Sebze Reyonu Fırsatları",
+            "href": "https://aktuelbrosurler.com/happy-center/brosurler/hafta-sonuna-ozel-meyve-ve-sebze-reyonu-firsatlari_e4b395e97dde4da5a7e47bea4f90bfba",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_feeab0d2932c4aa782c3682fa25af608",
+            "brochure_key": "feeab0d2932c4aa782c3682fa25af608",
+            "market": "Happy Center",
+            "title": "Kasap Reyonu Fırsatları",
+            "href": "https://aktuelbrosurler.com/happy-center/brosurler/kasap-reyonu-firsatlari_feeab0d2932c4aa782c3682fa25af608",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_08c398f6e380419ebba3124c9f0e8ceb",
+            "brochure_key": "08c398f6e380419ebba3124c9f0e8ceb",
+            "market": "Happy Center",
+            "title": "Çarşamba Günü Manav Reyonu Fırsatları",
+            "href": "https://aktuelbrosurler.com/happy-center/brosurler/carsamba-gunu-manav-reyonu-firsatlari_08c398f6e380419ebba3124c9f0e8ceb",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_35ae4356a9c843b1b9544440dbb2f22c",
+            "brochure_key": "35ae4356a9c843b1b9544440dbb2f22c",
+            "market": "Happy Center",
+            "title": "Hafta Sonuna Özel Fırsat Ürünleri Broşürü",
+            "href": "https://aktuelbrosurler.com/happy-center/brosurler/hafta-sonuna-ozel-firsat-urunleri-brosuru_35ae4356a9c843b1b9544440dbb2f22c",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_30f7342b1ff544d3a60e2b186c0ebbcc",
+            "brochure_key": "30f7342b1ff544d3a60e2b186c0ebbcc",
+            "market": "Happy Center",
+            "title": "Happy Center İndirim Bülteni Broşürü - Sonbahar Fırsatları",
+            "href": "https://aktuelbrosurler.com/happy-center/brosurler/happy-center-indirim-bulteni-brosuru-sonbahar-firsatlari_30f7342b1ff544d3a60e2b186c0ebbcc",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_139949b583d6469c9353bd2fade2f9d5",
+            "brochure_key": "139949b583d6469c9353bd2fade2f9d5",
+            "market": "Happy Center",
+            "title": "Happy Center İndirim Bülteni Broşürü - Sonbahar Fırsatları",
+            "href": "https://aktuelbrosurler.com/happy-center/brosurler/happy-center-indirim-bulteni-brosuru-sonbahar-firsatlari_139949b583d6469c9353bd2fade2f9d5",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_c70be92c1ac7459e869e98679d999ac9",
+            "brochure_key": "c70be92c1ac7459e869e98679d999ac9",
+            "market": "Happy Center",
+            "title": "Kırmızı Et Ürünlerinde Fırsatlar",
+            "href": "https://aktuelbrosurler.com/happy-center/brosurler/kirmizi-et-urunlerinde-firsatlar_c70be92c1ac7459e869e98679d999ac9",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_07a29a74f2294a05a4c1322c17eca879",
+            "brochure_key": "07a29a74f2294a05a4c1322c17eca879",
+            "market": "Happy Center",
+            "title": "Çarşamba Günü Meyve ve Sebze Reyonu Fırsatları",
+            "href": "https://aktuelbrosurler.com/happy-center/brosurler/carsamba-gunu-meyve-ve-sebze-reyonu-firsatlari_07a29a74f2294a05a4c1322c17eca879",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_68f8312dcc9049f39a9aa30ba0750a84",
+            "brochure_key": "68f8312dcc9049f39a9aa30ba0750a84",
+            "market": "Happy Center",
+            "title": "Hafta Sonuna Özel Meyve ve Sebze Reyonu Fırsatları",
+            "href": "https://aktuelbrosurler.com/happy-center/brosurler/hafta-sonuna-ozel-meyve-ve-sebze-reyonu-firsatlari_68f8312dcc9049f39a9aa30ba0750a84",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_8f3532c782fe43d2863610a32aa25c95",
+            "brochure_key": "8f3532c782fe43d2863610a32aa25c95",
+            "market": "Happy Center",
+            "title": "Hafta Sonuna Özel İndirimli Ürünler Broşürü",
+            "href": "https://aktuelbrosurler.com/happy-center/brosurler/hafta-sonuna-ozel-indirimli-urunler-brosuru_8f3532c782fe43d2863610a32aa25c95",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_1c9bda5210a74c278f4a2c35b6d8c23c",
+            "brochure_key": "1c9bda5210a74c278f4a2c35b6d8c23c",
+            "market": "Kim Market",
+            "title": "Marmara Bölgesi Mağazalarında Çarşamba Günü Geçerli Manav Reyonu Fırsatları",
+            "href": "https://aktuelbrosurler.com/kim-market/brosurler/marmara-bolgesi-magazalarinda-carsamba-gunu-gecerli-manav-reyonu-firsatlari_1c9bda5210a74c278f4a2c35b6d8c23c",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_a5aa9b4cd6d04e6fa81977ee5669e9a5",
+            "brochure_key": "a5aa9b4cd6d04e6fa81977ee5669e9a5",
+            "market": "Kim Market",
+            "title": "Ege Bölgesi Mağazalarında Geçerli İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/kim-market/brosurler/ege-bolgesi-magazalarinda-gecerli-indirim-bulteni-brosuru_a5aa9b4cd6d04e6fa81977ee5669e9a5",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_8cc81140777447cda569e277f4b55411",
+            "brochure_key": "8cc81140777447cda569e277f4b55411",
+            "market": "Kim Market",
+            "title": "Marmara Bölgesi Mağazalarında Geçerli İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/kim-market/brosurler/marmara-bolgesi-magazalarinda-gecerli-indirim-bulteni-brosuru_8cc81140777447cda569e277f4b55411",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_98c6787ffa054f4184faddaa94766c88",
+            "brochure_key": "98c6787ffa054f4184faddaa94766c88",
+            "market": "Kim Market",
+            "title": "Marmara Bölgesi Mağazalarında Geçerli Hafta Sonuna Özel Manav Reyonu Fırsatları",
+            "href": "https://aktuelbrosurler.com/kim-market/brosurler/marmara-bolgesi-magazalarinda-gecerli-hafta-sonuna-ozel-manav-reyonu-firsatlari_98c6787ffa054f4184faddaa94766c88",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_d640b0572e644350b28c987424a4e50e",
+            "brochure_key": "d640b0572e644350b28c987424a4e50e",
+            "market": "Kim Market",
+            "title": "İstanbul Mağazalarında Geçerli Kırmızı Et Ürünleri",
+            "href": "https://aktuelbrosurler.com/kim-market/brosurler/istanbul-magazalarinda-gecerli-kirmizi-et-urunleri_d640b0572e644350b28c987424a4e50e",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_69776e5b184d4dee88a296324414a2d2",
+            "brochure_key": "69776e5b184d4dee88a296324414a2d2",
+            "market": "Kim Market",
+            "title": "Marmara Bölgesi Mağazalarında Geçerli İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/kim-market/brosurler/marmara-bolgesi-magazalarinda-gecerli-indirim-bulteni-brosuru_69776e5b184d4dee88a296324414a2d2",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_cf39a8ce8a7444d68932574d06e4736f",
+            "brochure_key": "cf39a8ce8a7444d68932574d06e4736f",
+            "market": "Kim Market",
+            "title": "Ege Bölgesi Mağazalarında Geçerli İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/kim-market/brosurler/ege-bolgesi-magazalarinda-gecerli-indirim-bulteni-brosuru_cf39a8ce8a7444d68932574d06e4736f",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_5c79b5efe2c645ce99ab9c56f5920022",
+            "brochure_key": "5c79b5efe2c645ce99ab9c56f5920022",
+            "market": "Kim Market",
+            "title": "Marmara Bölgesi Mağazalarında Geçerli Hafta Sonuna Özel Manav Reyonu Fırsatları",
+            "href": "https://aktuelbrosurler.com/kim-market/brosurler/marmara-bolgesi-magazalarinda-gecerli-hafta-sonuna-ozel-manav-reyonu-firsatlari_5c79b5efe2c645ce99ab9c56f5920022",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_fa9404f208f24635bb14202f6e85c0ca",
+            "brochure_key": "fa9404f208f24635bb14202f6e85c0ca",
+            "market": "Kim Market",
+            "title": "Marmara Bölgesi Mağazalarında Geçerli Hafta Sonuna Özel Manav Reyonu Fırsatları",
+            "href": "https://aktuelbrosurler.com/kim-market/brosurler/marmara-bolgesi-magazalarinda-gecerli-hafta-sonuna-ozel-manav-reyonu-firsatlari_fa9404f208f24635bb14202f6e85c0ca",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_40bc81ab8cfa485aa6ca6a4a084c7478",
+            "brochure_key": "40bc81ab8cfa485aa6ca6a4a084c7478",
+            "market": "Kim Market",
+            "title": "Üçyüzü, Fıstıkağacı, Esentepe Şubelerinde Geçerli İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/kim-market/brosurler/ucyuzu-fistikagaci-esentepe-subelerinde-gecerli-indirim-bulteni-brosuru_40bc81ab8cfa485aa6ca6a4a084c7478",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_786097c340a5479db513b22afbc7c519",
+            "brochure_key": "786097c340a5479db513b22afbc7c519",
+            "market": "Kim Market",
+            "title": "Ege Bölgesi Mağazalarında Geçerli İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/kim-market/brosurler/ege-bolgesi-magazalarinda-gecerli-indirim-bulteni-brosuru_786097c340a5479db513b22afbc7c519",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_d466a0a8171f4facae7d70d2bdca6f84",
+            "brochure_key": "d466a0a8171f4facae7d70d2bdca6f84",
+            "market": "Kim Market",
+            "title": "Marmara Bölgesi Mağazalarında Geçerli İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/kim-market/brosurler/marmara-bolgesi-magazalarinda-gecerli-indirim-bulteni-brosuru_d466a0a8171f4facae7d70d2bdca6f84",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_5103f738cc354de485bd41d79f3b0085",
+            "brochure_key": "5103f738cc354de485bd41d79f3b0085",
+            "market": "Metro Market",
+            "title": "Taze Ürünler Kataloğu",
+            "href": "https://aktuelbrosurler.com/metro-market/brosurler/taze-urunler-katalogu_5103f738cc354de485bd41d79f3b0085",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_6b6c9de757ca4b7b8daaa0536e19da58",
+            "brochure_key": "6b6c9de757ca4b7b8daaa0536e19da58",
+            "market": "Metro Market",
+            "title": "Taze'nin Yıldızları Kataloğu",
+            "href": "https://aktuelbrosurler.com/metro-market/brosurler/taze-nin-yildizlari-katalogu_6b6c9de757ca4b7b8daaa0536e19da58",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_1af70948ccdb44b18e814a992d5f2061",
+            "brochure_key": "1af70948ccdb44b18e814a992d5f2061",
+            "market": "Metro Market",
+            "title": "Taze Ürünler Kataloğu",
+            "href": "https://aktuelbrosurler.com/metro-market/brosurler/taze-urunler-katalogu_1af70948ccdb44b18e814a992d5f2061",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_0453b786e8694649ac714958be11b90d",
+            "brochure_key": "0453b786e8694649ac714958be11b90d",
+            "market": "Metro Market",
+            "title": "Olmazsa Olmaz Ürünler Kataloğu",
+            "href": "https://aktuelbrosurler.com/metro-market/brosurler/olmazsa-olmaz-urunler-katalogu_0453b786e8694649ac714958be11b90d",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_56c87f27634b4a31a284340c52de6fad",
+            "brochure_key": "56c87f27634b4a31a284340c52de6fad",
+            "market": "Metro Market",
+            "title": "Taze Ürünler Kataloğu",
+            "href": "https://aktuelbrosurler.com/metro-market/brosurler/taze-urunler-katalogu_56c87f27634b4a31a284340c52de6fad",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_9e765b335b004a358734ebc9fd02a6ac",
+            "brochure_key": "9e765b335b004a358734ebc9fd02a6ac",
+            "market": "Metro Market",
+            "title": "Kurum & İşletme Mutfakları Kataloğu",
+            "href": "https://aktuelbrosurler.com/metro-market/brosurler/kurum-isletme-mutfaklari-katalogu_9e765b335b004a358734ebc9fd02a6ac",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_89b0637c4a4941abb448605fb4570679",
+            "brochure_key": "89b0637c4a4941abb448605fb4570679",
+            "market": "Metro Market",
+            "title": "Kafeler ve Pastaneler Kataloğu",
+            "href": "https://aktuelbrosurler.com/metro-market/brosurler/kafeler-ve-pastaneler-katalogu_89b0637c4a4941abb448605fb4570679",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_93385724ebfc4c5095c04571cd79885a",
+            "brochure_key": "93385724ebfc4c5095c04571cd79885a",
+            "market": "Metro Market",
+            "title": "Fast Food Kataloğu",
+            "href": "https://aktuelbrosurler.com/metro-market/brosurler/fast-food-katalogu_93385724ebfc4c5095c04571cd79885a",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_0849dd728f284c2ea3c2c8870bd8645b",
+            "brochure_key": "0849dd728f284c2ea3c2c8870bd8645b",
+            "market": "Metro Market",
+            "title": "Temizlik | Kişisel bakım Kataloğu",
+            "href": "https://aktuelbrosurler.com/metro-market/brosurler/temizlik-kisisel-bakim-katalogu_0849dd728f284c2ea3c2c8870bd8645b",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_459dae502ee1459a9152ee447c7402b4",
+            "brochure_key": "459dae502ee1459a9152ee447c7402b4",
+            "market": "Metro Market",
+            "title": "Smart Chef Kataloğu",
+            "href": "https://aktuelbrosurler.com/metro-market/brosurler/smart-chef-katalogu_459dae502ee1459a9152ee447c7402b4",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_abd5755b443d42269bd9da116368c1ed",
+            "brochure_key": "abd5755b443d42269bd9da116368c1ed",
+            "market": "Metro Market",
+            "title": "Olmazsa Olmaz Ürünler Kataloğu",
+            "href": "https://aktuelbrosurler.com/metro-market/brosurler/olmazsa-olmaz-urunler-katalogu_abd5755b443d42269bd9da116368c1ed",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_ace152a02c9d4707bf33cd8cd99dffd7",
+            "brochure_key": "ace152a02c9d4707bf33cd8cd99dffd7",
+            "market": "Metro Market",
+            "title": "Taze Ürünler Kataloğu",
+            "href": "https://aktuelbrosurler.com/metro-market/brosurler/taze-urunler-katalogu_ace152a02c9d4707bf33cd8cd99dffd7",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_78607ce70c344cdf881d844d1f31f11f",
+            "brochure_key": "78607ce70c344cdf881d844d1f31f11f",
+            "market": "Mopaş",
+            "title": "Mopaş Market İndirim Bülteni Kataloğu",
+            "href": "https://aktuelbrosurler.com/mopas/brosurler/mopas-market-indirim-bulteni-katalogu_78607ce70c344cdf881d844d1f31f11f",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_be497914fea3497fa341003718adf1ac",
+            "brochure_key": "be497914fea3497fa341003718adf1ac",
+            "market": "Mopaş",
+            "title": "Fırsat Ürünleri",
+            "href": "https://aktuelbrosurler.com/mopas/brosurler/firsat-urunleri_be497914fea3497fa341003718adf1ac",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_f82cab87d38a467fbfd3e1b184a9b438",
+            "brochure_key": "f82cab87d38a467fbfd3e1b184a9b438",
+            "market": "Mopaş",
+            "title": "Fırsat Ürünleri",
+            "href": "https://aktuelbrosurler.com/mopas/brosurler/firsat-urunleri_f82cab87d38a467fbfd3e1b184a9b438",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_4de238cf89dc4db890c5d3249f9be90c",
+            "brochure_key": "4de238cf89dc4db890c5d3249f9be90c",
+            "market": "Mopaş",
+            "title": "Fırsat Ürünleri",
+            "href": "https://aktuelbrosurler.com/mopas/brosurler/firsat-urunleri_4de238cf89dc4db890c5d3249f9be90c",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_c496e8affe164b698e17c4cdd875c956",
+            "brochure_key": "c496e8affe164b698e17c4cdd875c956",
+            "market": "Mopaş",
+            "title": "Fırsat Ürünleri",
+            "href": "https://aktuelbrosurler.com/mopas/brosurler/firsat-urunleri_c496e8affe164b698e17c4cdd875c956",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_f96e1fed904a49c490209289fa4ba53c",
+            "brochure_key": "f96e1fed904a49c490209289fa4ba53c",
+            "market": "Mopaş",
+            "title": "Fırsat Ürünleri",
+            "href": "https://aktuelbrosurler.com/mopas/brosurler/firsat-urunleri_f96e1fed904a49c490209289fa4ba53c",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_04830a5ee4364c5f99ceda3e1549f639",
+            "brochure_key": "04830a5ee4364c5f99ceda3e1549f639",
+            "market": "Mopaş",
+            "title": "Mopaş Market İndirim Bülteni Kataloğu",
+            "href": "https://aktuelbrosurler.com/mopas/brosurler/mopas-market-indirim-bulteni-katalogu_04830a5ee4364c5f99ceda3e1549f639",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_18d946e4579c4056aee2aff6f06d2cd8",
+            "brochure_key": "18d946e4579c4056aee2aff6f06d2cd8",
+            "market": "Mopaş",
+            "title": "Hafta Sonuna Özel Meyve ve Sebze Reyonu Fırsatları",
+            "href": "https://aktuelbrosurler.com/mopas/brosurler/hafta-sonuna-ozel-meyve-ve-sebze-reyonu-firsatlari_18d946e4579c4056aee2aff6f06d2cd8",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_e1e68547f1fa40e286ef329bd30936dd",
+            "brochure_key": "e1e68547f1fa40e286ef329bd30936dd",
+            "market": "Mopaş",
+            "title": "Mopaş Market İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/mopas/brosurler/mopas-market-indirim-bulteni-brosuru_e1e68547f1fa40e286ef329bd30936dd",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_5592ce7f91534a52b1d1e6bc11423fa2",
+            "brochure_key": "5592ce7f91534a52b1d1e6bc11423fa2",
+            "market": "Mopaş",
+            "title": "Fırsat Ürünleri",
+            "href": "https://aktuelbrosurler.com/mopas/brosurler/firsat-urunleri_5592ce7f91534a52b1d1e6bc11423fa2",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_e7aa979918dd41b4b32cc8deadf56dbc",
+            "brochure_key": "e7aa979918dd41b4b32cc8deadf56dbc",
+            "market": "Mopaş",
+            "title": "Bugüne Özel Fırsat Ürünleri",
+            "href": "https://aktuelbrosurler.com/mopas/brosurler/bugune-ozel-firsat-urunleri_e7aa979918dd41b4b32cc8deadf56dbc",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_89bb19f45ecf41c3bac982bdeae81c9b",
+            "brochure_key": "89bb19f45ecf41c3bac982bdeae81c9b",
+            "market": "Mopaş",
+            "title": "Fırsat Ürünleri",
+            "href": "https://aktuelbrosurler.com/mopas/brosurler/firsat-urunleri_89bb19f45ecf41c3bac982bdeae81c9b",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_41bd1103b027441993d40d379a585f8b",
+            "brochure_key": "41bd1103b027441993d40d379a585f8b",
+            "market": "Onur Market",
+            "title": "Onur Gurme Market İndirim Bülteni Kataloğu",
+            "href": "https://aktuelbrosurler.com/onur-market/brosurler/onur-gurme-market-indirim-bulteni-katalogu_41bd1103b027441993d40d379a585f8b",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_031ff28dfdec4036abc918c074104e91",
+            "brochure_key": "031ff28dfdec4036abc918c074104e91",
+            "market": "Onur Market",
+            "title": "Trakya Bölgesinde Geçerli Haftalık Taze Ürünler Broşürü",
+            "href": "https://aktuelbrosurler.com/onur-market/brosurler/trakya-bolgesinde-gecerli-haftalik-taze-urunler-brosuru_031ff28dfdec4036abc918c074104e91",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_41ab65668cec439ca98fcbabdf562428",
+            "brochure_key": "41ab65668cec439ca98fcbabdf562428",
+            "market": "Onur Market",
+            "title": "Bursa Bölgesinde Geçerli Haftalık Taze Ürünler Broşürü",
+            "href": "https://aktuelbrosurler.com/onur-market/brosurler/bursa-bolgesinde-gecerli-haftalik-taze-urunler-brosuru_41ab65668cec439ca98fcbabdf562428",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_58806484efff4519891772a8ae0c86b8",
+            "brochure_key": "58806484efff4519891772a8ae0c86b8",
+            "market": "Onur Market",
+            "title": "İstanbul Bölgesinde Geçerli Haftalık Taze Ürünler Broşürü",
+            "href": "https://aktuelbrosurler.com/onur-market/brosurler/istanbul-bolgesinde-gecerli-haftalik-taze-urunler-brosuru_58806484efff4519891772a8ae0c86b8",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_d81eb969d4774c57abad0b5dbcfb977c",
+            "brochure_key": "d81eb969d4774c57abad0b5dbcfb977c",
+            "market": "Onur Market",
+            "title": "Bursa Bölgesinde Geçerli İndirim Bülteni Broşürü - Onur'da Çok Al Az Öde",
+            "href": "https://aktuelbrosurler.com/onur-market/brosurler/bursa-bolgesinde-gecerli-indirim-bulteni-brosuru-onur-da-cok-al-az-ode_d81eb969d4774c57abad0b5dbcfb977c",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_838977b10f95487a8a14906404c57e63",
+            "brochure_key": "838977b10f95487a8a14906404c57e63",
+            "market": "Onur Market",
+            "title": "İstanbul & Trakya Bölgesinde Geçerli İndirim Bülteni Broşürü - Onur'da Çok Al Az Öde",
+            "href": "https://aktuelbrosurler.com/onur-market/brosurler/istanbul-trakya-bolgesinde-gecerli-indirim-bulteni-brosuru-onur-da-cok-al-az-ode_838977b10f95487a8a14906404c57e63",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_eb14c3496148463f907fea3d2e598294",
+            "brochure_key": "eb14c3496148463f907fea3d2e598294",
+            "market": "Onur Market",
+            "title": "Trakya Bölgesinde Geçerli Haftalık Taze Ürünler Broşürü",
+            "href": "https://aktuelbrosurler.com/onur-market/brosurler/trakya-bolgesinde-gecerli-haftalik-taze-urunler-brosuru_eb14c3496148463f907fea3d2e598294",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_bc54c7977d2e40138b227ac36441843c",
+            "brochure_key": "bc54c7977d2e40138b227ac36441843c",
+            "market": "Onur Market",
+            "title": "Bursa Bölgesinde Geçerli Haftalık Taze Ürünler Broşürü",
+            "href": "https://aktuelbrosurler.com/onur-market/brosurler/bursa-bolgesinde-gecerli-haftalik-taze-urunler-brosuru_bc54c7977d2e40138b227ac36441843c",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_b616e84ee613417b8e91cd8f6b8721a8",
+            "brochure_key": "b616e84ee613417b8e91cd8f6b8721a8",
+            "market": "Onur Market",
+            "title": "İstanbul Bölgesinde Geçerli Haftalık Taze Ürünler Broşürü",
+            "href": "https://aktuelbrosurler.com/onur-market/brosurler/istanbul-bolgesinde-gecerli-haftalik-taze-urunler-brosuru_b616e84ee613417b8e91cd8f6b8721a8",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_9c18fd67e2ba438e94db1e70d78e8b88",
+            "brochure_key": "9c18fd67e2ba438e94db1e70d78e8b88",
+            "market": "Onur Market",
+            "title": "Trakya Bölgesinde Geçerli Haftalık Taze Ürünler Broşürü",
+            "href": "https://aktuelbrosurler.com/onur-market/brosurler/trakya-bolgesinde-gecerli-haftalik-taze-urunler-brosuru_9c18fd67e2ba438e94db1e70d78e8b88",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_731ddd585d5c4206a81512fe88f80d15",
+            "brochure_key": "731ddd585d5c4206a81512fe88f80d15",
+            "market": "Onur Market",
+            "title": "Bursa Bölgesinde Geçerli Haftalık Taze Ürünler Broşürü",
+            "href": "https://aktuelbrosurler.com/onur-market/brosurler/bursa-bolgesinde-gecerli-haftalik-taze-urunler-brosuru_731ddd585d5c4206a81512fe88f80d15",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_e4ea06674019443cacd1bd0feb269c8d",
+            "brochure_key": "e4ea06674019443cacd1bd0feb269c8d",
+            "market": "Onur Market",
+            "title": "İstanbul Bölgesinde Geçerli Haftalık Taze Ürünler Broşürü",
+            "href": "https://aktuelbrosurler.com/onur-market/brosurler/istanbul-bolgesinde-gecerli-haftalik-taze-urunler-brosuru_e4ea06674019443cacd1bd0feb269c8d",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_80472a0f8ffc4689a6bc084c7776964d",
+            "brochure_key": "80472a0f8ffc4689a6bc084c7776964d",
+            "market": "Seç Market",
+            "title": "Seç Market İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/sec-market/brosurler/sec-market-indirim-bulteni-brosuru_80472a0f8ffc4689a6bc084c7776964d",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_2359f95ed6614a4283a488810c12f37e",
+            "brochure_key": "2359f95ed6614a4283a488810c12f37e",
+            "market": "Seç Market",
+            "title": "Seç Market İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/sec-market/brosurler/sec-market-indirim-bulteni-brosuru_2359f95ed6614a4283a488810c12f37e",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_fb496aabaf7945a8aee2e39bd4056b40",
+            "brochure_key": "fb496aabaf7945a8aee2e39bd4056b40",
+            "market": "Seç Market",
+            "title": "Seç Market İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/sec-market/brosurler/sec-market-indirim-bulteni-brosuru_fb496aabaf7945a8aee2e39bd4056b40",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_98a80d74e34c45eab7316cb0a821ae6b",
+            "brochure_key": "98a80d74e34c45eab7316cb0a821ae6b",
+            "market": "Seç Market",
+            "title": "Seç Market İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/sec-market/brosurler/sec-market-indirim-bulteni-brosuru_98a80d74e34c45eab7316cb0a821ae6b",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_6e413ca77dad43478491785112733b2d",
+            "brochure_key": "6e413ca77dad43478491785112733b2d",
+            "market": "Seç Market",
+            "title": "Seç Market İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/sec-market/brosurler/sec-market-indirim-bulteni-brosuru_6e413ca77dad43478491785112733b2d",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_ccc89924e5314d97ba188de18fd3c962",
+            "brochure_key": "ccc89924e5314d97ba188de18fd3c962",
+            "market": "Seç Market",
+            "title": "Seç Market İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/sec-market/brosurler/sec-market-indirim-bulteni-brosuru_ccc89924e5314d97ba188de18fd3c962",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_00c959b0b9dd44efbb481d7476a3bd88",
+            "brochure_key": "00c959b0b9dd44efbb481d7476a3bd88",
+            "market": "Seç Market",
+            "title": "Seç Market İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/sec-market/brosurler/sec-market-indirim-bulteni-brosuru_00c959b0b9dd44efbb481d7476a3bd88",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_f4389fcbf7df496885aeda450b0eb24c",
+            "brochure_key": "f4389fcbf7df496885aeda450b0eb24c",
+            "market": "Seç Market",
+            "title": "Seç Market İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/sec-market/brosurler/sec-market-indirim-bulteni-brosuru_f4389fcbf7df496885aeda450b0eb24c",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_66083064b13641c6a59dc8d8062a6402",
+            "brochure_key": "66083064b13641c6a59dc8d8062a6402",
+            "market": "Seç Market",
+            "title": "Seç Market İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/sec-market/brosurler/sec-market-indirim-bulteni-brosuru_66083064b13641c6a59dc8d8062a6402",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_e2c840965b7641d7bd8207eeeae9e80a",
+            "brochure_key": "e2c840965b7641d7bd8207eeeae9e80a",
+            "market": "Seç Market",
+            "title": "Seç Market İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/sec-market/brosurler/sec-market-indirim-bulteni-brosuru_e2c840965b7641d7bd8207eeeae9e80a",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_94a6508a37724cd0a9f6073185e9031a",
+            "brochure_key": "94a6508a37724cd0a9f6073185e9031a",
+            "market": "Seç Market",
+            "title": "Seç Market İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/sec-market/brosurler/sec-market-indirim-bulteni-brosuru_94a6508a37724cd0a9f6073185e9031a",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_8d79823a4bbe4d30814bb450bda89eea",
+            "brochure_key": "8d79823a4bbe4d30814bb450bda89eea",
+            "market": "Seç Market",
+            "title": "Seç Market İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/sec-market/brosurler/sec-market-indirim-bulteni-brosuru_8d79823a4bbe4d30814bb450bda89eea",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_1ba1c266bd7e4d5883657e8b6b5a9f8d",
+            "brochure_key": "1ba1c266bd7e4d5883657e8b6b5a9f8d",
+            "market": "Korkmaz",
+            "title": "Korkmaz 2026 İlkbahar: Ürünler, Kampanyalar ve Fiyat Kataloğu",
+            "href": "https://aktuelbrosurler.com/korkmaz/brosurler/korkmaz-2026-ilkbahar-urunler-kampanyalar-ve-fiyat-katalogu_1ba1c266bd7e4d5883657e8b6b5a9f8d",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_503e2e4524ca45ad972cc1779ff5a940",
+            "brochure_key": "503e2e4524ca45ad972cc1779ff5a940",
+            "market": "Korkmaz",
+            "title": "Korkmaz 2025 Sonbahar - Kış Kataloğu",
+            "href": "https://aktuelbrosurler.com/korkmaz/brosurler/korkmaz-2025-sonbahar-kis-katalogu_503e2e4524ca45ad972cc1779ff5a940",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_d3c7e4dbfec3425aa16f22bda30b953f",
+            "brochure_key": "d3c7e4dbfec3425aa16f22bda30b953f",
+            "market": "Korkmaz",
+            "title": "Korkmaz Avantajlı Çeyiz Setleri",
+            "href": "https://aktuelbrosurler.com/korkmaz/brosurler/korkmaz-avantajli-ceyiz-setleri_d3c7e4dbfec3425aa16f22bda30b953f",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_030ee957e9134dc9a1d50d9ad1f58e65",
+            "brochure_key": "030ee957e9134dc9a1d50d9ad1f58e65",
+            "market": "Korkmaz",
+            "title": "Korkmaz Kampanyalı Ürünler",
+            "href": "https://aktuelbrosurler.com/korkmaz/brosurler/korkmaz-kampanyali-urunler_030ee957e9134dc9a1d50d9ad1f58e65",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_376ecf66393b43b98a80ad6c0f6f094c",
+            "brochure_key": "376ecf66393b43b98a80ad6c0f6f094c",
+            "market": "Korkmaz",
+            "title": "İndirimler ve Kampanyalar",
+            "href": "https://aktuelbrosurler.com/korkmaz/brosurler/indirimler-ve-kampanyalar_376ecf66393b43b98a80ad6c0f6f094c",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_7800bc20329f4b2990d61030e75f6b06",
+            "brochure_key": "7800bc20329f4b2990d61030e75f6b06",
+            "market": "Korkmaz",
+            "title": "Korkmaz İndirimler ve Kampanyalar",
+            "href": "https://aktuelbrosurler.com/korkmaz/brosurler/korkmaz-indirimler-ve-kampanyalar_7800bc20329f4b2990d61030e75f6b06",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_ebca2a65900f43e7bd1405facf8cab08",
+            "brochure_key": "ebca2a65900f43e7bd1405facf8cab08",
+            "market": "Korkmaz",
+            "title": "Korkmaz İndirimler ve Kampanyalar",
+            "href": "https://aktuelbrosurler.com/korkmaz/brosurler/korkmaz-indirimler-ve-kampanyalar_ebca2a65900f43e7bd1405facf8cab08",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_524561dc5c3741f0afa81487f72a3b74",
+            "brochure_key": "524561dc5c3741f0afa81487f72a3b74",
+            "market": "Korkmaz",
+            "title": "Anneler Günü'ne Özel Sepette Süper Fırsatlar!",
+            "href": "https://aktuelbrosurler.com/korkmaz/brosurler/anneler-gunu-ne-ozel-sepette-super-firsatlar_524561dc5c3741f0afa81487f72a3b74",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_4e7401dedca44576a21da04c92eed489",
+            "brochure_key": "4e7401dedca44576a21da04c92eed489",
+            "market": "Korkmaz",
+            "title": "Anneler Günü'ne Özel Fırsatlar Korkmaz'da",
+            "href": "https://aktuelbrosurler.com/korkmaz/brosurler/anneler-gunu-ne-ozel-firsatlar-korkmaz-da_4e7401dedca44576a21da04c92eed489",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_7f1744d3e9894fc9b061c92ed2905192",
+            "brochure_key": "7f1744d3e9894fc9b061c92ed2905192",
+            "market": "Korkmaz",
+            "title": "%70'e Varan İndirim Fırsatı",
+            "href": "https://aktuelbrosurler.com/korkmaz/brosurler/70-e-varan-indirim-firsati_7f1744d3e9894fc9b061c92ed2905192",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_cf06046e8884458db61494a18fe78cdc",
+            "brochure_key": "cf06046e8884458db61494a18fe78cdc",
+            "market": "Korkmaz",
+            "title": "%32'ye Varan İndirim!",
+            "href": "https://aktuelbrosurler.com/korkmaz/brosurler/32-ye-varan-indirim_cf06046e8884458db61494a18fe78cdc",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_d2668afce7254cc3b4d4257f5d2a3628",
+            "brochure_key": "d2668afce7254cc3b4d4257f5d2a3628",
+            "market": "Korkmaz",
+            "title": "%25'e Varan İndirim Fırsatı",
+            "href": "https://aktuelbrosurler.com/korkmaz/brosurler/25-e-varan-indirim-firsati_d2668afce7254cc3b4d4257f5d2a3628",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_6bb3ed12074d47428796e6a98941ee1f",
+            "brochure_key": "6bb3ed12074d47428796e6a98941ee1f",
+            "market": "Karaca",
+            "title": "Karaca Home Dekoratif Sonbahar-Kış 2026-2027",
+            "href": "https://aktuelbrosurler.com/karaca/brosurler/karaca-home-dekoratif-sonbahar-kis-2026-2027_6bb3ed12074d47428796e6a98941ee1f",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_21c364b8a4504552a92fb3f6170e6269",
+            "brochure_key": "21c364b8a4504552a92fb3f6170e6269",
+            "market": "Karaca",
+            "title": "Karaca Sofra Sonbahar-Kış 2026-2027",
+            "href": "https://aktuelbrosurler.com/karaca/brosurler/karaca-sofra-sonbahar-kis-2026-2027_21c364b8a4504552a92fb3f6170e6269",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_d9891638380d46dcabe985ba4fb411b9",
+            "brochure_key": "d9891638380d46dcabe985ba4fb411b9",
+            "market": "Karaca",
+            "title": "Karaca Home - İlkbahar / Yaz 2026",
+            "href": "https://aktuelbrosurler.com/karaca/brosurler/karaca-home-ilkbahar-yaz-2026_d9891638380d46dcabe985ba4fb411b9",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_f115b47d6d084560bca436fc331cf474",
+            "brochure_key": "f115b47d6d084560bca436fc331cf474",
+            "market": "Karaca",
+            "title": "Karaca Home - İlkbahar / Yaz 2026",
+            "href": "https://aktuelbrosurler.com/karaca/brosurler/karaca-home-ilkbahar-yaz-2026_f115b47d6d084560bca436fc331cf474",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_84d859256621407ab18706d8f603e5d6",
+            "brochure_key": "84d859256621407ab18706d8f603e5d6",
+            "market": "Karaca",
+            "title": "Sofra-2 İlkbahar/Yaz 2026",
+            "href": "https://aktuelbrosurler.com/karaca/brosurler/sofra-2-ilkbahar-yaz-2026_84d859256621407ab18706d8f603e5d6",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_cbba61690180443a83bd2cc61437d891",
+            "brochure_key": "cbba61690180443a83bd2cc61437d891",
+            "market": "Karaca",
+            "title": "Sofra İlkbahar/Yaz 2026",
+            "href": "https://aktuelbrosurler.com/karaca/brosurler/sofra-ilkbahar-yaz-2026_cbba61690180443a83bd2cc61437d891",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_2d774f06c92946548c619f463c46bd4a",
+            "brochure_key": "2d774f06c92946548c619f463c46bd4a",
+            "market": "Karaca",
+            "title": "Mutfak İlkbahar/Yaz 2026",
+            "href": "https://aktuelbrosurler.com/karaca/brosurler/mutfak-ilkbahar-yaz-2026_2d774f06c92946548c619f463c46bd4a",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_753d2c9c18c044399c9cc6c4e5fb1ff4",
+            "brochure_key": "753d2c9c18c044399c9cc6c4e5fb1ff4",
+            "market": "Karaca",
+            "title": "Küçük Ev Aletleri İlkbahar/Yaz 2026",
+            "href": "https://aktuelbrosurler.com/karaca/brosurler/kucuk-ev-aletleri-ilkbahar-yaz-2026_753d2c9c18c044399c9cc6c4e5fb1ff4",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_8cc4c52ab04d4bd0bf09c9e9761843f5",
+            "brochure_key": "8cc4c52ab04d4bd0bf09c9e9761843f5",
+            "market": "Karaca",
+            "title": "Karaca Züccaciye Çeyiz Paketleri",
+            "href": "https://aktuelbrosurler.com/karaca/brosurler/karaca-zuccaciye-ceyiz-paketleri_8cc4c52ab04d4bd0bf09c9e9761843f5",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_266b2aeab9a544f7be8d7c5411205548",
+            "brochure_key": "266b2aeab9a544f7be8d7c5411205548",
+            "market": "Karaca",
+            "title": "Taraftar Koleksiyonu",
+            "href": "https://aktuelbrosurler.com/karaca/brosurler/taraftar-koleksiyonu_266b2aeab9a544f7be8d7c5411205548",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_6846b827f53a48dca28c550dda028294",
+            "brochure_key": "6846b827f53a48dca28c550dda028294",
+            "market": "Karaca",
+            "title": "Karaca Home 10 Adet Alana 2 Adet Hediye",
+            "href": "https://aktuelbrosurler.com/karaca/brosurler/karaca-home-10-adet-alana-2-adet-hediye_6846b827f53a48dca28c550dda028294",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_03bc39a66e1c4cb29e509f2cb216f9a5",
+            "brochure_key": "03bc39a66e1c4cb29e509f2cb216f9a5",
+            "market": "Karaca",
+            "title": "Karaca Home 10 Adet Alana 1 Adet Hediye",
+            "href": "https://aktuelbrosurler.com/karaca/brosurler/karaca-home-10-adet-alana-1-adet-hediye_03bc39a66e1c4cb29e509f2cb216f9a5",
+            "tries": 0,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_9e4cfd2496bb458cb681d1584d6f399e",
+            "brochure_key": "9e4cfd2496bb458cb681d1584d6f399e",
+            "market": "Bim",
+            "title": "Seçili Ekmek Ürünlerinde İndirimli Fiyatlar",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/secili-ekmek-urunlerinde-indirimli-fiyatlar_9e4cfd2496bb458cb681d1584d6f399e",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_eeea5e5d7ee645f6a6c37017db76487c",
+            "brochure_key": "eeea5e5d7ee645f6a6c37017db76487c",
+            "market": "Şok Market",
+            "title": "Fırsat Ürünleri",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/firsat-urunleri_eeea5e5d7ee645f6a6c37017db76487c",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_6551937b7e5241b7b13bf9351f4dfe31",
+            "brochure_key": "6551937b7e5241b7b13bf9351f4dfe31",
+            "market": "Şok Market",
+            "title": "Atıştırmalık Ürünleri Fırsat Broşürü",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/atistirmalik-urunleri-firsat-brosuru_6551937b7e5241b7b13bf9351f4dfe31",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_2b96374967db4d84b7e1e70dd2072e1d",
+            "brochure_key": "2b96374967db4d84b7e1e70dd2072e1d",
+            "market": "Carrefour",
+            "title": "Meyve, Sebze ve Kırmızı Et İndirimleri",
+            "href": "https://aktuelbrosurler.com/carrefour/brosurler/meyve-sebze-ve-kirmizi-et-indirimleri_2b96374967db4d84b7e1e70dd2072e1d",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_5686d67453494a96b22f1f7a3f02a9b8",
+            "brochure_key": "5686d67453494a96b22f1f7a3f02a9b8",
+            "market": "Bizim Toptan Market",
+            "title": "HORECA'ya Özel İndirim Broşürü",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/horeca-ya-ozel-indirim-brosuru_5686d67453494a96b22f1f7a3f02a9b8",
+            "tries": 0
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -1171,7 +2391,24 @@
         "ab_ba70ff6fff914416a7e69c6ba73533a2": true,
         "ab_2df9ecf3fb6d417d8fd1245b1109c202": true,
         "ab_0e8a0d60fcd540aaa3474ce9db05b3db": true,
-        "ab_1c2f453a7ab843319dca025cc32ad807": true
+        "ab_1c2f453a7ab843319dca025cc32ad807": true,
+        "ab_64d5c55df693491cb8e21c792dbdf7ab": true,
+        "ab_ff4b2af4137d44319b42a3c2a880c2e2": true,
+        "ab_1e59a763b781470d852f6717965ee3ce": true,
+        "ab_f176e54de08e4f0e8856260c209f7a4d": true,
+        "ab_0bd2077185ff440aba43d039e0605543": true,
+        "ab_f3abd0871d5542a5ba2df425decba74c": true,
+        "ab_f7e00ba961ac40178c6585dc5d392742": true,
+        "ab_58c19bd1ca29424da85231da27ffa50c": true,
+        "ab_179b913d79be444eabebbc6cce827657": true,
+        "ab_52be9ae1bde44182aa23c1b850dd935e": true,
+        "ab_614baa3972fd4cf29593bef8a8d0ed8e": true,
+        "ab_326c0687ee454d3a96c099623d884d66": true,
+        "ab_6eaa6b59fb41482fa68b2547db979d22": true,
+        "ab_ee520f039b5b4d9cb34c670028c5b3d4": true,
+        "ab_187f9439806d4f9dbb8ce3844f6a36f8": true,
+        "ab_4236f410897347138478efc546eb4792": true,
+        "ab_9ee0ce263de14491bccd78dd4c20c41f": true
     },
-    "lastDrainAt": 1792585452
+    "lastDrainAt": 1792599689
 }
