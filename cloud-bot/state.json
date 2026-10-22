@@ -1,148 +1,76 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1792634175
+            "lastCheckedAt": 1792652482
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1792634178
+            "lastCheckedAt": 1792652485
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1792634184
+            "lastCheckedAt": 1792652489
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1792634133
+            "lastCheckedAt": 1792652450
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1792634139
+            "lastCheckedAt": 1792652454
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1792634143
+            "lastCheckedAt": 1792652457
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1792634145
+            "lastCheckedAt": 1792652461
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1792634149
+            "lastCheckedAt": 1792652464
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1792634155
+            "lastCheckedAt": 1792652466
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1792634158
+            "lastCheckedAt": 1792652473
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1792634170
+            "lastCheckedAt": 1792652478
         },
         "https://aktuelbrosurler.com/altunmarket/brosurler": {
-            "lastCheckedAt": 1792634093
+            "lastCheckedAt": 1792652393
         },
         "https://aktuelbrosurler.com/bicenmarket/brosurler": {
-            "lastCheckedAt": 1792634097
+            "lastCheckedAt": 1792652397
         },
         "https://aktuelbrosurler.com/cagrimarket/brosurler": {
-            "lastCheckedAt": 1792634100
+            "lastCheckedAt": 1792652399
         },
         "https://aktuelbrosurler.com/file-market/brosurler": {
-            "lastCheckedAt": 1792634104
+            "lastCheckedAt": 1792652403
         },
         "https://aktuelbrosurler.com/happycenter/brosurler": {
-            "lastCheckedAt": 1792634108
+            "lastCheckedAt": 1792652406
         },
         "https://aktuelbrosurler.com/kimmarket/brosurler": {
-            "lastCheckedAt": 1792634112
+            "lastCheckedAt": 1792652410
         },
         "https://aktuelbrosurler.com/metrotoptancimarket/brosurler": {
-            "lastCheckedAt": 1792634116
+            "lastCheckedAt": 1792652424
         },
         "https://aktuelbrosurler.com/mopas/brosurler": {
-            "lastCheckedAt": 1792634118
+            "lastCheckedAt": 1792652428
         },
         "https://aktuelbrosurler.com/onurmarket/brosurler": {
-            "lastCheckedAt": 1792634122
+            "lastCheckedAt": 1792652432
         },
         "https://aktuelbrosurler.com/secmarket/brosurler": {
-            "lastCheckedAt": 1792634125
+            "lastCheckedAt": 1792652441
         },
         "https://aktuelbrosurler.com/korkmaz/brosurler": {
-            "lastCheckedAt": 1792634090
+            "lastCheckedAt": 1792652385
         },
         "https://aktuelbrosurler.com/karaca/brosurler": {
-            "lastCheckedAt": 1792634129
+            "lastCheckedAt": 1792652448
         }
     },
     "queue": [
-        {
-            "source_key": "ab_1af70948ccdb44b18e814a992d5f2061",
-            "brochure_key": "1af70948ccdb44b18e814a992d5f2061",
-            "market": "Metro Market",
-            "title": "Taze Ürünler Kataloğu",
-            "href": "https://aktuelbrosurler.com/metro-market/brosurler/taze-urunler-katalogu_1af70948ccdb44b18e814a992d5f2061",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_0453b786e8694649ac714958be11b90d",
-            "brochure_key": "0453b786e8694649ac714958be11b90d",
-            "market": "Metro Market",
-            "title": "Olmazsa Olmaz Ürünler Kataloğu",
-            "href": "https://aktuelbrosurler.com/metro-market/brosurler/olmazsa-olmaz-urunler-katalogu_0453b786e8694649ac714958be11b90d",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_56c87f27634b4a31a284340c52de6fad",
-            "brochure_key": "56c87f27634b4a31a284340c52de6fad",
-            "market": "Metro Market",
-            "title": "Taze Ürünler Kataloğu",
-            "href": "https://aktuelbrosurler.com/metro-market/brosurler/taze-urunler-katalogu_56c87f27634b4a31a284340c52de6fad",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_9e765b335b004a358734ebc9fd02a6ac",
-            "brochure_key": "9e765b335b004a358734ebc9fd02a6ac",
-            "market": "Metro Market",
-            "title": "Kurum & İşletme Mutfakları Kataloğu",
-            "href": "https://aktuelbrosurler.com/metro-market/brosurler/kurum-isletme-mutfaklari-katalogu_9e765b335b004a358734ebc9fd02a6ac",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_89b0637c4a4941abb448605fb4570679",
-            "brochure_key": "89b0637c4a4941abb448605fb4570679",
-            "market": "Metro Market",
-            "title": "Kafeler ve Pastaneler Kataloğu",
-            "href": "https://aktuelbrosurler.com/metro-market/brosurler/kafeler-ve-pastaneler-katalogu_89b0637c4a4941abb448605fb4570679",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_93385724ebfc4c5095c04571cd79885a",
-            "brochure_key": "93385724ebfc4c5095c04571cd79885a",
-            "market": "Metro Market",
-            "title": "Fast Food Kataloğu",
-            "href": "https://aktuelbrosurler.com/metro-market/brosurler/fast-food-katalogu_93385724ebfc4c5095c04571cd79885a",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_0849dd728f284c2ea3c2c8870bd8645b",
-            "brochure_key": "0849dd728f284c2ea3c2c8870bd8645b",
-            "market": "Metro Market",
-            "title": "Temizlik | Kişisel bakım Kataloğu",
-            "href": "https://aktuelbrosurler.com/metro-market/brosurler/temizlik-kisisel-bakim-katalogu_0849dd728f284c2ea3c2c8870bd8645b",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_459dae502ee1459a9152ee447c7402b4",
-            "brochure_key": "459dae502ee1459a9152ee447c7402b4",
-            "market": "Metro Market",
-            "title": "Smart Chef Kataloğu",
-            "href": "https://aktuelbrosurler.com/metro-market/brosurler/smart-chef-katalogu_459dae502ee1459a9152ee447c7402b4",
-            "tries": 0,
-            "sessiz": true
-        },
         {
             "source_key": "ab_abd5755b443d42269bd9da116368c1ed",
             "brochure_key": "abd5755b443d42269bd9da116368c1ed",
@@ -1937,7 +1865,15 @@
         "ab_6fa75ce3561b494eb9fa6f5c102ce567": true,
         "ab_d466a0a8171f4facae7d70d2bdca6f84": true,
         "ab_5103f738cc354de485bd41d79f3b0085": true,
-        "ab_6b6c9de757ca4b7b8daaa0536e19da58": true
+        "ab_6b6c9de757ca4b7b8daaa0536e19da58": true,
+        "ab_1af70948ccdb44b18e814a992d5f2061": true,
+        "ab_0453b786e8694649ac714958be11b90d": true,
+        "ab_56c87f27634b4a31a284340c52de6fad": true,
+        "ab_9e765b335b004a358734ebc9fd02a6ac": true,
+        "ab_89b0637c4a4941abb448605fb4570679": true,
+        "ab_93385724ebfc4c5095c04571cd79885a": true,
+        "ab_0849dd728f284c2ea3c2c8870bd8645b": true,
+        "ab_459dae502ee1459a9152ee447c7402b4": true
     },
-    "lastDrainAt": 1792635409
+    "lastDrainAt": 1792653843
 }
