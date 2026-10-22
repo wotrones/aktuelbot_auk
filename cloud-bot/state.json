@@ -1,103 +1,76 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1792626309
+            "lastCheckedAt": 1792634175
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1792626313
+            "lastCheckedAt": 1792634178
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1792626317
+            "lastCheckedAt": 1792634184
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1792626281
+            "lastCheckedAt": 1792634133
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1792626283
+            "lastCheckedAt": 1792634139
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1792626287
+            "lastCheckedAt": 1792634143
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1792626291
+            "lastCheckedAt": 1792634145
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1792626294
+            "lastCheckedAt": 1792634149
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1792626298
+            "lastCheckedAt": 1792634155
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1792626302
+            "lastCheckedAt": 1792634158
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1792626306
+            "lastCheckedAt": 1792634170
         },
         "https://aktuelbrosurler.com/altunmarket/brosurler": {
-            "lastCheckedAt": 1792626226
+            "lastCheckedAt": 1792634093
         },
         "https://aktuelbrosurler.com/bicenmarket/brosurler": {
-            "lastCheckedAt": 1792626237
+            "lastCheckedAt": 1792634097
         },
         "https://aktuelbrosurler.com/cagrimarket/brosurler": {
-            "lastCheckedAt": 1792626240
+            "lastCheckedAt": 1792634100
         },
         "https://aktuelbrosurler.com/file-market/brosurler": {
-            "lastCheckedAt": 1792626249
+            "lastCheckedAt": 1792634104
         },
         "https://aktuelbrosurler.com/happycenter/brosurler": {
-            "lastCheckedAt": 1792626253
+            "lastCheckedAt": 1792634108
         },
         "https://aktuelbrosurler.com/kimmarket/brosurler": {
-            "lastCheckedAt": 1792626257
+            "lastCheckedAt": 1792634112
         },
         "https://aktuelbrosurler.com/metrotoptancimarket/brosurler": {
-            "lastCheckedAt": 1792626261
+            "lastCheckedAt": 1792634116
         },
         "https://aktuelbrosurler.com/mopas/brosurler": {
-            "lastCheckedAt": 1792626265
+            "lastCheckedAt": 1792634118
         },
         "https://aktuelbrosurler.com/onurmarket/brosurler": {
-            "lastCheckedAt": 1792626269
+            "lastCheckedAt": 1792634122
         },
         "https://aktuelbrosurler.com/secmarket/brosurler": {
-            "lastCheckedAt": 1792626274
+            "lastCheckedAt": 1792634125
         },
         "https://aktuelbrosurler.com/korkmaz/brosurler": {
-            "lastCheckedAt": 1792626222
+            "lastCheckedAt": 1792634090
         },
         "https://aktuelbrosurler.com/karaca/brosurler": {
-            "lastCheckedAt": 1792626277
+            "lastCheckedAt": 1792634129
         }
     },
     "queue": [
-        {
-            "source_key": "ab_d466a0a8171f4facae7d70d2bdca6f84",
-            "brochure_key": "d466a0a8171f4facae7d70d2bdca6f84",
-            "market": "Kim Market",
-            "title": "Marmara Bölgesi Mağazalarında Geçerli İndirim Bülteni Broşürü",
-            "href": "https://aktuelbrosurler.com/kim-market/brosurler/marmara-bolgesi-magazalarinda-gecerli-indirim-bulteni-brosuru_d466a0a8171f4facae7d70d2bdca6f84",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_5103f738cc354de485bd41d79f3b0085",
-            "brochure_key": "5103f738cc354de485bd41d79f3b0085",
-            "market": "Metro Market",
-            "title": "Taze Ürünler Kataloğu",
-            "href": "https://aktuelbrosurler.com/metro-market/brosurler/taze-urunler-katalogu_5103f738cc354de485bd41d79f3b0085",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_6b6c9de757ca4b7b8daaa0536e19da58",
-            "brochure_key": "6b6c9de757ca4b7b8daaa0536e19da58",
-            "market": "Metro Market",
-            "title": "Taze'nin Yıldızları Kataloğu",
-            "href": "https://aktuelbrosurler.com/metro-market/brosurler/taze-nin-yildizlari-katalogu_6b6c9de757ca4b7b8daaa0536e19da58",
-            "tries": 0,
-            "sessiz": true
-        },
         {
             "source_key": "ab_1af70948ccdb44b18e814a992d5f2061",
             "brochure_key": "1af70948ccdb44b18e814a992d5f2061",
@@ -736,14 +709,6 @@
             "href": "https://aktuelbrosurler.com/cagri-market/brosurler/cagri-market-indirim-bulteni-katalogu-cagri-da-hep-indirim-var_37550a101262456fa578c674da1c74f7",
             "tries": 1,
             "sessiz": true
-        },
-        {
-            "source_key": "ab_6fa75ce3561b494eb9fa6f5c102ce567",
-            "brochure_key": "6fa75ce3561b494eb9fa6f5c102ce567",
-            "market": "Migros",
-            "title": "Migros'larda Geçerli İndirim Bülteni Kataloğu - 72. Yılımızı Kaçırılmayacak Ürünlerle Kutluyoruz",
-            "href": "https://aktuelbrosurler.com/migros/brosurler/migros-larda-gecerli-indirim-bulteni-katalogu-72-yilimizi-kacirilmayacak-urunlerle-kutluyoruz_6fa75ce3561b494eb9fa6f5c102ce567",
-            "tries": 1
         }
     ],
     "uploaded": {
@@ -1968,7 +1933,11 @@
         "ab_5c79b5efe2c645ce99ab9c56f5920022": true,
         "ab_fa9404f208f24635bb14202f6e85c0ca": true,
         "ab_40bc81ab8cfa485aa6ca6a4a084c7478": true,
-        "ab_786097c340a5479db513b22afbc7c519": true
+        "ab_786097c340a5479db513b22afbc7c519": true,
+        "ab_6fa75ce3561b494eb9fa6f5c102ce567": true,
+        "ab_d466a0a8171f4facae7d70d2bdca6f84": true,
+        "ab_5103f738cc354de485bd41d79f3b0085": true,
+        "ab_6b6c9de757ca4b7b8daaa0536e19da58": true
     },
-    "lastDrainAt": 1792627528
+    "lastDrainAt": 1792635409
 }
