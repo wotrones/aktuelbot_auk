@@ -1,220 +1,76 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1792673754
+            "lastCheckedAt": 1792691439
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1792673758
+            "lastCheckedAt": 1792691443
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1792673762
+            "lastCheckedAt": 1792691447
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1792673722
+            "lastCheckedAt": 1792691405
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1792673726
+            "lastCheckedAt": 1792691409
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1792673733
+            "lastCheckedAt": 1792691411
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1792673736
+            "lastCheckedAt": 1792691415
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1792673741
+            "lastCheckedAt": 1792691419
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1792673746
+            "lastCheckedAt": 1792691423
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1792673748
+            "lastCheckedAt": 1792691427
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1792673752
+            "lastCheckedAt": 1792691433
         },
         "https://aktuelbrosurler.com/altunmarket/brosurler": {
-            "lastCheckedAt": 1792673671
+            "lastCheckedAt": 1792691350
         },
         "https://aktuelbrosurler.com/bicenmarket/brosurler": {
-            "lastCheckedAt": 1792673680
+            "lastCheckedAt": 1792691354
         },
         "https://aktuelbrosurler.com/cagrimarket/brosurler": {
-            "lastCheckedAt": 1792673684
+            "lastCheckedAt": 1792691359
         },
         "https://aktuelbrosurler.com/file-market/brosurler": {
-            "lastCheckedAt": 1792673688
+            "lastCheckedAt": 1792691364
         },
         "https://aktuelbrosurler.com/happycenter/brosurler": {
-            "lastCheckedAt": 1792673694
+            "lastCheckedAt": 1792691373
         },
         "https://aktuelbrosurler.com/kimmarket/brosurler": {
-            "lastCheckedAt": 1792673698
+            "lastCheckedAt": 1792691377
         },
         "https://aktuelbrosurler.com/metrotoptancimarket/brosurler": {
-            "lastCheckedAt": 1792673702
+            "lastCheckedAt": 1792691381
         },
         "https://aktuelbrosurler.com/mopas/brosurler": {
-            "lastCheckedAt": 1792673706
+            "lastCheckedAt": 1792691387
         },
         "https://aktuelbrosurler.com/onurmarket/brosurler": {
-            "lastCheckedAt": 1792673710
+            "lastCheckedAt": 1792691391
         },
         "https://aktuelbrosurler.com/secmarket/brosurler": {
-            "lastCheckedAt": 1792673714
+            "lastCheckedAt": 1792691396
         },
         "https://aktuelbrosurler.com/korkmaz/brosurler": {
-            "lastCheckedAt": 1792673668
+            "lastCheckedAt": 1792691345
         },
         "https://aktuelbrosurler.com/karaca/brosurler": {
-            "lastCheckedAt": 1792673718
+            "lastCheckedAt": 1792691400
         }
     },
     "queue": [
-        {
-            "source_key": "ab_58806484efff4519891772a8ae0c86b8",
-            "brochure_key": "58806484efff4519891772a8ae0c86b8",
-            "market": "Onur Market",
-            "title": "İstanbul Bölgesinde Geçerli Haftalık Taze Ürünler Broşürü",
-            "href": "https://aktuelbrosurler.com/onur-market/brosurler/istanbul-bolgesinde-gecerli-haftalik-taze-urunler-brosuru_58806484efff4519891772a8ae0c86b8",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_d81eb969d4774c57abad0b5dbcfb977c",
-            "brochure_key": "d81eb969d4774c57abad0b5dbcfb977c",
-            "market": "Onur Market",
-            "title": "Bursa Bölgesinde Geçerli İndirim Bülteni Broşürü - Onur'da Çok Al Az Öde",
-            "href": "https://aktuelbrosurler.com/onur-market/brosurler/bursa-bolgesinde-gecerli-indirim-bulteni-brosuru-onur-da-cok-al-az-ode_d81eb969d4774c57abad0b5dbcfb977c",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_838977b10f95487a8a14906404c57e63",
-            "brochure_key": "838977b10f95487a8a14906404c57e63",
-            "market": "Onur Market",
-            "title": "İstanbul & Trakya Bölgesinde Geçerli İndirim Bülteni Broşürü - Onur'da Çok Al Az Öde",
-            "href": "https://aktuelbrosurler.com/onur-market/brosurler/istanbul-trakya-bolgesinde-gecerli-indirim-bulteni-brosuru-onur-da-cok-al-az-ode_838977b10f95487a8a14906404c57e63",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_eb14c3496148463f907fea3d2e598294",
-            "brochure_key": "eb14c3496148463f907fea3d2e598294",
-            "market": "Onur Market",
-            "title": "Trakya Bölgesinde Geçerli Haftalık Taze Ürünler Broşürü",
-            "href": "https://aktuelbrosurler.com/onur-market/brosurler/trakya-bolgesinde-gecerli-haftalik-taze-urunler-brosuru_eb14c3496148463f907fea3d2e598294",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_bc54c7977d2e40138b227ac36441843c",
-            "brochure_key": "bc54c7977d2e40138b227ac36441843c",
-            "market": "Onur Market",
-            "title": "Bursa Bölgesinde Geçerli Haftalık Taze Ürünler Broşürü",
-            "href": "https://aktuelbrosurler.com/onur-market/brosurler/bursa-bolgesinde-gecerli-haftalik-taze-urunler-brosuru_bc54c7977d2e40138b227ac36441843c",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_b616e84ee613417b8e91cd8f6b8721a8",
-            "brochure_key": "b616e84ee613417b8e91cd8f6b8721a8",
-            "market": "Onur Market",
-            "title": "İstanbul Bölgesinde Geçerli Haftalık Taze Ürünler Broşürü",
-            "href": "https://aktuelbrosurler.com/onur-market/brosurler/istanbul-bolgesinde-gecerli-haftalik-taze-urunler-brosuru_b616e84ee613417b8e91cd8f6b8721a8",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_9c18fd67e2ba438e94db1e70d78e8b88",
-            "brochure_key": "9c18fd67e2ba438e94db1e70d78e8b88",
-            "market": "Onur Market",
-            "title": "Trakya Bölgesinde Geçerli Haftalık Taze Ürünler Broşürü",
-            "href": "https://aktuelbrosurler.com/onur-market/brosurler/trakya-bolgesinde-gecerli-haftalik-taze-urunler-brosuru_9c18fd67e2ba438e94db1e70d78e8b88",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_731ddd585d5c4206a81512fe88f80d15",
-            "brochure_key": "731ddd585d5c4206a81512fe88f80d15",
-            "market": "Onur Market",
-            "title": "Bursa Bölgesinde Geçerli Haftalık Taze Ürünler Broşürü",
-            "href": "https://aktuelbrosurler.com/onur-market/brosurler/bursa-bolgesinde-gecerli-haftalik-taze-urunler-brosuru_731ddd585d5c4206a81512fe88f80d15",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_e4ea06674019443cacd1bd0feb269c8d",
-            "brochure_key": "e4ea06674019443cacd1bd0feb269c8d",
-            "market": "Onur Market",
-            "title": "İstanbul Bölgesinde Geçerli Haftalık Taze Ürünler Broşürü",
-            "href": "https://aktuelbrosurler.com/onur-market/brosurler/istanbul-bolgesinde-gecerli-haftalik-taze-urunler-brosuru_e4ea06674019443cacd1bd0feb269c8d",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_80472a0f8ffc4689a6bc084c7776964d",
-            "brochure_key": "80472a0f8ffc4689a6bc084c7776964d",
-            "market": "Seç Market",
-            "title": "Seç Market İndirim Bülteni Broşürü",
-            "href": "https://aktuelbrosurler.com/sec-market/brosurler/sec-market-indirim-bulteni-brosuru_80472a0f8ffc4689a6bc084c7776964d",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_2359f95ed6614a4283a488810c12f37e",
-            "brochure_key": "2359f95ed6614a4283a488810c12f37e",
-            "market": "Seç Market",
-            "title": "Seç Market İndirim Bülteni Broşürü",
-            "href": "https://aktuelbrosurler.com/sec-market/brosurler/sec-market-indirim-bulteni-brosuru_2359f95ed6614a4283a488810c12f37e",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_fb496aabaf7945a8aee2e39bd4056b40",
-            "brochure_key": "fb496aabaf7945a8aee2e39bd4056b40",
-            "market": "Seç Market",
-            "title": "Seç Market İndirim Bülteni Broşürü",
-            "href": "https://aktuelbrosurler.com/sec-market/brosurler/sec-market-indirim-bulteni-brosuru_fb496aabaf7945a8aee2e39bd4056b40",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_98a80d74e34c45eab7316cb0a821ae6b",
-            "brochure_key": "98a80d74e34c45eab7316cb0a821ae6b",
-            "market": "Seç Market",
-            "title": "Seç Market İndirim Bülteni Broşürü",
-            "href": "https://aktuelbrosurler.com/sec-market/brosurler/sec-market-indirim-bulteni-brosuru_98a80d74e34c45eab7316cb0a821ae6b",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_6e413ca77dad43478491785112733b2d",
-            "brochure_key": "6e413ca77dad43478491785112733b2d",
-            "market": "Seç Market",
-            "title": "Seç Market İndirim Bülteni Broşürü",
-            "href": "https://aktuelbrosurler.com/sec-market/brosurler/sec-market-indirim-bulteni-brosuru_6e413ca77dad43478491785112733b2d",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_ccc89924e5314d97ba188de18fd3c962",
-            "brochure_key": "ccc89924e5314d97ba188de18fd3c962",
-            "market": "Seç Market",
-            "title": "Seç Market İndirim Bülteni Broşürü",
-            "href": "https://aktuelbrosurler.com/sec-market/brosurler/sec-market-indirim-bulteni-brosuru_ccc89924e5314d97ba188de18fd3c962",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_00c959b0b9dd44efbb481d7476a3bd88",
-            "brochure_key": "00c959b0b9dd44efbb481d7476a3bd88",
-            "market": "Seç Market",
-            "title": "Seç Market İndirim Bülteni Broşürü",
-            "href": "https://aktuelbrosurler.com/sec-market/brosurler/sec-market-indirim-bulteni-brosuru_00c959b0b9dd44efbb481d7476a3bd88",
-            "tries": 0,
-            "sessiz": true
-        },
         {
             "source_key": "ab_f4389fcbf7df496885aeda450b0eb24c",
             "brochure_key": "f4389fcbf7df496885aeda450b0eb24c",
@@ -1740,7 +1596,27 @@
         "ab_89bb19f45ecf41c3bac982bdeae81c9b": true,
         "ab_41bd1103b027441993d40d379a585f8b": true,
         "ab_031ff28dfdec4036abc918c074104e91": true,
-        "ab_41ab65668cec439ca98fcbabdf562428": true
+        "ab_41ab65668cec439ca98fcbabdf562428": true,
+        "ab_70d783bfc0704090b10dad0d2956c594": true,
+        "ab_af0b1dd8fa5049dd9f8725d2394f17da": true,
+        "ab_24b1c8c01bef4a4cb0b76a829b2ff0a5": true,
+        "ab_f34b34a160a44f90a21fb8f86a50f02a": true,
+        "ab_58806484efff4519891772a8ae0c86b8": true,
+        "ab_d81eb969d4774c57abad0b5dbcfb977c": true,
+        "ab_838977b10f95487a8a14906404c57e63": true,
+        "ab_eb14c3496148463f907fea3d2e598294": true,
+        "ab_bc54c7977d2e40138b227ac36441843c": true,
+        "ab_b616e84ee613417b8e91cd8f6b8721a8": true,
+        "ab_9c18fd67e2ba438e94db1e70d78e8b88": true,
+        "ab_731ddd585d5c4206a81512fe88f80d15": true,
+        "ab_e4ea06674019443cacd1bd0feb269c8d": true,
+        "ab_80472a0f8ffc4689a6bc084c7776964d": true,
+        "ab_2359f95ed6614a4283a488810c12f37e": true,
+        "ab_fb496aabaf7945a8aee2e39bd4056b40": true,
+        "ab_98a80d74e34c45eab7316cb0a821ae6b": true,
+        "ab_6e413ca77dad43478491785112733b2d": true,
+        "ab_ccc89924e5314d97ba188de18fd3c962": true,
+        "ab_00c959b0b9dd44efbb481d7476a3bd88": true
     },
-    "lastDrainAt": 1792674587
+    "lastDrainAt": 1792692394
 }
