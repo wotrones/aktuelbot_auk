@@ -1,229 +1,76 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1792652482
+            "lastCheckedAt": 1792673754
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1792652485
+            "lastCheckedAt": 1792673758
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1792652489
+            "lastCheckedAt": 1792673762
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1792652450
+            "lastCheckedAt": 1792673722
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1792652454
+            "lastCheckedAt": 1792673726
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1792652457
+            "lastCheckedAt": 1792673733
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1792652461
+            "lastCheckedAt": 1792673736
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1792652464
+            "lastCheckedAt": 1792673741
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1792652466
+            "lastCheckedAt": 1792673746
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1792652473
+            "lastCheckedAt": 1792673748
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1792652478
+            "lastCheckedAt": 1792673752
         },
         "https://aktuelbrosurler.com/altunmarket/brosurler": {
-            "lastCheckedAt": 1792652393
+            "lastCheckedAt": 1792673671
         },
         "https://aktuelbrosurler.com/bicenmarket/brosurler": {
-            "lastCheckedAt": 1792652397
+            "lastCheckedAt": 1792673680
         },
         "https://aktuelbrosurler.com/cagrimarket/brosurler": {
-            "lastCheckedAt": 1792652399
+            "lastCheckedAt": 1792673684
         },
         "https://aktuelbrosurler.com/file-market/brosurler": {
-            "lastCheckedAt": 1792652403
+            "lastCheckedAt": 1792673688
         },
         "https://aktuelbrosurler.com/happycenter/brosurler": {
-            "lastCheckedAt": 1792652406
+            "lastCheckedAt": 1792673694
         },
         "https://aktuelbrosurler.com/kimmarket/brosurler": {
-            "lastCheckedAt": 1792652410
+            "lastCheckedAt": 1792673698
         },
         "https://aktuelbrosurler.com/metrotoptancimarket/brosurler": {
-            "lastCheckedAt": 1792652424
+            "lastCheckedAt": 1792673702
         },
         "https://aktuelbrosurler.com/mopas/brosurler": {
-            "lastCheckedAt": 1792652428
+            "lastCheckedAt": 1792673706
         },
         "https://aktuelbrosurler.com/onurmarket/brosurler": {
-            "lastCheckedAt": 1792652432
+            "lastCheckedAt": 1792673710
         },
         "https://aktuelbrosurler.com/secmarket/brosurler": {
-            "lastCheckedAt": 1792652441
+            "lastCheckedAt": 1792673714
         },
         "https://aktuelbrosurler.com/korkmaz/brosurler": {
-            "lastCheckedAt": 1792652385
+            "lastCheckedAt": 1792673668
         },
         "https://aktuelbrosurler.com/karaca/brosurler": {
-            "lastCheckedAt": 1792652448
+            "lastCheckedAt": 1792673718
         }
     },
     "queue": [
-        {
-            "source_key": "ab_abd5755b443d42269bd9da116368c1ed",
-            "brochure_key": "abd5755b443d42269bd9da116368c1ed",
-            "market": "Metro Market",
-            "title": "Olmazsa Olmaz Ürünler Kataloğu",
-            "href": "https://aktuelbrosurler.com/metro-market/brosurler/olmazsa-olmaz-urunler-katalogu_abd5755b443d42269bd9da116368c1ed",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_ace152a02c9d4707bf33cd8cd99dffd7",
-            "brochure_key": "ace152a02c9d4707bf33cd8cd99dffd7",
-            "market": "Metro Market",
-            "title": "Taze Ürünler Kataloğu",
-            "href": "https://aktuelbrosurler.com/metro-market/brosurler/taze-urunler-katalogu_ace152a02c9d4707bf33cd8cd99dffd7",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_78607ce70c344cdf881d844d1f31f11f",
-            "brochure_key": "78607ce70c344cdf881d844d1f31f11f",
-            "market": "Mopaş",
-            "title": "Mopaş Market İndirim Bülteni Kataloğu",
-            "href": "https://aktuelbrosurler.com/mopas/brosurler/mopas-market-indirim-bulteni-katalogu_78607ce70c344cdf881d844d1f31f11f",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_be497914fea3497fa341003718adf1ac",
-            "brochure_key": "be497914fea3497fa341003718adf1ac",
-            "market": "Mopaş",
-            "title": "Fırsat Ürünleri",
-            "href": "https://aktuelbrosurler.com/mopas/brosurler/firsat-urunleri_be497914fea3497fa341003718adf1ac",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_f82cab87d38a467fbfd3e1b184a9b438",
-            "brochure_key": "f82cab87d38a467fbfd3e1b184a9b438",
-            "market": "Mopaş",
-            "title": "Fırsat Ürünleri",
-            "href": "https://aktuelbrosurler.com/mopas/brosurler/firsat-urunleri_f82cab87d38a467fbfd3e1b184a9b438",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_4de238cf89dc4db890c5d3249f9be90c",
-            "brochure_key": "4de238cf89dc4db890c5d3249f9be90c",
-            "market": "Mopaş",
-            "title": "Fırsat Ürünleri",
-            "href": "https://aktuelbrosurler.com/mopas/brosurler/firsat-urunleri_4de238cf89dc4db890c5d3249f9be90c",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_c496e8affe164b698e17c4cdd875c956",
-            "brochure_key": "c496e8affe164b698e17c4cdd875c956",
-            "market": "Mopaş",
-            "title": "Fırsat Ürünleri",
-            "href": "https://aktuelbrosurler.com/mopas/brosurler/firsat-urunleri_c496e8affe164b698e17c4cdd875c956",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_f96e1fed904a49c490209289fa4ba53c",
-            "brochure_key": "f96e1fed904a49c490209289fa4ba53c",
-            "market": "Mopaş",
-            "title": "Fırsat Ürünleri",
-            "href": "https://aktuelbrosurler.com/mopas/brosurler/firsat-urunleri_f96e1fed904a49c490209289fa4ba53c",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_04830a5ee4364c5f99ceda3e1549f639",
-            "brochure_key": "04830a5ee4364c5f99ceda3e1549f639",
-            "market": "Mopaş",
-            "title": "Mopaş Market İndirim Bülteni Kataloğu",
-            "href": "https://aktuelbrosurler.com/mopas/brosurler/mopas-market-indirim-bulteni-katalogu_04830a5ee4364c5f99ceda3e1549f639",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_18d946e4579c4056aee2aff6f06d2cd8",
-            "brochure_key": "18d946e4579c4056aee2aff6f06d2cd8",
-            "market": "Mopaş",
-            "title": "Hafta Sonuna Özel Meyve ve Sebze Reyonu Fırsatları",
-            "href": "https://aktuelbrosurler.com/mopas/brosurler/hafta-sonuna-ozel-meyve-ve-sebze-reyonu-firsatlari_18d946e4579c4056aee2aff6f06d2cd8",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_e1e68547f1fa40e286ef329bd30936dd",
-            "brochure_key": "e1e68547f1fa40e286ef329bd30936dd",
-            "market": "Mopaş",
-            "title": "Mopaş Market İndirim Bülteni Broşürü",
-            "href": "https://aktuelbrosurler.com/mopas/brosurler/mopas-market-indirim-bulteni-brosuru_e1e68547f1fa40e286ef329bd30936dd",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_5592ce7f91534a52b1d1e6bc11423fa2",
-            "brochure_key": "5592ce7f91534a52b1d1e6bc11423fa2",
-            "market": "Mopaş",
-            "title": "Fırsat Ürünleri",
-            "href": "https://aktuelbrosurler.com/mopas/brosurler/firsat-urunleri_5592ce7f91534a52b1d1e6bc11423fa2",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_e7aa979918dd41b4b32cc8deadf56dbc",
-            "brochure_key": "e7aa979918dd41b4b32cc8deadf56dbc",
-            "market": "Mopaş",
-            "title": "Bugüne Özel Fırsat Ürünleri",
-            "href": "https://aktuelbrosurler.com/mopas/brosurler/bugune-ozel-firsat-urunleri_e7aa979918dd41b4b32cc8deadf56dbc",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_89bb19f45ecf41c3bac982bdeae81c9b",
-            "brochure_key": "89bb19f45ecf41c3bac982bdeae81c9b",
-            "market": "Mopaş",
-            "title": "Fırsat Ürünleri",
-            "href": "https://aktuelbrosurler.com/mopas/brosurler/firsat-urunleri_89bb19f45ecf41c3bac982bdeae81c9b",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_41bd1103b027441993d40d379a585f8b",
-            "brochure_key": "41bd1103b027441993d40d379a585f8b",
-            "market": "Onur Market",
-            "title": "Onur Gurme Market İndirim Bülteni Kataloğu",
-            "href": "https://aktuelbrosurler.com/onur-market/brosurler/onur-gurme-market-indirim-bulteni-katalogu_41bd1103b027441993d40d379a585f8b",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_031ff28dfdec4036abc918c074104e91",
-            "brochure_key": "031ff28dfdec4036abc918c074104e91",
-            "market": "Onur Market",
-            "title": "Trakya Bölgesinde Geçerli Haftalık Taze Ürünler Broşürü",
-            "href": "https://aktuelbrosurler.com/onur-market/brosurler/trakya-bolgesinde-gecerli-haftalik-taze-urunler-brosuru_031ff28dfdec4036abc918c074104e91",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_41ab65668cec439ca98fcbabdf562428",
-            "brochure_key": "41ab65668cec439ca98fcbabdf562428",
-            "market": "Onur Market",
-            "title": "Bursa Bölgesinde Geçerli Haftalık Taze Ürünler Broşürü",
-            "href": "https://aktuelbrosurler.com/onur-market/brosurler/bursa-bolgesinde-gecerli-haftalik-taze-urunler-brosuru_41ab65668cec439ca98fcbabdf562428",
-            "tries": 0,
-            "sessiz": true
-        },
         {
             "source_key": "ab_58806484efff4519891772a8ae0c86b8",
             "brochure_key": "58806484efff4519891772a8ae0c86b8",
@@ -1873,7 +1720,27 @@
         "ab_89b0637c4a4941abb448605fb4570679": true,
         "ab_93385724ebfc4c5095c04571cd79885a": true,
         "ab_0849dd728f284c2ea3c2c8870bd8645b": true,
-        "ab_459dae502ee1459a9152ee447c7402b4": true
+        "ab_459dae502ee1459a9152ee447c7402b4": true,
+        "ab_9829abaa44c64f73980ada7601520adc": true,
+        "ab_345d58eb367a40cf86f8104f14edfb0e": true,
+        "ab_fcd67d13bac9419784c639cdd4b7e757": true,
+        "ab_abd5755b443d42269bd9da116368c1ed": true,
+        "ab_ace152a02c9d4707bf33cd8cd99dffd7": true,
+        "ab_78607ce70c344cdf881d844d1f31f11f": true,
+        "ab_be497914fea3497fa341003718adf1ac": true,
+        "ab_f82cab87d38a467fbfd3e1b184a9b438": true,
+        "ab_4de238cf89dc4db890c5d3249f9be90c": true,
+        "ab_c496e8affe164b698e17c4cdd875c956": true,
+        "ab_f96e1fed904a49c490209289fa4ba53c": true,
+        "ab_04830a5ee4364c5f99ceda3e1549f639": true,
+        "ab_18d946e4579c4056aee2aff6f06d2cd8": true,
+        "ab_e1e68547f1fa40e286ef329bd30936dd": true,
+        "ab_5592ce7f91534a52b1d1e6bc11423fa2": true,
+        "ab_e7aa979918dd41b4b32cc8deadf56dbc": true,
+        "ab_89bb19f45ecf41c3bac982bdeae81c9b": true,
+        "ab_41bd1103b027441993d40d379a585f8b": true,
+        "ab_031ff28dfdec4036abc918c074104e91": true,
+        "ab_41ab65668cec439ca98fcbabdf562428": true
     },
-    "lastDrainAt": 1792653843
+    "lastDrainAt": 1792674587
 }
