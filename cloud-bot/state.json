@@ -1,94 +1,76 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1792702384
+            "lastCheckedAt": 1792712583
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1792702389
+            "lastCheckedAt": 1792712586
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1792702394
+            "lastCheckedAt": 1792712590
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1792702352
+            "lastCheckedAt": 1792712541
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1792702355
+            "lastCheckedAt": 1792712554
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1792702359
+            "lastCheckedAt": 1792712558
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1792702368
+            "lastCheckedAt": 1792712562
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1792702372
+            "lastCheckedAt": 1792712566
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1792702374
+            "lastCheckedAt": 1792712570
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1792702377
+            "lastCheckedAt": 1792712575
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1792702381
+            "lastCheckedAt": 1792712580
         },
         "https://aktuelbrosurler.com/altunmarket/brosurler": {
-            "lastCheckedAt": 1792702298
+            "lastCheckedAt": 1792712487
         },
         "https://aktuelbrosurler.com/bicenmarket/brosurler": {
-            "lastCheckedAt": 1792702302
+            "lastCheckedAt": 1792712492
         },
         "https://aktuelbrosurler.com/cagrimarket/brosurler": {
-            "lastCheckedAt": 1792702307
+            "lastCheckedAt": 1792712494
         },
         "https://aktuelbrosurler.com/file-market/brosurler": {
-            "lastCheckedAt": 1792702312
+            "lastCheckedAt": 1792712498
         },
         "https://aktuelbrosurler.com/happycenter/brosurler": {
-            "lastCheckedAt": 1792702318
+            "lastCheckedAt": 1792712503
         },
         "https://aktuelbrosurler.com/kimmarket/brosurler": {
-            "lastCheckedAt": 1792702324
+            "lastCheckedAt": 1792712505
         },
         "https://aktuelbrosurler.com/metrotoptancimarket/brosurler": {
-            "lastCheckedAt": 1792702328
+            "lastCheckedAt": 1792712510
         },
         "https://aktuelbrosurler.com/mopas/brosurler": {
-            "lastCheckedAt": 1792702333
+            "lastCheckedAt": 1792712513
         },
         "https://aktuelbrosurler.com/onurmarket/brosurler": {
-            "lastCheckedAt": 1792702341
+            "lastCheckedAt": 1792712517
         },
         "https://aktuelbrosurler.com/secmarket/brosurler": {
-            "lastCheckedAt": 1792702345
+            "lastCheckedAt": 1792712522
         },
         "https://aktuelbrosurler.com/korkmaz/brosurler": {
-            "lastCheckedAt": 1792702293
+            "lastCheckedAt": 1792712484
         },
         "https://aktuelbrosurler.com/karaca/brosurler": {
-            "lastCheckedAt": 1792702349
+            "lastCheckedAt": 1792712537
         }
     },
     "queue": [
-        {
-            "source_key": "ab_503e2e4524ca45ad972cc1779ff5a940",
-            "brochure_key": "503e2e4524ca45ad972cc1779ff5a940",
-            "market": "Korkmaz",
-            "title": "Korkmaz 2025 Sonbahar - Kış Kataloğu",
-            "href": "https://aktuelbrosurler.com/korkmaz/brosurler/korkmaz-2025-sonbahar-kis-katalogu_503e2e4524ca45ad972cc1779ff5a940",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_d3c7e4dbfec3425aa16f22bda30b953f",
-            "brochure_key": "d3c7e4dbfec3425aa16f22bda30b953f",
-            "market": "Korkmaz",
-            "title": "Korkmaz Avantajlı Çeyiz Setleri",
-            "href": "https://aktuelbrosurler.com/korkmaz/brosurler/korkmaz-avantajli-ceyiz-setleri_d3c7e4dbfec3425aa16f22bda30b953f",
-            "tries": 0,
-            "sessiz": true
-        },
         {
             "source_key": "ab_030ee957e9134dc9a1d50d9ad1f58e65",
             "brochure_key": "030ee957e9134dc9a1d50d9ad1f58e65",
@@ -1576,7 +1558,13 @@
         "ab_66083064b13641c6a59dc8d8062a6402": true,
         "ab_e2c840965b7641d7bd8207eeeae9e80a": true,
         "ab_94a6508a37724cd0a9f6073185e9031a": true,
-        "ab_1ba1c266bd7e4d5883657e8b6b5a9f8d": true
+        "ab_1ba1c266bd7e4d5883657e8b6b5a9f8d": true,
+        "ab_28da7c02380349c3b834faaa8bb0b10b": true,
+        "ab_a4fae62903a14f50830effb11dcee32e": true,
+        "ab_fa80c05ae8cf49ca872549faf09e99bf": true,
+        "ab_7a532bff37bf4914a10bc450d9eb4d02": true,
+        "ab_503e2e4524ca45ad972cc1779ff5a940": true,
+        "ab_d3c7e4dbfec3425aa16f22bda30b953f": true
     },
-    "lastDrainAt": 1792703744
+    "lastDrainAt": 1792713807
 }
