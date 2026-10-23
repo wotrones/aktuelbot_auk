@@ -1,166 +1,76 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1792712583
+            "lastCheckedAt": 1792776649
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1792712586
+            "lastCheckedAt": 1792776652
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1792712590
+            "lastCheckedAt": 1792776664
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1792712541
+            "lastCheckedAt": 1792776610
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1792712554
+            "lastCheckedAt": 1792776615
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1792712558
+            "lastCheckedAt": 1792776619
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1792712562
+            "lastCheckedAt": 1792776629
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1792712566
+            "lastCheckedAt": 1792776633
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1792712570
+            "lastCheckedAt": 1792776638
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1792712575
+            "lastCheckedAt": 1792776642
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1792712580
+            "lastCheckedAt": 1792776645
         },
         "https://aktuelbrosurler.com/altunmarket/brosurler": {
-            "lastCheckedAt": 1792712487
+            "lastCheckedAt": 1792776555
         },
         "https://aktuelbrosurler.com/bicenmarket/brosurler": {
-            "lastCheckedAt": 1792712492
+            "lastCheckedAt": 1792776559
         },
         "https://aktuelbrosurler.com/cagrimarket/brosurler": {
-            "lastCheckedAt": 1792712494
+            "lastCheckedAt": 1792776563
         },
         "https://aktuelbrosurler.com/file-market/brosurler": {
-            "lastCheckedAt": 1792712498
+            "lastCheckedAt": 1792776567
         },
         "https://aktuelbrosurler.com/happycenter/brosurler": {
-            "lastCheckedAt": 1792712503
+            "lastCheckedAt": 1792776571
         },
         "https://aktuelbrosurler.com/kimmarket/brosurler": {
-            "lastCheckedAt": 1792712505
+            "lastCheckedAt": 1792776575
         },
         "https://aktuelbrosurler.com/metrotoptancimarket/brosurler": {
-            "lastCheckedAt": 1792712510
+            "lastCheckedAt": 1792776578
         },
         "https://aktuelbrosurler.com/mopas/brosurler": {
-            "lastCheckedAt": 1792712513
+            "lastCheckedAt": 1792776584
         },
         "https://aktuelbrosurler.com/onurmarket/brosurler": {
-            "lastCheckedAt": 1792712517
+            "lastCheckedAt": 1792776590
         },
         "https://aktuelbrosurler.com/secmarket/brosurler": {
-            "lastCheckedAt": 1792712522
+            "lastCheckedAt": 1792776595
         },
         "https://aktuelbrosurler.com/korkmaz/brosurler": {
-            "lastCheckedAt": 1792712484
+            "lastCheckedAt": 1792776552
         },
         "https://aktuelbrosurler.com/karaca/brosurler": {
-            "lastCheckedAt": 1792712537
+            "lastCheckedAt": 1792776604
         }
     },
     "queue": [
-        {
-            "source_key": "ab_030ee957e9134dc9a1d50d9ad1f58e65",
-            "brochure_key": "030ee957e9134dc9a1d50d9ad1f58e65",
-            "market": "Korkmaz",
-            "title": "Korkmaz Kampanyalı Ürünler",
-            "href": "https://aktuelbrosurler.com/korkmaz/brosurler/korkmaz-kampanyali-urunler_030ee957e9134dc9a1d50d9ad1f58e65",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_376ecf66393b43b98a80ad6c0f6f094c",
-            "brochure_key": "376ecf66393b43b98a80ad6c0f6f094c",
-            "market": "Korkmaz",
-            "title": "İndirimler ve Kampanyalar",
-            "href": "https://aktuelbrosurler.com/korkmaz/brosurler/indirimler-ve-kampanyalar_376ecf66393b43b98a80ad6c0f6f094c",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_7800bc20329f4b2990d61030e75f6b06",
-            "brochure_key": "7800bc20329f4b2990d61030e75f6b06",
-            "market": "Korkmaz",
-            "title": "Korkmaz İndirimler ve Kampanyalar",
-            "href": "https://aktuelbrosurler.com/korkmaz/brosurler/korkmaz-indirimler-ve-kampanyalar_7800bc20329f4b2990d61030e75f6b06",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_ebca2a65900f43e7bd1405facf8cab08",
-            "brochure_key": "ebca2a65900f43e7bd1405facf8cab08",
-            "market": "Korkmaz",
-            "title": "Korkmaz İndirimler ve Kampanyalar",
-            "href": "https://aktuelbrosurler.com/korkmaz/brosurler/korkmaz-indirimler-ve-kampanyalar_ebca2a65900f43e7bd1405facf8cab08",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_524561dc5c3741f0afa81487f72a3b74",
-            "brochure_key": "524561dc5c3741f0afa81487f72a3b74",
-            "market": "Korkmaz",
-            "title": "Anneler Günü'ne Özel Sepette Süper Fırsatlar!",
-            "href": "https://aktuelbrosurler.com/korkmaz/brosurler/anneler-gunu-ne-ozel-sepette-super-firsatlar_524561dc5c3741f0afa81487f72a3b74",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_4e7401dedca44576a21da04c92eed489",
-            "brochure_key": "4e7401dedca44576a21da04c92eed489",
-            "market": "Korkmaz",
-            "title": "Anneler Günü'ne Özel Fırsatlar Korkmaz'da",
-            "href": "https://aktuelbrosurler.com/korkmaz/brosurler/anneler-gunu-ne-ozel-firsatlar-korkmaz-da_4e7401dedca44576a21da04c92eed489",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_7f1744d3e9894fc9b061c92ed2905192",
-            "brochure_key": "7f1744d3e9894fc9b061c92ed2905192",
-            "market": "Korkmaz",
-            "title": "%70'e Varan İndirim Fırsatı",
-            "href": "https://aktuelbrosurler.com/korkmaz/brosurler/70-e-varan-indirim-firsati_7f1744d3e9894fc9b061c92ed2905192",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_cf06046e8884458db61494a18fe78cdc",
-            "brochure_key": "cf06046e8884458db61494a18fe78cdc",
-            "market": "Korkmaz",
-            "title": "%32'ye Varan İndirim!",
-            "href": "https://aktuelbrosurler.com/korkmaz/brosurler/32-ye-varan-indirim_cf06046e8884458db61494a18fe78cdc",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_d2668afce7254cc3b4d4257f5d2a3628",
-            "brochure_key": "d2668afce7254cc3b4d4257f5d2a3628",
-            "market": "Korkmaz",
-            "title": "%25'e Varan İndirim Fırsatı",
-            "href": "https://aktuelbrosurler.com/korkmaz/brosurler/25-e-varan-indirim-firsati_d2668afce7254cc3b4d4257f5d2a3628",
-            "tries": 0,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_6bb3ed12074d47428796e6a98941ee1f",
-            "brochure_key": "6bb3ed12074d47428796e6a98941ee1f",
-            "market": "Karaca",
-            "title": "Karaca Home Dekoratif Sonbahar-Kış 2026-2027",
-            "href": "https://aktuelbrosurler.com/karaca/brosurler/karaca-home-dekoratif-sonbahar-kis-2026-2027_6bb3ed12074d47428796e6a98941ee1f",
-            "tries": 0,
-            "sessiz": true
-        },
         {
             "source_key": "ab_21c364b8a4504552a92fb3f6170e6269",
             "brochure_key": "21c364b8a4504552a92fb3f6170e6269",
@@ -277,6 +187,24 @@
             "href": "https://aktuelbrosurler.com/sec-market/brosurler/sec-market-indirim-bulteni-brosuru_8d79823a4bbe4d30814bb450bda89eea",
             "tries": 1,
             "sessiz": true
+        },
+        {
+            "source_key": "ab_c258855d901e4f328d15dc50c7eb9752",
+            "brochure_key": "c258855d901e4f328d15dc50c7eb9752",
+            "market": "A101",
+            "title": "A101 Aldın Aldın Aktüel Ürünler Broşürü 29 Ekim 2026'dan İtibaren Stoklarla Sınırlı",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-aldin-aldin-aktuel-urunler-brosuru-29-ekim-2026-dan-itibaren-stoklarla-sinirli_c258855d901e4f328d15dc50c7eb9752",
+            "tries": 1,
+            "not_before": "2026-10-29"
+        },
+        {
+            "source_key": "ab_1209f81b18a34d6c9b697fd14dfbcd8d",
+            "brochure_key": "1209f81b18a34d6c9b697fd14dfbcd8d",
+            "market": "A101",
+            "title": "A101 Haftanın Yıldızları Broşürü 24-30 Ekim 2026",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/a101-haftanin-yildizlari-brosuru-24-30-ekim-2026_1209f81b18a34d6c9b697fd14dfbcd8d",
+            "tries": 1,
+            "not_before": "2026-10-24"
         }
     ],
     "uploaded": {
@@ -1564,7 +1492,25 @@
         "ab_fa80c05ae8cf49ca872549faf09e99bf": true,
         "ab_7a532bff37bf4914a10bc450d9eb4d02": true,
         "ab_503e2e4524ca45ad972cc1779ff5a940": true,
-        "ab_d3c7e4dbfec3425aa16f22bda30b953f": true
+        "ab_d3c7e4dbfec3425aa16f22bda30b953f": true,
+        "ab_0c9e64b019974c87b1266fd505c17eb0": true,
+        "ab_33a16700df49466d9f8dfc42033ef237": true,
+        "ab_a62242701eea4fdb90568947c1f839a0": true,
+        "ab_df864473e46f49a3980a785029c7ad81": true,
+        "ab_847c9cbffee44734907781734e8fd5c8": true,
+        "ab_9e3b8a2538bb4afebcb03a1ff15b6933": true,
+        "ab_bf58219642314659b722b84f72b65bd7": true,
+        "ab_758193e2fd744d739c7b4d798a87302c": true,
+        "ab_030ee957e9134dc9a1d50d9ad1f58e65": true,
+        "ab_376ecf66393b43b98a80ad6c0f6f094c": true,
+        "ab_7800bc20329f4b2990d61030e75f6b06": true,
+        "ab_ebca2a65900f43e7bd1405facf8cab08": true,
+        "ab_524561dc5c3741f0afa81487f72a3b74": true,
+        "ab_4e7401dedca44576a21da04c92eed489": true,
+        "ab_7f1744d3e9894fc9b061c92ed2905192": true,
+        "ab_cf06046e8884458db61494a18fe78cdc": true,
+        "ab_d2668afce7254cc3b4d4257f5d2a3628": true,
+        "ab_6bb3ed12074d47428796e6a98941ee1f": true
     },
-    "lastDrainAt": 1792713807
+    "lastDrainAt": 1792777283
 }
