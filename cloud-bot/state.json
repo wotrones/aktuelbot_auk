@@ -1,103 +1,76 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1792863709
+            "lastCheckedAt": 1792879260
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1792863716
+            "lastCheckedAt": 1792879264
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1792787828
+            "lastCheckedAt": 1792879173
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1792863676
+            "lastCheckedAt": 1792879229
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1792863678
+            "lastCheckedAt": 1792879232
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1792863681
+            "lastCheckedAt": 1792879236
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1792863686
+            "lastCheckedAt": 1792879239
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1792863691
+            "lastCheckedAt": 1792879244
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1792863694
+            "lastCheckedAt": 1792879248
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1792863698
+            "lastCheckedAt": 1792879252
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1792863703
+            "lastCheckedAt": 1792879255
         },
         "https://aktuelbrosurler.com/altunmarket/brosurler": {
-            "lastCheckedAt": 1792863633
+            "lastCheckedAt": 1792879180
         },
         "https://aktuelbrosurler.com/bicenmarket/brosurler": {
-            "lastCheckedAt": 1792863636
+            "lastCheckedAt": 1792879182
         },
         "https://aktuelbrosurler.com/cagrimarket/brosurler": {
-            "lastCheckedAt": 1792863640
+            "lastCheckedAt": 1792879186
         },
         "https://aktuelbrosurler.com/file-market/brosurler": {
-            "lastCheckedAt": 1792863642
+            "lastCheckedAt": 1792879189
         },
         "https://aktuelbrosurler.com/happycenter/brosurler": {
-            "lastCheckedAt": 1792863649
+            "lastCheckedAt": 1792879194
         },
         "https://aktuelbrosurler.com/kimmarket/brosurler": {
-            "lastCheckedAt": 1792863654
+            "lastCheckedAt": 1792879196
         },
         "https://aktuelbrosurler.com/metrotoptancimarket/brosurler": {
-            "lastCheckedAt": 1792863657
+            "lastCheckedAt": 1792879200
         },
         "https://aktuelbrosurler.com/mopas/brosurler": {
-            "lastCheckedAt": 1792863662
+            "lastCheckedAt": 1792879213
         },
         "https://aktuelbrosurler.com/onurmarket/brosurler": {
-            "lastCheckedAt": 1792863665
+            "lastCheckedAt": 1792879217
         },
         "https://aktuelbrosurler.com/secmarket/brosurler": {
-            "lastCheckedAt": 1792863670
+            "lastCheckedAt": 1792879222
         },
         "https://aktuelbrosurler.com/korkmaz/brosurler": {
-            "lastCheckedAt": 1792863629
+            "lastCheckedAt": 1792879177
         },
         "https://aktuelbrosurler.com/karaca/brosurler": {
-            "lastCheckedAt": 1792863673
+            "lastCheckedAt": 1792879225
         }
     },
     "queue": [
-        {
-            "source_key": "ab_f115b47d6d084560bca436fc331cf474",
-            "brochure_key": "f115b47d6d084560bca436fc331cf474",
-            "market": "Karaca",
-            "title": "Karaca Home - İlkbahar / Yaz 2026",
-            "href": "https://aktuelbrosurler.com/karaca/brosurler/karaca-home-ilkbahar-yaz-2026_f115b47d6d084560bca436fc331cf474",
-            "tries": 1,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_84d859256621407ab18706d8f603e5d6",
-            "brochure_key": "84d859256621407ab18706d8f603e5d6",
-            "market": "Karaca",
-            "title": "Sofra-2 İlkbahar/Yaz 2026",
-            "href": "https://aktuelbrosurler.com/karaca/brosurler/sofra-2-ilkbahar-yaz-2026_84d859256621407ab18706d8f603e5d6",
-            "tries": 1,
-            "sessiz": true
-        },
-        {
-            "source_key": "ab_cbba61690180443a83bd2cc61437d891",
-            "brochure_key": "cbba61690180443a83bd2cc61437d891",
-            "market": "Karaca",
-            "title": "Sofra İlkbahar/Yaz 2026",
-            "href": "https://aktuelbrosurler.com/karaca/brosurler/sofra-ilkbahar-yaz-2026_cbba61690180443a83bd2cc61437d891",
-            "tries": 1,
-            "sessiz": true
-        },
         {
             "source_key": "ab_2d774f06c92946548c619f463c46bd4a",
             "brochure_key": "2d774f06c92946548c619f463c46bd4a",
@@ -176,6 +149,24 @@
             "market": "Karaca",
             "title": "Karaca Sofra Sonbahar-Kış 2026-2027",
             "href": "https://aktuelbrosurler.com/karaca/brosurler/karaca-sofra-sonbahar-kis-2026-2027_21c364b8a4504552a92fb3f6170e6269",
+            "tries": 2,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_84d859256621407ab18706d8f603e5d6",
+            "brochure_key": "84d859256621407ab18706d8f603e5d6",
+            "market": "Karaca",
+            "title": "Sofra-2 İlkbahar/Yaz 2026",
+            "href": "https://aktuelbrosurler.com/karaca/brosurler/sofra-2-ilkbahar-yaz-2026_84d859256621407ab18706d8f603e5d6",
+            "tries": 2,
+            "sessiz": true
+        },
+        {
+            "source_key": "ab_cbba61690180443a83bd2cc61437d891",
+            "brochure_key": "cbba61690180443a83bd2cc61437d891",
+            "market": "Karaca",
+            "title": "Sofra İlkbahar/Yaz 2026",
+            "href": "https://aktuelbrosurler.com/karaca/brosurler/sofra-ilkbahar-yaz-2026_cbba61690180443a83bd2cc61437d891",
             "tries": 2,
             "sessiz": true
         }
@@ -1492,7 +1483,11 @@
         "ab_8bade3ce9d4b4e4ba01f88c584c4306e": true,
         "ab_6f4df2f2ce304f5c92f4f2110b334eaa": true,
         "ab_8e34f6e53f4b4805b2649f3f8e456686": true,
-        "ab_d9891638380d46dcabe985ba4fb411b9": true
+        "ab_d9891638380d46dcabe985ba4fb411b9": true,
+        "ab_4d18b41bfcfe43ca904438b1e006b735": true,
+        "ab_7a16585b55cb46a7b4ca5f587ba24bd9": true,
+        "ab_495bb0f874984377a783d6b2685d00d9": true,
+        "ab_f115b47d6d084560bca436fc331cf474": true
     },
-    "lastDrainAt": 1792865380
+    "lastDrainAt": 1792880941
 }
