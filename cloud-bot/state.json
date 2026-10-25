@@ -1,85 +1,76 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1792879260
+            "lastCheckedAt": 1792887195
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1792879264
+            "lastCheckedAt": 1792887201
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1792879173
+            "lastCheckedAt": 1792887066
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1792879229
+            "lastCheckedAt": 1792887117
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1792879232
+            "lastCheckedAt": 1792887120
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1792879236
+            "lastCheckedAt": 1792887124
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1792879239
+            "lastCheckedAt": 1792887127
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1792879244
+            "lastCheckedAt": 1792887132
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1792879248
+            "lastCheckedAt": 1792887181
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1792879252
+            "lastCheckedAt": 1792887185
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1792879255
+            "lastCheckedAt": 1792887190
         },
         "https://aktuelbrosurler.com/altunmarket/brosurler": {
-            "lastCheckedAt": 1792879180
+            "lastCheckedAt": 1792887074
         },
         "https://aktuelbrosurler.com/bicenmarket/brosurler": {
-            "lastCheckedAt": 1792879182
+            "lastCheckedAt": 1792887078
         },
         "https://aktuelbrosurler.com/cagrimarket/brosurler": {
-            "lastCheckedAt": 1792879186
+            "lastCheckedAt": 1792887082
         },
         "https://aktuelbrosurler.com/file-market/brosurler": {
-            "lastCheckedAt": 1792879189
+            "lastCheckedAt": 1792887084
         },
         "https://aktuelbrosurler.com/happycenter/brosurler": {
-            "lastCheckedAt": 1792879194
+            "lastCheckedAt": 1792887088
         },
         "https://aktuelbrosurler.com/kimmarket/brosurler": {
-            "lastCheckedAt": 1792879196
+            "lastCheckedAt": 1792887092
         },
         "https://aktuelbrosurler.com/metrotoptancimarket/brosurler": {
-            "lastCheckedAt": 1792879200
+            "lastCheckedAt": 1792887097
         },
         "https://aktuelbrosurler.com/mopas/brosurler": {
-            "lastCheckedAt": 1792879213
+            "lastCheckedAt": 1792887101
         },
         "https://aktuelbrosurler.com/onurmarket/brosurler": {
-            "lastCheckedAt": 1792879217
+            "lastCheckedAt": 1792887105
         },
         "https://aktuelbrosurler.com/secmarket/brosurler": {
-            "lastCheckedAt": 1792879222
+            "lastCheckedAt": 1792887109
         },
         "https://aktuelbrosurler.com/korkmaz/brosurler": {
-            "lastCheckedAt": 1792879177
+            "lastCheckedAt": 1792887070
         },
         "https://aktuelbrosurler.com/karaca/brosurler": {
-            "lastCheckedAt": 1792879225
+            "lastCheckedAt": 1792887113
         }
     },
     "queue": [
-        {
-            "source_key": "ab_2d774f06c92946548c619f463c46bd4a",
-            "brochure_key": "2d774f06c92946548c619f463c46bd4a",
-            "market": "Karaca",
-            "title": "Mutfak İlkbahar/Yaz 2026",
-            "href": "https://aktuelbrosurler.com/karaca/brosurler/mutfak-ilkbahar-yaz-2026_2d774f06c92946548c619f463c46bd4a",
-            "tries": 1,
-            "sessiz": true
-        },
         {
             "source_key": "ab_753d2c9c18c044399c9cc6c4e5fb1ff4",
             "brochure_key": "753d2c9c18c044399c9cc6c4e5fb1ff4",
@@ -1487,7 +1478,8 @@
         "ab_4d18b41bfcfe43ca904438b1e006b735": true,
         "ab_7a16585b55cb46a7b4ca5f587ba24bd9": true,
         "ab_495bb0f874984377a783d6b2685d00d9": true,
-        "ab_f115b47d6d084560bca436fc331cf474": true
+        "ab_f115b47d6d084560bca436fc331cf474": true,
+        "ab_2d774f06c92946548c619f463c46bd4a": true
     },
-    "lastDrainAt": 1792880941
+    "lastDrainAt": 1792888501
 }
