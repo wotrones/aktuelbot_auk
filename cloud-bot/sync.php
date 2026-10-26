@@ -59,7 +59,8 @@ Kullanim:
     DRAIN_INTERVAL_MIN   varsayilan 12  (kuyruktan indirme araligi)
     DRAIN_BATCH          varsayilan 1   (her akitmada kac brosur; alt sinir)
     DRAIN_MAX_PER_RUN    varsayilan 20  (kosu basina en fazla brosur; seyrek kosularda birikmesin)
-    DRAIN_TIME_BUDGET_SEC varsayilan 1200 (akitma icin kosu basina sure siniri)
+    DRAIN_TIME_BUDGET_SEC varsayilan 900 (akitma icin kosu basina sure siniri)
+    MAX_PAGES            varsayilan 60  (brosur basina en fazla sayfa)
     MARKETS_PER_RUN      varsayilan 25  (kosu basina kontrol edilecek, sirasi gelmis market sayisi)
     BROCHURE_VALID_DAYS  varsayilan 14  (end_date = start + bu kadar gun)
     REQUEST_DELAY_MS     varsayilan 800
@@ -108,7 +109,9 @@ function cb_config(): array
         'drain_interval_min' => max(0, (int) $env('DRAIN_INTERVAL_MIN', '12')),
         'drain_batch' => max(1, (int) $env('DRAIN_BATCH', '1')),
         'drain_max_per_run' => max(1, (int) $env('DRAIN_MAX_PER_RUN', '20')),
-        'drain_time_budget_sec' => max(60, (int) $env('DRAIN_TIME_BUDGET_SEC', '1200')),
+        'drain_time_budget_sec' => max(60, (int) $env('DRAIN_TIME_BUDGET_SEC', '900')),
+        // Broşür başına en fazla sayfa (dev kataloglar işi süre sınırında öldürüyordu).
+        'max_pages' => max(1, (int) $env('MAX_PAGES', '60')),
         'markets_per_run' => max(1, (int) $env('MARKETS_PER_RUN', '25')),
         'valid_days' => max(1, (int) $env('BROCHURE_VALID_DAYS', '14')),
         'request_delay_ms' => max(0, (int) $env('REQUEST_DELAY_MS', '800')),
@@ -362,9 +365,16 @@ function cb_drain_queue(array $cfg, array &$state, int $batch, ?string $cookieFi
 
         try {
             // Firestore'da zaten varsa indirme/yukleme yapma (mukerrer onleme - otorite).
-            if (fb_document_exists($cfg, "brosurler/{$sourceKey}")) {
+            $olusma = fb_document_create_time($cfg, "brosurler/{$sourceKey}");
+            if ($olusma !== null) {
                 cb_log("Zaten Firestore'da: brosurler/{$sourceKey}, atlaniyor.");
                 $state['uploaded'][$sourceKey] = true;
+                // Kuyrukta olup Firestore'da da olan = onceki kosu yazdi ama is
+                // suresi sinirinda olduruldu; bildirim dongu sonunda gonderildigi
+                // icin hic gitmedi. Yeni (son 3 gun) ve sessiz degilse simdi bildir.
+                if (empty($item['sessiz']) && time() - $olusma < 3 * 86400) {
+                    $imported[$normItem['market']][] = $sourceKey;
+                }
                 $processed++;
                 continue;
             }

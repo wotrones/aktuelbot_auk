@@ -115,21 +115,32 @@ function cb_http_get(string $url, array $headers, int $timeout, ?string $cookieF
     }
 
     $n = count($proxies);
-    $start = cb_proxy_idx() % $n;
     $errors = [];
-    for ($i = 0; $i < $n; $i++) {
-        $idx = ($start + $i) % $n;
-        $proxy = $proxies[$idx];
-        try {
-            $res = cb_http_get_once($url, $headers, $timeout, $cookieFile, $proxy);
-            cb_proxy_idx($idx); // calisan proxy'ye yapis
-            if ($i > 0) {
-                cb_debug('Proxy degisti -> #' . $idx . ' (' . cb_proxy_mask($proxy) . ')');
+    // Konut proxy'si (IPRoyal) her baglantida baska cikis IP'si verir; ara sira
+    // "CONNECT tunnel failed, response 504" doner. Yalniz baglanti hatalarinda
+    // kisa beklemeyle tekrar dene (HTTP 4xx/5xx yanitlari tekrarlanmaz).
+    for ($attempt = 1; $attempt <= 3; $attempt++) {
+        $start = cb_proxy_idx() % $n;
+        $baglantiHatasi = false;
+        for ($i = 0; $i < $n; $i++) {
+            $idx = ($start + $i) % $n;
+            $proxy = $proxies[$idx];
+            try {
+                $res = cb_http_get_once($url, $headers, $timeout, $cookieFile, $proxy);
+                cb_proxy_idx($idx); // calisan proxy'ye yapis
+                if ($i > 0) {
+                    cb_debug('Proxy degisti -> #' . $idx . ' (' . cb_proxy_mask($proxy) . ')');
+                }
+                return $res;
+            } catch (Throwable $e) {
+                $errors[] = '#' . $idx . ' ' . cb_proxy_mask($proxy) . ': ' . $e->getMessage();
+                $baglantiHatasi = $baglantiHatasi || str_starts_with($e->getMessage(), 'baglanti hatasi');
             }
-            return $res;
-        } catch (Throwable $e) {
-            $errors[] = '#' . $idx . ' ' . cb_proxy_mask($proxy) . ': ' . $e->getMessage();
         }
+        if (!$baglantiHatasi || $attempt === 3) {
+            break;
+        }
+        cb_sleep_ms(1500 * $attempt);
     }
 
     throw new RuntimeException("Tum proxyler basarisiz ({$url}) -> " . implode(' | ', $errors));
@@ -765,6 +776,15 @@ function cb_fetch_brochure(array $cfg, array $item, ?string $cookieFile): array
         throw new RuntimeException('Sayfa URL bulunamadi.');
     }
     cb_debug('Sayfa sayisi: ' . count($pageUrls));
+
+    // Ev/mobilya kataloglari (Karaca vb.) yuzlerce sayfa olabiliyor: 326 sayfalik
+    // bir katalog kosuyu is suresi sinirinda oldurdu, state kaydedilmedigi icin her
+    // kosuda bastan indirildi (bildirimler hic gitmedi, proxy trafigi yandi).
+    $maxPages = (int) ($cfg['max_pages'] ?? 60);
+    if (count($pageUrls) > $maxPages) {
+        cb_log('Sayfa sayisi ' . count($pageUrls) . " > {$maxPages}; ilk {$maxPages} sayfa alinacak: {$sourceKey}");
+        $pageUrls = array_slice($pageUrls, 0, $maxPages);
+    }
 
     // Tarihi once basliktan cikar; acik ve suresi gecmis bir aralik varsa
     // sayfalari indirmeye hic gerek yok (uygulama zaten gostermez).

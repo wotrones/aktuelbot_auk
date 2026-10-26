@@ -30,7 +30,7 @@ permissions:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 55
     steps:
       - name: Checkout
         uses: actions/checkout@v4

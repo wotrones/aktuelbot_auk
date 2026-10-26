@@ -133,6 +133,24 @@ function fb_document_exists(array $cfg, string $path): bool
     throw new RuntimeException("Firestore GET {$path} HTTP {$status}");
 }
 
+/** Dokumanin olusturulma zamani (Firestore createTime, unix sn); yoksa null. */
+function fb_document_create_time(array $cfg, string $path): ?int
+{
+    $c = fb_client($cfg);
+    [$status, $body] = fb_request('GET', fb_firestore_base($cfg) . $path, [
+        'Authorization: Bearer ' . $c['token'],
+    ], null, $cfg['timeout']);
+    if ($status === 404) {
+        return null;
+    }
+    if ($status < 200 || $status >= 300) {
+        throw new RuntimeException("Firestore GET {$path} HTTP {$status}");
+    }
+    $t = json_decode($body, true)['createTime'] ?? null;
+
+    return is_string($t) && ($ts = strtotime($t)) !== false ? $ts : null;
+}
+
 /** Dokumani yazar (create/update). $fields: ham PHP degerleri. */
 function fb_document_set(array $cfg, string $path, array $fields): void
 {
