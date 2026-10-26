@@ -1,99 +1,107 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1793035185
+            "lastCheckedAt": 1793050375
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1793033990
+            "lastCheckedAt": 1793050330
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1793035119
+            "lastCheckedAt": 1793050333
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
             "lastCheckedAt": 1792887117
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1793035165
+            "lastCheckedAt": 1793050362
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
             "lastCheckedAt": 1793033976
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1793035171
+            "lastCheckedAt": 1793050366
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1793035174
+            "lastCheckedAt": 1793050372
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1792887181
+            "lastCheckedAt": 1793050270
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1793033982
+            "lastCheckedAt": 1793050321
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1793033986
+            "lastCheckedAt": 1793050324
         },
         "https://aktuelbrosurler.com/altunmarket/brosurler": {
-            "lastCheckedAt": 1793033939
+            "lastCheckedAt": 1793050284
         },
         "https://aktuelbrosurler.com/bicenmarket/brosurler": {
-            "lastCheckedAt": 1793033943
+            "lastCheckedAt": 1793050288
         },
         "https://aktuelbrosurler.com/cagrimarket/brosurler": {
             "lastCheckedAt": 1793035126
         },
         "https://aktuelbrosurler.com/file-market/brosurler": {
-            "lastCheckedAt": 1793035130
+            "lastCheckedAt": 1793050344
         },
         "https://aktuelbrosurler.com/happycenter/brosurler": {
-            "lastCheckedAt": 1793033949
+            "lastCheckedAt": 1793050290
         },
         "https://aktuelbrosurler.com/kimmarket/brosurler": {
-            "lastCheckedAt": 1793033959
+            "lastCheckedAt": 1793050294
         },
         "https://aktuelbrosurler.com/metrotoptancimarket/brosurler": {
-            "lastCheckedAt": 1793033964
+            "lastCheckedAt": 1793050299
         },
         "https://aktuelbrosurler.com/mopas/brosurler": {
-            "lastCheckedAt": 1793033968
+            "lastCheckedAt": 1793050304
         },
         "https://aktuelbrosurler.com/onurmarket/brosurler": {
-            "lastCheckedAt": 1793035141
+            "lastCheckedAt": 1793050348
         },
         "https://aktuelbrosurler.com/secmarket/brosurler": {
-            "lastCheckedAt": 1793033972
+            "lastCheckedAt": 1793050310
         },
         "https://aktuelbrosurler.com/korkmaz/brosurler": {
-            "lastCheckedAt": 1793035121
+            "lastCheckedAt": 1793050336
         },
         "https://aktuelbrosurler.com/karaca/brosurler": {
-            "lastCheckedAt": 1793035147
+            "lastCheckedAt": 1793050357
         }
     },
     "queue": [
         {
-            "source_key": "ab_37550a101262456fa578c674da1c74f7",
-            "brochure_key": "37550a101262456fa578c674da1c74f7",
-            "market": "Çağrı Market",
-            "title": "Çağrı Market İndirim Bülteni Kataloğu - Çağrı'da Hep İndirim Var",
-            "href": "https://aktuelbrosurler.com/cagri-market/brosurler/cagri-market-indirim-bulteni-katalogu-cagri-da-hep-indirim-var_37550a101262456fa578c674da1c74f7",
-            "tries": 1
+            "source_key": "ab_c5b8a99a98684a23a99064a451d193bf",
+            "brochure_key": "c5b8a99a98684a23a99064a451d193bf",
+            "market": "Tarım Kooperatif",
+            "title": "Tarım Kredi Kooperatif Market İndirim Bülteni Broşürü - Kat Kat Fırsat",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-kooperatif-market-indirim-bulteni-brosuru-kat-kat-firsat_c5b8a99a98684a23a99064a451d193bf",
+            "tries": 0
         },
         {
-            "source_key": "ab_21c364b8a4504552a92fb3f6170e6269",
-            "brochure_key": "21c364b8a4504552a92fb3f6170e6269",
-            "market": "Karaca",
-            "title": "Karaca Sofra Sonbahar-Kış 2026-2027",
-            "href": "https://aktuelbrosurler.com/karaca/brosurler/karaca-sofra-sonbahar-kis-2026-2027_21c364b8a4504552a92fb3f6170e6269",
-            "tries": 1
+            "source_key": "ab_b61c50aa4a6746ceb22df6b67d461187",
+            "brochure_key": "b61c50aa4a6746ceb22df6b67d461187",
+            "market": "Tarım Kooperatif",
+            "title": "Tarım Kredi Kooperatif Market İndirim Bülteni Broşürü - Fırsat Günleri",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-kooperatif-market-indirim-bulteni-brosuru-firsat-gunleri_b61c50aa4a6746ceb22df6b67d461187",
+            "tries": 0
         },
         {
-            "source_key": "ab_84d859256621407ab18706d8f603e5d6",
-            "brochure_key": "84d859256621407ab18706d8f603e5d6",
+            "source_key": "ab_4ebd6b7f30ee4e6aaddf72019df4350d",
+            "brochure_key": "4ebd6b7f30ee4e6aaddf72019df4350d",
+            "market": "Tarım Kooperatif",
+            "title": "KOOP’ta Pazartesi Fırsatları!",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-ta-pazartesi-firsatlari_4ebd6b7f30ee4e6aaddf72019df4350d",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_03bc39a66e1c4cb29e509f2cb216f9a5",
+            "brochure_key": "03bc39a66e1c4cb29e509f2cb216f9a5",
             "market": "Karaca",
-            "title": "Sofra-2 İlkbahar/Yaz 2026",
-            "href": "https://aktuelbrosurler.com/karaca/brosurler/sofra-2-ilkbahar-yaz-2026_84d859256621407ab18706d8f603e5d6",
-            "tries": 1
+            "title": "Karaca Home 10 Adet Alana 1 Adet Hediye",
+            "href": "https://aktuelbrosurler.com/karaca/brosurler/karaca-home-10-adet-alana-1-adet-hediye_03bc39a66e1c4cb29e509f2cb216f9a5",
+            "tries": 0
         }
     ],
     "uploaded": {
@@ -1420,7 +1428,10 @@
         "ab_6846b827f53a48dca28c550dda028294": true,
         "ab_8d79823a4bbe4d30814bb450bda89eea": true,
         "ab_19d49253a1ed452fa6d13f8d213dfd25": true,
-        "ab_cbba61690180443a83bd2cc61437d891": true
+        "ab_cbba61690180443a83bd2cc61437d891": true,
+        "ab_37550a101262456fa578c674da1c74f7": true,
+        "ab_21c364b8a4504552a92fb3f6170e6269": true,
+        "ab_84d859256621407ab18706d8f603e5d6": true
     },
-    "lastDrainAt": 1793035889
+    "lastDrainAt": 1793051431
 }
