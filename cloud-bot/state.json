@@ -1,109 +1,76 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1793050375
+            "lastCheckedAt": 1793061922
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1793050330
+            "lastCheckedAt": 1793061889
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1793050333
+            "lastCheckedAt": 1793061893
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1792887117
+            "lastCheckedAt": 1793061837
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1793050362
+            "lastCheckedAt": 1793061912
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1793033976
+            "lastCheckedAt": 1793061841
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1793050366
+            "lastCheckedAt": 1793061916
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1793050372
+            "lastCheckedAt": 1793061919
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1793050270
+            "lastCheckedAt": 1793061849
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1793050321
+            "lastCheckedAt": 1793061881
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1793050324
+            "lastCheckedAt": 1793061885
         },
         "https://aktuelbrosurler.com/altunmarket/brosurler": {
-            "lastCheckedAt": 1793050284
+            "lastCheckedAt": 1793061853
         },
         "https://aktuelbrosurler.com/bicenmarket/brosurler": {
-            "lastCheckedAt": 1793050288
+            "lastCheckedAt": 1793061857
         },
         "https://aktuelbrosurler.com/cagrimarket/brosurler": {
-            "lastCheckedAt": 1793035126
+            "lastCheckedAt": 1793061846
         },
         "https://aktuelbrosurler.com/file-market/brosurler": {
-            "lastCheckedAt": 1793050344
+            "lastCheckedAt": 1793061900
         },
         "https://aktuelbrosurler.com/happycenter/brosurler": {
-            "lastCheckedAt": 1793050290
+            "lastCheckedAt": 1793061860
         },
         "https://aktuelbrosurler.com/kimmarket/brosurler": {
-            "lastCheckedAt": 1793050294
+            "lastCheckedAt": 1793061864
         },
         "https://aktuelbrosurler.com/metrotoptancimarket/brosurler": {
-            "lastCheckedAt": 1793050299
+            "lastCheckedAt": 1793061868
         },
         "https://aktuelbrosurler.com/mopas/brosurler": {
-            "lastCheckedAt": 1793050304
+            "lastCheckedAt": 1793061872
         },
         "https://aktuelbrosurler.com/onurmarket/brosurler": {
-            "lastCheckedAt": 1793050348
+            "lastCheckedAt": 1793061902
         },
         "https://aktuelbrosurler.com/secmarket/brosurler": {
-            "lastCheckedAt": 1793050310
+            "lastCheckedAt": 1793061878
         },
         "https://aktuelbrosurler.com/korkmaz/brosurler": {
-            "lastCheckedAt": 1793050336
+            "lastCheckedAt": 1793061896
         },
         "https://aktuelbrosurler.com/karaca/brosurler": {
-            "lastCheckedAt": 1793050357
+            "lastCheckedAt": 1793061908
         }
     },
-    "queue": [
-        {
-            "source_key": "ab_c5b8a99a98684a23a99064a451d193bf",
-            "brochure_key": "c5b8a99a98684a23a99064a451d193bf",
-            "market": "Tarım Kooperatif",
-            "title": "Tarım Kredi Kooperatif Market İndirim Bülteni Broşürü - Kat Kat Fırsat",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-kooperatif-market-indirim-bulteni-brosuru-kat-kat-firsat_c5b8a99a98684a23a99064a451d193bf",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_b61c50aa4a6746ceb22df6b67d461187",
-            "brochure_key": "b61c50aa4a6746ceb22df6b67d461187",
-            "market": "Tarım Kooperatif",
-            "title": "Tarım Kredi Kooperatif Market İndirim Bülteni Broşürü - Fırsat Günleri",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/tarim-kredi-kooperatif-market-indirim-bulteni-brosuru-firsat-gunleri_b61c50aa4a6746ceb22df6b67d461187",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_4ebd6b7f30ee4e6aaddf72019df4350d",
-            "brochure_key": "4ebd6b7f30ee4e6aaddf72019df4350d",
-            "market": "Tarım Kooperatif",
-            "title": "KOOP’ta Pazartesi Fırsatları!",
-            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-ta-pazartesi-firsatlari_4ebd6b7f30ee4e6aaddf72019df4350d",
-            "tries": 0
-        },
-        {
-            "source_key": "ab_03bc39a66e1c4cb29e509f2cb216f9a5",
-            "brochure_key": "03bc39a66e1c4cb29e509f2cb216f9a5",
-            "market": "Karaca",
-            "title": "Karaca Home 10 Adet Alana 1 Adet Hediye",
-            "href": "https://aktuelbrosurler.com/karaca/brosurler/karaca-home-10-adet-alana-1-adet-hediye_03bc39a66e1c4cb29e509f2cb216f9a5",
-            "tries": 0
-        }
-    ],
+    "queue": [],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -1431,7 +1398,15 @@
         "ab_cbba61690180443a83bd2cc61437d891": true,
         "ab_37550a101262456fa578c674da1c74f7": true,
         "ab_21c364b8a4504552a92fb3f6170e6269": true,
-        "ab_84d859256621407ab18706d8f603e5d6": true
+        "ab_84d859256621407ab18706d8f603e5d6": true,
+        "ab_c5b8a99a98684a23a99064a451d193bf": true,
+        "ab_b61c50aa4a6746ceb22df6b67d461187": true,
+        "ab_4ebd6b7f30ee4e6aaddf72019df4350d": true,
+        "ab_03bc39a66e1c4cb29e509f2cb216f9a5": true,
+        "ab_c1265fbd2c864cb5b32d7ac03abdaa1f": true,
+        "ab_1222de77e3d0446d94bd073c194731d8": true,
+        "ab_d84fb87ce0fa4974b84b820064c38c7b": true,
+        "ab_cf3f663818094b4eafb01445aecc1c76": true
     },
-    "lastDrainAt": 1793051431
+    "lastDrainAt": 1793062079
 }
