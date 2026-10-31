@@ -1,73 +1,73 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1793425215
+            "lastCheckedAt": 1793445336
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1793425183
+            "lastCheckedAt": 1793445290
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1793425187
+            "lastCheckedAt": 1793445294
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1793425124
+            "lastCheckedAt": 1793445229
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1793425206
+            "lastCheckedAt": 1793445317
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1793425127
+            "lastCheckedAt": 1793445237
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1793425209
+            "lastCheckedAt": 1793445321
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1793425212
+            "lastCheckedAt": 1793445331
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1793425137
+            "lastCheckedAt": 1793445246
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1793425171
+            "lastCheckedAt": 1793445280
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1793425179
+            "lastCheckedAt": 1793445284
         },
         "https://aktuelbrosurler.com/altunmarket/brosurler": {
-            "lastCheckedAt": 1793425141
+            "lastCheckedAt": 1793445251
         },
         "https://aktuelbrosurler.com/bicenmarket/brosurler": {
-            "lastCheckedAt": 1793425145
+            "lastCheckedAt": 1793445256
         },
         "https://aktuelbrosurler.com/cagrimarket/brosurler": {
-            "lastCheckedAt": 1793425132
+            "lastCheckedAt": 1793445241
         },
         "https://aktuelbrosurler.com/file-market/brosurler": {
-            "lastCheckedAt": 1793425194
+            "lastCheckedAt": 1793445303
         },
         "https://aktuelbrosurler.com/happycenter/brosurler": {
-            "lastCheckedAt": 1793425149
+            "lastCheckedAt": 1793445260
         },
         "https://aktuelbrosurler.com/kimmarket/brosurler": {
-            "lastCheckedAt": 1793425154
+            "lastCheckedAt": 1793445264
         },
         "https://aktuelbrosurler.com/metrotoptancimarket/brosurler": {
-            "lastCheckedAt": 1793425159
+            "lastCheckedAt": 1793445268
         },
         "https://aktuelbrosurler.com/mopas/brosurler": {
-            "lastCheckedAt": 1793425163
+            "lastCheckedAt": 1793445271
         },
         "https://aktuelbrosurler.com/onurmarket/brosurler": {
-            "lastCheckedAt": 1793425198
+            "lastCheckedAt": 1793445307
         },
         "https://aktuelbrosurler.com/secmarket/brosurler": {
-            "lastCheckedAt": 1793425167
+            "lastCheckedAt": 1793445275
         },
         "https://aktuelbrosurler.com/korkmaz/brosurler": {
-            "lastCheckedAt": 1793425191
+            "lastCheckedAt": 1793445298
         },
         "https://aktuelbrosurler.com/karaca/brosurler": {
-            "lastCheckedAt": 1793425202
+            "lastCheckedAt": 1793445312
         }
     },
     "queue": [],
@@ -1459,7 +1459,11 @@
         "ab_8d80222226444bf384c801f5902c21b1": true,
         "ab_00faef2a04024ef2805d5bbb514ad290": true,
         "ab_0f98fc009f1c41b781c50d7e6078b012": true,
-        "ab_051f1e6ae0b442b581cd961d3cdbab0b": true
+        "ab_051f1e6ae0b442b581cd961d3cdbab0b": true,
+        "ab_636fc2aaebe0478780a6f88e7871ead0": true,
+        "ab_dfeb80604f6b478d9810a2b8431c88dd": true,
+        "ab_8746c237c645422fa951de7882a3ce27": true,
+        "ab_33a5db0ebf5344bc806901a431b2204b": true
     },
-    "lastDrainAt": 1793405832
+    "lastDrainAt": 1793445464
 }
