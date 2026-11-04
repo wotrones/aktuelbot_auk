@@ -1,76 +1,144 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1793759584
+            "lastCheckedAt": 1793813803
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1793759546
+            "lastCheckedAt": 1793813762
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1793759552
+            "lastCheckedAt": 1793813767
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1793759492
+            "lastCheckedAt": 1793813708
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1793759573
+            "lastCheckedAt": 1793813788
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1793759496
+            "lastCheckedAt": 1793813712
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1793759577
+            "lastCheckedAt": 1793813794
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1793759581
+            "lastCheckedAt": 1793813799
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1793759503
+            "lastCheckedAt": 1793813722
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1793759537
+            "lastCheckedAt": 1793813755
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1793759542
+            "lastCheckedAt": 1793813759
         },
         "https://aktuelbrosurler.com/altunmarket/brosurler": {
-            "lastCheckedAt": 1793759507
+            "lastCheckedAt": 1793813726
         },
         "https://aktuelbrosurler.com/bicenmarket/brosurler": {
-            "lastCheckedAt": 1793759511
+            "lastCheckedAt": 1793813730
         },
         "https://aktuelbrosurler.com/cagrimarket/brosurler": {
-            "lastCheckedAt": 1793759499
+            "lastCheckedAt": 1793813716
         },
         "https://aktuelbrosurler.com/file-market/brosurler": {
-            "lastCheckedAt": 1793759560
+            "lastCheckedAt": 1793813774
         },
         "https://aktuelbrosurler.com/happycenter/brosurler": {
-            "lastCheckedAt": 1793759515
+            "lastCheckedAt": 1793813734
         },
         "https://aktuelbrosurler.com/kimmarket/brosurler": {
-            "lastCheckedAt": 1793759517
+            "lastCheckedAt": 1793813739
         },
         "https://aktuelbrosurler.com/metrotoptancimarket/brosurler": {
-            "lastCheckedAt": 1793759525
+            "lastCheckedAt": 1793813742
         },
         "https://aktuelbrosurler.com/mopas/brosurler": {
-            "lastCheckedAt": 1793759529
+            "lastCheckedAt": 1793813747
         },
         "https://aktuelbrosurler.com/onurmarket/brosurler": {
-            "lastCheckedAt": 1793759564
+            "lastCheckedAt": 1793813779
         },
         "https://aktuelbrosurler.com/secmarket/brosurler": {
-            "lastCheckedAt": 1793759533
+            "lastCheckedAt": 1793813751
         },
         "https://aktuelbrosurler.com/korkmaz/brosurler": {
-            "lastCheckedAt": 1793759556
+            "lastCheckedAt": 1793813770
         },
         "https://aktuelbrosurler.com/karaca/brosurler": {
-            "lastCheckedAt": 1793759568
+            "lastCheckedAt": 1793813783
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_045b209495d7490192c1f46252d7750d",
+            "brochure_key": "045b209495d7490192c1f46252d7750d",
+            "market": "Bizim Toptan Market",
+            "title": "Bizim Gross İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-gross-indirim-bulteni-brosuru_045b209495d7490192c1f46252d7750d",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_0fe52f3ca7464172bf0578d1a0efff30",
+            "brochure_key": "0fe52f3ca7464172bf0578d1a0efff30",
+            "market": "Bizim Toptan Market",
+            "title": "Bizim Toptan Market İndirim Bülteni Broşürü - Haftanın Fırsatları",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-toptan-market-indirim-bulteni-brosuru-haftanin-firsatlari_0fe52f3ca7464172bf0578d1a0efff30",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_46784bfed04f4c0a8cf4db5739a77afd",
+            "brochure_key": "46784bfed04f4c0a8cf4db5739a77afd",
+            "market": "A101",
+            "title": "Sadece Online Alışverişe Özel Aldın Aldın A101 Ekstra Aktüel Ürünler Broşürü 5 Kasım 2026",
+            "href": "https://aktuelbrosurler.com/a101/brosurler/sadece-online-alisverise-ozel-aldin-aldin-a101-ekstra-aktuel-urunler-brosuru-5-kasim-2026_46784bfed04f4c0a8cf4db5739a77afd",
+            "tries": 0,
+            "not_before": "2026-11-05"
+        },
+        {
+            "source_key": "ab_7816285a6e2444f7ae17c1481ec18c2d",
+            "brochure_key": "7816285a6e2444f7ae17c1481ec18c2d",
+            "market": "Şok Market",
+            "title": "Kişisel bakım ürünlerinde fırsatlar",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/kisisel-bakim-urunlerinde-firsatlar_7816285a6e2444f7ae17c1481ec18c2d",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_05b9bd6851384ae2a161631c76cc6aec",
+            "brochure_key": "05b9bd6851384ae2a161631c76cc6aec",
+            "market": "Şok Market",
+            "title": "Şok Market İste Gelsin Ürünleri Broşürü 4-10 Kasım 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-4-10-kasim-2026_05b9bd6851384ae2a161631c76cc6aec",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_28f2a891061140e2a5602ae27e9c77c6",
+            "brochure_key": "28f2a891061140e2a5602ae27e9c77c6",
+            "market": "Şok Market",
+            "title": "Şok Market İste Gelsin Ürünleri Broşürü 7-10 Kasım 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-iste-gelsin-urunleri-brosuru-7-10-kasim-2026_28f2a891061140e2a5602ae27e9c77c6",
+            "tries": 0,
+            "not_before": "2026-11-07"
+        },
+        {
+            "source_key": "ab_afff6bec16764c059c0f081a8123981a",
+            "brochure_key": "afff6bec16764c059c0f081a8123981a",
+            "market": "Şok Market",
+            "title": "Şok Market Hafta Sonu Fırsatları Aktüel Ürünler Broşür 7-10 Kasım 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/sok-market-hafta-sonu-firsatlari-aktuel-urunler-brosur-7-10-kasim-2026_afff6bec16764c059c0f081a8123981a",
+            "tries": 0,
+            "not_before": "2026-11-07"
+        },
+        {
+            "source_key": "ab_c640f9b5433446d19cf26276cb715a34",
+            "brochure_key": "c640f9b5433446d19cf26276cb715a34",
+            "market": "Şok Market",
+            "title": "Detaylı + Şok Market Haftanın Fırsatları Aktüel Ürünler Broşür 4-10 Kasım 2026",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/detayli-sok-market-haftanin-firsatlari-aktuel-urunler-brosur-4-10-kasim-2026_c640f9b5433446d19cf26276cb715a34",
+            "tries": 0
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -1499,7 +1567,17 @@
         "ab_8a3ed952c5454891abfd5759b94beb9c": true,
         "ab_1bdc3c57f4784badadc77f60ce2d097c": true,
         "ab_302e719df1014217abcbe0bd23bc5929": true,
-        "ab_38f597ab3fff4466a94cd16759db6cfc": true
+        "ab_38f597ab3fff4466a94cd16759db6cfc": true,
+        "ab_b0051b47b7f04cfc9ff92a80e44db9d4": true,
+        "ab_058bc217db7a4740ba490ab39479c9d8": true,
+        "ab_2fdb6db260724a96b0e9aab4feef54d0": true,
+        "ab_77a10c5052a746acba6510e83a624ccf": true,
+        "ab_c55f274eecd9496dbe84cd8f23d9a53c": true,
+        "ab_c8df1146fbb3439e956d34ddf1e9e72f": true,
+        "ab_e8d56787b04c4415953feee9dc24f60d": true,
+        "ab_d9579121a07f4c2ab8b3d33d57967334": true,
+        "ab_21b435cd25864d44978847e4d59ce18f": true,
+        "ab_4b242abc23d04cbc8bf070216b5dd716": true
     },
-    "lastDrainAt": 1793744894
+    "lastDrainAt": 1793814733
 }
