@@ -19,6 +19,12 @@ jobs:
         run: |
           curl -s "https://api.onesignal.com/apps/${APP_ID}/segments?offset=0&limit=100" \
             -H "Authorization: Key ${KEY}" -H "accept: application/json" | jq -c '.' | cut -c1-3000
+          for SEG in 1e3c3b35-977b-4c76-8c31-ec3e6965bfaf e8ca4ab0-854d-4a65-bec8-0637f0f43019; do
+            echo "--- segment $SEG"
+            curl -s "https://api.onesignal.com/apps/${APP_ID}/segments/${SEG}" \
+              -H "Authorization: Key ${KEY}" -H "accept: application/json" | cut -c1-3000
+            echo
+          done
       - name: List recent notifications
         env:
           APP_ID: ${{ vars.ONESIGNAL_APP_ID }}
