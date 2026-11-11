@@ -1,0 +1,33 @@
+name: onesignal history
+# Son bildirimlerin teslim sayilarini listeler (salt okur, gonderim YAPMAZ).
+on:
+  workflow_dispatch:
+    inputs:
+      offset:
+        description: 'Kac bildirim atlanarak baslansin (0 = en yeni)'
+        required: false
+        default: '0'
+
+jobs:
+  history:
+    runs-on: ubuntu-latest
+    steps:
+      - name: List recent notifications
+        env:
+          APP_ID: ${{ vars.ONESIGNAL_APP_ID }}
+          KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
+          OFFSET: ${{ github.event.inputs.offset }}
+        run: |
+          curl -sf "https://api.onesignal.com/notifications?app_id=${APP_ID}&limit=50&offset=${OFFSET:-0}&kind=1" \
+            -H "Authorization: Key ${KEY}" -H "accept: application/json" -o n.json
+          jq -r '"toplam_bildirim=\(.total_count)"' n.json
+          jq -r '.notifications[] | [
+              (.queued_at | strftime("%Y-%m-%d %H:%M")),
+              ("ok=" + (.successful|tostring)),
+              ("fail=" + (.failed|tostring)),
+              ("err=" + (.errored|tostring)),
+              ("ios=" + ((.platform_delivery_stats.ios.successful // 0)|tostring)),
+              ("and=" + ((.platform_delivery_stats.android.successful // 0)|tostring)),
+              ((.included_segments // []) | join(",")),
+              (.contents.tr // .contents.en // "" | .[0:45])
+            ] | @tsv' n.json
