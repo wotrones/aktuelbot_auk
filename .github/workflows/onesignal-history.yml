@@ -12,6 +12,13 @@ jobs:
   history:
     runs-on: ubuntu-latest
     steps:
+      - name: List segments
+        env:
+          APP_ID: ${{ vars.ONESIGNAL_APP_ID }}
+          KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
+        run: |
+          curl -s "https://api.onesignal.com/apps/${APP_ID}/segments?offset=0&limit=100" \
+            -H "Authorization: Key ${KEY}" -H "accept: application/json" | jq -c '.' | cut -c1-3000
       - name: List recent notifications
         env:
           APP_ID: ${{ vars.ONESIGNAL_APP_ID }}
