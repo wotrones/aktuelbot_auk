@@ -1,85 +1,76 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1794826849
+            "lastCheckedAt": 1794862531
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1794826804
+            "lastCheckedAt": 1794862495
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1794826807
+            "lastCheckedAt": 1794862500
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1794826738
+            "lastCheckedAt": 1794862422
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1794826837
+            "lastCheckedAt": 1794862519
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1794826742
+            "lastCheckedAt": 1794862426
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1794826840
+            "lastCheckedAt": 1794862523
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1794826844
+            "lastCheckedAt": 1794862526
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1794826751
+            "lastCheckedAt": 1794862448
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1794826797
+            "lastCheckedAt": 1794862486
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1794826800
+            "lastCheckedAt": 1794862490
         },
         "https://aktuelbrosurler.com/altunmarket/brosurler": {
-            "lastCheckedAt": 1794826755
+            "lastCheckedAt": 1794862452
         },
         "https://aktuelbrosurler.com/bicenmarket/brosurler": {
-            "lastCheckedAt": 1794826759
+            "lastCheckedAt": 1794862456
         },
         "https://aktuelbrosurler.com/cagrimarket/brosurler": {
-            "lastCheckedAt": 1794826746
+            "lastCheckedAt": 1794862444
         },
         "https://aktuelbrosurler.com/file-market/brosurler": {
-            "lastCheckedAt": 1794826815
+            "lastCheckedAt": 1794862507
         },
         "https://aktuelbrosurler.com/happycenter/brosurler": {
-            "lastCheckedAt": 1794826764
+            "lastCheckedAt": 1794862466
         },
         "https://aktuelbrosurler.com/kimmarket/brosurler": {
-            "lastCheckedAt": 1794826768
+            "lastCheckedAt": 1794862469
         },
         "https://aktuelbrosurler.com/metrotoptancimarket/brosurler": {
-            "lastCheckedAt": 1794826772
+            "lastCheckedAt": 1794862473
         },
         "https://aktuelbrosurler.com/mopas/brosurler": {
-            "lastCheckedAt": 1794826776
+            "lastCheckedAt": 1794862478
         },
         "https://aktuelbrosurler.com/onurmarket/brosurler": {
-            "lastCheckedAt": 1794826829
+            "lastCheckedAt": 1794862511
         },
         "https://aktuelbrosurler.com/secmarket/brosurler": {
-            "lastCheckedAt": 1794826793
+            "lastCheckedAt": 1794862482
         },
         "https://aktuelbrosurler.com/korkmaz/brosurler": {
-            "lastCheckedAt": 1794826811
+            "lastCheckedAt": 1794862504
         },
         "https://aktuelbrosurler.com/karaca/brosurler": {
-            "lastCheckedAt": 1794826833
+            "lastCheckedAt": 1794862515
         }
     },
-    "queue": [
-        {
-            "source_key": "ab_cdd86f95518447a593c631ccc717a1c9",
-            "brochure_key": "cdd86f95518447a593c631ccc717a1c9",
-            "market": "Onur Market",
-            "title": "Bursa Bölgesinde Geçerli İndirim Bülteni Broşürü - Onur da Fırsat Rüzgarları",
-            "href": "https://aktuelbrosurler.com/onur-market/brosurler/bursa-bolgesinde-gecerli-indirim-bulteni-brosuru-onur-da-firsat-ruzgarlari_cdd86f95518447a593c631ccc717a1c9",
-            "tries": 1
-        }
-    ],
+    "queue": [],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -1650,7 +1641,10 @@
         "ab_a871ab7991db41b89731c6a1fdbd9e42": true,
         "ab_3c9a9bb0bf96428692ae3c1a8e80f713": true,
         "ab_0313a28305f9492b9f10da38584ce1e3": true,
-        "ab_c00fcc3a014d484ca256d8196cf46bc7": true
+        "ab_c00fcc3a014d484ca256d8196cf46bc7": true,
+        "ab_cdd86f95518447a593c631ccc717a1c9": true,
+        "ab_18a737c313e04a2ca2fd242bcf606f0d": true,
+        "ab_cf6961c7d38445acbc28e381d3c4ccc9": true
     },
-    "lastDrainAt": 1794827341
+    "lastDrainAt": 1794862775
 }
