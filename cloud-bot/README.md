@@ -10,7 +10,7 @@ Veriyi **Firebase/Firestore'a** yazar (aktuel-market.com ile ilgisi yok):
 - `brosurler/ab_{key}` → `market_adi, start_date, end_date (start+14g), gorseller[], clicks, favs`
 - Sayfa görselleri `kampanyacebimde.com/aktuel/addimage.php`'ye yüklenir, URL'leri saklanır
 - `marketler/{md5}` dokümanı yoksa oluşturulur (logo best-effort)
-- Yeni broşürde OneSignal push gönderilir
+- Yeni broşürlerde koşu başına tek özet FCM push gönderilir (fırsat bildirimleriyle aynı `sendFirsatPush` Cloud Function'ı; cihaz token'ları grentab `user_locations`)
 
 `local/run.php` ve `bot.php`'ye **dokunmaz**, onlardan bağımsız çalışır.
 
@@ -42,19 +42,19 @@ GitHub → repo → **Settings → Secrets and variables → Actions**:
 
 **Secrets** (zorunlu):
 - `FIREBASE_SERVICE_ACCOUNT` = service account JSON'un **tüm içeriği** (auk.json)
-- `ONESIGNAL_REST_API_KEY` = OneSignal REST API Key
+- `FCM_PUSH_SECRET` = `sendFirsatPush` fonksiyonunun `x-push-secret` değeri (auk_admin `FIRSAT_PUSH_SECRET` ile aynı)
 - `PROXY_URL` = residential/mobil proxy (datacenter IP 403 alır — aşağıya bkz.)
 
 **Variables** (opsiyonel — kod varsayılanları var):
 - `IMAGE_UPLOAD_ENDPOINT` (vars. `https://kampanyacebimde.com/aktuel/addimage.php`)
-- `ONESIGNAL_APP_ID`, `ONESIGNAL_TAG_KEY` (vars. `bildirim`), `ONESIGNAL_TAG_VALUE` (vars. `0`)
-- `ONESIGNAL_ENABLED` (vars. `1`; `0` ile kapatılır)
+- `FCM_PUSH_URL` = `https://us-central1-aktuel-urunler-katalogu-41mn0f.cloudfunctions.net/sendFirsatPush`
+- `PUSH_ENABLED` (vars. `1`; `0` ile kapatılır). `test-push` modu yalnız dry-run yapar, kimseye bildirim gitmez.
 - `SOURCE_BASE_URL`, `MARKET_INTERVAL_MIN` (55), `DRAIN_INTERVAL_MIN` (12),
   `DRAIN_BATCH` (1), `BROCHURE_VALID_DAYS` (14), `REQUEST_DELAY_MS` (800)
 
 İlk dolum (opsiyonel): Actions → **cloud-bot brochure sync** → **Run workflow** →
-mode: `once-all`. (Çok broşür inebilir + her yeni broşürde OneSignal push gider;
-sessiz istiyorsan `ONESIGNAL_ENABLED=0` ile çalıştır.)
+mode: `once-all`. (Çok broşür inebilir + yeni broşürlerde push gider;
+sessiz istiyorsan `PUSH_ENABLED=0` ile çalıştır.)
 
 > Not: GitHub'ın zamanlı (schedule) cron'ları yoğunlukta birkaç dakika gecikebilir;
 > "saatte 1" hedefi için bu sorun değil.
@@ -97,8 +97,8 @@ proxy'siz çalışır (datacenter değil).
 
 ```bash
 export STATE_FILE="/tmp/cb_state.json"        # repo state.json'a dokunmamak için
-export ONESIGNAL_REST_API_KEY="..."           # push gönderecekse
-# export ONESIGNAL_ENABLED=0                    # test sırasında push'u kapat
+export FCM_PUSH_URL="..." FCM_PUSH_SECRET="..."  # push gönderecekse
+# export PUSH_ENABLED=0                         # test sırasında push'u kapat
 
 php cloud-bot/sync.php --check-only   # sadece sıradaki marketi kontrol et (indirme yok)
 php cloud-bot/sync.php --drain-only   # sadece kuyruğu akıt (Firestore'a yazar!)
@@ -109,8 +109,8 @@ DEBUG=1 php cloud-bot/sync.php         # ayrıntılı log
 ```
 
 > ⚠️ `--drain-only`, `--once-all` ve argümansız çalıştırma **gerçek Firestore'a yazar**
-> ve OneSignal push gönderir. Önce `--check-only` ile dene; push istemiyorsan
-> `ONESIGNAL_ENABLED=0` ver.
+> ve push gönderir. Önce `--check-only` ile dene; push istemiyorsan
+> `PUSH_ENABLED=0` ver.
 
 ## Ayarlar (özet)
 

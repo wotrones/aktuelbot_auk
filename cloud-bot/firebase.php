@@ -10,9 +10,9 @@ declare(strict_types=1);
  *   - brosurler/ab_{key} dokumanini Firestore REST ile yazar.
  *   - Sayfa gorsellerini kampanyacebimde.com/aktuel/addimage.php'ye yukler, URL'leri saklar.
  *   - marketler/{md5} dokumanini garantiler.
- *   - Yeni brosurde OneSignal push gonderir.
+ *   - Yeni brosurlerde FCM push gonderir (sendFirsatPush Cloud Function'i uzerinden).
  *
- * NOT: Firestore / addimage / OneSignal istekleri DOGRUDAN gider (proxy KULLANILMAZ);
+ * NOT: Firestore / addimage / push istekleri DOGRUDAN gider (proxy KULLANILMAZ);
  *      proxy yalniz kaynak site (aktuelbrosurler.com) icindir -> lib.php.
  */
 
@@ -640,68 +640,79 @@ function fb_import_brochure(array $cfg, array $item, array $pages, array $dates)
     return true;
 }
 
-/** Yeni brosur icin OneSignal push. $count > 1 ise ozet metin gonderilir. */
-function fb_onesignal_notify(array $cfg, string $marketName, string $brochureDocId, int $count = 1): void
+/**
+ * Kosu sonunda TEK ozet push: "Sok Market, A101 ve Bim icin yeni brosurler eklendi."
+ *
+ * Gonderim Firebase Cloud Messaging ile, firsat bildirimlerinin de kullandigi
+ * sendFirsatPush Cloud Function'i uzerinden yapilir: fonksiyon, uygulamanin her
+ * acilista grentab projesindeki user_locations koleksiyonuna yazdigi FCM
+ * token'larina sendEachForMulticast ile gonderir (uygulama guncellemesi gerekmez).
+ * Fonksiyon her cagrida tum token listesini okudugu icin market basina ayri
+ * cagri YAPILMAZ. Firsat bildirimini kapatan cihazlar (firsat_notif=false)
+ * fonksiyon tarafindan elenir.
+ *
+ * @param array<string, int> $markets market adi => o kosuda eklenen brosur sayisi
+ * @param bool $dryRun true ise FCM dogrular ama kimseye gondermez (teshis).
+ */
+function fb_push_notify(array $cfg, array $markets, bool $dryRun = false): void
 {
-    $appId = $cfg['onesignal_app_id'];
-    $restKey = $cfg['onesignal_rest_api_key'];
-    if ($appId === '' || $restKey === '') {
-        cb_log('OneSignal: APP_ID/REST_API_KEY eksik, bildirim atlandi.');
+    $url = $cfg['push_url'];
+    $secret = $cfg['push_secret'];
+    if ($url === '' || $secret === '') {
+        cb_log('Push: FCM_PUSH_URL/FCM_PUSH_SECRET eksik, bildirim atlandi.');
+        return;
+    }
+    if ($markets === []) {
         return;
     }
 
-    $marketDocId = fb_market_doc_id($marketName);
-    $title = 'Yeni broşür';
-    $bodyText = $count > 1
-        ? "{$marketName} için {$count} yeni broşür eklendi."
-        : "{$marketName} için yeni broşür eklendi.";
+    $names = array_keys($markets);
+    $total = array_sum($markets);
+    if (count($names) === 1) {
+        $title = 'Yeni broşür';
+        $body = $total > 1
+            ? "{$names[0]} için {$total} yeni broşür eklendi."
+            : "{$names[0]} için yeni broşür eklendi.";
+    } else {
+        $title = 'Yeni broşürler';
+        if (count($names) <= 3) {
+            $last = array_pop($names);
+            $who = implode(', ', $names) . ' ve ' . $last;
+        } else {
+            $rest = count($names) - 3;
+            $who = implode(', ', array_slice($names, 0, 3)) . " ve {$rest} market daha";
+        }
+        $body = "{$who} için yeni broşürler eklendi.";
+    }
 
     $payload = [
-        'app_id' => $appId,
-        'target_channel' => 'push',
-        'headings' => ['en' => $title, 'tr' => $title],
-        'contents' => ['en' => $bodyText, 'tr' => $bodyText],
-        // Tüm abonelenmiş push kullanıcılarına gönder (etiket filtresi kaldırıldı).
-        'included_segments' => ['Total Subscriptions'],
-        // Ayni marketin kisa araliklarla gelen bildirimleri tepside ust uste
-        // birikmesin; yenisi eskisinin yerine gecsin.
-        'collapse_id' => 'brosur_' . $marketDocId,
-        'data' => [
-            'type' => 'new_brosur',
-            'brochure_id' => $brochureDocId,
-            'market_id' => $marketDocId,
-            'market_adi' => $marketName,
-        ],
-    ];
-    $legacy = $payload;
-    unset($legacy['target_channel']);
-
-    $endpoints = [
-        ['https://api.onesignal.com/notifications', 'Key ' . $restKey, $payload],
-        ['https://onesignal.com/api/v1/notifications', 'Basic ' . base64_encode($restKey . ':'), $legacy],
+        'title' => $title,
+        'body' => $body,
+        'dry_run' => $dryRun,
     ];
 
-    $lastError = '';
-    foreach ($endpoints as [$url, $auth, $bodyArr]) {
-        try {
-            [$status, $body] = fb_request('POST', $url, [
-                'Authorization: ' . $auth,
-                'Content-Type: application/json; charset=utf-8',
-            ], json_encode($bodyArr, JSON_UNESCAPED_UNICODE), $cfg['timeout']);
-            $json = json_decode($body, true);
-            if ($status >= 200 && $status < 300 && is_array($json) && !empty($json['id'])) {
-                $rec = $json['recipients'] ?? $json['successful'] ?? '?';
-                cb_log("OneSignal kabul etti (HTTP {$status}). id={$json['id']} alici={$rec}");
-                return;
-            }
-            // Basarisiz yanit: OneSignal'in gercek hata govdesini sakla (teshis icin).
-            $snippet = trim(mb_substr((string) $body, 0, 300));
-            $lastError = "HTTP {$status} — {$snippet}";
-            cb_log("OneSignal reddetti [{$url}]: {$lastError}");
-        } catch (Throwable $e) {
-            $lastError = $e->getMessage();
-            cb_debug('OneSignal endpoint hatasi: ' . $lastError);
-        }
+    try {
+        [$status, $resp] = fb_request('POST', $url, [
+            'Content-Type: application/json; charset=utf-8',
+            'x-push-secret: ' . $secret,
+        ], json_encode($payload, JSON_UNESCAPED_UNICODE), max(120, (int) $cfg['timeout']));
+    } catch (Throwable $e) {
+        cb_log('Push gonderilemedi: ' . $e->getMessage());
+        return;
     }
-    cb_log('OneSignal: bildirim gonderilemedi (her iki endpoint de basarisiz). Son hata: ' . $lastError);
+    $json = json_decode((string) $resp, true);
+    if ($status >= 200 && $status < 300 && is_array($json) && !empty($json['success'])) {
+        $tokens = (int) ($json['num_tokens'] ?? 0);
+        $sent = (int) ($json['num_sent'] ?? 0);
+        $mode = $dryRun ? ' [dry-run, gonderilmedi]' : '';
+        cb_log("Push (FCM){$mode}: \"{$body}\" -> {$sent}/{$tokens} cihaz.");
+        if (!$dryRun && $tokens > 0 && $sent === 0) {
+            cb_log('UYARI: push hicbir cihaza ulasmadi (FCM/Cloud Function kontrol edilmeli).');
+            echo "::warning title=Push ulasmadi::FCM push 0/{$tokens} cihaz\n";
+        }
+        return;
+    }
+    $snippet = trim(mb_substr((string) $resp, 0, 300));
+    cb_log("Push reddedildi (HTTP {$status}): {$snippet}");
+    echo "::warning title=Push basarisiz::HTTP {$status}\n";
 }

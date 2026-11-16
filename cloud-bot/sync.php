@@ -68,8 +68,8 @@ Kullanim:
     MAX_QUEUE            varsayilan 1000
     MAX_RETRIES          varsayilan 3
     PROXY_FILE/PROXY_URL kaynak site icin residential/mobil proxy
-    OneSignal: ONESIGNAL_ENABLED, ONESIGNAL_APP_ID, ONESIGNAL_REST_API_KEY,
-               ONESIGNAL_TAG_KEY (vars. bildirim), ONESIGNAL_TAG_VALUE (vars. 0)
+    Push (FCM):  PUSH_ENABLED (vars. 1), FCM_PUSH_URL, FCM_PUSH_SECRET
+                 (sendFirsatPush Cloud Function'i; --test-push yalniz dry-run yapar)
     DEBUG                1 ise ayrintili log
 
 TXT);
@@ -98,7 +98,7 @@ function cb_config(): array
         }
     }
 
-    $onesignalEnabled = (string) $env('ONESIGNAL_ENABLED', '1');
+    $pushEnabled = (string) $env('PUSH_ENABLED', '1');
     $cfg = [
         'source_base_url' => rtrim((string) $env('SOURCE_BASE_URL', 'https://aktuelbrosurler.com'), '/'),
         'firebase_credentials' => $credPath,
@@ -118,11 +118,9 @@ function cb_config(): array
         'timeout' => max(10, (int) $env('TIMEOUT', '60')),
         'max_queue' => max(10, (int) $env('MAX_QUEUE', '1000')),
         'max_retries' => max(1, (int) $env('MAX_RETRIES', '3')),
-        'onesignal_enabled' => !in_array(strtolower($onesignalEnabled), ['0', 'false', 'no', ''], true),
-        'onesignal_app_id' => (string) $env('ONESIGNAL_APP_ID', ''),
-        'onesignal_rest_api_key' => (string) $env('ONESIGNAL_REST_API_KEY', ''),
-        'onesignal_tag_key' => (string) $env('ONESIGNAL_TAG_KEY', 'bildirim'),
-        'onesignal_tag_value' => (string) $env('ONESIGNAL_TAG_VALUE', '0'),
+        'push_enabled' => !in_array(strtolower($pushEnabled), ['0', 'false', 'no', ''], true),
+        'push_url' => (string) $env('FCM_PUSH_URL', ''),
+        'push_secret' => (string) $env('FCM_PUSH_SECRET', ''),
         // Tam sayfa OCR (uygulamadaki urun aramasi icin ocr_sayfalar alani).
         // OCR_URL doluysa once sunucudaki ocr.php denenir; olmazsa/bossa
         // kosucudaki tesseract'a (cb_ocr_image_to_text) dusulur.
@@ -412,15 +410,18 @@ function cb_drain_queue(array $cfg, array &$state, int $batch, ?string $cookieFi
         cb_log('Ileri tarihli olup bekletilen brosur: ' . count($deferred));
     }
 
-    // Market basina TEK bildirim: ayni kosuda 3 brosur geldiyse "3 yeni brosur".
-    // Bildirim hatasi importlari geri almaz; sadece loglanir.
-    if ($cfg['onesignal_enabled']) {
+    // Kosu basina TEK ozet bildirim (market adlari + sayilar). Bildirim hatasi
+    // importlari geri almaz; sadece loglanir.
+    if ($cfg['push_enabled'] && $imported !== []) {
+        $counts = [];
         foreach ($imported as $market => $docIds) {
-            try {
-                fb_onesignal_notify($cfg, (string) $market, (string) end($docIds), count($docIds));
-            } catch (Throwable $e) {
-                cb_log('OneSignal bildirim hatasi: ' . $e->getMessage());
-            }
+            $counts[(string) $market] = count($docIds);
+        }
+        arsort($counts);
+        try {
+            fb_push_notify($cfg, $counts);
+        } catch (Throwable $e) {
+            cb_log('Push bildirim hatasi: ' . $e->getMessage());
         }
     }
 
@@ -520,9 +521,9 @@ try {
     $onceAll = isset($opts['once-all']);
 
     if (isset($opts['test-push'])) {
-        // Teshis: gercek brosur beklemeden tek bir test bildirimi gonder.
-        cb_log('test-push: OneSignal test bildirimi gonderiliyor...');
-        fb_onesignal_notify($cfg, 'A101', 'test_push_' . time());
+        // Teshis: FCM yolunu DRY-RUN ile dogrula (kimseye bildirim GITMEZ).
+        cb_log('test-push: FCM dry-run...');
+        fb_push_notify($cfg, ['A101' => 1, 'Bim' => 2, 'Şok Market' => 1, 'Migros' => 1], true);
         cb_log('test-push bitti.');
         exit(0);
     }

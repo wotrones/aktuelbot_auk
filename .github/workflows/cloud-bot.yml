@@ -17,7 +17,7 @@ on:
           - once-all     # tum marketleri kontrol + tum kuyrugu akit (ilk dolum)
           - check-only   # sadece sirasi gelen marketi kontrol et
           - drain-only   # sadece kuyrugu akit
-          - test-push    # teshis: tek bir test bildirimi gonder
+          - test-push    # teshis: FCM push dry-run (kimseye gitmez)
 
 # Ayni anda tek kosu olsun (state.json commit cakismasini onler).
 concurrency:
@@ -71,11 +71,10 @@ jobs:
           DRAIN_BATCH: ${{ vars.DRAIN_BATCH }}
           BROCHURE_VALID_DAYS: ${{ vars.BROCHURE_VALID_DAYS }}
           REQUEST_DELAY_MS: ${{ vars.REQUEST_DELAY_MS }}
-          ONESIGNAL_ENABLED: ${{ vars.ONESIGNAL_ENABLED }}
-          ONESIGNAL_APP_ID: ${{ vars.ONESIGNAL_APP_ID }}
-          ONESIGNAL_REST_API_KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
-          ONESIGNAL_TAG_KEY: ${{ vars.ONESIGNAL_TAG_KEY }}
-          ONESIGNAL_TAG_VALUE: ${{ vars.ONESIGNAL_TAG_VALUE }}
+          # Push: FCM (firsat bildirimleriyle ayni sendFirsatPush Cloud Function'i)
+          PUSH_ENABLED: ${{ vars.PUSH_ENABLED }}
+          FCM_PUSH_URL: ${{ vars.FCM_PUSH_URL }}
+          FCM_PUSH_SECRET: ${{ secrets.FCM_PUSH_SECRET }}
           # Tam sayfa OCR: sunucudaki ocr.php (bos birakilirsa kosucudaki tesseract kullanilir)
           OCR_URL: ${{ vars.OCR_URL }}
           OCR_TOKEN: ${{ secrets.OCR_TOKEN }}
