@@ -1,76 +1,85 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1794798282
+            "lastCheckedAt": 1794826849
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1794798248
+            "lastCheckedAt": 1794826804
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1794798250
+            "lastCheckedAt": 1794826807
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1794798204
+            "lastCheckedAt": 1794826738
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1794798272
+            "lastCheckedAt": 1794826837
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1794798207
+            "lastCheckedAt": 1794826742
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1794798274
+            "lastCheckedAt": 1794826840
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1794798279
+            "lastCheckedAt": 1794826844
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1794798214
+            "lastCheckedAt": 1794826751
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1794798240
+            "lastCheckedAt": 1794826797
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1794798244
+            "lastCheckedAt": 1794826800
         },
         "https://aktuelbrosurler.com/altunmarket/brosurler": {
-            "lastCheckedAt": 1794798216
+            "lastCheckedAt": 1794826755
         },
         "https://aktuelbrosurler.com/bicenmarket/brosurler": {
-            "lastCheckedAt": 1794798220
+            "lastCheckedAt": 1794826759
         },
         "https://aktuelbrosurler.com/cagrimarket/brosurler": {
-            "lastCheckedAt": 1794798211
+            "lastCheckedAt": 1794826746
         },
         "https://aktuelbrosurler.com/file-market/brosurler": {
-            "lastCheckedAt": 1794798260
+            "lastCheckedAt": 1794826815
         },
         "https://aktuelbrosurler.com/happycenter/brosurler": {
-            "lastCheckedAt": 1794798224
+            "lastCheckedAt": 1794826764
         },
         "https://aktuelbrosurler.com/kimmarket/brosurler": {
-            "lastCheckedAt": 1794798229
+            "lastCheckedAt": 1794826768
         },
         "https://aktuelbrosurler.com/metrotoptancimarket/brosurler": {
-            "lastCheckedAt": 1794798233
+            "lastCheckedAt": 1794826772
         },
         "https://aktuelbrosurler.com/mopas/brosurler": {
-            "lastCheckedAt": 1794798236
+            "lastCheckedAt": 1794826776
         },
         "https://aktuelbrosurler.com/onurmarket/brosurler": {
-            "lastCheckedAt": 1794798262
+            "lastCheckedAt": 1794826829
         },
         "https://aktuelbrosurler.com/secmarket/brosurler": {
-            "lastCheckedAt": 1794798238
+            "lastCheckedAt": 1794826793
         },
         "https://aktuelbrosurler.com/korkmaz/brosurler": {
-            "lastCheckedAt": 1794798255
+            "lastCheckedAt": 1794826811
         },
         "https://aktuelbrosurler.com/karaca/brosurler": {
-            "lastCheckedAt": 1794798267
+            "lastCheckedAt": 1794826833
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_cdd86f95518447a593c631ccc717a1c9",
+            "brochure_key": "cdd86f95518447a593c631ccc717a1c9",
+            "market": "Onur Market",
+            "title": "Bursa Bölgesinde Geçerli İndirim Bülteni Broşürü - Onur da Fırsat Rüzgarları",
+            "href": "https://aktuelbrosurler.com/onur-market/brosurler/bursa-bolgesinde-gecerli-indirim-bulteni-brosuru-onur-da-firsat-ruzgarlari_cdd86f95518447a593c631ccc717a1c9",
+            "tries": 1
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -1636,7 +1645,12 @@
         "ab_a4604a3152d44c39859a9b0e93c92a12": true,
         "ab_3f55b2ce9b674172b7fe80f24cda39fa": true,
         "ab_899cdd6feb3b4e569658f9af53a3e059": true,
-        "ab_fa94d8413a1f479e81c399c1608f846b": true
+        "ab_fa94d8413a1f479e81c399c1608f846b": true,
+        "ab_c72469117903454a9c2b94f5ab5eb104": true,
+        "ab_a871ab7991db41b89731c6a1fdbd9e42": true,
+        "ab_3c9a9bb0bf96428692ae3c1a8e80f713": true,
+        "ab_0313a28305f9492b9f10da38584ce1e3": true,
+        "ab_c00fcc3a014d484ca256d8196cf46bc7": true
     },
-    "lastDrainAt": 1794798298
+    "lastDrainAt": 1794827341
 }
