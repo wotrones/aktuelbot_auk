@@ -1,90 +1,286 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1795077821
+            "lastCheckedAt": 1795110173
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1795077786
+            "lastCheckedAt": 1795110128
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1795077792
+            "lastCheckedAt": 1795110137
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1795077730
+            "lastCheckedAt": 1795110056
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1795077809
+            "lastCheckedAt": 1795110161
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1795077733
+            "lastCheckedAt": 1795110061
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1795077814
+            "lastCheckedAt": 1795110167
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1795077817
+            "lastCheckedAt": 1795110170
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1795077742
+            "lastCheckedAt": 1795110068
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1795077775
+            "lastCheckedAt": 1795110122
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1795077782
+            "lastCheckedAt": 1795110126
         },
         "https://aktuelbrosurler.com/altunmarket/brosurler": {
-            "lastCheckedAt": 1795077747
+            "lastCheckedAt": 1795110071
         },
         "https://aktuelbrosurler.com/bicenmarket/brosurler": {
-            "lastCheckedAt": 1795077751
+            "lastCheckedAt": 1795110076
         },
         "https://aktuelbrosurler.com/cagrimarket/brosurler": {
-            "lastCheckedAt": 1795077738
+            "lastCheckedAt": 1795110064
         },
         "https://aktuelbrosurler.com/file-market/brosurler": {
-            "lastCheckedAt": 1795077799
+            "lastCheckedAt": 1795110145
         },
         "https://aktuelbrosurler.com/happycenter/brosurler": {
-            "lastCheckedAt": 1795077754
+            "lastCheckedAt": 1795110079
         },
         "https://aktuelbrosurler.com/kimmarket/brosurler": {
-            "lastCheckedAt": 1795077759
+            "lastCheckedAt": 1795110083
         },
         "https://aktuelbrosurler.com/metrotoptancimarket/brosurler": {
-            "lastCheckedAt": 1795077764
+            "lastCheckedAt": 1795110087
         },
         "https://aktuelbrosurler.com/mopas/brosurler": {
-            "lastCheckedAt": 1795077767
+            "lastCheckedAt": 1795110091
         },
         "https://aktuelbrosurler.com/onurmarket/brosurler": {
-            "lastCheckedAt": 1795077803
+            "lastCheckedAt": 1795110152
         },
         "https://aktuelbrosurler.com/secmarket/brosurler": {
-            "lastCheckedAt": 1795077771
+            "lastCheckedAt": 1795110094
         },
         "https://aktuelbrosurler.com/korkmaz/brosurler": {
-            "lastCheckedAt": 1795077795
+            "lastCheckedAt": 1795110140
         },
         "https://aktuelbrosurler.com/karaca/brosurler": {
-            "lastCheckedAt": 1795077807
+            "lastCheckedAt": 1795110155
         }
     },
     "queue": [
         {
-            "source_key": "ab_9679289bb9284973ae8e0de886e6816e",
-            "brochure_key": "9679289bb9284973ae8e0de886e6816e",
-            "market": "Migros",
-            "title": "Migros'larda Geçerli İndirim Bülteni Kataloğu - Her 50 TL'lik Alışverişe Seç-Al",
-            "href": "https://aktuelbrosurler.com/migros/brosurler/migros-larda-gecerli-indirim-bulteni-katalogu-her-50-tl-lik-alisverise-sec-al_9679289bb9284973ae8e0de886e6816e",
+            "source_key": "ab_6a611c1bdc044b05b951fa78832df9c8",
+            "brochure_key": "6a611c1bdc044b05b951fa78832df9c8",
+            "market": "Bim",
+            "title": "Bim İndirimli Ürünler Broşürü 20-23 Kasım",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-indirimli-urunler-brosuru-20-23-kasim_6a611c1bdc044b05b951fa78832df9c8",
+            "tries": 0,
+            "not_before": "2026-11-20"
+        },
+        {
+            "source_key": "ab_1389af133036494fa4f38ac6947f048d",
+            "brochure_key": "1389af133036494fa4f38ac6947f048d",
+            "market": "Bim",
+            "title": "İndirimli Ürün - Sole Ayçiçek Yağı 5 Lt. 445 TL",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/indirimli-urun-sole-aycicek-yagi-5-lt-445-tl_1389af133036494fa4f38ac6947f048d",
             "tries": 0
         },
         {
-            "source_key": "ab_c8293768f9c142a19604e2112cd222ae",
-            "brochure_key": "c8293768f9c142a19604e2112cd222ae",
-            "market": "Migros",
-            "title": "Migros'larda Geçerli İndirim Bülteni Kataloğu - Müthiş Cuma İle Sepetler Doluyor!",
-            "href": "https://aktuelbrosurler.com/migros/brosurler/migros-larda-gecerli-indirim-bulteni-katalogu-muthis-cuma-ile-sepetler-doluyor_c8293768f9c142a19604e2112cd222ae",
+            "source_key": "ab_58306866323b4c84a68acbcbc2b4104d",
+            "brochure_key": "58306866323b4c84a68acbcbc2b4104d",
+            "market": "Bim",
+            "title": "Çok Al Az Öde Ürünleri Broşürü 20-23 Kasım",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/cok-al-az-ode-urunleri-brosuru-20-23-kasim_58306866323b4c84a68acbcbc2b4104d",
+            "tries": 0,
+            "not_before": "2026-11-20"
+        },
+        {
+            "source_key": "ab_05ab595ae8d043bd978123b11bc958fd",
+            "brochure_key": "05ab595ae8d043bd978123b11bc958fd",
+            "market": "Bim",
+            "title": "Bim Aynı Ürünün İkincisi %50 İndirimli Ürünler Broşürü 20-23 Kasım",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-ayni-urunun-ikincisi-50-indirimli-urunler-brosuru-20-23-kasim_05ab595ae8d043bd978123b11bc958fd",
+            "tries": 0,
+            "not_before": "2026-11-20"
+        },
+        {
+            "source_key": "ab_7d5f54d29cf1462585e30c72c210c0b1",
+            "brochure_key": "7d5f54d29cf1462585e30c72c210c0b1",
+            "market": "Bim",
+            "title": "Bim Aynı Ürünün İkincisi %25 İndirimli Ürünler Broşürü 20-23 Kasım",
+            "href": "https://aktuelbrosurler.com/bim/brosurler/bim-ayni-urunun-ikincisi-25-indirimli-urunler-brosuru-20-23-kasim_7d5f54d29cf1462585e30c72c210c0b1",
+            "tries": 0,
+            "not_before": "2026-11-20"
+        },
+        {
+            "source_key": "ab_e7b10886c837471fa8e1332ae83f6b1d",
+            "brochure_key": "e7b10886c837471fa8e1332ae83f6b1d",
+            "market": "Carrefour",
+            "title": "Carrefour Marketlerde Geçerli İndirim Bülteni Kataloğu",
+            "href": "https://aktuelbrosurler.com/carrefour/brosurler/carrefour-marketlerde-gecerli-indirim-bulteni-katalogu_e7b10886c837471fa8e1332ae83f6b1d",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_e4c7d043f0804028a900f9fb2bf9d8cd",
+            "brochure_key": "e4c7d043f0804028a900f9fb2bf9d8cd",
+            "market": "Çağrı Market",
+            "title": "Hafta Sonuna Özel Meyve ve Sebze İndirimleri Broşürü",
+            "href": "https://aktuelbrosurler.com/cagri-market/brosurler/hafta-sonuna-ozel-meyve-ve-sebze-indirimleri-brosuru_e4c7d043f0804028a900f9fb2bf9d8cd",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_333a219bb1174c5da248b49a9d7a2091",
+            "brochure_key": "333a219bb1174c5da248b49a9d7a2091",
+            "market": "Tarım Kooperatif",
+            "title": "KOOP’ta Cuma Fırsatı! Tarsüt Tam Yağlı Kaşar Peyniri 700 G 299 TL",
+            "href": "https://aktuelbrosurler.com/tarim-kredi-kooperatif-market/brosurler/koop-ta-cuma-firsati-tarsut-tam-yagli-kasar-peyniri-700-g-299-tl_333a219bb1174c5da248b49a9d7a2091",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_4a962b286047487a8d0f518dfcfde56a",
+            "brochure_key": "4a962b286047487a8d0f518dfcfde56a",
+            "market": "Altun Market",
+            "title": "Hafta Sonuna Özel Meyve ve Sebze Reyonu Fırsatları",
+            "href": "https://aktuelbrosurler.com/altun-market/brosurler/hafta-sonuna-ozel-meyve-ve-sebze-reyonu-firsatlari_4a962b286047487a8d0f518dfcfde56a",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_8dc4040b4e6a4e50aa99f9b8266c3569",
+            "brochure_key": "8dc4040b4e6a4e50aa99f9b8266c3569",
+            "market": "Altun Market",
+            "title": "Altun Market İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/altun-market/brosurler/altun-market-indirim-bulteni-brosuru_8dc4040b4e6a4e50aa99f9b8266c3569",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_698dfaa22aba458c9c72351f818cc6d2",
+            "brochure_key": "698dfaa22aba458c9c72351f818cc6d2",
+            "market": "Kim Market",
+            "title": "Marmara Bölgesi Mağazalarında Geçerli Hafta Sonuna Özel Fırsat Ürünleri Broşürü",
+            "href": "https://aktuelbrosurler.com/kim-market/brosurler/marmara-bolgesi-magazalarinda-gecerli-hafta-sonuna-ozel-firsat-urunleri-brosuru_698dfaa22aba458c9c72351f818cc6d2",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_51e712fd84d6480394732e1e333c9083",
+            "brochure_key": "51e712fd84d6480394732e1e333c9083",
+            "market": "Metro Market",
+            "title": "Taze Ürünler Kataloğu",
+            "href": "https://aktuelbrosurler.com/metro-market/brosurler/taze-urunler-katalogu_51e712fd84d6480394732e1e333c9083",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_fbc0ed1f29ed48d186448a79b4837b5d",
+            "brochure_key": "fbc0ed1f29ed48d186448a79b4837b5d",
+            "market": "Hakmar",
+            "title": "Hafta Sonuna Özel Fırsat Ürünleri Broşürü",
+            "href": "https://aktuelbrosurler.com/hakmar/brosurler/hafta-sonuna-ozel-firsat-urunleri-brosuru_fbc0ed1f29ed48d186448a79b4837b5d",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_b3985581024e448db54340303c9a1912",
+            "brochure_key": "b3985581024e448db54340303c9a1912",
+            "market": "Bizim Toptan Market",
+            "title": "Bizim Toptan Market İndirim Bülteni Broşürü - Hafta Sonuna Özel Fırsatlar",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-toptan-market-indirim-bulteni-brosuru-hafta-sonuna-ozel-firsatlar_b3985581024e448db54340303c9a1912",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_1f38e213d2eb47f3b6cea418341785a0",
+            "brochure_key": "1f38e213d2eb47f3b6cea418341785a0",
+            "market": "Bizim Toptan Market",
+            "title": "HORECA'ya Özel İndirim Broşürü",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/horeca-ya-ozel-indirim-brosuru_1f38e213d2eb47f3b6cea418341785a0",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_22bd2112bdf7447088902571b0ef692b",
+            "brochure_key": "22bd2112bdf7447088902571b0ef692b",
+            "market": "Bizim Toptan Market",
+            "title": "Bizim Gross İndirim Bülteni Broşürü",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-gross-indirim-bulteni-brosuru_22bd2112bdf7447088902571b0ef692b",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_8afb9d9825fe4a9ebbfa6aa6ca6eb605",
+            "brochure_key": "8afb9d9825fe4a9ebbfa6aa6ca6eb605",
+            "market": "Bizim Toptan Market",
+            "title": "Bizim Toptan Market İndirim Bülteni Broşürü - Haftanın Fırsatları",
+            "href": "https://aktuelbrosurler.com/bizim-toptan-market/brosurler/bizim-toptan-market-indirim-bulteni-brosuru-haftanin-firsatlari_8afb9d9825fe4a9ebbfa6aa6ca6eb605",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_044f9ed3686e4818932e71ed9dbacbeb",
+            "brochure_key": "044f9ed3686e4818932e71ed9dbacbeb",
+            "market": "File Market",
+            "title": "Kişisel bakım ürünlerinde fırsatlar",
+            "href": "https://aktuelbrosurler.com/file-market/brosurler/kisisel-bakim-urunlerinde-firsatlar_044f9ed3686e4818932e71ed9dbacbeb",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_039829f9dd0a448da5c7e669307a0d3f",
+            "brochure_key": "039829f9dd0a448da5c7e669307a0d3f",
+            "market": "File Market",
+            "title": "Fırsat Ürünleri",
+            "href": "https://aktuelbrosurler.com/file-market/brosurler/firsat-urunleri_039829f9dd0a448da5c7e669307a0d3f",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_635c932d18c94a94abd5ac360287b3db",
+            "brochure_key": "635c932d18c94a94abd5ac360287b3db",
+            "market": "File Market",
+            "title": "Fırsat Ürünleri",
+            "href": "https://aktuelbrosurler.com/file-market/brosurler/firsat-urunleri_635c932d18c94a94abd5ac360287b3db",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_148bb53957894eb5be16d914f5a802b0",
+            "brochure_key": "148bb53957894eb5be16d914f5a802b0",
+            "market": "File Market",
+            "title": "Fırsat Ürünleri Broşürü",
+            "href": "https://aktuelbrosurler.com/file-market/brosurler/firsat-urunleri-brosuru_148bb53957894eb5be16d914f5a802b0",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_4a19682b5a724cfba3877c1d5a1f9579",
+            "brochure_key": "4a19682b5a724cfba3877c1d5a1f9579",
+            "market": "File Market",
+            "title": "Et Ürünlerinde Fırsatlar",
+            "href": "https://aktuelbrosurler.com/file-market/brosurler/et-urunlerinde-firsatlar_4a19682b5a724cfba3877c1d5a1f9579",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_623a5ce9e95641518c5a4951d476a534",
+            "brochure_key": "623a5ce9e95641518c5a4951d476a534",
+            "market": "Onur Market",
+            "title": "Trakya Bölgesinde Geçerli Haftalık Taze Ürünler Broşürü",
+            "href": "https://aktuelbrosurler.com/onur-market/brosurler/trakya-bolgesinde-gecerli-haftalik-taze-urunler-brosuru_623a5ce9e95641518c5a4951d476a534",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_621f552437d04c288cf1ce1eca9e1535",
+            "brochure_key": "621f552437d04c288cf1ce1eca9e1535",
+            "market": "Onur Market",
+            "title": "Bursa Bölgesinde Geçerli Haftalık Taze Ürünler Broşürü",
+            "href": "https://aktuelbrosurler.com/onur-market/brosurler/bursa-bolgesinde-gecerli-haftalik-taze-urunler-brosuru_621f552437d04c288cf1ce1eca9e1535",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_0989ebe8c4a743be853256d537f5a807",
+            "brochure_key": "0989ebe8c4a743be853256d537f5a807",
+            "market": "Onur Market",
+            "title": "İstanbul Bölgesinde Geçerli Haftalık Taze Ürünler Broşürü",
+            "href": "https://aktuelbrosurler.com/onur-market/brosurler/istanbul-bolgesinde-gecerli-haftalik-taze-urunler-brosuru_0989ebe8c4a743be853256d537f5a807",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_e0a83ff444fc48aab49055bee9a9ca89",
+            "brochure_key": "e0a83ff444fc48aab49055bee9a9ca89",
+            "market": "Şok Market",
+            "title": "Bugüne Özel - Peros Sıvı Bakım Deterjanı Siyahlar / Renkliler 4 L Ürünlerinde 1 Alana 1 Bedava!",
+            "href": "https://aktuelbrosurler.com/sok-market/brosurler/bugune-ozel-peros-sivi-bakim-deterjani-siyahlar-renkliler-4-l-urunlerinde-1-alana-1-bedava_e0a83ff444fc48aab49055bee9a9ca89",
             "tries": 0
         }
     ],
@@ -1692,7 +1888,9 @@
         "ab_e957285d13244fb690e2d7dd589e00ae": true,
         "ab_6987b1ffea97405ab1f4cbaf39720b6f": true,
         "ab_6f62fc1c6c8e45329b550d7b16f6309b": true,
-        "ab_c2b6c7dd4000471cb2efa4e4c4bde715": true
+        "ab_c2b6c7dd4000471cb2efa4e4c4bde715": true,
+        "ab_9679289bb9284973ae8e0de886e6816e": true,
+        "ab_c8293768f9c142a19604e2112cd222ae": true
     },
-    "lastDrainAt": 1795078740
+    "lastDrainAt": 1795111108
 }
