@@ -1,76 +1,93 @@
 {
     "markets": {
         "https://aktuelbrosurler.com/migros/brosurler": {
-            "lastCheckedAt": 1795050467
+            "lastCheckedAt": 1795077821
         },
         "https://aktuelbrosurler.com/bizimtoptanmarket/brosurler": {
-            "lastCheckedAt": 1795050441
+            "lastCheckedAt": 1795077786
         },
         "https://aktuelbrosurler.com/a101/brosurler": {
-            "lastCheckedAt": 1795050444
+            "lastCheckedAt": 1795077792
         },
         "https://aktuelbrosurler.com/bim/brosurler": {
-            "lastCheckedAt": 1795050397
+            "lastCheckedAt": 1795077730
         },
         "https://aktuelbrosurler.com/sok-market/brosurler": {
-            "lastCheckedAt": 1795050459
+            "lastCheckedAt": 1795077809
         },
         "https://aktuelbrosurler.com/carrefour/brosurler": {
-            "lastCheckedAt": 1795050401
+            "lastCheckedAt": 1795077733
         },
         "https://aktuelbrosurler.com/watsons/brosurler": {
-            "lastCheckedAt": 1795050462
+            "lastCheckedAt": 1795077814
         },
         "https://aktuelbrosurler.com/rossmann/brosurler": {
-            "lastCheckedAt": 1795050464
+            "lastCheckedAt": 1795077817
         },
         "https://aktuelbrosurler.com/tarim-kredi-kooperatif_market/brosurler": {
-            "lastCheckedAt": 1795050409
+            "lastCheckedAt": 1795077742
         },
         "https://aktuelbrosurler.com/hakmar/brosurler": {
-            "lastCheckedAt": 1795050434
+            "lastCheckedAt": 1795077775
         },
         "https://aktuelbrosurler.com/gratis/brosurler": {
-            "lastCheckedAt": 1795050437
+            "lastCheckedAt": 1795077782
         },
         "https://aktuelbrosurler.com/altunmarket/brosurler": {
-            "lastCheckedAt": 1795050411
+            "lastCheckedAt": 1795077747
         },
         "https://aktuelbrosurler.com/bicenmarket/brosurler": {
-            "lastCheckedAt": 1795050413
+            "lastCheckedAt": 1795077751
         },
         "https://aktuelbrosurler.com/cagrimarket/brosurler": {
-            "lastCheckedAt": 1795050405
+            "lastCheckedAt": 1795077738
         },
         "https://aktuelbrosurler.com/file-market/brosurler": {
-            "lastCheckedAt": 1795050450
+            "lastCheckedAt": 1795077799
         },
         "https://aktuelbrosurler.com/happycenter/brosurler": {
-            "lastCheckedAt": 1795050418
+            "lastCheckedAt": 1795077754
         },
         "https://aktuelbrosurler.com/kimmarket/brosurler": {
-            "lastCheckedAt": 1795050420
+            "lastCheckedAt": 1795077759
         },
         "https://aktuelbrosurler.com/metrotoptancimarket/brosurler": {
-            "lastCheckedAt": 1795050425
+            "lastCheckedAt": 1795077764
         },
         "https://aktuelbrosurler.com/mopas/brosurler": {
-            "lastCheckedAt": 1795050428
+            "lastCheckedAt": 1795077767
         },
         "https://aktuelbrosurler.com/onurmarket/brosurler": {
-            "lastCheckedAt": 1795050452
+            "lastCheckedAt": 1795077803
         },
         "https://aktuelbrosurler.com/secmarket/brosurler": {
-            "lastCheckedAt": 1795050432
+            "lastCheckedAt": 1795077771
         },
         "https://aktuelbrosurler.com/korkmaz/brosurler": {
-            "lastCheckedAt": 1795050447
+            "lastCheckedAt": 1795077795
         },
         "https://aktuelbrosurler.com/karaca/brosurler": {
-            "lastCheckedAt": 1795050456
+            "lastCheckedAt": 1795077807
         }
     },
-    "queue": [],
+    "queue": [
+        {
+            "source_key": "ab_9679289bb9284973ae8e0de886e6816e",
+            "brochure_key": "9679289bb9284973ae8e0de886e6816e",
+            "market": "Migros",
+            "title": "Migros'larda Geçerli İndirim Bülteni Kataloğu - Her 50 TL'lik Alışverişe Seç-Al",
+            "href": "https://aktuelbrosurler.com/migros/brosurler/migros-larda-gecerli-indirim-bulteni-katalogu-her-50-tl-lik-alisverise-sec-al_9679289bb9284973ae8e0de886e6816e",
+            "tries": 0
+        },
+        {
+            "source_key": "ab_c8293768f9c142a19604e2112cd222ae",
+            "brochure_key": "c8293768f9c142a19604e2112cd222ae",
+            "market": "Migros",
+            "title": "Migros'larda Geçerli İndirim Bülteni Kataloğu - Müthiş Cuma İle Sepetler Doluyor!",
+            "href": "https://aktuelbrosurler.com/migros/brosurler/migros-larda-gecerli-indirim-bulteni-katalogu-muthis-cuma-ile-sepetler-doluyor_c8293768f9c142a19604e2112cd222ae",
+            "tries": 0
+        }
+    ],
     "uploaded": {
         "ab_23cd4c80453844faada4ebd1c9aa8985": true,
         "ab_ae00fd6a1c944481a7aa70ddf2bca39f": true,
@@ -1673,7 +1690,9 @@
         "ab_f843f74bc5244bc5ad1cab55fc370080": true,
         "ab_2707821c53624201b00a661e8b6f56b8": true,
         "ab_e957285d13244fb690e2d7dd589e00ae": true,
-        "ab_6987b1ffea97405ab1f4cbaf39720b6f": true
+        "ab_6987b1ffea97405ab1f4cbaf39720b6f": true,
+        "ab_6f62fc1c6c8e45329b550d7b16f6309b": true,
+        "ab_c2b6c7dd4000471cb2efa4e4c4bde715": true
     },
-    "lastDrainAt": 1795050579
+    "lastDrainAt": 1795078740
 }
